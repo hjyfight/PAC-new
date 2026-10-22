@@ -1,0 +1,86 @@
+{
+  "passed": true,
+  "checked_utc": "2026-09-12T13:17:09.052025+00:00",
+  "sources": 12,
+  "new_attack_evaluations": 288,
+  "matrices_with_independently_checked_averages": 21,
+  "gray_controls": 6,
+  "train_audits": {
+    "tsea_yolov2": {
+      "epochs": 1000,
+      "updates": 77000,
+      "best_epoch": 923
+    },
+    "tsea_yolov3": {
+      "epochs": 1000,
+      "updates": 77000,
+      "best_epoch": 990
+    },
+    "tsea_yolov4": {
+      "epochs": 1000,
+      "updates": 77000,
+      "best_epoch": 987
+    },
+    "tsea_yolov5s": {
+      "epochs": 1000,
+      "updates": 77000,
+      "best_epoch": 972
+    },
+    "tsea_yolov5m": {
+      "epochs": 1000,
+      "updates": 77000,
+      "best_epoch": 882
+    },
+    "tsea_fasterrcnn": {
+      "epochs": 1000,
+      "updates": 77000,
+      "best_epoch": 960
+    },
+    "nap_yolov2": {
+      "epochs": 1000,
+      "updates": 77000,
+      "best_epoch": 783
+    },
+    "nap_yolov3": {
+      "epochs": 1000,
+      "updates": 77000,
+      "best_epoch": 694
+    },
+    "nap_yolov4": {
+      "epochs": 1000,
+      "updates": 77000,
+      "best_epoch": 743
+    },
+    "nap_yolov5s": {
+      "epochs": 1000,
+      "updates": 77000,
+      "best_epoch": 482
+    },
+    "nap_yolov5m": {
+      "epochs": 1000,
+      "updates": 77000,
+      "best_epoch": 683
+    },
+    "nap_fasterrcnn": {
+      "epochs": 1000,
+      "updates": 77000,
+      "best_epoch": 502
+    }
+  },
+  "latex_column_checks": [
+    "paired_best.tex",
+    "transfer_shared_best_fasterrcnn.tex",
+    "transfer_shared_best_yolov2.tex",
+    "transfer_shared_best_yolov3.tex",
+    "transfer_shared_best_yolov4.tex",
+    "transfer_shared_best_yolov5m.tex",
+    "transfer_shared_best_yolov5s.tex",
+    "tsea_paired_best.tex",
+    "whitebox_shared_best.tex"
+  ],
+  "matched_scene_images": 720,
+  "matched_roi_images": 720,
+  "anonymous_stimuli": 120,
+  "human_ratings_collected": false,
+  "psnr_ssim_computed": false
+}

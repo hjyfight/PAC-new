@@ -1,0 +1,428 @@
+Pattern Recognition: 28th International Conference, ICPR 2026, Lyon, France, August 17–22, 2026, Proceedings, Part II | Springer Nature Link
+Skip to main content
+Advertisement
+Log in
+Menu
+Find a journal
+Publish with us
+Track your research
+Search
+Saved research
+Cart
+Home
+Conference proceedings
+Pattern Recognition
+28th International Conference, ICPR 2026, Lyon, France, August 17–22, 2026, Proceedings, Part II
+Conference proceedings
+©
+2027
+Save conference proceedings
+View saved research
+Accessibility Information
+Overview
+Editors:
+Maria De Marsico
+ORCID:
+https://orcid.org/0000-0002-1391-8502
+0
+,
+Tin Kam Ho
+ORCID:
+https://orcid.org/0000-0001-8759-3993
+1
+,
+Frederic Jurie
+ORCID:
+https://orcid.org/0000-0002-2686-0020
+2
+,
+Cheng-Lin Liu
+ORCID:
+https://orcid.org/0009-0005-6781-3713
+3
+,
+Daniel Lopresti
+ORCID:
+https://orcid.org/0000-0003-2129-4223
+4
+,
+Ingela Nyström
+ORCID:
+https://orcid.org/0000-0001-9739-0364
+5
+,
+Jean-Marc Ogier
+ORCID:
+https://orcid.org/0000-0002-5666-475X
+6
+,
+Arun Ross
+ORCID:
+https://orcid.org/0000-0001-8850-3013
+7
+,
+…
+Liang Wang
+ORCID:
+https://orcid.org/0000-0001-5224-8647
+8
+Show editors
+Maria De Marsico
+Sapienza Università di Roma, Rome, Italy
+View editor publications
+Search author on:
+PubMed
+Google Scholar
+Tin Kam Ho
+IBM, Yorktown Heights, USA
+View editor publications
+Search author on:
+PubMed
+Google Scholar
+Frederic Jurie
+Université de Caen Normandie, Caen, France
+View editor publications
+Search author on:
+PubMed
+Google Scholar
+Cheng-Lin Liu
+Institute of Automation, Chinese Academy of Sciences, Beijing, China
+View editor publications
+Search author on:
+PubMed
+Google Scholar
+Daniel Lopresti
+Lehigh University, Bethlehem, USA
+View editor publications
+Search author on:
+PubMed
+Google Scholar
+Ingela Nyström
+Uppsala University, Uppsala, Sweden
+View editor publications
+Search author on:
+PubMed
+Google Scholar
+Jean-Marc Ogier
+CESI École d'ingénieurs, Puteaux, France
+View editor publications
+Search author on:
+PubMed
+Google Scholar
+Arun Ross
+Michigan State University, East Lansing, USA
+View editor publications
+Search author on:
+PubMed
+Google Scholar
+Liang Wang
+Chinese Academy of Sciences, Beijing, China
+View editor publications
+Search author on:
+PubMed
+Google Scholar
+Part of the book series:
+Lecture Notes in Computer Science
+(LNCS, volume 16813)
+Included in the following conference series:
+ICPR: International Conference on Pattern Recognition
+Conference proceedings info:
+                    
+                        
+                            ICPR 2026.
+21k
+Accesses
+2
+Altmetric
+This is a preview of subscription content,
+log in via an institution
+to check access.
+Access this book
+Log in via an institution
+eBook
+USD 84.99
+Price excludes VAT (USA)
+Available as EPUB and PDF
+Read on any device
+Instant download
+Own it forever
+Buy eBook
+Softcover Book
+USD 109.99
+Price excludes VAT (USA)
+Compact, lightweight edition
+Free shipping worldwide -
+view details
+Buy Softcover Book
+Tax calculation will be finalised at checkout
+Licence this eBook for your library
+Learn about institutional subscriptions
+Other ways to access
+Licence this eBook for your library
+Institutional subscriptions
+About this book
+The multi-volume set LNCS 16812-16827 constitutes the refereed proceedings of the 28th International Conference on Pattern Recognition, ICPR 2026, held in Lyon, France, during August 17-22, 2026.
+The total of 714 full papers included in the proceedings was carefully reviewed and selected from 1362 submissions. They focus on topics such as Artificial Intelligence, Pattern Recognition and Machine Learning; Computer and Robot Vision; Image, Speech, Signal and Video Processing; Biometrics and Human  Computer Interaction; Document Analysis and Recognition; and Biomedical Imaging and Bioinformatics.
+Explore related subjects
+Discover the latest articles, books and news in related subjects.
+Computer Imaging, Vision, Pattern Recognition and Graphics
+Machine Learning
+Search within this book
+Search
+Table of contents (46 papers)
+Front Matter
+Pages i-xxxi
+Download chapter
+PDF
+CollideNet: Hierarchical Multi-scale Video Representation Learning with Disentanglement for Time-To-Collision Forecasting
+Nishq Poorav Desai, Michael Greenspan, Ali Etemad
+Pages 1-15
+All-in-One Conditioning for Text-to-Image Synthesis
+Hirunima Jayasekara, Chuong Huynh, Yixuan Ren, Christabel Acquaye, Abhinav Shrivastava
+Pages 16-30
+State of Charging Attack Detection Using Multi-scale Feature Extraction and Attention Mechanism
+Yan Su, Jinlai Zhang, Yuanhao Yang, Pengfei Qi, Houqing Wang, Yuting Wang et al.
+Pages 31-45
+WhiteCon: Semi-Supervised Domain Adaptation Regression Through Whitening Transform and Dual Consistency
+Se Jin Sim, Seoung Bum Kim
+Pages 46-60
+Uncovering Logit Suppression Vulnerabilities in LLM Safety Alignment
+Yuxi Li, Yi Liu, Yuekang Li, Ling Shi, Gelei Deng, Shengquan Chen et al.
+Pages 61-76
+CoAttn-PEFT: Complementary Attention in Parameter-Efficient Fine-Tuning for Improved Adaptation and Generalization
+Chushan Zhang, Ruihan Lu, Jinguang Tong, Xuesong Li, Hongdong Li
+Pages 77-92
+Benchmarking Document Parsers on Mathematical Formula Extraction from PDFs
+Pius Horn, Janis Keuper
+Pages 93-107
+SemAlign: Language Guided Semi-supervised Domain Generalization
+Muditha Fernando, Kajhanan Kailainathan, Krishnakanth Nagaratnam, Isuranga Udaravi Bandara Senavirathne, Ranga Rodrigo
+Pages 108-123
+REVNET: Rotation-Equivariant Point Cloud Completion via Vector Neuron Anchor Transformer
+Zhifan Ni, Eckehard Steinbach
+Pages 124-139
+Compositional Novelty Metrics for Graph-Structured Data
+Rucha Bhalchandra Joshi, Subhankar Mishra
+Pages 140-154
+AdaFocus: Instruction-Aware Dynamic Visual Token Compression for Efficient Multi-modal Understanding
+Zihang Ye, Xianzhong Liu
+Pages 155-169
+TAS-GNN: A Status-Aware Signed Graph Neural Network for Anomaly Detection in Bitcoin Trust Systems
+Chang Xue, Fang Liu, Jiaye Wang, Jinming Xing, Chen Yang
+Pages 170-182
+TuneMIA: Membership Inference Attack on Latent Diffusion Models
+Noam Azulay, Idan Habler, Asaf Shabtai, Yuval Elovici
+Pages 183-197
+Bridging the Semantic Gap for Categorical Data Clustering via Large Language Models
+Zihua Yang, Xin Liao, Yiqun Zhang, Yiu-ming Cheung
+Pages 198-213
+Markovian Reeb Graphs for Simulating Spatiotemporal Patterns of Life
+Anantajit Subrahmanya, Chandrakanth Gudavalli, Connor Levenson, B. S. Manjunath
+Pages 214-228
+Flexible Knowledge Distillation for Class-Incremental Learning via Structural Knowledge Transfer
+Seungmo Seo, Jongsu Youn, Jaehyung Bae, Jongwon Choi
+Pages 229-244
+Beyond Consistency: Explicit Boundary Learning for Semi-supervised Ovarian Tumor Segmentation
+Minh-Khoa Vu, Hoang-Son Bui, Thi-Lan Le
+Pages 245-260
+Seeing Red, Thinking Bad: Color Bias in Vision Language Models
+Kohsuke Ide, Ryousuke Yamada, Yoshihiro Fukuhara, Hirokatsu Kataoka, Yutaka Satoh
+Pages 261-275
+DrivingWorld: Constructing World Model for Autonomous Driving via Video GPT
+Xiaotao Hu, Mingkai Jia, Xiaoyang Guo, Qian Zhang, Xiao-xiao Long, Wei Yin
+Pages 276-291
+1
+2
+3
+Next
+page
+Back to top
+Other volumes
+Pattern Recognition
+Pattern Recognition
+Pattern Recognition
+Pattern Recognition
+Pattern Recognition
+Pattern Recognition
+Pattern Recognition
+Pattern Recognition
+Pattern Recognition
+Pattern Recognition
+Pattern Recognition
+Pattern Recognition
+Pattern Recognition
+Pattern Recognition
+Pattern Recognition
+Pattern Recognition
+Editors and Affiliations
+Sapienza Università di Roma, Rome, Italy
+Maria De Marsico
+IBM, Yorktown Heights, USA
+Tin Kam Ho
+Université de Caen Normandie, Caen, France
+Frederic Jurie
+Institute of Automation, Chinese Academy of Sciences, Beijing, China
+Cheng-Lin Liu
+Lehigh University, Bethlehem, USA
+Daniel Lopresti
+Uppsala University, Uppsala, Sweden
+Ingela Nyström
+CESI École d'ingénieurs, Puteaux, France
+Jean-Marc Ogier
+Michigan State University, East Lansing, USA
+Arun Ross
+Chinese Academy of Sciences, Beijing, China
+Liang Wang
+Accessibility Information
+PDF accessibility summary
+This PDF has been created in accordance with the PDF/UA-1 standard to enhance accessibility. It includes screen reader support, descriptions for Non-text content (such as images and graphs), bookmarks for easy navigation, keyboard-friendly links and forms, and searchable, selectable text. We recognise the importance of accessibility and welcome queries about accessibility for any of our products. If you have a question or an access need, please get in touch with us via https://www.springernature.com/gp/info/accessibility Please Note that a more accessible version of this eBook is available as an EPUB.
+EPUB accessibility summary
+This EPUB is designed with accessibility in mind, aiming to meet the EPUB Accessibility 1.1 and WCAG 2.2 Level AA standards. It features a navigable table of contents, structured headings, and alternative text for images, ensuring smooth, intuitive navigation and comprehension. The text is reflowable and resizable, with sufficient contrast. We recognize the importance of accessibility, and we welcome queries about accessibility for any of our products. If you have a question or an access need, please get in touch with us via https://www.springernature.com/gp/info/accessibility
+Bibliographic Information
+Book Title
+:
+Pattern Recognition
+Book Subtitle
+:
+28th International Conference, ICPR 2026, Lyon, France, August 17–22, 2026, Proceedings, Part II
+Editors
+:
+Maria De Marsico, Tin Kam Ho, Frederic Jurie, Cheng-Lin Liu, Daniel Lopresti, Ingela Nyström,
+Jean-Marc Ogier,
+Arun Ross,
+…
+Liang Wang
+Series Title
+:
+Lecture Notes in Computer Science
+DOI
+:
+https://doi.org/10.1007/978-3-032-31583-0
+Publisher
+:
+Springer Cham
+eBook Packages
+:
+Computer Science
+,
+Computer Science (R0)
+,
+Springer Nature Proceedings Computer Science
+Copyright Information
+:
+The Editor(s) (if applicable) and The Author(s), under exclusive license to Springer Nature Switzerland AG 2027
+Softcover ISBN
+:
+978-3-032-31582-3
+Published: 04 August 2026
+eBook ISBN
+:
+978-3-032-31583-0
+Published: 03 August 2026
+Series ISSN
+:
+0302-9743
+Series E-ISSN
+:
+1611-3349
+Edition Number
+:
+1
+Number of Pages
+:
+XXXI, 715
+Number of Illustrations
+:
+8 b/w illustrations, 202 illustrations in colour
+Topics
+:
+Computer Imaging, Vision, Pattern Recognition and Graphics
+,
+Machine Learning
+Keywords
+Pattern Recognition
+Artificial Intelligence
+Machine Learning
+Computer Vision
+Robot Vision
+Machine Vision
+Image Processing
+Speech Processing
+Signal Processing
+Video Processng
+Biometrics
+Human-Computer Interaction (HCI)
+Document Analysis
+Document Recognition
+Biomedical Imaging
+Bioinformatcs
+Publish with us
+Policies and ethics
+Societies and partnerships
+The International Association for Pattern Recognition
+(opens in a new tab)
+Back to top
+Access this book
+Log in via an institution
+eBook
+USD 84.99
+Price excludes VAT (USA)
+Available as EPUB and PDF
+Read on any device
+Instant download
+Own it forever
+Buy eBook
+Softcover Book
+USD 109.99
+Price excludes VAT (USA)
+Compact, lightweight edition
+Free shipping worldwide -
+view details
+Buy Softcover Book
+Tax calculation will be finalised at checkout
+Licence this eBook for your library
+Learn about institutional subscriptions
+Other ways to access
+Licence this eBook for your library
+Institutional subscriptions
+Search
+Search by keyword or author
+Search
+Navigation
+Find a journal
+Publish with us
+Track your research
+Footer Navigation
+Discover content
+Journals A-Z
+Books A-Z
+Subjects A-Z
+Publish with us
+Journal finder
+Publish your research
+Language editing
+Open access publishing
+Products and services
+Our products
+Librarians
+Societies
+Partners and advertisers
+Our brands
+Springer
+Nature Portfolio
+BMC
+Palgrave Macmillan
+Apress
+Discover
+Pattern Recognition
+Your privacy choices/Manage cookies
+Your US state privacy rights
+Accessibility statement
+Terms and conditions
+Privacy policy
+Help and support
+Legal notice
+Cancel contracts here
+192.18.133.116
+Oracle UBRM05-228 (3000522044)
+© 2026 Springer Nature

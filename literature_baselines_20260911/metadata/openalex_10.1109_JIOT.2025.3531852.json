@@ -1,0 +1,1168 @@
+{
+  "id": "https://openalex.org/W4406610396",
+  "doi": "https://doi.org/10.1109/jiot.2025.3531852",
+  "title": "Transferable and Robust Dynamic Adversarial Attack Against Object Detection Models",
+  "display_name": "Transferable and Robust Dynamic Adversarial Attack Against Object Detection Models",
+  "publication_year": 2025,
+  "publication_date": "2025-01-20",
+  "ids": {
+    "openalex": "https://openalex.org/W4406610396",
+    "doi": "https://doi.org/10.1109/jiot.2025.3531852"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1109/jiot.2025.3531852",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1109/jiot.2025.3531852",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S2480266640",
+      "display_name": "IEEE Internet of Things Journal",
+      "issn_l": "2327-4662",
+      "issn": [
+        "2327-4662",
+        "2372-2541"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319808",
+      "host_organization_name": "Institute of Electrical and Electronics Engineers",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319808"
+      ],
+      "host_organization_lineage_names": [
+        "Institute of Electrical and Electronics Engineers"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "IEEE Internet of Things Journal",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5074446914",
+        "display_name": "Xinxin Wang",
+        "orcid": "https://orcid.org/0000-0003-3785-9874"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I37461747",
+          "display_name": "Wuhan University",
+          "ror": "https://ror.org/033vjfk17",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Xinxin Wang",
+      "raw_affiliation_strings": [
+        "Key Laboratory of Aerospace Information Security and Trusted Computing, Ministry of Education, School of Cyber Science and Engineering, Wuhan University, Wuhan, China",
+        "Ministry of Education, School of Cyber Science and Engineering, Key Laboratory of Aerospace Information Security and Trusted Computing, Wuhan University, Wuhan, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-3785-9874",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Key Laboratory of Aerospace Information Security and Trusted Computing, Ministry of Education, School of Cyber Science and Engineering, Wuhan University, Wuhan, China",
+          "institution_ids": [
+            "https://openalex.org/I37461747"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Ministry of Education, School of Cyber Science and Engineering, Key Laboratory of Aerospace Information Security and Trusted Computing, Wuhan University, Wuhan, China",
+          "institution_ids": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100394917",
+        "display_name": "Jing Chen",
+        "orcid": "https://orcid.org/0000-0002-7212-5297"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I37461747",
+          "display_name": "Wuhan University",
+          "ror": "https://ror.org/033vjfk17",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jing Chen",
+      "raw_affiliation_strings": [
+        "Key Laboratory of Aerospace Information Security and Trusted Computing, Ministry of Education, School of Cyber Science and Engineering, Wuhan University, Wuhan, China",
+        "Ministry of Education, School of Cyber Science and Engineering, Key Laboratory of Aerospace Information Security and Trusted Computing, Wuhan University, Wuhan, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-7212-5297",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Key Laboratory of Aerospace Information Security and Trusted Computing, Ministry of Education, School of Cyber Science and Engineering, Wuhan University, Wuhan, China",
+          "institution_ids": [
+            "https://openalex.org/I37461747"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Ministry of Education, School of Cyber Science and Engineering, Key Laboratory of Aerospace Information Security and Trusted Computing, Wuhan University, Wuhan, China",
+          "institution_ids": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100764716",
+        "display_name": "Zijun Zhang",
+        "orcid": "https://orcid.org/0000-0003-2016-8014"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I37461747",
+          "display_name": "Wuhan University",
+          "ror": "https://ror.org/033vjfk17",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Zijun Zhang",
+      "raw_affiliation_strings": [
+        "Key Laboratory of Aerospace Information Security and Trusted Computing, Ministry of Education, School of Cyber Science and Engineering, Wuhan University, Wuhan, China",
+        "Ministry of Education, School of Cyber Science and Engineering, Key Laboratory of Aerospace Information Security and Trusted Computing, Wuhan University, Wuhan, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Key Laboratory of Aerospace Information Security and Trusted Computing, Ministry of Education, School of Cyber Science and Engineering, Wuhan University, Wuhan, China",
+          "institution_ids": [
+            "https://openalex.org/I37461747"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Ministry of Education, School of Cyber Science and Engineering, Key Laboratory of Aerospace Information Security and Trusted Computing, Wuhan University, Wuhan, China",
+          "institution_ids": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5004999865",
+        "display_name": "Kun He",
+        "orcid": "https://orcid.org/0000-0003-3472-419X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I37461747",
+          "display_name": "Wuhan University",
+          "ror": "https://ror.org/033vjfk17",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Kun He",
+      "raw_affiliation_strings": [
+        "Key Laboratory of Aerospace Information Security and Trusted Computing, Ministry of Education, School of Cyber Science and Engineering, Wuhan University, Wuhan, China",
+        "Ministry of Education, School of Cyber Science and Engineering, Key Laboratory of Aerospace Information Security and Trusted Computing, Wuhan University, Wuhan, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-3472-419X",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Key Laboratory of Aerospace Information Security and Trusted Computing, Ministry of Education, School of Cyber Science and Engineering, Wuhan University, Wuhan, China",
+          "institution_ids": [
+            "https://openalex.org/I37461747"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Ministry of Education, School of Cyber Science and Engineering, Key Laboratory of Aerospace Information Security and Trusted Computing, Wuhan University, Wuhan, China",
+          "institution_ids": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100585973",
+        "display_name": "Zongru Wu",
+        "orcid": "https://orcid.org/0000-0002-5387-7821"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I183067930",
+          "display_name": "Shanghai Jiao Tong University",
+          "ror": "https://ror.org/0220qvk04",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I183067930"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Zongru Wu",
+      "raw_affiliation_strings": [
+        "Department of Electronic Information and Electrical Engineering, Shanghai Jiao Tong University, Shanghai, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-5387-7821",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Electronic Information and Electrical Engineering, Shanghai Jiao Tong University, Shanghai, China",
+          "institution_ids": [
+            "https://openalex.org/I183067930"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100529319",
+        "display_name": "Ruiying Du",
+        "orcid": "https://orcid.org/0000-0002-3634-3385"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I37461747",
+          "display_name": "Wuhan University",
+          "ror": "https://ror.org/033vjfk17",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ruiying Du",
+      "raw_affiliation_strings": [
+        "Key Laboratory of Aerospace Information Security and Trusted Computing, Ministry of Education, School of Cyber Science and Engineering, Wuhan University, Wuhan, China",
+        "Ministry of Education, School of Cyber Science and Engineering, Key Laboratory of Aerospace Information Security and Trusted Computing, Wuhan University, Wuhan, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-3634-3385",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Key Laboratory of Aerospace Information Security and Trusted Computing, Ministry of Education, School of Cyber Science and Engineering, Wuhan University, Wuhan, China",
+          "institution_ids": [
+            "https://openalex.org/I37461747"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Ministry of Education, School of Cyber Science and Engineering, Key Laboratory of Aerospace Information Security and Trusted Computing, Wuhan University, Wuhan, China",
+          "institution_ids": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5048476370",
+        "display_name": "Qiao Li",
+        "orcid": "https://orcid.org/0000-0002-3694-8237"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I37461747",
+          "display_name": "Wuhan University",
+          "ror": "https://ror.org/033vjfk17",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Qiao Li",
+      "raw_affiliation_strings": [
+        "Key Laboratory of Aerospace Information Security and Trusted Computing, Ministry of Education, School of Cyber Science and Engineering, Wuhan University, Wuhan, China",
+        "Ministry of Education, School of Cyber Science and Engineering, Key Laboratory of Aerospace Information Security and Trusted Computing, Wuhan University, Wuhan, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-3694-8237",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Key Laboratory of Aerospace Information Security and Trusted Computing, Ministry of Education, School of Cyber Science and Engineering, Wuhan University, Wuhan, China",
+          "institution_ids": [
+            "https://openalex.org/I37461747"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Ministry of Education, School of Cyber Science and Engineering, Key Laboratory of Aerospace Information Security and Trusted Computing, Wuhan University, Wuhan, China",
+          "institution_ids": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5085695760",
+        "display_name": "Gongshen Liu",
+        "orcid": "https://orcid.org/0000-0001-5194-1570"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I183067930",
+          "display_name": "Shanghai Jiao Tong University",
+          "ror": "https://ror.org/0220qvk04",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I183067930"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Gongshen Liu",
+      "raw_affiliation_strings": [
+        "Department of Electronic Information and Electrical Engineering, Shanghai Jiao Tong University, Shanghai, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Electronic Information and Electrical Engineering, Shanghai Jiao Tong University, Shanghai, China",
+          "institution_ids": [
+            "https://openalex.org/I183067930"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 2645,
+    "currency": "USD",
+    "value_usd": 2645
+  },
+  "apc_paid": null,
+  "fwci": 3.1284,
+  "has_fulltext": false,
+  "cited_by_count": 3,
+  "citation_normalized_percentile": {
+    "value": 0.90960074,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 97,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "12",
+    "issue": "11",
+    "first_page": "16171",
+    "last_page": "16180"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11689",
+    "display_name": "Adversarial Robustness in Machine Learning",
+    "score": 0.9993000030517578,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11689",
+      "display_name": "Adversarial Robustness in Machine Learning",
+      "score": 0.9993000030517578,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/adversarial-system",
+      "display_name": "Adversarial system",
+      "score": 0.891203761100769
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.804594874382019
+    },
+    {
+      "id": "https://openalex.org/keywords/robustness",
+      "display_name": "Robustness (evolution)",
+      "score": 0.5257902145385742
+    },
+    {
+      "id": "https://openalex.org/keywords/object-detection",
+      "display_name": "Object detection",
+      "score": 0.4544955790042877
+    },
+    {
+      "id": "https://openalex.org/keywords/object",
+      "display_name": "Object (grammar)",
+      "score": 0.4461624324321747
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-security",
+      "display_name": "Computer security",
+      "score": 0.4186254143714905
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.38908058404922485
+    },
+    {
+      "id": "https://openalex.org/keywords/pattern-recognition",
+      "display_name": "Pattern recognition (psychology)",
+      "score": 0.2443431317806244
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C37736160",
+      "wikidata": "https://www.wikidata.org/wiki/Q1801315",
+      "display_name": "Adversarial system",
+      "level": 2,
+      "score": 0.891203761100769
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.804594874382019
+    },
+    {
+      "id": "https://openalex.org/C63479239",
+      "wikidata": "https://www.wikidata.org/wiki/Q7353546",
+      "display_name": "Robustness (evolution)",
+      "level": 3,
+      "score": 0.5257902145385742
+    },
+    {
+      "id": "https://openalex.org/C2776151529",
+      "wikidata": "https://www.wikidata.org/wiki/Q3045304",
+      "display_name": "Object detection",
+      "level": 3,
+      "score": 0.4544955790042877
+    },
+    {
+      "id": "https://openalex.org/C2781238097",
+      "wikidata": "https://www.wikidata.org/wiki/Q175026",
+      "display_name": "Object (grammar)",
+      "level": 2,
+      "score": 0.4461624324321747
+    },
+    {
+      "id": "https://openalex.org/C38652104",
+      "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+      "display_name": "Computer security",
+      "level": 1,
+      "score": 0.4186254143714905
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.38908058404922485
+    },
+    {
+      "id": "https://openalex.org/C153180895",
+      "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+      "display_name": "Pattern recognition (psychology)",
+      "level": 2,
+      "score": 0.2443431317806244
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1109/jiot.2025.3531852",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/jiot.2025.3531852",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2480266640",
+        "display_name": "IEEE Internet of Things Journal",
+        "issn_l": "2327-4662",
+        "issn": [
+          "2327-4662",
+          "2372-2541"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Internet of Things Journal",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "score": 0.44999998807907104,
+      "id": "https://metadata.un.org/sdg/10",
+      "display_name": "Reduced inequalities"
+    }
+  ],
+  "awards": [
+    {
+      "id": "https://openalex.org/G2632410860",
+      "display_name": null,
+      "funder_award_id": "No. 62172303",
+      "funder_id": "https://openalex.org/F4320321001",
+      "funder_display_name": "National Natural Science Foundation of China"
+    },
+    {
+      "id": "https://openalex.org/G3084603542",
+      "display_name": null,
+      "funder_award_id": "No.2022YFB3102100",
+      "funder_id": "https://openalex.org/F4320335777",
+      "funder_display_name": "National Key Research and Development Program of China"
+    },
+    {
+      "id": "https://openalex.org/G5358637154",
+      "display_name": null,
+      "funder_award_id": "No. 62076187",
+      "funder_id": "https://openalex.org/F4320321001",
+      "funder_display_name": "National Natural Science Foundation of China"
+    },
+    {
+      "id": "https://openalex.org/G782110378",
+      "display_name": null,
+      "funder_award_id": "62172303",
+      "funder_id": "https://openalex.org/F4320321001",
+      "funder_display_name": "National Natural Science Foundation of China"
+    },
+    {
+      "id": "https://openalex.org/G7960939272",
+      "display_name": null,
+      "funder_award_id": "62076187",
+      "funder_id": "https://openalex.org/F4320321001",
+      "funder_display_name": "National Natural Science Foundation of China"
+    }
+  ],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320321001",
+      "display_name": "National Natural Science Foundation of China",
+      "ror": "https://ror.org/01h0zpd94"
+    },
+    {
+      "id": "https://openalex.org/F4320335777",
+      "display_name": "National Key Research and Development Program of China",
+      "ror": null
+    }
+  ],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 46,
+  "referenced_works": [
+    "https://openalex.org/W1536680647",
+    "https://openalex.org/W2102605133",
+    "https://openalex.org/W2535873859",
+    "https://openalex.org/W2568591791",
+    "https://openalex.org/W2570343428",
+    "https://openalex.org/W2604505099",
+    "https://openalex.org/W2934198733",
+    "https://openalex.org/W2963351448",
+    "https://openalex.org/W2963726920",
+    "https://openalex.org/W2963857521",
+    "https://openalex.org/W2965198951",
+    "https://openalex.org/W2982770724",
+    "https://openalex.org/W2984260944",
+    "https://openalex.org/W3012573144",
+    "https://openalex.org/W3017485054",
+    "https://openalex.org/W3035396860",
+    "https://openalex.org/W3094984771",
+    "https://openalex.org/W3097573595",
+    "https://openalex.org/W3109906897",
+    "https://openalex.org/W3185095134",
+    "https://openalex.org/W3203497300",
+    "https://openalex.org/W3215515227",
+    "https://openalex.org/W4210940955",
+    "https://openalex.org/W4221139075",
+    "https://openalex.org/W4225786036",
+    "https://openalex.org/W4226232092",
+    "https://openalex.org/W4238999211",
+    "https://openalex.org/W4293846201",
+    "https://openalex.org/W4312702383",
+    "https://openalex.org/W4312724178",
+    "https://openalex.org/W4382318250",
+    "https://openalex.org/W4386066565",
+    "https://openalex.org/W4386071600",
+    "https://openalex.org/W4386083027",
+    "https://openalex.org/W6607196103",
+    "https://openalex.org/W6620707391",
+    "https://openalex.org/W6640425456",
+    "https://openalex.org/W6719080892",
+    "https://openalex.org/W6741036071",
+    "https://openalex.org/W6750227808",
+    "https://openalex.org/W6760424586",
+    "https://openalex.org/W6786298249",
+    "https://openalex.org/W6801071930",
+    "https://openalex.org/W6838631875",
+    "https://openalex.org/W6850343633",
+    "https://openalex.org/W6947681574"
+  ],
+  "related_works": [
+    "https://openalex.org/W2502115930",
+    "https://openalex.org/W2482350142",
+    "https://openalex.org/W4246396837",
+    "https://openalex.org/W3126451824",
+    "https://openalex.org/W1561927205",
+    "https://openalex.org/W3191453585",
+    "https://openalex.org/W4297672492",
+    "https://openalex.org/W4310988119",
+    "https://openalex.org/W4292830139",
+    "https://openalex.org/W4319309705"
+  ],
+  "abstract_inverted_index": {
+    "Object": [
+      0
+    ],
+    "detection": [
+      1,
+      94,
+      139
+    ],
+    "models": [
+      2,
+      140
+    ],
+    "have": [
+      3,
+      42
+    ],
+    "been": [
+      4
+    ],
+    "widely": [
+      5
+    ],
+    "deployed": [
+      6
+    ],
+    "in": [
+      7,
+      24,
+      48,
+      102
+    ],
+    "physical": [
+      8
+    ],
+    "world": [
+      9
+    ],
+    "applications,": [
+      10
+    ],
+    "and": [
+      11,
+      29,
+      38,
+      40,
+      57,
+      116,
+      144
+    ],
+    "they": [
+      12
+    ],
+    "are": [
+      13,
+      22
+    ],
+    "vulnerable": [
+      14
+    ],
+    "to": [
+      15,
+      72,
+      87,
+      120
+    ],
+    "adversarial": [
+      16,
+      20,
+      60,
+      64,
+      89
+    ],
+    "attacks.": [
+      17
+    ],
+    "However,": [
+      18
+    ],
+    "most": [
+      19
+    ],
+    "attacks": [
+      21
+    ],
+    "implemented": [
+      23
+    ],
+    "a": [
+      25,
+      55,
+      80,
+      84,
+      103,
+      110
+    ],
+    "glass": [
+      26
+    ],
+    "box": [
+      27,
+      105
+    ],
+    "setting,": [
+      28
+    ],
+    "under": [
+      30
+    ],
+    "ideal": [
+      31
+    ],
+    "shooting": [
+      32
+    ],
+    "conditions,": [
+      33
+    ],
+    "such": [
+      34,
+      75
+    ],
+    "as": [
+      35,
+      76
+    ],
+    "fixed": [
+      36
+    ],
+    "distances": [
+      37,
+      143
+    ],
+    "angles,": [
+      39
+    ],
+    "thus": [
+      41
+    ],
+    "limited": [
+      43
+    ],
+    "attack": [
+      44,
+      61,
+      129
+    ],
+    "success": [
+      45
+    ],
+    "rate": [
+      46
+    ],
+    "(ASR)": [
+      47
+    ],
+    "practice.": [
+      49
+    ],
+    "In": [
+      50
+    ],
+    "this": [
+      51
+    ],
+    "article,": [
+      52
+    ],
+    "we": [
+      53,
+      131
+    ],
+    "present": [
+      54
+    ],
+    "transferable": [
+      56
+    ],
+    "robust": [
+      58
+    ],
+    "dynamic": [
+      59
+    ],
+    "where": [
+      62
+    ],
+    "the": [
+      63,
+      100,
+      122,
+      128,
+      165
+    ],
+    "patches": [
+      65,
+      90,
+      101
+    ],
+    "can": [
+      66,
+      152
+    ],
+    "be": [
+      67
+    ],
+    "printed": [
+      68
+    ],
+    "on": [
+      69,
+      135
+    ],
+    "or": [
+      70
+    ],
+    "attached": [
+      71
+    ],
+    "nonrigid": [
+      73
+    ],
+    "objects,": [
+      74
+    ],
+    "clothes.": [
+      77
+    ],
+    "We": [
+      78,
+      107
+    ],
+    "develop": [
+      79,
+      109
+    ],
+    "cascade": [
+      81
+    ],
+    "module": [
+      82
+    ],
+    "with": [
+      83
+    ],
+    "momentum-based": [
+      85
+    ],
+    "technique": [
+      86
+    ],
+    "optimize": [
+      88
+    ],
+    "against": [
+      91
+    ],
+    "various": [
+      92
+    ],
+    "object": [
+      93,
+      138
+    ],
+    "models,": [
+      95
+    ],
+    "achieving": [
+      96
+    ],
+    "better": [
+      97
+    ],
+    "transferability": [
+      98
+    ],
+    "of": [
+      99,
+      112,
+      124,
+      157,
+      164
+    ],
+    "closed": [
+      104
+    ],
+    "setting.": [
+      106
+    ],
+    "also": [
+      108
+    ],
+    "strategy": [
+      111
+    ],
+    "distance-adaptive": [
+      113
+    ],
+    "patch": [
+      114
+    ],
+    "generation": [
+      115
+    ],
+    "employ": [
+      117
+    ],
+    "perspective": [
+      118
+    ],
+    "transformation": [
+      119
+    ],
+    "enhance": [
+      121
+    ],
+    "robustness": [
+      123
+    ],
+    "patches.": [
+      125
+    ],
+    "To": [
+      126
+    ],
+    "evaluate": [
+      127
+    ],
+    "performance,": [
+      130
+    ],
+    "conduct": [
+      132
+    ],
+    "extensive": [
+      133
+    ],
+    "experiments": [
+      134
+    ],
+    "seven": [
+      136
+    ],
+    "mainstream": [
+      137
+    ],
+    "at": [
+      141,
+      168
+    ],
+    "different": [
+      142
+    ],
+    "angles.": [
+      145
+    ],
+    "The": [
+      146
+    ],
+    "results": [
+      147
+    ],
+    "show": [
+      148
+    ],
+    "that": [
+      149,
+      163
+    ],
+    "our": [
+      150
+    ],
+    "method": [
+      151,
+      167
+    ],
+    "achieve": [
+      153
+    ],
+    "an": [
+      154
+    ],
+    "average": [
+      155
+    ],
+    "ASR": [
+      156
+    ],
+    "69.85%,": [
+      158
+    ],
+    "which": [
+      159
+    ],
+    "is": [
+      160
+    ],
+    "3.27": [
+      161
+    ],
+    "times": [
+      162
+    ],
+    "baseline": [
+      166
+    ],
+    "3": [
+      169
+    ],
+    "m.": [
+      170
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 3
+    }
+  ],
+  "updated_date": "2026-09-02T18:50:13.731487",
+  "created_date": "2025-10-10T00:00:00"
+}

@@ -1,0 +1,534 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          29
+        ]
+      ],
+      "date-time": "2026-08-29T14:50:41Z",
+      "timestamp": 1788015041469,
+      "version": "build-2784847793"
+    },
+    "publisher-location": "Cham",
+    "reference-count": 24,
+    "publisher": "Springer Nature Switzerland",
+    "isbn-type": [
+      {
+        "value": "9783032315823",
+        "type": "print"
+      },
+      {
+        "value": "9783032315830",
+        "type": "electronic"
+      }
+    ],
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              4
+            ]
+          ],
+          "date-time": "2026-08-04T00:00:00Z",
+          "timestamp": 1785801600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              4
+            ]
+          ],
+          "date-time": "2026-08-04T00:00:00Z",
+          "timestamp": 1785801600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2027
+        ]
+      ]
+    },
+    "DOI": "10.1007/978-3-032-31583-0_41",
+    "type": "book-chapter",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          3
+        ]
+      ],
+      "date-time": "2026-08-03T22:25:33Z",
+      "timestamp": 1785795933000
+    },
+    "page": "622-634",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Higher-Order Adversarial Patches for Real-Time Object Detectors"
+    ],
+    "prefix": "10.1007",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2806-6920",
+        "authenticated-orcid": false,
+        "given": "Jens",
+        "family": "Bayer",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7367-2519",
+        "authenticated-orcid": false,
+        "given": "Stefan",
+        "family": "Becker",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8577-5256",
+        "authenticated-orcid": false,
+        "given": "David",
+        "family": "Münch",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7857-0332",
+        "authenticated-orcid": false,
+        "given": "Michael",
+        "family": "Arens",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3556-7181",
+        "authenticated-orcid": false,
+        "given": "Jürgen",
+        "family": "Beyerer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          4
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "41_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "14410",
+        "DOI": "10.1109/ACCESS.2018.2807385",
+        "volume": "6",
+        "author": "N Akhtar",
+        "year": "2018",
+        "unstructured": "Akhtar, N., Mian, A.: Threat of adversarial attacks on deep learning in computer vision: a survey. IEEE Access 6, 14410–14430 (2018). https://doi.org/10.1109/ACCESS.2018.2807385",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "41_CR2",
+        "unstructured": "Bai, L., Changyou, C., Wang, W., Carin, L.: Second-order adversarial attack and certifiable robustness, pp. 1–14 (2018)"
+      },
+      {
+        "key": "41_CR3",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Bayer, J., Becker, S., Münch, D., Arens, M.: Network transferability of adversarial patches in real-time object detection. In: Artificial Intelligence for Security and Defence Applications II, vol. 13206, p. 132060X. SPIE (2024). https://doi.org/10.1117/12.3031501",
+        "DOI": "10.1117/12.3031501"
+      },
+      {
+        "key": "41_CR4",
+        "unstructured": "Brown, T., Mane, D., Aurko, R., Abadi, M., Gilmer, J.: Adversarial patch. In: 31st Conference on Neural Information Processing Systems (NIPS 2017) (2017)"
+      },
+      {
+        "key": "41_CR5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cai, Q.Z., Liu, C., Song, D.: Curriculum adversarial training. In: Proceedings of the Twenty-Seventh International Joint Conference on Artificial Intelligence, pp. 3740–3747. International Joint Conferences on Artificial Intelligence Organization (2018)",
+        "DOI": "10.24963/ijcai.2018/520"
+      },
+      {
+        "issue": "1",
+        "key": "41_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "25",
+        "DOI": "10.1049/cit2.12028",
+        "volume": "6",
+        "author": "A Chakraborty",
+        "year": "2021",
+        "unstructured": "Chakraborty, A., Alam, M., Dey, V., Chattopadhyay, A., Mukhopadhyay, D.: A survey on adversarial attacks and defences. CAAI Trans. Intell. Technol. 6(1), 25–45 (2021). https://doi.org/10.1049/cit2.12028",
+        "journal-title": "CAAI Trans. Intell. Technol."
+      },
+      {
+        "key": "41_CR7",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Dalal, N., Triggs, B.: Histograms of oriented gradients for human detection. In: CVPR, vol. 1, pp. 886–893. IEEE (2005). https://doi.org/10.1109/CVPR.2005.177",
+        "DOI": "10.1109/CVPR.2005.177"
+      },
+      {
+        "key": "41_CR8",
+        "unstructured": "Jocher, G., Qiu, J.: Ultralytics YOLO11 (2024). https://github.com/ultralytics/ultralytics"
+      },
+      {
+        "key": "41_CR9",
+        "unstructured": "Jocher, G., Qiu, J., Chaurasia, A.: Ultralytics YOLO (2023). https://github.com/ultralytics/ultralytics"
+      },
+      {
+        "key": "41_CR10",
+        "unstructured": "Li, Y., Liang, K., Xiao, B.: UV-attack: physical-world adversarial attacks on person detection via dynamic-NeRF-based UV mapping. In: ICLR 2025 (2025)"
+      },
+      {
+        "key": "41_CR11",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "740",
+        "DOI": "10.1007/978-3-319-10602-1_48",
+        "volume-title": "Computer Vision – ECCV 2014",
+        "author": "T-Y Lin",
+        "year": "2014",
+        "unstructured": "Lin, T.-Y., et al.: Microsoft COCO: common objects in context. In: Fleet, D., Pajdla, T., Schiele, B., Tuytelaars, T. (eds.) ECCV 2014. LNCS, vol. 8693, pp. 740–755. Springer, Cham (2014). https://doi.org/10.1007/978-3-319-10602-1_48"
+      },
+      {
+        "key": "41_CR12",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Lin, W., Liao, L.: Towards sustainable adversarial training with successive perturbation generation. Front. Inf. Technol. Electron. Eng. 25(4), 527–539 (2024). https://doi.org/10.1631/FITEE.2300474",
+        "DOI": "10.1631/FITEE.2300474"
+      },
+      {
+        "key": "41_CR13",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Peng, A., Shi, G., Lin, Z., Zeng, H., Yang, X.: Approximating high-order adversarial attacks using Runge-Kutta methods. Tsinghua Sci. Technol. (2024). https://doi.org/10.26599/TST.2024.9010154",
+        "DOI": "10.26599/TST.2024.9010154"
+      },
+      {
+        "key": "41_CR14",
+        "unstructured": "Ren, J., et al.: A unified game-theoretic interpretation of adversarial robustness. In: Advances in Neural Information Processing Systems (NeurIPS), vol. 5, pp. 3797–3810 (2021)"
+      },
+      {
+        "key": "41_CR15",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Serban, A., Poll, E., Visser, J.: Adversarial examples on object recognition: a comprehensive survey. ACM Comput. Surv. 53(3) (2020). https://doi.org/10.1145/3398394",
+        "DOI": "10.1145/3398394"
+      },
+      {
+        "key": "41_CR16",
+        "unstructured": "Singla, S., Feizi, S.: Second-order provable defenses against adversarial attacks. In: 37th International Conference on Machine Learning, ICML 2020, PartF16814, pp. 8928–8938 (2020)"
+      },
+      {
+        "key": "41_CR17",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Thys, S., Ranst, W.V., Goedeme, T.: Fooling automated surveillance cameras: adversarial patches to attack person detection. CVPR Workshops, vol. 2019-June, pp. 49–55 (2019). https://doi.org/10.1109/CVPRW.2019.00012",
+        "DOI": "10.1109/CVPRW.2019.00012"
+      },
+      {
+        "key": "41_CR18",
+        "unstructured": "Tian, Y., Ye, Q., Doermann, D.: YOLOv12: attention-centric real-time object detectors. arXiv preprint arXiv:2502.12524 (2025)"
+      },
+      {
+        "key": "41_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "107984",
+        "DOI": "10.52202/079017-3429",
+        "volume": "37",
+        "author": "A Wang",
+        "year": "2024",
+        "unstructured": "Wang, A., et al.: YOLOv10: real-time end-to-end object detection. Adv. Neural. Inf. Process. Syst. 37, 107984–108011 (2024)",
+        "journal-title": "Adv. Neural. Inf. Process. Syst."
+      },
+      {
+        "key": "41_CR20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, C.Y., Yeh, I.H., Mark Liao, H.Y.: YOLOv9: learning what you want to learn using programmable gradient information. In: European Conference on Computer Vision, pp. 1–21. Springer (2024)",
+        "DOI": "10.1007/978-3-031-72751-1_1"
+      },
+      {
+        "issue": "12",
+        "key": "41_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "9797",
+        "DOI": "10.1109/TPAMI.2024.3430860",
+        "volume": "46",
+        "author": "H Wei",
+        "year": "2024",
+        "unstructured": "Wei, H., et al.: Physical adversarial attack meets computer vision: a decade survey. IEEE Trans. Pattern Anal. Mach. Intell. 46(12), 9797–9817 (2024). https://doi.org/10.1109/TPAMI.2024.3430860",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "41_CR22",
+        "unstructured": "Wiktionary: cat and mouse—wiktionary, the free dictionary (2025). https://en.wiktionary.org/w/index.php?title=cat_and_mouse&oldid=85469831. Accessed 2 Dec 2025"
+      },
+      {
+        "key": "41_CR23",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1007/978-3-030-58548-8_1",
+        "volume-title": "Computer Vision – ECCV 2020",
+        "author": "Z Wu",
+        "year": "2020",
+        "unstructured": "Wu, Z., Lim, S.-N., Davis, L.S., Goldstein, T.: Making an invisibility cloak: real world adversarial attacks on object detectors. In: Vedaldi, A., Bischof, H., Brox, T., Frahm, J.-M. (eds.) ECCV 2020. LNCS, vol. 12349, pp. 1–17. Springer, Cham (2020). https://doi.org/10.1007/978-3-030-58548-8_1"
+      },
+      {
+        "issue": "2",
+        "key": "41_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "306",
+        "DOI": "10.2139/ssrn.4162643",
+        "volume": "25",
+        "author": "X Zhang",
+        "year": "2022",
+        "unstructured": "Zhang, X., Zhang, W., Liu, L., Wang, Y., Gao, L., Zhang, S.: Enhancing transferability of adversarial examples by successively attacking multiple models. SSRN Electron. J. 25(2), 306–316 (2022). https://doi.org/10.2139/ssrn.4162643",
+        "journal-title": "SSRN Electron. J."
+      }
+    ],
+    "container-title": [
+      "Lecture Notes in Computer Science",
+      "Pattern Recognition"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/978-3-032-31583-0_41",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          3
+        ]
+      ],
+      "date-time": "2026-08-03T22:25:35Z",
+      "timestamp": 1785795935000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/978-3-032-31583-0_41"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          4
+        ]
+      ]
+    },
+    "ISBN": [
+      "9783032315823",
+      "9783032315830"
+    ],
+    "references-count": 24,
+    "URL": "https://doi.org/10.1007/978-3-032-31583-0_41",
+    "relation": {},
+    "ISSN": [
+      "0302-9743",
+      "1611-3349"
+    ],
+    "issn-type": [
+      {
+        "value": "0302-9743",
+        "type": "print"
+      },
+      {
+        "value": "1611-3349",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          4
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "4 August 2026",
+        "order": 1,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ChapterHistory",
+          "label": "Chapter History"
+        }
+      },
+      {
+        "value": "ICPR",
+        "order": 1,
+        "name": "conference_acronym",
+        "label": "Conference Acronym",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "International Conference on Pattern Recognition",
+        "order": 2,
+        "name": "conference_name",
+        "label": "Conference Name",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "Lyon",
+        "order": 3,
+        "name": "conference_city",
+        "label": "Conference City",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "France",
+        "order": 4,
+        "name": "conference_country",
+        "label": "Conference Country",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "2026",
+        "order": 5,
+        "name": "conference_year",
+        "label": "Conference Year",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "17 August 2026",
+        "order": 7,
+        "name": "conference_start_date",
+        "label": "Conference Start Date",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "22 August 2026",
+        "order": 8,
+        "name": "conference_end_date",
+        "label": "Conference End Date",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "28",
+        "order": 9,
+        "name": "conference_number",
+        "label": "Conference Number",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "icpr2026",
+        "order": 10,
+        "name": "conference_id",
+        "label": "Conference ID",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "https://icpr2026.org/",
+        "order": 11,
+        "name": "conference_url",
+        "label": "Conference URL",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      }
+    ]
+  }
+}

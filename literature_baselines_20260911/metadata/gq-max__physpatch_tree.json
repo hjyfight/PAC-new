@@ -1,0 +1,1513 @@
+{
+  "sha": "89bc0a36f2297f613fbbc4bf97af99d0a4ed6170",
+  "url": "https://api.github.com/repos/gq-max/physpatch/git/trees/89bc0a36f2297f613fbbc4bf97af99d0a4ed6170",
+  "tree": [
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "686851c44dba912a9c3cd4e7d0d019f821d41936",
+      "size": 923,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/686851c44dba912a9c3cd4e7d0d019f821d41936"
+    },
+    {
+      "path": "code",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "da04079706a8c32b19b30dcad0818bb52347b117",
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/trees/da04079706a8c32b19b30dcad0818bb52347b117"
+    },
+    {
+      "path": "code/SoM",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7411b2c47ffa0adf718bb0038afd33c3913ee558",
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/trees/7411b2c47ffa0adf718bb0038afd33c3913ee558"
+    },
+    {
+      "path": "code/SoM/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "827f579ebdc6d179e56da951e95efb93203517a8",
+      "size": 1414,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/827f579ebdc6d179e56da951e95efb93203517a8"
+    },
+    {
+      "path": "code/SoM/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e841e7a26e4eb057b24511e7b92d42b257a80e5",
+      "size": 1141,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/9e841e7a26e4eb057b24511e7b92d42b257a80e5"
+    },
+    {
+      "path": "code/SoM/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c994a7e9474fc77509079abb57e22714ade2d8f",
+      "size": 8650,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/7c994a7e9474fc77509079abb57e22714ade2d8f"
+    },
+    {
+      "path": "code/SoM/SECURITY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3c89efc852e22f71eabf5dfbc6ac62493425eb6",
+      "size": 2656,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/b3c89efc852e22f71eabf5dfbc6ac62493425eb6"
+    },
+    {
+      "path": "code/SoM/SUPPORT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eaf439aecca04e3aa5a022e0bc0b8b088efef7f1",
+      "size": 1219,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/eaf439aecca04e3aa5a022e0bc0b8b088efef7f1"
+    },
+    {
+      "path": "code/SoM/batch_som.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "185fa33912a5c7fbd5860974b90698f48c6c7676",
+      "size": 3930,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/185fa33912a5c7fbd5860974b90698f48c6c7676"
+    },
+    {
+      "path": "code/SoM/client.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb844351d224f4cc6e9aceaecb9108bbba16e52a",
+      "size": 1315,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/eb844351d224f4cc6e9aceaecb9108bbba16e52a"
+    },
+    {
+      "path": "code/SoM/configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a9cf704d7914e9bd1e9bb604bc5cb4b3effb9309",
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/trees/a9cf704d7914e9bd1e9bb604bc5cb4b3effb9309"
+    },
+    {
+      "path": "code/SoM/configs/seem_focall_unicl_lang_v1.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23efe54cc1175136a1ccdf7f79dd135be8bb7747",
+      "size": 9978,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/23efe54cc1175136a1ccdf7f79dd135be8bb7747"
+    },
+    {
+      "path": "code/SoM/configs/semantic_sam_only_sa-1b_swinL.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93abac652fb6ddc425338d0827459dfbe884aa68",
+      "size": 12158,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/93abac652fb6ddc425338d0827459dfbe884aa68"
+    },
+    {
+      "path": "code/SoM/demo_gpt4v_som.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd78feb056ed8420e0e14d64df5b045894254e87",
+      "size": 9168,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/dd78feb056ed8420e0e14d64df5b045894254e87"
+    },
+    {
+      "path": "code/SoM/demo_som.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5fb699cbd893e881191bf798b75ea97ae4892f7",
+      "size": 7305,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/b5fb699cbd893e881191bf798b75ea97ae4892f7"
+    },
+    {
+      "path": "code/SoM/deploy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79fbf713e8aed7c9bdc071850ee8178bf845200c",
+      "size": 27918,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/79fbf713e8aed7c9bdc071850ee8178bf845200c"
+    },
+    {
+      "path": "code/SoM/deploy_requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1eca646406c62a471135cbe5ec88e0805cbde22d",
+      "size": 145,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/1eca646406c62a471135cbe5ec88e0805cbde22d"
+    },
+    {
+      "path": "code/SoM/docker-build-ec2.yml.j2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a02602d0f831960db32ee07a165f3c8264edbc0",
+      "size": 1340,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/0a02602d0f831960db32ee07a165f3c8264edbc0"
+    },
+    {
+      "path": "code/SoM/download_ckpt.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "146fcea2eaf305a5dc91aa258a5e627b3336cbf1",
+      "size": 252,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/146fcea2eaf305a5dc91aa258a5e627b3336cbf1"
+    },
+    {
+      "path": "code/SoM/entrypoint.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c42a4e55ed576eb73b6db42aa864f9cc872733e2",
+      "size": 264,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/c42a4e55ed576eb73b6db42aa864f9cc872733e2"
+    },
+    {
+      "path": "code/SoM/gpt4v.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1da28c395849fe3147491fdbe1d0b620e9e93b2b",
+      "size": 1803,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/1da28c395849fe3147491fdbe1d0b620e9e93b2b"
+    },
+    {
+      "path": "code/SoM/ops",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "21066348a18b17b965a376e01632db5b52b7d179",
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/trees/21066348a18b17b965a376e01632db5b52b7d179"
+    },
+    {
+      "path": "code/SoM/ops/functions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0dbbb102479c83a91a922b78fcda6a5eea0c0136",
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/trees/0dbbb102479c83a91a922b78fcda6a5eea0c0136"
+    },
+    {
+      "path": "code/SoM/ops/functions/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b06b5ac538b63bdb9a6c82e4635b95bb5491d5b",
+      "size": 734,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/2b06b5ac538b63bdb9a6c82e4635b95bb5491d5b"
+    },
+    {
+      "path": "code/SoM/ops/functions/ms_deform_attn_func.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94a36ab85b7c5f9ecee342db91a5d5731740740f",
+      "size": 3728,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/94a36ab85b7c5f9ecee342db91a5d5731740740f"
+    },
+    {
+      "path": "code/SoM/ops/make.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "977811896de2756e7f5aacbc18c6f3882b69120b",
+      "size": 1774,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/977811896de2756e7f5aacbc18c6f3882b69120b"
+    },
+    {
+      "path": "code/SoM/ops/modules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5d2c64eebc3258c248db19981dec6966f2d2fee6",
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/trees/5d2c64eebc3258c248db19981dec6966f2d2fee6"
+    },
+    {
+      "path": "code/SoM/ops/modules/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fdbf03359958f3d67ab00f879bf6b61a6c8f06a",
+      "size": 720,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/6fdbf03359958f3d67ab00f879bf6b61a6c8f06a"
+    },
+    {
+      "path": "code/SoM/ops/modules/ms_deform_attn.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7b4c42ea504a0859ccadd72646919c941e72f73",
+      "size": 6805,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/e7b4c42ea504a0859ccadd72646919c941e72f73"
+    },
+    {
+      "path": "code/SoM/ops/setup.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b57ad313ac8f9b6586892142da8ba943e516cec",
+      "size": 3038,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/3b57ad313ac8f9b6586892142da8ba943e516cec"
+    },
+    {
+      "path": "code/SoM/ops/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "91f22d2365326f86bb030be721ff83911e4cc712",
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/trees/91f22d2365326f86bb030be721ff83911e4cc712"
+    },
+    {
+      "path": "code/SoM/ops/src/cpu",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "925daa7315448d1fb50b3b8611aa8bc83fb68568",
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/trees/925daa7315448d1fb50b3b8611aa8bc83fb68568"
+    },
+    {
+      "path": "code/SoM/ops/src/cpu/ms_deform_attn_cpu.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48757e2b0156b2c1513b615d2a17e5aee5172ae7",
+      "size": 1399,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/48757e2b0156b2c1513b615d2a17e5aee5172ae7"
+    },
+    {
+      "path": "code/SoM/ops/src/cpu/ms_deform_attn_cpu.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51bb27e9ee828f967e8aa854c2d55574040c6d7e",
+      "size": 1282,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/51bb27e9ee828f967e8aa854c2d55574040c6d7e"
+    },
+    {
+      "path": "code/SoM/ops/src/cuda",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "00dce2c160e2454d2f1f9664eff90da2207b773b",
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/trees/00dce2c160e2454d2f1f9664eff90da2207b773b"
+    },
+    {
+      "path": "code/SoM/ops/src/cuda/ms_deform_attn_cuda.cu",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c465dab3d636dfd6a44523c63f148b6e15084d9",
+      "size": 7459,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/0c465dab3d636dfd6a44523c63f148b6e15084d9"
+    },
+    {
+      "path": "code/SoM/ops/src/cuda/ms_deform_attn_cuda.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f0658e8668a11f0e7d71deff9adac71884f2e87",
+      "size": 1283,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/4f0658e8668a11f0e7d71deff9adac71884f2e87"
+    },
+    {
+      "path": "code/SoM/ops/src/cuda/ms_deform_im2col_cuda.cuh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c04e0d4ab97d25c1756fcd8d08dd1e5a6d280b7c",
+      "size": 54837,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/c04e0d4ab97d25c1756fcd8d08dd1e5a6d280b7c"
+    },
+    {
+      "path": "code/SoM/ops/src/ms_deform_attn.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f80a1b294c55b37d13bb3558ff7aeadba3b37de",
+      "size": 1981,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/2f80a1b294c55b37d13bb3558ff7aeadba3b37de"
+    },
+    {
+      "path": "code/SoM/ops/src/vision.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a08821e0121a77556aa7a263ec8ebfa928b13b6",
+      "size": 942,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/4a08821e0121a77556aa7a263ec8ebfa928b13b6"
+    },
+    {
+      "path": "code/SoM/ops/test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e1b545459f6fd3235767e721eb5a1090ae14bef",
+      "size": 4223,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/6e1b545459f6fd3235767e721eb5a1090ae14bef"
+    },
+    {
+      "path": "code/SoM/task_adapter",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e92160bb27f35611a1913ce61a069ea5bf88e0b7",
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/trees/e92160bb27f35611a1913ce61a069ea5bf88e0b7"
+    },
+    {
+      "path": "code/SoM/task_adapter/sam",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b09ace6694a0d032d6ca731a90dae85f9e2b3f28",
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/trees/b09ace6694a0d032d6ca731a90dae85f9e2b3f28"
+    },
+    {
+      "path": "code/SoM/task_adapter/sam/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "code/SoM/task_adapter/sam/tasks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cf449d2ad5f09576925c430ea59cccdd07c2ca5d",
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/trees/cf449d2ad5f09576925c430ea59cccdd07c2ca5d"
+    },
+    {
+      "path": "code/SoM/task_adapter/sam/tasks/__Init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce45369da0f1796bc51b34aac55c60700e2c7983",
+      "size": 82,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/ce45369da0f1796bc51b34aac55c60700e2c7983"
+    },
+    {
+      "path": "code/SoM/task_adapter/sam/tasks/inference_sam_m2m_auto.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d51cf75892ecb6d0ea54c9391e092a57cc8faf92",
+      "size": 3964,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/d51cf75892ecb6d0ea54c9391e092a57cc8faf92"
+    },
+    {
+      "path": "code/SoM/task_adapter/sam/tasks/inference_sam_m2m_interactive.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5752138eeafc2f675f2a227754938e477886ba40",
+      "size": 8598,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/5752138eeafc2f675f2a227754938e477886ba40"
+    },
+    {
+      "path": "code/SoM/task_adapter/seem",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "70458869b7e0ac968a88907696c6974acca15b8d",
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/trees/70458869b7e0ac968a88907696c6974acca15b8d"
+    },
+    {
+      "path": "code/SoM/task_adapter/seem/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "code/SoM/task_adapter/seem/tasks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e3f398050387636d3b0384363d06670d7becf07d",
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/trees/e3f398050387636d3b0384363d06670d7becf07d"
+    },
+    {
+      "path": "code/SoM/task_adapter/seem/tasks/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bff951407c3dd24407853902afabb732615b2b37",
+      "size": 117,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/bff951407c3dd24407853902afabb732615b2b37"
+    },
+    {
+      "path": "code/SoM/task_adapter/seem/tasks/automatic_mask_generator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66e2317939a7c45fda854e4305f5f89232ef4aed",
+      "size": 15766,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/66e2317939a7c45fda854e4305f5f89232ef4aed"
+    },
+    {
+      "path": "code/SoM/task_adapter/seem/tasks/inference_seem_interactive.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4b3ce9aea560159a8cddb53ed706fdd1a1ec43d",
+      "size": 6305,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/a4b3ce9aea560159a8cddb53ed706fdd1a1ec43d"
+    },
+    {
+      "path": "code/SoM/task_adapter/seem/tasks/inference_seem_pano.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d75af481a76a84b3ff377175734c430808a24100",
+      "size": 5928,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/d75af481a76a84b3ff377175734c430808a24100"
+    },
+    {
+      "path": "code/SoM/task_adapter/seem/tasks/interactive_seem_m2m_auto.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f35a6a45de029f823cf3fee8671addbc728b2e09",
+      "size": 3507,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/f35a6a45de029f823cf3fee8671addbc728b2e09"
+    },
+    {
+      "path": "code/SoM/task_adapter/semantic_sam",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e4227dde3f9e6b3a40bd72617025cfeba3c16d55",
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/trees/e4227dde3f9e6b3a40bd72617025cfeba3c16d55"
+    },
+    {
+      "path": "code/SoM/task_adapter/semantic_sam/tasks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "491b6ac94dccf01de196729f58722646d8cb0960",
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/trees/491b6ac94dccf01de196729f58722646d8cb0960"
+    },
+    {
+      "path": "code/SoM/task_adapter/semantic_sam/tasks/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08e1951beacaaaa0b64235b0b2efeaf54f1866bf",
+      "size": 472,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/08e1951beacaaaa0b64235b0b2efeaf54f1866bf"
+    },
+    {
+      "path": "code/SoM/task_adapter/semantic_sam/tasks/automatic_mask_generator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe28899c35974dc1321be0b36330762f49778877",
+      "size": 15853,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/fe28899c35974dc1321be0b36330762f49778877"
+    },
+    {
+      "path": "code/SoM/task_adapter/semantic_sam/tasks/inference_semsam_m2m_auto.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a939a3c878938d415b337391c741b352dfe96f9a",
+      "size": 4357,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/a939a3c878938d415b337391c741b352dfe96f9a"
+    },
+    {
+      "path": "code/SoM/task_adapter/semantic_sam/tasks/interactive_idino_1o1_box.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccfe774bf82c05e8345c92374f5f87e07264ee92",
+      "size": 5526,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/ccfe774bf82c05e8345c92374f5f87e07264ee92"
+    },
+    {
+      "path": "code/SoM/task_adapter/semantic_sam/tasks/interactive_idino_m2m.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93775c38611b1da9825003e70356e6c5a0523bae",
+      "size": 12491,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/93775c38611b1da9825003e70356e6c5a0523bae"
+    },
+    {
+      "path": "code/SoM/task_adapter/semantic_sam/tasks/interactive_predictor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70252a37e516b0473205f628c1a08a9951ede1e6",
+      "size": 5504,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/70252a37e516b0473205f628c1a08a9951ede1e6"
+    },
+    {
+      "path": "code/SoM/task_adapter/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4a49125870eb5abd1c88bc8d59132fb121ce2120",
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/trees/4a49125870eb5abd1c88bc8d59132fb121ce2120"
+    },
+    {
+      "path": "code/SoM/task_adapter/utils/visualizer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd78a98e3f862f8b74d921c4b80be3a8d2f0dd2b",
+      "size": 57488,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/bd78a98e3f862f8b74d921c4b80be3a8d2f0dd2b"
+    },
+    {
+      "path": "code/attacks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa37271cbf575486d57d2141c46d36b550ba3d86",
+      "size": 11517,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/aa37271cbf575486d57d2141c46d36b550ba3d86"
+    },
+    {
+      "path": "code/dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7afc625e316654bd3fe6b78dad554992bc4f48ef",
+      "size": 713,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/7afc625e316654bd3fe6b78dad554992bc4f48ef"
+    },
+    {
+      "path": "code/dyn_mask.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3f7b61c924e55f88fe9dd42074c827ed90c9ff6",
+      "size": 4408,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/e3f7b61c924e55f88fe9dd42074c827ed90c9ff6"
+    },
+    {
+      "path": "code/evaluation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0efb4658b96f0ecea3407597adf2730565328d3c",
+      "size": 5152,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/0efb4658b96f0ecea3407597adf2730565328d3c"
+    },
+    {
+      "path": "code/main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e78c2f3ee4d33dbfd5461896be9dc2ee466234a8",
+      "size": 7511,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/e78c2f3ee4d33dbfd5461896be9dc2ee466234a8"
+    },
+    {
+      "path": "code/models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b6dfffe1af04417d6ec4bef74688b140a814f1ed",
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/trees/b6dfffe1af04417d6ec4bef74688b140a814f1ed"
+    },
+    {
+      "path": "code/models/claude_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc44b4634422f7d2007633f276ec38a958801a62",
+      "size": 2011,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/bc44b4634422f7d2007633f276ec38a958801a62"
+    },
+    {
+      "path": "code/models/gemini_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0caa8daa2fb0eedd266c46e6703672e411f30f42",
+      "size": 1156,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/0caa8daa2fb0eedd266c46e6703672e411f30f42"
+    },
+    {
+      "path": "code/models/gpt_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8faa732cdc27b1ec670833b3d2ae7afea70e51ff",
+      "size": 1072,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/8faa732cdc27b1ec670833b3d2ae7afea70e51ff"
+    },
+    {
+      "path": "code/models/qwen_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9afb79653bc357427b40add56e9a78a925fb3cae",
+      "size": 1351,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/9afb79653bc357427b40add56e9a78a925fb3cae"
+    },
+    {
+      "path": "code/nuscene",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bc02bab7e035bcc5bdf041e73f953ee01f25f732",
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/trees/bc02bab7e035bcc5bdf041e73f953ee01f25f732"
+    },
+    {
+      "path": "code/nuscene/samples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6e2b1f326ddacde9131cf70233b51a873ac49568",
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/trees/6e2b1f326ddacde9131cf70233b51a873ac49568"
+    },
+    {
+      "path": "code/nuscene/samples/00001.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a448e967872979a75f3896b685b236c88929e2e",
+      "size": 130383,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/7a448e967872979a75f3896b685b236c88929e2e"
+    },
+    {
+      "path": "code/nuscene/samples/00002.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7252a426531811d9ab9530d5b76fe16c50565949",
+      "size": 133866,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/7252a426531811d9ab9530d5b76fe16c50565949"
+    },
+    {
+      "path": "code/nuscene/samples/00003.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "213f5b14dcb20eb3946e4f8bd9a1f9b85bd92b48",
+      "size": 116303,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/213f5b14dcb20eb3946e4f8bd9a1f9b85bd92b48"
+    },
+    {
+      "path": "code/nuscene/samples/00004.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29d403af54d0a18b01788edb60441cd74dde098c",
+      "size": 192177,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/29d403af54d0a18b01788edb60441cd74dde098c"
+    },
+    {
+      "path": "code/nuscene/samples/00005.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49cfe70b373dbb04bf20b6d198b9a6eda782fe7a",
+      "size": 127803,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/49cfe70b373dbb04bf20b6d198b9a6eda782fe7a"
+    },
+    {
+      "path": "code/nuscene/samples/00006.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "927f17a8a31f66cacb1c021196166df8b11bb0d3",
+      "size": 155091,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/927f17a8a31f66cacb1c021196166df8b11bb0d3"
+    },
+    {
+      "path": "code/nuscene/samples/00007.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd8788fc4c2bec7eeee83eab55384d22b84dc74d",
+      "size": 123002,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/bd8788fc4c2bec7eeee83eab55384d22b84dc74d"
+    },
+    {
+      "path": "code/nuscene/samples/00008.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5d0e5752476ba542a23ed88448a27eacdfcd358",
+      "size": 134440,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/a5d0e5752476ba542a23ed88448a27eacdfcd358"
+    },
+    {
+      "path": "code/nuscene/samples/00009.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5816a700a27e9103f96f5daf7d3b7e82f0617e8f",
+      "size": 143049,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/5816a700a27e9103f96f5daf7d3b7e82f0617e8f"
+    },
+    {
+      "path": "code/nuscene/samples/00010.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0861f726ed0e690cfd00bef108986094a5396b96",
+      "size": 117044,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/0861f726ed0e690cfd00bef108986094a5396b96"
+    },
+    {
+      "path": "code/nuscene/samples/00011.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d62778a05d87748c039588a05a13bf7040a462a1",
+      "size": 130120,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/d62778a05d87748c039588a05a13bf7040a462a1"
+    },
+    {
+      "path": "code/nuscene/samples/00012.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b319623f84f0edbada0dc90dc00c594e6edac06",
+      "size": 161653,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/7b319623f84f0edbada0dc90dc00c594e6edac06"
+    },
+    {
+      "path": "code/nuscene/samples/00013.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b64c202b91d95d1f6a76c82f420f73fa8ebac97",
+      "size": 240486,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/6b64c202b91d95d1f6a76c82f420f73fa8ebac97"
+    },
+    {
+      "path": "code/nuscene/samples/00014.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d4e117f92827a1916c005f608e24b67bfcfc76c",
+      "size": 115906,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/8d4e117f92827a1916c005f608e24b67bfcfc76c"
+    },
+    {
+      "path": "code/nuscene/samples/00015.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "476fdb3325bbedc7baf6d3ac908c3207cebc4a75",
+      "size": 151282,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/476fdb3325bbedc7baf6d3ac908c3207cebc4a75"
+    },
+    {
+      "path": "code/nuscene/samples/00016.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ba734c9fc627efdd04e08324905c2a664e6cc51",
+      "size": 173652,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/3ba734c9fc627efdd04e08324905c2a664e6cc51"
+    },
+    {
+      "path": "code/nuscene/samples/00017.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfbd673a1288290defcf9b1ca476e29781a06747",
+      "size": 135920,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/bfbd673a1288290defcf9b1ca476e29781a06747"
+    },
+    {
+      "path": "code/nuscene/samples/00018.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd21a37073696b290a9c49223a3657df1bf0bf08",
+      "size": 125660,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/dd21a37073696b290a9c49223a3657df1bf0bf08"
+    },
+    {
+      "path": "code/nuscene/samples/00019.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d41063b077866d0241eb630be1aa28aafe7f883",
+      "size": 140828,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/9d41063b077866d0241eb630be1aa28aafe7f883"
+    },
+    {
+      "path": "code/nuscene/samples/00020.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fffe1344c59f588a7dc923d7a8c36dc54d74a1e",
+      "size": 111671,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/3fffe1344c59f588a7dc923d7a8c36dc54d74a1e"
+    },
+    {
+      "path": "code/nuscene/samples/00021.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a62eefc7d48f6e03d9d6eb6ac740f89d99456f5",
+      "size": 127442,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/1a62eefc7d48f6e03d9d6eb6ac740f89d99456f5"
+    },
+    {
+      "path": "code/nuscene/samples/00022.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5046f4b6c4161ac1a40f01f48ff78e443d4c2e1e",
+      "size": 124937,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/5046f4b6c4161ac1a40f01f48ff78e443d4c2e1e"
+    },
+    {
+      "path": "code/nuscene/samples/00023.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42bf3d36869a0a808ea056d9084aaab4ba030cb8",
+      "size": 105649,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/42bf3d36869a0a808ea056d9084aaab4ba030cb8"
+    },
+    {
+      "path": "code/nuscene/samples/00024.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5c030c2a4466622a365b87b5b8088747085b3e4",
+      "size": 212018,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/f5c030c2a4466622a365b87b5b8088747085b3e4"
+    },
+    {
+      "path": "code/nuscene/samples/00025.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05999a35f9e05a1e35c69349c49c28cbeeaa6517",
+      "size": 119929,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/05999a35f9e05a1e35c69349c49c28cbeeaa6517"
+    },
+    {
+      "path": "code/nuscene/samples/00026.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd257205346222441e191b0f4f7f92c98ac4b69b",
+      "size": 133967,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/fd257205346222441e191b0f4f7f92c98ac4b69b"
+    },
+    {
+      "path": "code/nuscene/samples/00027.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81359398e113cb115b27377dbfe8bcba72936678",
+      "size": 155147,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/81359398e113cb115b27377dbfe8bcba72936678"
+    },
+    {
+      "path": "code/nuscene/samples/00028.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf17c25f04f15ddb71d38c106b66a853fc9d79ab",
+      "size": 177718,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/cf17c25f04f15ddb71d38c106b66a853fc9d79ab"
+    },
+    {
+      "path": "code/nuscene/samples/00029.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e3b6513d80912200640afe4ee383f59967d9328",
+      "size": 123936,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/1e3b6513d80912200640afe4ee383f59967d9328"
+    },
+    {
+      "path": "code/nuscene/samples/00030.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5929ed6d8d2669c5d16d85869841b1fb470bb866",
+      "size": 118003,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/5929ed6d8d2669c5d16d85869841b1fb470bb866"
+    },
+    {
+      "path": "code/nuscene/samples/00031.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7dec9b938e48c5d5e041d5bd540162d743bfc4f8",
+      "size": 313480,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/7dec9b938e48c5d5e041d5bd540162d743bfc4f8"
+    },
+    {
+      "path": "code/nuscene/samples/00032.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05d55da28f4fe367313a5f54c4648b8faf853ec3",
+      "size": 125806,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/05d55da28f4fe367313a5f54c4648b8faf853ec3"
+    },
+    {
+      "path": "code/nuscene/samples/00033.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3d71a6f25b52f1f7d74589b3263b59aceb82fef",
+      "size": 119641,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/e3d71a6f25b52f1f7d74589b3263b59aceb82fef"
+    },
+    {
+      "path": "code/nuscene/samples/00034.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "384f861ec2f824858e2a2e6328bd1c6aa7985bd8",
+      "size": 126688,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/384f861ec2f824858e2a2e6328bd1c6aa7985bd8"
+    },
+    {
+      "path": "code/nuscene/samples/00035.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fae829cced7dca2a096d71c39ccce1b1d513c727",
+      "size": 137581,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/fae829cced7dca2a096d71c39ccce1b1d513c727"
+    },
+    {
+      "path": "code/nuscene/samples/00036.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30ca6277b7f7e751b503bbd4db4ad3cb29102e44",
+      "size": 123734,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/30ca6277b7f7e751b503bbd4db4ad3cb29102e44"
+    },
+    {
+      "path": "code/nuscene/samples/00037.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50900004a3dc0c080b85014e802dea37c24d2e79",
+      "size": 153717,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/50900004a3dc0c080b85014e802dea37c24d2e79"
+    },
+    {
+      "path": "code/nuscene/samples/00038.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32c3bd240e411e41730bffc445b0dd2b1748bd7c",
+      "size": 264611,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/32c3bd240e411e41730bffc445b0dd2b1748bd7c"
+    },
+    {
+      "path": "code/nuscene/samples/00039.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca9846e886df3dcc060fd667bffbbf7c7248ba15",
+      "size": 104946,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/ca9846e886df3dcc060fd667bffbbf7c7248ba15"
+    },
+    {
+      "path": "code/nuscene/samples/00040.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f49d0a0a2919f6291532b1936bd1dd01378d0e2",
+      "size": 138759,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/8f49d0a0a2919f6291532b1936bd1dd01378d0e2"
+    },
+    {
+      "path": "code/nuscene/samples/00041.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac9ca965660f5091631638ecd0e213ec752e953d",
+      "size": 165771,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/ac9ca965660f5091631638ecd0e213ec752e953d"
+    },
+    {
+      "path": "code/nuscene/samples/00042.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44bda7adf6de4ecd12f44a6fc21c54bd6e19d7ac",
+      "size": 128408,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/44bda7adf6de4ecd12f44a6fc21c54bd6e19d7ac"
+    },
+    {
+      "path": "code/nuscene/samples/00043.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e175cf07e921253513d604c45a0ae16558f13b8",
+      "size": 114101,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/5e175cf07e921253513d604c45a0ae16558f13b8"
+    },
+    {
+      "path": "code/nuscene/samples/00044.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf40e5faacad8a64d7100c1857120cb5c7c4b4b4",
+      "size": 295056,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/cf40e5faacad8a64d7100c1857120cb5c7c4b4b4"
+    },
+    {
+      "path": "code/nuscene/samples/00045.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d452344de86b0d5add26c849b80e165990a60c36",
+      "size": 172851,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/d452344de86b0d5add26c849b80e165990a60c36"
+    },
+    {
+      "path": "code/nuscene/samples/00046.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad754bfbb6848c8e2987582e7798dbe3f5aae1be",
+      "size": 251521,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/ad754bfbb6848c8e2987582e7798dbe3f5aae1be"
+    },
+    {
+      "path": "code/nuscene/samples/00047.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "185429a0f5e61c625ff53079fd71cc811bfd7b08",
+      "size": 94624,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/185429a0f5e61c625ff53079fd71cc811bfd7b08"
+    },
+    {
+      "path": "code/nuscene/samples/00048.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55db9141d894ad5483a8b626f0daa6f92a678998",
+      "size": 164224,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/55db9141d894ad5483a8b626f0daa6f92a678998"
+    },
+    {
+      "path": "code/nuscene/samples/00049.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec678d282396ae1fc9e24fa776a665a79671c5e1",
+      "size": 165346,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/ec678d282396ae1fc9e24fa776a665a79671c5e1"
+    },
+    {
+      "path": "code/nuscene/samples/00050.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "979bf260741fd308be0dd1db630e8fc362881267",
+      "size": 164895,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/979bf260741fd308be0dd1db630e8fc362881267"
+    },
+    {
+      "path": "code/nuscene/samples/00051.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8f33ee28e6ec34b462fbbcfccaee28a82eae2ef",
+      "size": 268745,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/c8f33ee28e6ec34b462fbbcfccaee28a82eae2ef"
+    },
+    {
+      "path": "code/nuscene/samples/00052.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "485195c946110776eea51802951d62f9544c7d64",
+      "size": 133792,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/485195c946110776eea51802951d62f9544c7d64"
+    },
+    {
+      "path": "code/nuscene/samples/00053.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a8d9498ba5a0532ca3455670674689e265a963e",
+      "size": 120919,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/5a8d9498ba5a0532ca3455670674689e265a963e"
+    },
+    {
+      "path": "code/nuscene/samples/00054.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bafd4ee1c0c49466690b131d3886e168d3a6e4fd",
+      "size": 130782,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/bafd4ee1c0c49466690b131d3886e168d3a6e4fd"
+    },
+    {
+      "path": "code/nuscene/samples/00055.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4be9c2856ad3a859ebddafbe315608bb9d679778",
+      "size": 131102,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/4be9c2856ad3a859ebddafbe315608bb9d679778"
+    },
+    {
+      "path": "code/nuscene/samples/00056.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8aa30362eb605e6cd918d37280b74e4f03bcf41",
+      "size": 170421,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/b8aa30362eb605e6cd918d37280b74e4f03bcf41"
+    },
+    {
+      "path": "code/nuscene/samples/00057.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "243b4f4cc082d61ae075b141ab443ef8fe5c2225",
+      "size": 111551,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/243b4f4cc082d61ae075b141ab443ef8fe5c2225"
+    },
+    {
+      "path": "code/nuscene/samples/00058.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a581a0646a766db9793120e13a99428541a4a93a",
+      "size": 226500,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/a581a0646a766db9793120e13a99428541a4a93a"
+    },
+    {
+      "path": "code/nuscene/samples/00059.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff7b7f373662898d29cb0aa8035f49bf00b6b89c",
+      "size": 125665,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/ff7b7f373662898d29cb0aa8035f49bf00b6b89c"
+    },
+    {
+      "path": "code/nuscene/samples/00060.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "246325b7c7f3b46594c8367c63b080dc4abae788",
+      "size": 166025,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/246325b7c7f3b46594c8367c63b080dc4abae788"
+    },
+    {
+      "path": "code/nuscene/samples/00061.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d44d7c50444a6bc7868546dc66a625bd50215ec",
+      "size": 157824,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/2d44d7c50444a6bc7868546dc66a625bd50215ec"
+    },
+    {
+      "path": "code/nuscene/samples/00062.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "879c0b92b8c081eeee9744ac7477ba75b7310834",
+      "size": 155161,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/879c0b92b8c081eeee9744ac7477ba75b7310834"
+    },
+    {
+      "path": "code/nuscene/samples/00063.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd983018b595cd71848316f7b14c9d52fed92aa9",
+      "size": 78053,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/bd983018b595cd71848316f7b14c9d52fed92aa9"
+    },
+    {
+      "path": "code/nuscene/samples/00064.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bdfe9dd8672a3c8532f2c3d436eff862fa5e2fc",
+      "size": 98279,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/4bdfe9dd8672a3c8532f2c3d436eff862fa5e2fc"
+    },
+    {
+      "path": "code/nuscene/samples/00065.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b1922e895f0704883ad52f71307d0dade9e13cb",
+      "size": 146305,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/2b1922e895f0704883ad52f71307d0dade9e13cb"
+    },
+    {
+      "path": "code/nuscene/samples/00066.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ea76d339ff268597433da85c5f14eb1c6d35029",
+      "size": 110328,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/9ea76d339ff268597433da85c5f14eb1c6d35029"
+    },
+    {
+      "path": "code/nuscene/samples/00067.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "842235ce941a4c98aee70a46b48259311c9cbbec",
+      "size": 124738,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/842235ce941a4c98aee70a46b48259311c9cbbec"
+    },
+    {
+      "path": "code/nuscene/samples/00068.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "703ffd3a7f13831dfa26c04f90ce30c3c873e7d0",
+      "size": 173038,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/703ffd3a7f13831dfa26c04f90ce30c3c873e7d0"
+    },
+    {
+      "path": "code/nuscene/samples/00069.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e4e689b6ae972327eb565ab51ae6c539484caa4",
+      "size": 114260,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/5e4e689b6ae972327eb565ab51ae6c539484caa4"
+    },
+    {
+      "path": "code/nuscene/samples/00070.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccf5029973bd145aa354631dad0123b3ed918092",
+      "size": 147337,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/ccf5029973bd145aa354631dad0123b3ed918092"
+    },
+    {
+      "path": "code/nuscene/samples/00071.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99e49d3e4a746d830b6984cabc0d4857fe8d17b8",
+      "size": 155103,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/99e49d3e4a746d830b6984cabc0d4857fe8d17b8"
+    },
+    {
+      "path": "code/nuscene/samples/00072.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f9a6a4563cde4ed7211b5bbdb9a8c1f60b1b0e6",
+      "size": 147547,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/9f9a6a4563cde4ed7211b5bbdb9a8c1f60b1b0e6"
+    },
+    {
+      "path": "code/nuscene/samples/00073.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5a094e4ac14a298c4a8eccbceccaeb03f4a0b7d",
+      "size": 249076,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/d5a094e4ac14a298c4a8eccbceccaeb03f4a0b7d"
+    },
+    {
+      "path": "code/nuscene/samples/00074.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94ef1ff28e5515c9cf74cf96a7a69d6f8e587ac4",
+      "size": 163967,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/94ef1ff28e5515c9cf74cf96a7a69d6f8e587ac4"
+    },
+    {
+      "path": "code/nuscene/samples/00075.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b7ab49bd6f529a08ea38e0174bb41a86becf5a9",
+      "size": 137122,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/0b7ab49bd6f529a08ea38e0174bb41a86becf5a9"
+    },
+    {
+      "path": "code/nuscene/samples/00076.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee4b1b7ae1ac47cbc2794016362c20cde454b9b9",
+      "size": 162693,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/ee4b1b7ae1ac47cbc2794016362c20cde454b9b9"
+    },
+    {
+      "path": "code/nuscene/samples/00077.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfcc51cb2df72b028bdc6c07b4195e3a931f8f3e",
+      "size": 124995,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/cfcc51cb2df72b028bdc6c07b4195e3a931f8f3e"
+    },
+    {
+      "path": "code/nuscene/samples/00078.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c665b5885c84c9be177da0afccfbe51ccf08fb7c",
+      "size": 105743,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/c665b5885c84c9be177da0afccfbe51ccf08fb7c"
+    },
+    {
+      "path": "code/nuscene/samples/00079.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88bae4b60813613fafd461bd156b8a5e770993df",
+      "size": 121529,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/88bae4b60813613fafd461bd156b8a5e770993df"
+    },
+    {
+      "path": "code/nuscene/samples/00080.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "869bb9799e4d6a60e85041439fb3282362fb5275",
+      "size": 126971,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/869bb9799e4d6a60e85041439fb3282362fb5275"
+    },
+    {
+      "path": "code/nuscene/samples/00081.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d2b705d2f8f951a97b97d3e1ba096247afb9e1c",
+      "size": 115413,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/6d2b705d2f8f951a97b97d3e1ba096247afb9e1c"
+    },
+    {
+      "path": "code/nuscene/samples/00082.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acbbe64617d244089cd570e41f4c2162a9fc1d8f",
+      "size": 123942,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/acbbe64617d244089cd570e41f4c2162a9fc1d8f"
+    },
+    {
+      "path": "code/nuscene/samples/00083.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffd5aad00e222f0ee00ce1809baac8c82aaa08d1",
+      "size": 167972,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/ffd5aad00e222f0ee00ce1809baac8c82aaa08d1"
+    },
+    {
+      "path": "code/nuscene/samples/00084.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46cad6fd0f78290af46ce6bf3e690e8b1b28b6fd",
+      "size": 111400,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/46cad6fd0f78290af46ce6bf3e690e8b1b28b6fd"
+    },
+    {
+      "path": "code/nuscene/samples/00085.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "119712b1f777f81718ca4ac44053d932cbe3fe44",
+      "size": 111300,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/119712b1f777f81718ca4ac44053d932cbe3fe44"
+    },
+    {
+      "path": "code/nuscene/samples/00086.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d44fb9f45e1ca5f7eb35fe2d8bb04f492fde88b",
+      "size": 115768,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/9d44fb9f45e1ca5f7eb35fe2d8bb04f492fde88b"
+    },
+    {
+      "path": "code/nuscene/samples/00087.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "801f303a83e14116a7e4ed3decff480c66498021",
+      "size": 275967,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/801f303a83e14116a7e4ed3decff480c66498021"
+    },
+    {
+      "path": "code/nuscene/samples/00088.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1c017b84ddaaba096f56f9c8ed56c0379a81efb",
+      "size": 225305,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/f1c017b84ddaaba096f56f9c8ed56c0379a81efb"
+    },
+    {
+      "path": "code/nuscene/samples/00089.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73ade1e05c3ba5975f074acd2bf124ececedd32d",
+      "size": 123353,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/73ade1e05c3ba5975f074acd2bf124ececedd32d"
+    },
+    {
+      "path": "code/nuscene/samples/00090.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67c1ed7f8e95044577e0af0a4e95cf33091fa4b3",
+      "size": 271873,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/67c1ed7f8e95044577e0af0a4e95cf33091fa4b3"
+    },
+    {
+      "path": "code/nuscene/samples/00091.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40fe9dabd0c91a8bf78ae7c12a1e38fad18b4c68",
+      "size": 251212,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/40fe9dabd0c91a8bf78ae7c12a1e38fad18b4c68"
+    },
+    {
+      "path": "code/nuscene/samples/00092.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3334f3db7afca560d30b63efae4b070dfd2b5d2f",
+      "size": 92235,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/3334f3db7afca560d30b63efae4b070dfd2b5d2f"
+    },
+    {
+      "path": "code/nuscene/samples/00093.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e319e28bf8a1f8fd978b1d8b9e9536c26cd0370",
+      "size": 109204,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/7e319e28bf8a1f8fd978b1d8b9e9536c26cd0370"
+    },
+    {
+      "path": "code/nuscene/samples/00094.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "317f6c198a7c47165d7b0783ab7039c239611edc",
+      "size": 165902,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/317f6c198a7c47165d7b0783ab7039c239611edc"
+    },
+    {
+      "path": "code/nuscene/samples/00095.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "072d302bcd1266c2cc06e66823d6ae5ad836ff6c",
+      "size": 77044,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/072d302bcd1266c2cc06e66823d6ae5ad836ff6c"
+    },
+    {
+      "path": "code/nuscene/samples/00096.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "289f405eb31d341c0ff301068aa52d9aeb3111d4",
+      "size": 101947,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/289f405eb31d341c0ff301068aa52d9aeb3111d4"
+    },
+    {
+      "path": "code/nuscene/samples/00097.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24d97881e34074043cb6e4de286b6fa8c97eed7c",
+      "size": 79231,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/24d97881e34074043cb6e4de286b6fa8c97eed7c"
+    },
+    {
+      "path": "code/nuscene/samples/00098.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e24bd66b7e6c4531046ffa9a032a8bfd41eb1e48",
+      "size": 137415,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/e24bd66b7e6c4531046ffa9a032a8bfd41eb1e48"
+    },
+    {
+      "path": "code/nuscene/samples/00099.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee2329b5571106d661f0042462592a0c27107332",
+      "size": 164420,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/ee2329b5571106d661f0042462592a0c27107332"
+    },
+    {
+      "path": "code/nuscene/samples/00100.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2a3ac829858edde4421d095a965484151b7c0ee",
+      "size": 148238,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/d2a3ac829858edde4421d095a965484151b7c0ee"
+    },
+    {
+      "path": "code/readme.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d8cc3bbcb6e6a2c066044efcf8a2b74c31eaf64",
+      "size": 1585,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/5d8cc3bbcb6e6a2c066044efcf8a2b74c31eaf64"
+    },
+    {
+      "path": "code/som_gpt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45b5a05580ca52253c30867d064d9b09a5ff45ed",
+      "size": 6078,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/45b5a05580ca52253c30867d064d9b09a5ff45ed"
+    },
+    {
+      "path": "code/surrogates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "38d4497fb80ffdd3f57859a225fcca41b7f31873",
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/trees/38d4497fb80ffdd3f57859a225fcca41b7f31873"
+    },
+    {
+      "path": "code/surrogates/FeatureExtractors",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3826f2b30f7b44313bc89e24aa5ca1a63860b4c3",
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/trees/3826f2b30f7b44313bc89e24aa5ca1a63860b4c3"
+    },
+    {
+      "path": "code/surrogates/FeatureExtractors/Base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "443034a7ba1a40007cc8bc9fccb875775a8ea447",
+      "size": 11967,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/443034a7ba1a40007cc8bc9fccb875775a8ea447"
+    },
+    {
+      "path": "code/surrogates/FeatureExtractors/ClipB16.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71ceb2ab784a55f08cb9bbb7c3a61249ed7d55cd",
+      "size": 2481,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/71ceb2ab784a55f08cb9bbb7c3a61249ed7d55cd"
+    },
+    {
+      "path": "code/surrogates/FeatureExtractors/ClipB32.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26bb4f5a2636e25d9cabb910af9c562cf5f0ba3f",
+      "size": 2511,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/26bb4f5a2636e25d9cabb910af9c562cf5f0ba3f"
+    },
+    {
+      "path": "code/surrogates/FeatureExtractors/ClipLaion.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6eff348872c40fc8658d74f944168b561a316b7",
+      "size": 2533,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/a6eff348872c40fc8658d74f944168b561a316b7"
+    },
+    {
+      "path": "code/surrogates/FeatureExtractors/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c345072602d279b62715e4fd31e8d765a85bab15",
+      "size": 291,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/c345072602d279b62715e4fd31e8d765a85bab15"
+    },
+    {
+      "path": "code/surrogates/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06843061b17bf34a5a00ad7c719bbb9498ec44de",
+      "size": 225,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/06843061b17bf34a5a00ad7c719bbb9498ec44de"
+    },
+    {
+      "path": "code/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a9a49b873df637450ed2529a346cc52c0eb7430",
+      "size": 15968,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/0a9a49b873df637450ed2529a346cc52c0eb7430"
+    },
+    {
+      "path": "code/vlm_response.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "800f97eb272ba6d418febdee9081736b2df61d12",
+      "size": 2826,
+      "url": "https://api.github.com/repos/gq-max/physpatch/git/blobs/800f97eb272ba6d418febdee9081736b2df61d12"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "method": "nap",
+  "source": "yolov5m",
+  "attack_artifacts": 2,
+  "recolor_audits": [],
+  "created_utc": "2026-09-12T11:22:46.296279+00:00"
+}

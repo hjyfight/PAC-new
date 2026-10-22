@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "method": "nap",
+  "source": "yolov5m",
+  "epochs": 1000,
+  "optimizer_steps": 77000,
+  "best_training_loss_epoch": 683,
+  "best_training_loss": 0.788129249950508,
+  "checkpoints": {
+    "best": {
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/tsea_nap_20260912/nap/yolov5m/patches/nap/best.pt",
+      "sha256": "3292007ad6e19ef4807358e25ca391b30872044d304e7c32b741cab88901d25c",
+      "min": 1.4729572512806044e-06,
+      "max": 0.9999985098838806,
+      "std": 0.3174611032009125
+    },
+    "last": {
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/tsea_nap_20260912/nap/yolov5m/patches/nap/last.pt",
+      "sha256": "c99d5de3080e3cede56dba50bd27fa754afdc062621053c8222268deab4dd292",
+      "min": 1.4729572512806044e-06,
+      "max": 0.9999985098838806,
+      "std": 0.31746095418930054
+    }
+  },
+  "training_summary": {
+    "requested_epochs": 1000,
+    "completed_epochs": 1000,
+    "optimizer_steps": 77000,
+    "stop_reason": "epoch_limit",
+    "checkpoint_selection": "minimum epoch-mean training total loss",
+    "best_training_loss_epoch": 683,
+    "best_training_loss": 0.788129249950508,
+    "early_stopping": false,
+    "detector": "yolov5m",
+    "peak_cuda_reserved_mib": 6120.0,
+    "test_used_during_training": false,
+    "training_seconds": 4819.975956143986,
+    "method": "NAP-BigGAN (shared PAC protocol)",
+    "native_texture_size": 128,
+    "class_index": 259,
+    "latent_size": 120,
+    "latent_limit": 10,
+    "latent_round_decimals": 4,
+    "tv_weight": 0.1,
+    "tv_floor": null,
+    "nps_weight": 0,
+    "optimizer": "Adam AMSGrad, betas=(.5,.999)",
+    "lr_schedule": "ReduceLROnPlateau on detection loss, patience=50",
+    "generator_weights": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/tsea_nap_20260912/weights/NAP_BigGAN_G_ema.pth",
+    "generator_frozen": true,
+    "detector_confidence": "peak objectness * person probability",
+    "adaptations": "common square 300 texture, GT center/area, input640, batch8; YOLOv5 uses YOLO LR=.005"
+  },
+  "physical_gpu": 7,
+  "early_stopping": false,
+  "test_used_during_training": false,
+  "completed_utc": "2026-09-12T11:22:46.277556+00:00"
+}

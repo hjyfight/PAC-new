@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checkpoint_sha256": "bb27f8379b9b31f5bf7e02de674bdb0cf9a71b28deb795870ff73f42bcf385c3",
+  "gallery_png_matches": true,
+  "quantization": "numpy float64 round-to-nearest RGB*255, exactly as original gallery exporter",
+  "max_quantization_error": 0.001960781041313586,
+  "five_image_pilot_uses_same_checkpoint": true,
+  "paper_original_artifact_available": false,
+  "user_clarification": "User has only the paper screenshot, not the original patch PNG/tensor or training records.",
+  "paper_figure_linked_to_old_quality_table": false,
+  "figure_crop_used_for_metrics": false
+}

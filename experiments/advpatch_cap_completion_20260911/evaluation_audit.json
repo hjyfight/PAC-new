@@ -1,0 +1,225 @@
+{
+  "passed": true,
+  "completed_utc": "2026-09-11T14:01:47.641563+00:00",
+  "attack_cells": 216,
+  "new_evaluation_records": 198,
+  "new_attack_records": 162,
+  "reused_attack_records": 54,
+  "clean_replays": 36,
+  "source_trainings_completed": 5,
+  "epochs_per_new_source": 200,
+  "optimizer_steps_per_new_source": 15400,
+  "source_and_target_weights_verified": true,
+  "dataset_hashes_unchanged": true,
+  "independently_recomputed_means": [
+    {
+      "method": "AdvPatch",
+      "whitebox_mean": 19.334197781429268,
+      "blackbox_mean": 44.6345278747468,
+      "whitebox_cells": 6,
+      "blackbox_cells": 30
+    },
+    {
+      "method": "PAC-P1",
+      "whitebox_mean": 27.371629882607177,
+      "blackbox_mean": 46.99282511906382,
+      "whitebox_cells": 6,
+      "blackbox_cells": 30
+    },
+    {
+      "method": "PAC-P2",
+      "whitebox_mean": 23.553829265763355,
+      "blackbox_mean": 45.2476262751169,
+      "whitebox_cells": 6,
+      "blackbox_cells": 30
+    },
+    {
+      "method": "CAP",
+      "whitebox_mean": 30.454500782219082,
+      "blackbox_mean": 44.411947252217296,
+      "whitebox_cells": 6,
+      "blackbox_cells": 30
+    },
+    {
+      "method": "PAC(CAP, Bc1)",
+      "whitebox_mean": 35.50388055455444,
+      "blackbox_mean": 46.25131875182244,
+      "whitebox_cells": 6,
+      "blackbox_cells": 30
+    },
+    {
+      "method": "PAC(CAP, Bc2)",
+      "whitebox_mean": 36.02535006806964,
+      "blackbox_mean": 45.72296215289183,
+      "whitebox_cells": 6,
+      "blackbox_cells": 30
+    }
+  ],
+  "recolor_checks": [
+    {
+      "source": "yolov2",
+      "raw": "advpatch",
+      "recolor": "p1",
+      "max_absolute_error": 8.251152783245175e-08
+    },
+    {
+      "source": "yolov2",
+      "raw": "advpatch",
+      "recolor": "p2",
+      "max_absolute_error": 1.1500190288948886e-07
+    },
+    {
+      "source": "yolov2",
+      "raw": "cap",
+      "recolor": "cap_bc1",
+      "max_absolute_error": 7.923911593543664e-08
+    },
+    {
+      "source": "yolov2",
+      "raw": "cap",
+      "recolor": "cap_bc2",
+      "max_absolute_error": 1.0985954146391919e-07
+    },
+    {
+      "source": "yolov3",
+      "raw": "advpatch",
+      "recolor": "p1",
+      "max_absolute_error": 7.947285962650597e-08
+    },
+    {
+      "source": "yolov3",
+      "raw": "advpatch",
+      "recolor": "p2",
+      "max_absolute_error": 1.0074353684608184e-07
+    },
+    {
+      "source": "yolov3",
+      "raw": "cap",
+      "recolor": "cap_bc1",
+      "max_absolute_error": 7.830414117115936e-08
+    },
+    {
+      "source": "yolov3",
+      "raw": "cap",
+      "recolor": "cap_bc2",
+      "max_absolute_error": 1.0284723017672803e-07
+    },
+    {
+      "source": "yolov4",
+      "raw": "advpatch",
+      "recolor": "p1",
+      "max_absolute_error": 8.08753218839442e-08
+    },
+    {
+      "source": "yolov4",
+      "raw": "advpatch",
+      "recolor": "p2",
+      "max_absolute_error": 1.0167851161035912e-07
+    },
+    {
+      "source": "yolov4",
+      "raw": "cap",
+      "recolor": "cap_bc1",
+      "max_absolute_error": 8.461522127412024e-08
+    },
+    {
+      "source": "yolov4",
+      "raw": "cap",
+      "recolor": "cap_bc2",
+      "max_absolute_error": 1.0308097386779735e-07
+    },
+    {
+      "source": "yolov5s",
+      "raw": "advpatch",
+      "recolor": "p1",
+      "max_absolute_error": 8.321275890565971e-08
+    },
+    {
+      "source": "yolov5s",
+      "raw": "advpatch",
+      "recolor": "p2",
+      "max_absolute_error": 1.0004230577287387e-07
+    },
+    {
+      "source": "yolov5s",
+      "raw": "cap",
+      "recolor": "cap_bc1",
+      "max_absolute_error": 7.830414117115936e-08
+    },
+    {
+      "source": "yolov5s",
+      "raw": "cap",
+      "recolor": "cap_bc2",
+      "max_absolute_error": 1.0121102422822048e-07
+    },
+    {
+      "source": "yolov5m",
+      "raw": "advpatch",
+      "recolor": "p1",
+      "max_absolute_error": 8.321275890565971e-08
+    },
+    {
+      "source": "yolov5m",
+      "raw": "advpatch",
+      "recolor": "p2",
+      "max_absolute_error": 1.03548461249936e-07
+    },
+    {
+      "source": "yolov5m",
+      "raw": "cap",
+      "recolor": "cap_bc1",
+      "max_absolute_error": 7.923911593543664e-08
+    },
+    {
+      "source": "yolov5m",
+      "raw": "cap",
+      "recolor": "cap_bc2",
+      "max_absolute_error": 1.0214599910352007e-07
+    },
+    {
+      "source": "fasterrcnn",
+      "raw": "advpatch",
+      "recolor": "p1",
+      "max_absolute_error": 8.47320931196549e-08
+    },
+    {
+      "source": "fasterrcnn",
+      "raw": "advpatch",
+      "recolor": "p2",
+      "max_absolute_error": 9.957481827971293e-08
+    },
+    {
+      "source": "fasterrcnn",
+      "raw": "cap",
+      "recolor": "cap_bc1",
+      "max_absolute_error": 7.316177963456738e-08
+    },
+    {
+      "source": "fasterrcnn",
+      "raw": "cap",
+      "recolor": "cap_bc2",
+      "max_absolute_error": 8.134280926608284e-08
+    }
+  ],
+  "max_formula_error": 1.1500190288948886e-07,
+  "test_status": {
+    "passed": true,
+    "tests_run": 11,
+    "tests_passed": 10,
+    "failures": 0,
+    "errors": 0,
+    "skipped": [
+      {
+        "test": "test_tv_matches_released_advreal_function (test_advreal2d.AdvReal2DTests)",
+        "reason": "External AdvReal reference loss.py is absent; shared TV implementation is unchanged"
+      }
+    ],
+    "runner": "Python unittest",
+    "test_files": [
+      "tests/test_patch.py",
+      "tests/test_advreal2d.py"
+    ]
+  },
+  "psnr_ssim_changed": false,
+  "export_script_sha256": "4d248bce9030694e639f8f8740dc39543f9bd2434e4b7fcdff7b7db9c8e12ad4"
+}

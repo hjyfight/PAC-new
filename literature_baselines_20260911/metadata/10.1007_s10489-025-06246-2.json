@@ -1,0 +1,636 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        7,
+        24
+      ]
+    ],
+    "date-time": "2026-07-24T00:07:07Z",
+    "timestamp": 1784851627746,
+    "version": "3.55.0"
+  },
+  "reference-count": 52,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "7",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            19
+          ]
+        ],
+        "date-time": "2025-02-19T00:00:00Z",
+        "timestamp": 1739923200000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            19
+          ]
+        ],
+        "date-time": "2025-02-19T00:00:00Z",
+        "timestamp": 1739923200000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100001809",
+      "name": "National Natural Science Foundation of China",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "62162067"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "62162067"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001809",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "name": "Yunnan Province expert workstations",
+      "award": [
+        "202305AF150078"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "202305AF150078"
+          ]
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "link.springer.com"
+    ],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Appl Intell"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2025,
+        5
+      ]
+    ]
+  },
+  "DOI": "10.1007/s10489-025-06246-2",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2025,
+        2,
+        19
+      ]
+    ],
+    "date-time": "2025-02-19T05:12:14Z",
+    "timestamp": 1739941934000
+  },
+  "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 1,
+  "title": [
+    "IPAttack: imperceptible adversarial patch to attack object detectors"
+  ],
+  "prefix": "10.1007",
+  "volume": "55",
+  "author": [
+    {
+      "given": "Yongming",
+      "family": "Wen",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Peiyuan",
+      "family": "Si",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Wei",
+      "family": "Zhou",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Zongheng",
+      "family": "Zhao",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Chao",
+      "family": "Yi",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Renyang",
+      "family": "Liu",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "297",
+  "published-online": {
+    "date-parts": [
+      [
+        2025,
+        2,
+        19
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "6246_CR1",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Farfade SS, Saberian MJ, Li L-J (2015) Multi-view face detection using deep convolutional neural networks. In: ICMR pp 643–650. https://doi.org/10.1145/2671188.2749408",
+      "DOI": "10.1145/2671188.2749408"
+    },
+    {
+      "key": "6246_CR2",
+      "unstructured": "Sun Y, Liang D, Wang X, Tang X (2015) Deepid3: face recognition with very deep neural networks. arXiv:1502.00873"
+    },
+    {
+      "key": "6246_CR3",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Bajpai S, Mishra G, Jain R, Jain DK, Saini D, Hussain A (2025) Ri-l1a pprox: a novel resnet-inception-based fast l1-approximation method for face recognition. Neurocomputing. https://doi.org/10.1016/J.NEUCOM.2024.128708",
+      "DOI": "10.1016/J.NEUCOM.2024.128708"
+    },
+    {
+      "key": "6246_CR4",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Gim T, Sohn K (2024) Regularization using noise samples identified by the feature norm for face recognition. IEEE Access. https://doi.org/10.1109/ACCESS.2024.3453030",
+      "DOI": "10.1109/ACCESS.2024.3453030"
+    },
+    {
+      "key": "6246_CR5",
+      "unstructured": "Simonyan K, Zisserman A (2014) Very deep convolutional networks for large-scale image recognition. arXiv:1409.1556"
+    },
+    {
+      "key": "6246_CR6",
+      "doi-asserted-by": "crossref",
+      "unstructured": "He K, Zhang X, Ren S, Sun J (2016) Deep residual learning for image recognition. In: CVPR pp 770–778",
+      "DOI": "10.1109/CVPR.2016.90"
+    },
+    {
+      "key": "6246_CR7",
+      "unstructured": "Bochkovskiy A, Wang C-Y, Liao H-YM (2020) Yolov4: optimal speed and accuracy of object detection. arXiv:2004.10934"
+    },
+    {
+      "key": "6246_CR8",
+      "unstructured": "Ren S, He K, Girshick R, Sun J (2015) Faster r-cnn: towards real-time object detection with region proposal networks. NeurIPS,"
+    },
+    {
+      "key": "6246_CR9",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Zhang G, Chen J, Gao G, Li J, Liu S, Hu X (2024) Safdnet: a simple and effective network for fully sparse 3d object detection. In: CVPR pp 14477–14486. https://doi.org/10.1109/CVPR52733.2024.01372",
+      "DOI": "10.1109/CVPR52733.2024.01372"
+    },
+    {
+      "key": "6246_CR10",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Kim J, Cho H, Kim J, Tiruneh YY, Baek S (2024) SDDGR: stable diffusion-based deep generative replay for class incremental object detection. In: CVPR. https://doi.org/10.1109/CVPR52733.2024.02718",
+      "DOI": "10.1109/CVPR52733.2024.02718"
+    },
+    {
+      "key": "6246_CR11",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Zhou Z, Rahman Siddiquee MM, Tajbakhsh N, Liang J (2018) Unet++: a nested u-net architecture for medical image segmentation. In: MICCAI pp 3–11. https://doi.org/10.1007/978-3-030-00889-5_1",
+      "DOI": "10.1007/978-3-030-00889-5_1"
+    },
+    {
+      "key": "6246_CR12",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Nirkin,Y, Wolf L, Hassner T (2021) Hyperseg: patch-wise hypernetwork for real-time semantic segmentation. In: CVPR pp 4061–4070. https://doi.org/10.1109/CVPR46437.2021.00405",
+      "DOI": "10.1109/CVPR46437.2021.00405"
+    },
+    {
+      "key": "6246_CR13",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Fan X, Wang X, Gao J, Wang J, Luo Z, Liu R (2024) Bi-level learning of task-specific decoders for joint registration and one-shot medical image segmentation. In: CVPR. https://doi.org/10.1109/CVPR52733.2024.01114",
+      "DOI": "10.1109/CVPR52733.2024.01114"
+    },
+    {
+      "key": "6246_CR14",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Jiang S, Wu H, Chen J, Zhang Q, Qin J (2024) Ph-net: semi-supervised breast lesion segmentation via patch-wise hardness. In: IEEE/CVF conference on computer vision and pattern recognition, CVPR 2024, Seattle, WA, USA, June 16-22, 2024. https://doi.org/10.1109/CVPR52733.2024.01085",
+      "DOI": "10.1109/CVPR52733.2024.01085"
+    },
+    {
+      "key": "6246_CR15",
+      "unstructured": "Goodfellow IJ, Shlens J, Szegedy C (2015) Explaining and harnessing adversarial examples. In: ICLR"
+    },
+    {
+      "key": "6246_CR16",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Liu R, Zhang J, Li H, Zhang J, Wang Y, Zhou W (2023) AFLOW: developing adversarial examples under extremely noise-limited settings. In: ICICS, vol 14252, pp 502–518. https://doi.org/10.1007/978-981-99-7356-9_30",
+      "DOI": "10.1007/978-981-99-7356-9_30"
+    },
+    {
+      "key": "6246_CR17",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Li L, Guan H, Qiu J, Spratling MW (2024) One prompt word is enough to boost adversarial robustness for pre-trained vision-language models. In: IEEE/CVF conference on computer vision and pattern recognition, CVPR 2024, Seattle, WA, USA, June 16-22, 2024. https://doi.org/10.1109/CVPR52733.2024.02304",
+      "DOI": "10.1109/CVPR52733.2024.02304"
+    },
+    {
+      "key": "6246_CR18",
+      "unstructured": "Brown TB, Mané D, Roy A, Abadi M, Gilmer J (2017) Adversarial patch. arXiv:1712.09665"
+    },
+    {
+      "key": "6246_CR19",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Liu T, Yang C, Liu X, Han R, Ma J (2024) RPAU: fooling the eyes of uavs via physical adversarial patches. IEEE Trans Intell Transp Syst 2586–2598. https://doi.org/10.1109/TITS.2023.3317054",
+      "DOI": "10.1109/TITS.2023.3317054"
+    },
+    {
+      "key": "6246_CR20",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Guo F, Sun Z, Chen Y, Ju L (2023) Towards the universal defense for query-based audio adversarial attacks on speech recognition system. Cybersecurity 40. https://doi.org/10.1186/S42400-023-00177-6",
+      "DOI": "10.1186/S42400-023-00177-6"
+    },
+    {
+      "key": "6246_CR21",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Guo F, Sun Z, Chen Y, Ju L (2023) Towards the transferable audio adversarial attack via ensemble methods. Cybersecurity 44. https://doi.org/10.1186/S42400-023-00175-8",
+      "DOI": "10.1186/S42400-023-00175-8"
+    },
+    {
+      "key": "6246_CR22",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Chen T, Liu J, Xiang Y, Niu W, Tong E, Han Z (2019) Adversarial attack and defense in reinforcement learning-from AI security view. Cybersecurity 11. https://doi.org/10.1186/S42400-019-0027-X",
+      "DOI": "10.1186/S42400-019-0027-X"
+    },
+    {
+      "key": "6246_CR23",
+      "unstructured": "Dong Y, Su H, Zhu J, Bao F (2017) Towards interpretable deep neural networks by leveraging adversarial examples. arXiv:1708.05493"
+    },
+    {
+      "key": "6246_CR24",
+      "unstructured": "Pang T, Du C, Dong Y, Zhu J (2018) Towards robust detection of adversarial examples. In: NeurIPS, pp 4584–4594"
+    },
+    {
+      "key": "6246_CR25",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Wang J, Chang X, Wang Y, Rodríguez RJ, Zhang J (2021) LSGAN-AT: enhancing malware detector robustness against adversarial examples. Cybersecurity 38. https://doi.org/10.1186/S42400-021-00102-9",
+      "DOI": "10.1186/S42400-021-00102-9"
+    },
+    {
+      "key": "6246_CR26",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3390/A17040162",
+      "author": "R Garaev",
+      "year": "2024",
+      "unstructured": "Garaev R, Rasheed B, Khan AM (2024) Not so robust after all: evaluating the robustness of deep neural networks to unseen adversarial attacks. Algorithms. https://doi.org/10.3390/A17040162",
+      "journal-title": "Algorithms"
+    },
+    {
+      "key": "6246_CR27",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Mao J, Shi S, Wang X, Li H (2022) 3d object detection for autonomous driving: a review and new outlooks. arXiv:2206.09474",
+      "DOI": "10.1016/j.neucom.2021.11.048"
+    },
+    {
+      "key": "6246_CR28",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Xie C, Wang J, Zhang Z, Zhou Y, Xie L, Yuille AL (2017) Adversarial examples for semantic segmentation and object detection. In: ICCV, pp 1378–1387. https://doi.org/10.1109/ICCV.2017.153",
+      "DOI": "10.1109/ICCV.2017.153"
+    },
+    {
+      "key": "6246_CR29",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Wei X, Liang S, Chen N, Cao X (2018) Transferable adversarial attacks for image and video object detection. arXiv:1811.12641",
+      "DOI": "10.24963/ijcai.2019/134"
+    },
+    {
+      "key": "6246_CR30",
+      "unstructured": "Liang S, Wei X, Cao X (2021) Generate more imperceptible adversarial examples for object detection. In: ICML"
+    },
+    {
+      "key": "6246_CR31",
+      "unstructured": "Liu X, Yang H, Liu Z, Song L, Chen Y, Li H (2019) DPATCH: an adversarial patch attack on object detectors. In: AAAI"
+    },
+    {
+      "key": "6246_CR32",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Mirsky Y (2023) Ipatch: a remote adversarial patch. Cybersecurity 18",
+      "DOI": "10.1186/s42400-023-00145-0"
+    },
+    {
+      "key": "6246_CR33",
+      "unstructured": "Wu S, Dai T, Xia S-T (2020) Dpattack: diffused patch attacks against universal object detection. arXiv:2010.11679"
+    },
+    {
+      "key": "6246_CR34",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Huang H, Wang Y, Chen Z, Tang Z, Zhang W, Ma K (2021) Rpattack: refined patch attack on general object detectors. In: ICME, pp 1–6. https://doi.org/10.1109/ICME51207.2021.9428443",
+      "DOI": "10.1109/ICME51207.2021.9428443"
+    },
+    {
+      "key": "6246_CR35",
+      "unstructured": "Xiao C, Zhu J, Li B, He W, Liu M, Song D (2018) Spatially transformed adversarial examples. In: ICLR"
+    },
+    {
+      "key": "6246_CR36",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Liu R, Jin X, Hu D, Zhang J, Wang Y, Zhang J, Zhou W (2023) Dualflow: generating imperceptible adversarial examples by flow field and normalize flow-based model. Front Neurorobot. https://doi.org/10.3389/FNBOT.2023.1129720",
+      "DOI": "10.3389/FNBOT.2023.1129720"
+    },
+    {
+      "key": "6246_CR37",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Liu R, Zhou W, Wu S, Zhao J, Lam K-Y (2023) Ssta: salient spatially transformed attack. arXiv:2312.07258",
+      "DOI": "10.1109/ICASSP48485.2024.10447882"
+    },
+    {
+      "key": "6246_CR38",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Chattopadhay A, Sarkar A, Howlader P, Balasubramanian VN (2018) Grad-cam++: generalized gradient-based visual explanations for deep convolutional networks. In: WACV, pp 839–847. https://doi.org/10.1109/WACV.2018.00097",
+      "DOI": "10.1109/WACV.2018.00097"
+    },
+    {
+      "key": "6246_CR39",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Selvaraju RR, Cogswell M, Das A, Vedantam R, Parikh D, Batra D (2017) Grad-cam: visual explanations from deep networks via gradient-based localization. In: ICCV, pp 618–626. https://doi.org/10.1007/S11263-019-01228-7",
+      "DOI": "10.1007/S11263-019-01228-7"
+    },
+    {
+      "key": "6246_CR40",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Zhou B, Khosla A, Lapedriza A, Oliva A, Torralba A (2016) Learning deep features for discriminative localization. In: CVPR. https://doi.org/10.1109/CVPR.2016.319",
+      "DOI": "10.1109/CVPR.2016.319"
+    },
+    {
+      "key": "6246_CR41",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Neubeck A, Van Gool L (2006) Efficient non-maximum suppression. In: ICPR, pp 850–855",
+      "DOI": "10.1109/ICPR.2006.479"
+    },
+    {
+      "key": "6246_CR42",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Deng J, Dong W, Socher R, Li L-J, Li K, Fei-Fei L (2009) Imagenet: a large-scale hierarchical image database. In: CVPR, pp 248–255",
+      "DOI": "10.1109/CVPR.2009.5206848"
+    },
+    {
+      "key": "6246_CR43",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Liu W, Anguelov D, Erhan D, Szegedy C, Reed S, Fu C-Y, Berg AC (2016) Ssd: single shot multibox detector. In: ECCV, pp 21–37. https://doi.org/10.1007/978-3-319-46448-0_2",
+      "DOI": "10.1007/978-3-319-46448-0_2"
+    },
+    {
+      "key": "6246_CR44",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Girshick R, Donahue J, Darrell T, Malik J (2014) Rich feature hierarchies for accurate object detection and semantic segmentation. In: CVPR, pp 580–587. https://doi.org/10.1109/CVPR.2014.81",
+      "DOI": "10.1109/CVPR.2014.81"
+    },
+    {
+      "key": "6246_CR45",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Chindaudom A, Siritanawan P, Sumongkayothin K, Kotani K (2020) Adversarialqr: an adversarial patch in qr code format. In: ICIEV & icIVPR, pp 1–6",
+      "DOI": "10.1109/ICIEVicIVPR48672.2020.9306675"
+    },
+    {
+      "key": "6246_CR46",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Kurakin A, Goodfellow IJ, Bengio S (2017) Adversarial examples in the physical world. In: ICLR",
+      "DOI": "10.1201/9781351251389-8"
+    },
+    {
+      "key": "6246_CR47",
+      "unstructured": "Zhao Y, Yan H, Wei X (2020) Object hider: adversarial patch attack against object detectors. arXiv:2010.14974"
+    },
+    {
+      "key": "6246_CR48",
+      "unstructured": "Jaderberg M, Simonyan K, Zisserman A, et al (2015) Spatial transformer networks. NeurIPS"
+    },
+    {
+      "key": "6246_CR49",
+      "unstructured": "Kingma DP, Ba J (2014) Adam: a method for stochastic optimization. arXiv:1412.6980"
+    },
+    {
+      "key": "6246_CR50",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Lin T, Maire M, Belongie SJ, Hays J, Perona P, Ramanan D, Dollár P, Zitnick CL (2014) Microsoft COCO: common objects in context. In: ECCV, pp 740–755. https://doi.org/10.1007/978-3-319-10602-1_48",
+      "DOI": "10.1007/978-3-319-10602-1_48"
+    },
+    {
+      "key": "6246_CR51",
+      "unstructured": "Everingham M (2007) The pascal visual object classes challenge 2007 (voc2007) results. http://www.Pascal-network.org/challenges/VOC/voc2008/year=Workshop/index.Html"
+    },
+    {
+      "key": "6246_CR52",
+      "unstructured": "Everingham M, Van Gool L, Williams C, Winn J, Zisserman A (2012) The Pascal visual object classes challenge 2012 results, vol 5"
+    }
+  ],
+  "container-title": [
+    "Applied Intelligence"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://link.springer.com/content/pdf/10.1007/s10489-025-06246-2.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://link.springer.com/article/10.1007/s10489-025-06246-2/fulltext.html",
+      "content-type": "text/html",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://link.springer.com/content/pdf/10.1007/s10489-025-06246-2.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        9,
+        19
+      ]
+    ],
+    "date-time": "2025-09-19T19:37:57Z",
+    "timestamp": 1758310677000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://link.springer.com/10.1007/s10489-025-06246-2"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2025,
+        2,
+        19
+      ]
+    ]
+  },
+  "references-count": 52,
+  "journal-issue": {
+    "issue": "7",
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          5
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "6246"
+  ],
+  "URL": "https://doi.org/10.1007/s10489-025-06246-2",
+  "relation": {},
+  "ISSN": [
+    "0924-669X",
+    "1573-7497"
+  ],
+  "issn-type": [
+    {
+      "value": "0924-669X",
+      "type": "print"
+    },
+    {
+      "value": "1573-7497",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2025,
+        2,
+        19
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "30 December 2024",
+      "order": 1,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "19 February 2025",
+      "order": 2,
+      "name": "first_online",
+      "label": "First Online",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "order": 1,
+      "name": "Ethics",
+      "group": {
+        "name": "EthicsHeading",
+        "label": "Declarations"
+      }
+    },
+    {
+      "value": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.",
+      "order": 2,
+      "name": "Ethics",
+      "group": {
+        "name": "EthicsHeading",
+        "label": "Competing Interests"
+      }
+    },
+    {
+      "value": "This article does not contain any studies with human participants performed by any of the authors.",
+      "order": 3,
+      "name": "Ethics",
+      "group": {
+        "name": "EthicsHeading",
+        "label": "Ethical and informed consent for data used"
+      }
+    }
+  ],
+  "article-number": "462"
+}

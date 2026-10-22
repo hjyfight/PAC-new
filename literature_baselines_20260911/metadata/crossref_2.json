@@ -1,0 +1,4945 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 78596,
+    "items": [
+      {
+        "DOI": "10.1109/tcsvt.2026.3727098",
+        "title": [
+          "Focus Matters: Advancing Adversarial Patch Transferability through Contextual Perception and Gradient-Prior Masking"
+        ],
+        "container-title": [
+          "IEEE Transactions on Circuits and Systems for Video Technology"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tcsvt.2026.3727098",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/76/4358651/11664520.pdf?arnumber=11664520",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0007-1154-0300",
+            "authenticated-orcid": false,
+            "given": "Jingyu",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Chongqing University of Posts and Telecommunications",
+                "place": [
+                  "Chongqing, China"
+                ],
+                "department": [
+                  "School of Computer Science and Technology and Chongqing Key Laboratory of Image Cognition"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0008-0716-5509",
+            "authenticated-orcid": false,
+            "given": "Yang",
+            "family": "Wei",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Chongqing University of Posts and Telecommunications",
+                "place": [
+                  "Chongqing, China"
+                ],
+                "department": [
+                  "School of Artificial Intelligence and Chongqing Key Laboratory of Image Cognition"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1129-8036",
+            "authenticated-orcid": false,
+            "given": "Junhao",
+            "family": "Xiao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Chongqing University of Posts and Telecommunications",
+                "place": [
+                  "Chongqing, China"
+                ],
+                "department": [
+                  "School of Computer Science and Technology and Chongqing Key Laboratory of Image Cognition"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0005-1596-1802",
+            "authenticated-orcid": false,
+            "given": "Baoyue",
+            "family": "Hu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Chongqing University of Posts and Telecommunications",
+                "place": [
+                  "Chongqing, China"
+                ],
+                "department": [
+                  "School of Computer Science and Technology and Chongqing Key Laboratory of Image Cognition"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1682-5037",
+            "authenticated-orcid": false,
+            "given": "Yongchao",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Chongqing University of Posts and Telecommunications",
+                "place": [
+                  "Chongqing, China"
+                ],
+                "department": [
+                  "School of Artificial Intelligence and Chongqing Key Laboratory of Image Cognition"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3134-217X",
+            "authenticated-orcid": false,
+            "given": "Xiuli",
+            "family": "Bi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Chongqing University of Posts and Telecommunications",
+                "place": [
+                  "Chongqing, China"
+                ],
+                "department": [
+                  "School of Artificial Intelligence and Chongqing Key Laboratory of Image Cognition"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8469-5302",
+            "authenticated-orcid": false,
+            "given": "Bin",
+            "family": "Xiao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Chongqing University of Posts and Telecommunications",
+                "place": [
+                  "Chongqing, China"
+                ],
+                "department": [
+                  "School of Artificial Intelligence and Chongqing Key Laboratory of Image Cognition"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "abstract": "<jats:p>Deep neural networks (DNNs) are vulnerable to adversarial examples (AEs) that mislead the model while appearing benign to human observers. A critical concern is the transferability of AEs, which enables black-box attacks without direct access to the target model. However, many previous attacks have failed to explain the intrinsic mechanism of adversarial transferability, lacking a unified and representative metric for transferability as well. In this paper, we rethink the property of transferable AEs and develop a novel metric to measure transferability from the perspective of generalization. Building on insights from this metric, we analyze the generalization of AEs across models with different architectures and prove that we can find a local perturbation to mitigate the gap between surrogate and target models. We further establish the inner connections between model smoothness and flat local maxima, both of which contribute to the transferability of AEs. Further, we propose a new adversarial attack algorithm, Adversarial Weight Tuning (AWT), which adaptively adjusts the parameters of the surrogate model using generated AEs to optimize the flat local maxima and model smoothness simultaneously, without the need for extra data. AWT is a data-free tuning method that combines gradient-based and model-related attack methods to enhance the transferability of AEs. Extensive experiments on a variety of models with different architectures on ImageNet demonstrate that AWT yields superior performance over other attacks, with an average increase of nearly 5% and 10% attack success rates on CNN-based and Transformer-based models, respectively, compared to state-of-the-art attacks.</jats:p>",
+        "DOI": "10.1609/aaai.v39i2.32203",
+        "title": [
+          "Enhancing Adversarial Transferability with Adversarial Weight Tuning"
+        ],
+        "author": [
+          {
+            "given": "Jiahao",
+            "family": "Chen",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zhou",
+            "family": "Feng",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Rui",
+            "family": "Zeng",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yuwen",
+            "family": "Pu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Chunyi",
+            "family": "Zhou",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yi",
+            "family": "Jiang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yuyou",
+            "family": "Gan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jinbao",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Shouling",
+            "family": "Ji",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              11
+            ]
+          ]
+        },
+        "container-title": [
+          "Proceedings of the AAAI Conference on Artificial Intelligence"
+        ],
+        "link": [
+          {
+            "URL": "https://ojs.aaai.org/index.php/AAAI/article/download/32203/34358",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://ojs.aaai.org/index.php/AAAI/article/download/32203/34358",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1609/aaai.v39i2.32203",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              11
+            ]
+          ]
+        }
+      },
+      {
+        "abstract": "<jats:p>Adversarial attacks against deep learning models achieve high performance in white-box settings but often exhibit low transferability in black-box scenarios, especially against defended models. In this work, we propose Multi-Path Random Restart (MPRR), which initializes multiple restart points with random noise to optimize gradient updates and improve transferability. Building upon MPRR, we propose the Channel Shuffled Attack Method (CSAM), a new gradient-based attack that generates highly transferable adversarial examples via channel permutation of input images. Extensive experiments on the ImageNet dataset show that MPRR substantially improves the success rates of existing attacks (e.g., boosting FGSM, MI-FGSM, DIM, and TIM by 22.4–38.6%), and CSAM achieves average success rates 13.8–24.0% higher than state-of-the-art methods.</jats:p>",
+        "DOI": "10.3390/app151810242",
+        "title": [
+          "Boosting Adversarial Transferability Through Adversarial Attack Enhancer"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-1559-5663",
+            "authenticated-orcid": false,
+            "given": "Wenli",
+            "family": "Zeng",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Engineering, Sichuan University of Science & Engineering, Zigong 643000, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5788-9806",
+            "authenticated-orcid": false,
+            "given": "Hong",
+            "family": "Huang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Engineering, Sichuan University of Science & Engineering, Zigong 643000, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9729-281X",
+            "authenticated-orcid": false,
+            "given": "Jixin",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Engineering, Sichuan University of Science & Engineering, Zigong 643000, China"
+              },
+              {
+                "name": "The Key Laboratory of Higher Education of Sichuan Province for Enterprise informatization and Internet of Thing, Yibin 644000, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              20
+            ]
+          ]
+        },
+        "container-title": [
+          "Applied Sciences"
+        ],
+        "link": [
+          {
+            "URL": "https://www.mdpi.com/2076-3417/15/18/10242/pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.3390/app151810242",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              20
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1016/j.neunet.2025.107896",
+        "title": [
+          "Enhancing adversarial transferability via transformation inference"
+        ],
+        "container-title": [
+          "Neural Networks"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.neunet.2025.107896",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0893608025007774?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0893608025007774?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "author": [
+          {
+            "given": "Jiaxin",
+            "family": "Hu",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3476-110X",
+            "authenticated-orcid": false,
+            "given": "Jie",
+            "family": "Lin",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3036-6022",
+            "authenticated-orcid": false,
+            "given": "Xiangyuan",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hanlin",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Peng",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tifs.2025.3574980",
+        "title": [
+          "Enhancing Adversarial Transferability With Alignment Network"
+        ],
+        "container-title": [
+          "IEEE Transactions on Information Forensics and Security"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tifs.2025.3574980",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/10206/10810755/11018095.pdf?arnumber=11018095",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0006-0025-8046",
+            "authenticated-orcid": false,
+            "given": "Zhiwei",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "New Laboratory of Pattern Recognition and the State Key Laboratory of Multimodal Artificial Intelligence Systems, Institute of Automation, Chinese Academy of Sciences, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7905-2860",
+            "authenticated-orcid": false,
+            "given": "Qi",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "New Laboratory of Pattern Recognition and the State Key Laboratory of Multimodal Artificial Intelligence Systems, Institute of Automation, Chinese Academy of Sciences, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0126-1726",
+            "authenticated-orcid": false,
+            "given": "Min",
+            "family": "Ren",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Artificial Intelligence, Beijing Normal University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0004-5577-2769",
+            "authenticated-orcid": false,
+            "given": "Yiwei",
+            "family": "Ru",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "New Laboratory of Pattern Recognition and the State Key Laboratory of Multimodal Artificial Intelligence Systems, Institute of Automation, Chinese Academy of Sciences, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4029-9935",
+            "authenticated-orcid": false,
+            "given": "Zhenan",
+            "family": "Sun",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "New Laboratory of Pattern Recognition and the State Key Laboratory of Multimodal Artificial Intelligence Systems, Institute of Automation, Chinese Academy of Sciences, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tetci.2026.3727338",
+        "title": [
+          "Promoting Adversarial Transferability Through Spectrum Enhancement"
+        ],
+        "container-title": [
+          "IEEE Transactions on Emerging Topics in Computational Intelligence"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tetci.2026.3727338",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/7433297/7777658/11683360.pdf?arnumber=11683360",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-1971-6768",
+            "authenticated-orcid": false,
+            "given": "Changfei",
+            "family": "Zhao",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Northwestern Polytechnical University",
+                "place": [
+                  "Xi’an, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ruida",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Northwestern Polytechnical University",
+                "place": [
+                  "Xi’an, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1984-2983",
+            "authenticated-orcid": false,
+            "given": "Xiang",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Northwestern Polytechnical University",
+                "place": [
+                  "Xi’an, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8181-7001",
+            "authenticated-orcid": false,
+            "given": "Xinyang",
+            "family": "Deng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Northwestern Polytechnical University",
+                "place": [
+                  "Xi’an, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5429-2748",
+            "authenticated-orcid": false,
+            "given": "Wen",
+            "family": "Jiang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Northwestern Polytechnical University",
+                "place": [
+                  "Xi’an, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tdsc.2025.3605453",
+        "title": [
+          "Boosting Adversarial Transferability of Vision Transformers"
+        ],
+        "container-title": [
+          "IEEE Transactions on Dependable and Secure Computing"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              1
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tdsc.2025.3605453",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/8858/11354469/11150532.pdf?arnumber=11150532",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-0962-4464",
+            "authenticated-orcid": false,
+            "given": "Yajie",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Cyberspace Science and Technology, Beijing Institute of Technology, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7684-8540",
+            "authenticated-orcid": false,
+            "given": "Chuan",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Cyberspace Science and Technology, Beijing Institute of Technology, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4840-6558",
+            "authenticated-orcid": false,
+            "given": "Huipeng",
+            "family": "Zhou",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Cyberspace Science and Technology, Beijing Institute of Technology, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1658-4931",
+            "authenticated-orcid": false,
+            "given": "Zuobin",
+            "family": "Ying",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Faculty of Data Science, City University of Macau, Macao, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4440-941X",
+            "authenticated-orcid": false,
+            "given": "Zehui",
+            "family": "Xiong",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Information Systems Technology and Design Pillar, Singapore University of Technology and Design, Singapore"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1680-2521",
+            "authenticated-orcid": false,
+            "given": "Wanlei",
+            "family": "Zhou",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Faculty of Data Science, City University of Macau, Macao, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3277-3887",
+            "authenticated-orcid": false,
+            "given": "Liehuang",
+            "family": "Zhu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Cyberspace Science and Technology, Beijing Institute of Technology, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tpami.2026.3664842",
+        "title": [
+          "AdvDiffusion: Adversarial Patches Generation for Face Recognition With High Transferability in Physical Domain"
+        ],
+        "container-title": [
+          "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              7
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tpami.2026.3664842",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/34/11552636/11418702.pdf?arnumber=11418702",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-8053-4587",
+            "authenticated-orcid": false,
+            "given": "Fei",
+            "family": "Peng",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Artificial Intelligence, and Guangdong Key Laboratory of Blockchain Security, Guangzhou University, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0008-5042-3075",
+            "authenticated-orcid": false,
+            "given": "Yang",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Computer Science and Electronic Engineering, Hunan University, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Guohui",
+            "family": "Zhou",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Artificial Intelligence, Guangzhou University, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1229-2317",
+            "authenticated-orcid": false,
+            "given": "Min",
+            "family": "Long",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronics and Communication Engineering, Guangzhou University, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tifs.2024.3516577",
+        "title": [
+          "Physical Adversarial Patch Attack for Optical Fine-Grained Aircraft Recognition"
+        ],
+        "container-title": [
+          "IEEE Transactions on Information Forensics and Security"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tifs.2024.3516577",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/10206/10810755/10795220.pdf?arnumber=10795220",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-2873-7795",
+            "authenticated-orcid": false,
+            "given": "Ke",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Smart Human-Computer Interaction and Wearable Technology of Shaanxi Province and the School of Computer Science and Technology, Xidian University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8027-4287",
+            "authenticated-orcid": false,
+            "given": "Di",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Smart Human-Computer Interaction and Wearable Technology of Shaanxi Province and the School of Computer Science and Technology, Xidian University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0004-4914-9452",
+            "authenticated-orcid": false,
+            "given": "Wenxuan",
+            "family": "Zhu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Smart Human-Computer Interaction and Wearable Technology of Shaanxi Province and the School of Computer Science and Technology, Xidian University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4240-3855",
+            "authenticated-orcid": false,
+            "given": "Shaofeng",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Smart Human-Computer Interaction and Wearable Technology of Shaanxi Province and the School of Computer Science and Technology, Xidian University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6913-8604",
+            "authenticated-orcid": false,
+            "given": "Quan",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Smart Human-Computer Interaction and Wearable Technology of Shaanxi Province and the School of Computer Science and Technology, Xidian University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7985-0037",
+            "authenticated-orcid": false,
+            "given": "Xinbo",
+            "family": "Gao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Chongqing Key Laboratory of Image Cognition, Chongqing University of Posts and Telecommunications, Chongqing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "abstract": "<jats:p>Physical-domain adversarial attacks have been extensively studied in face recognition and object detection, yet the field of palmprint recognition remains largely unexplored. Existing methods generate grayscale patches constrained by the single-channel input of most palmprint models. When deployed on skin, these patches contrast sharply with the surrounding tissue and are readily noticeable to human observers, undermining the covertness required in practical attacks. To address this limitation, we propose a Color Adversarial Patch (CAP) generation algorithm that leverages style transfer principles to produce visually natural color patches while maintaining high attack success rates. The method initiates the patch with a style prior using a pre-trained Contrastive Arbitrary Style Transfer (CAST) model and jointly optimizes adversarial loss, style loss, and smoothness loss within a unified framework. A three-channel averaging strategy is adopted to ensure compatibility with single-channel recognition models during gradient backpropagation. Experiments on the Tongji palmprint dataset show that the generated color patches achieve average cosine similarity values above the decision threshold in physical-domain tests, with peak signal-to-noise ratio (PSNR) and structural similarity index (SSIM) values significantly higher than those for their grayscale counterparts. Ablation studies validate the indispensable role of each loss component. CAP offers a practical balance between attack effectiveness and visual camouflage, demonstrating the feasibility of concealed physical-domain attacks on palmprint recognition systems.</jats:p>",
+        "DOI": "10.3390/electronics15163759",
+        "title": [
+          "Color Adversarial Patch Generation for Physical-Domain Palmprint Recognition Attacks"
+        ],
+        "author": [
+          {
+            "given": "Yue",
+            "family": "Liu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Jiangxi Provincial Key Laboratory of Image Processing and Pattern Recognition, School of Software, Nanchang Hangkong University, Nanchang 330063, China"
+              },
+              {
+                "name": "School of Software, Nanchang Hangkong University, Nanchang 330063, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Qi",
+            "family": "Xiong",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Jiangxi Provincial Key Laboratory of Image Processing and Pattern Recognition, School of Software, Nanchang Hangkong University, Nanchang 330063, China"
+              },
+              {
+                "name": "School of Software, Nanchang Hangkong University, Nanchang 330063, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6858-424X",
+            "authenticated-orcid": false,
+            "given": "Lu",
+            "family": "Leng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Jiangxi Provincial Key Laboratory of Image Processing and Pattern Recognition, School of Software, Nanchang Hangkong University, Nanchang 330063, China"
+              },
+              {
+                "name": "School of Software, Nanchang Hangkong University, Nanchang 330063, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5847-6736",
+            "authenticated-orcid": false,
+            "given": "Cheonshik",
+            "family": "Kim",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Engineering, Sejong University, Seoul 05006, Republic of Korea"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jun",
+            "family": "Miao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Jiangxi Provincial Key Laboratory of Image Processing and Pattern Recognition, School of Software, Nanchang Hangkong University, Nanchang 330063, China"
+              },
+              {
+                "name": "School of Mechanical and Electrical Engineering, Nanchang Hangkong University, Nanchang 330063, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Lu",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Jiangxi Provincial Key Laboratory of Image Processing and Pattern Recognition, School of Software, Nanchang Hangkong University, Nanchang 330063, China"
+              },
+              {
+                "name": "School of Software, Nanchang Hangkong University, Nanchang 330063, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              21
+            ]
+          ]
+        },
+        "container-title": [
+          "Electronics"
+        ],
+        "link": [
+          {
+            "URL": "https://www.mdpi.com/2079-9292/15/16/3759/pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.3390/electronics15163759",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              21
+            ]
+          ]
+        }
+      },
+      {
+        "abstract": "<jats:p>As deep neural networks (DNNs) are widely applied in the physical world, many researches are focusing on physical-world adversarial examples (PAEs), which introduce perturbations to inputs and cause the model's incorrect outputs. However, existing PAEs face two challenges: unsatisfactory attack performance (i.e., poor transferability and insufficient robustness to environment conditions), and difficulty in balancing attack effectiveness with stealthiness, where better attack effectiveness often makes PAEs more perceptible.\n\nIn this paper, we explore a novel perturbation-based method to overcome the challenges. For the first challenge, we introduce a strategy Deceptive RF injection based on robust features (RFs) that are predictive, robust to perturbations, and consistent across different models. Specifically, it improves the transferability and robustness of PAEs by covering RFs of other classes onto the predictive features in clean images. For the second challenge, we introduce another strategy Adversarial Semantic Pattern Minimization, which removes most perturbations and retains only essential adversarial patterns in AEs. Based on the two strategies, we design our method Robust Feature Coverage Attack (RFCoA), comprising Robust Feature Disentanglement and Adversarial Feature Fusion. In the first stage, we extract target class RFs in feature space. In the second stage, we use attention-based feature fusion to overlay these RFs onto predictive features of clean images and remove unnecessary perturbations. Experiments show our method's superior transferability, robustness, and stealthiness compared to existing state-of-the-art methods.  Additionally, our method's effectiveness can extend to Large Vision-Language Models (LVLMs), indicating its potential applicability to more complex tasks.</jats:p>",
+        "DOI": "10.1609/aaai.v39i8.32870",
+        "title": [
+          "Breaking Barriers in Physical-World Adversarial Examples: Improving Robustness and Transferability via Robust Feature"
+        ],
+        "author": [
+          {
+            "given": "Yichen",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yuxuan",
+            "family": "Chou",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Ziqi",
+            "family": "Zhou",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Hangtao",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Wei",
+            "family": "Wan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Shengshan",
+            "family": "Hu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Minghui",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              11
+            ]
+          ]
+        },
+        "container-title": [
+          "Proceedings of the AAAI Conference on Artificial Intelligence"
+        ],
+        "link": [
+          {
+            "URL": "https://ojs.aaai.org/index.php/AAAI/article/download/32870/35025",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://ojs.aaai.org/index.php/AAAI/article/download/32870/35025",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1609/aaai.v39i8.32870",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              11
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1016/j.neunet.2026.108665",
+        "title": [
+          "Enhancing adversarial transferability via curvature-aware penalization"
+        ],
+        "container-title": [
+          "Neural Networks"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              7
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.neunet.2026.108665",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0893608026001279?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0893608026001279?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0006-3140-363X",
+            "authenticated-orcid": false,
+            "given": "Cheng",
+            "family": "Peng",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0009-6548-8012",
+            "authenticated-orcid": false,
+            "given": "Zeze",
+            "family": "Tao",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0007-0177-4082",
+            "authenticated-orcid": false,
+            "given": "Junyu",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0006-4019-7065",
+            "authenticated-orcid": false,
+            "given": "Jinjia",
+            "family": "Peng",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tmm.2026.3733028",
+        "title": [
+          "Boosting Adversarial Transferability via Curvature Flatness Minimization"
+        ],
+        "container-title": [
+          "IEEE Transactions on Multimedia"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tmm.2026.3733028",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/6046/4456689/11685418.pdf?arnumber=11685418",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "given": "Jingtian",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Beijing Jiaotong University",
+                "place": [
+                  "Beijing"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jiaying",
+            "family": "Peng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Capital Normal University",
+                "place": [
+                  "Beijing, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mengyao",
+            "family": "Xiao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Nanchang University",
+                "place": [
+                  "Nanchang, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xiaolong",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Beijing Jiaotong University",
+                "place": [
+                  "Beijing"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Wei",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Capital Normal University",
+                "place": [
+                  "Beijing, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yao",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Beijing Jiaotong University",
+                "place": [
+                  "Beijing"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "abstract": "<jats:p>Deep neural networks are susceptible to adversarial examples, which induce incorrect predictions through imperceptible perturbations.\nTransfer-based attacks create adversarial examples for surrogate models and transfer these examples to target models under black-box scenarios. Recent studies have established a strong correlation between the geometric properties of loss landscapes and the transferability of adversarial examples, demonstrating that flatter loss surfaces consistently yield superior transferability. However, we identify that these methods fail to account for the loss landscape flatness along the path from the current point to local minima, resulting in poor transferability.   \nTo address this, this paper constructs a novel Path Flatness Attack (PFA) method to significantly enhance the transferability of adversarial examples. Specifically, this paper proposes a novel path flatness indicator that not only evaluates the flatness in local minima regions but also explicitly quantifies the loss surface geometry along the trajectory from the current point to the minimum. Furthermore, we incorporate the path flatness indicator into the attack process, integrating penalties over low-loss points along the path while maximizing the loss function, thereby explicitly flattening the loss landscape. Extensive experiments demonstrate that PFA consistently achieves state-of-the-art attack performance across all experimental settings.</jats:p>",
+        "DOI": "10.1609/aaai.v40i11.37912",
+        "title": [
+          "Prompting Adversarial Transferability via Path Flatness Attack"
+        ],
+        "author": [
+          {
+            "given": "Zeze",
+            "family": "Tao",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Jinjia",
+            "family": "Peng",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Huibing",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              14
+            ]
+          ]
+        },
+        "container-title": [
+          "Proceedings of the AAAI Conference on Artificial Intelligence"
+        ],
+        "link": [
+          {
+            "URL": "https://ojs.aaai.org/index.php/AAAI/article/download/37912/41874",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://ojs.aaai.org/index.php/AAAI/article/download/37912/41874",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1609/aaai.v40i11.37912",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              14
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "DOI": "10.1007/s10044-025-01535-5",
+        "title": [
+          "Adversarial translucent patch: a robust physical attack technique against object detectors"
+        ],
+        "author": [
+          {
+            "given": "Kalibinuer",
+            "family": "Tiliwalidi",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Chengyin",
+            "family": "Hu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Weiwen",
+            "family": "Shi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Guangxi",
+            "family": "Lu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hao",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              20
+            ]
+          ]
+        },
+        "container-title": [
+          "Pattern Analysis and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s10044-025-01535-5.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s10044-025-01535-5/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s10044-025-01535-5.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s10044-025-01535-5",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              20
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1109/tai.2025.3602931",
+        "title": [
+          "Certified Local Transferability for Evaluating Adversarial Attacks"
+        ],
+        "container-title": [
+          "IEEE Transactions on Artificial Intelligence"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tai.2025.3602931",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/9078688/11417361/11142670.pdf?arnumber=11142670",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0006-3406-7520",
+            "authenticated-orcid": false,
+            "given": "Minyu",
+            "family": "Chen",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Computer Science, Shanghai Jiao Tong University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3707-4623",
+            "authenticated-orcid": false,
+            "given": "Jingyang",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science, Shanghai Jiao Tong University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0001-8259-2200",
+            "authenticated-orcid": false,
+            "given": "Ling-I",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science, Shanghai Jiao Tong University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9005-7112",
+            "authenticated-orcid": false,
+            "given": "Guoqiang",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science, Shanghai Jiao Tong University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/lsp.2025.3611319",
+        "title": [
+          "Improving the Adversarial Transferability via Histogram Transformation"
+        ],
+        "container-title": [
+          "IEEE Signal Processing Letters"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/lsp.2025.3611319",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/97/10802935/11168167.pdf?arnumber=11168167",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0005-5338-871X",
+            "authenticated-orcid": false,
+            "given": "Xiaohai",
+            "family": "Lu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science and Technology, Shantou University, Shantou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3965-0030",
+            "authenticated-orcid": false,
+            "given": "Chen",
+            "family": "Wan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science and Technology, Shantou University, Shantou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5162-9894",
+            "authenticated-orcid": false,
+            "given": "Lifeng",
+            "family": "Huang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Mathematics and Informatics, South China Agricultural University, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1016/j.asoc.2025.113786",
+        "title": [
+          "Improving adversarial transferability with Neighborhood Gradient Information"
+        ],
+        "container-title": [
+          "Applied Soft Computing"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.asoc.2025.113786",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1568494625010993?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1568494625010993?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0004-5050-3068",
+            "authenticated-orcid": false,
+            "given": "Haijing",
+            "family": "Guo",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2613-7051",
+            "authenticated-orcid": false,
+            "given": "Jiafeng",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7112-2596",
+            "authenticated-orcid": false,
+            "given": "Zhaoyu",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2878-0497",
+            "authenticated-orcid": false,
+            "given": "Kaixun",
+            "family": "Jiang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2749-5133",
+            "authenticated-orcid": false,
+            "given": "Lingyi",
+            "family": "Hong",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4388-9757",
+            "authenticated-orcid": false,
+            "given": "Pinxue",
+            "family": "Guo",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0001-4930-6284",
+            "authenticated-orcid": false,
+            "given": "Jinglun",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3339-8751",
+            "authenticated-orcid": false,
+            "given": "Wenqiang",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "DOI": "10.1007/s11432-024-4542-8",
+        "title": [
+          "Propagation rectified attack: on improving adversarial transferability"
+        ],
+        "author": [
+          {
+            "given": "Xuxiang",
+            "family": "Sun",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Hongyu",
+            "family": "Peng",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Gong",
+            "family": "Cheng",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Junwei",
+            "family": "Han",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              11
+            ]
+          ]
+        },
+        "container-title": [
+          "Science China Information Sciences"
+        ],
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s11432-024-4542-8.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s11432-024-4542-8/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s11432-024-4542-8.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s11432-024-4542-8",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              11
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1016/j.neucom.2025.132503",
+        "title": [
+          "Bidirectional gradient optimization for enhancing adversarial transferability"
+        ],
+        "container-title": [
+          "Neurocomputing"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.neucom.2025.132503",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0925231225031753?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0925231225031753?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0000-0356-4176",
+            "authenticated-orcid": false,
+            "given": "Hailing",
+            "family": "Kuang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3965-0030",
+            "authenticated-orcid": false,
+            "given": "Chen",
+            "family": "Wan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yayin",
+            "family": "Zheng",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Zihong",
+            "family": "Guo",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Wutao",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tcsvt.2026.3720436",
+        "title": [
+          "Boosting Adversarial Transferability with Scaled Logit Ensemble"
+        ],
+        "container-title": [
+          "IEEE Transactions on Circuits and Systems for Video Technology"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tcsvt.2026.3720436",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/76/4358651/11643241.pdf?arnumber=11643241",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0003-9005-1337",
+            "authenticated-orcid": false,
+            "given": "Jingtian",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Beijing Jiaotong University",
+                "place": [
+                  "Beijing, China"
+                ],
+                "department": [
+                  "Institute of Information Science"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0005-2877-7721",
+            "authenticated-orcid": false,
+            "given": "Mengyao",
+            "family": "Xiao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Nanchang University",
+                "place": [
+                  "Nanchang, China"
+                ],
+                "department": [
+                  "School of Software"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6111-9000",
+            "authenticated-orcid": false,
+            "given": "Xiaolong",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Beijing Jiaotong University",
+                "place": [
+                  "Beijing, China"
+                ],
+                "department": [
+                  "Institute of Information Science"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jian",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Qilu University of Technology (Shandong Academy of Sciences)",
+                "place": [
+                  "Jinan, China"
+                ],
+                "department": [
+                  "Ministry of Education, Shandong Computer Science Center (National Supercomputer Center in Jinan)"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9030-7393",
+            "authenticated-orcid": false,
+            "given": "Bin",
+            "family": "Ma",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Qilu University of Technology (Shandong Academy of Sciences)",
+                "place": [
+                  "Jinan, China"
+                ],
+                "department": [
+                  "Ministry of Education, Shandong Computer Science Center (National Supercomputer Center in Jinan)"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8581-9554",
+            "authenticated-orcid": false,
+            "given": "Yao",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Beijing Jiaotong University",
+                "place": [
+                  "Beijing, China"
+                ],
+                "department": [
+                  "Institute of Information Science"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/access.2025.3649234",
+        "title": [
+          "Improving Adversarial Transferability on Vision Transformers via Dual-Flow Adversarial Attack"
+        ],
+        "container-title": [
+          "IEEE Access"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/access.2025.3649234",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/6287639/11323511/11317987.pdf?arnumber=11317987",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0006-4451-0012",
+            "authenticated-orcid": false,
+            "given": "Bohai",
+            "family": "Zhou",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Information Engineering, Wuhan University of Technology, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Anlu",
+            "family": "Shi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Information Engineering, Wuhan University of Technology, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1781-5129",
+            "authenticated-orcid": false,
+            "given": "Wei",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Information Engineering, Wuhan University of Technology, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "abstract": "<jats:p>Ensemble attacks integrate the outputs of surrogate models with diverse architectures, which can be combined with various gradient-based attacks to improve adversarial transferability. However, previous work shows unsatisfactory attack performance when transferring across heterogeneous model architectures. The main reason is that the gradient update directions of heterogeneous surrogate models differ widely, making it hard to reduce the gradient variance of ensemble models while making the best of individual model. To tackle this challenge, we design a novel ensemble attack, NAMEA, which for the first time integrates the gradients from the non-attention areas of ensemble models into the iterative gradient optimization process. Our design is inspired by the observation that the attention areas of heterogeneous models vary sharply, thus the non-attention areas of ViTs are likely to be the focus of CNNs and vice versa. Therefore, we merge the gradients respectively from the attention and non-attention areas of ensemble models so as to fuse the transfer information of CNNs and ViTs. Specifically, we pioneer a new way of decoupling the gradients of non-attention areas from those of attention areas, while merging gradients by meta-learning. Empirical evaluations on ImageNet dataset indicate that NAMEA outperforms AdaEA and SMER, the state-of-the-art ensemble attacks by an average of 15.0% and 9.6%, respectively. This work is the first attempt to explore the power of ensemble non-attention in boosting cross-architecture transferability, providing new insights into launching ensemble attacks.</jats:p>",
+        "DOI": "10.1609/aaai.v40i16.38422",
+        "title": [
+          "Boosting Adversarial Transferability via Ensemble Non-Attention"
+        ],
+        "author": [
+          {
+            "given": "Yipeng",
+            "family": "Zou",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Qin",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Jie",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yu",
+            "family": "Peng",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Guo",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Hui",
+            "family": "Zhou",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Guanghui",
+            "family": "Ye",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              14
+            ]
+          ]
+        },
+        "container-title": [
+          "Proceedings of the AAAI Conference on Artificial Intelligence"
+        ],
+        "link": [
+          {
+            "URL": "https://ojs.aaai.org/index.php/AAAI/article/download/38422/42384",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://ojs.aaai.org/index.php/AAAI/article/download/38422/42384",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1609/aaai.v40i16.38422",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              14
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1109/tgrs.2025.3579916",
+        "title": [
+          "Physical Adversarial Background Patch Against Aerial Object Detection Based on Pareto Efficiency"
+        ],
+        "container-title": [
+          "IEEE Transactions on Geoscience and Remote Sensing"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tgrs.2025.3579916",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/36/10807682/11036740.pdf?arnumber=11036740",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-6294-6761",
+            "authenticated-orcid": false,
+            "given": "Hao",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Electronic Engineering, Key Laboratory of Collaborative Intelligence Systems, Ministry of Education, Xidian University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0000-1380-4161",
+            "authenticated-orcid": false,
+            "given": "Jiachang",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronic Engineering, Key Laboratory of Collaborative Intelligence Systems, Ministry of Education, Xidian University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0415-8556",
+            "authenticated-orcid": false,
+            "given": "Maoguo",
+            "family": "Gong",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronic Engineering, Key Laboratory of Collaborative Intelligence Systems, Ministry of Education, Xidian University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1476-2431",
+            "authenticated-orcid": false,
+            "given": "Haiyue",
+            "family": "Yu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Systems Engineering, National University of Defense Technology, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Kelin",
+            "family": "Dang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronic Engineering, Key Laboratory of Collaborative Intelligence Systems, Ministry of Education, Xidian University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0006-9950-4728",
+            "authenticated-orcid": false,
+            "given": "Yu",
+            "family": "Zhou",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronic Engineering, Key Laboratory of Collaborative Intelligence Systems, Ministry of Education, Xidian University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6631-1651",
+            "authenticated-orcid": false,
+            "given": "A. K.",
+            "family": "Qin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computing Technologies, Swinburne University of Technology, Hawthorn, VIC, Australia"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3459-5079",
+            "authenticated-orcid": false,
+            "given": "Yue",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Technology, Xidian University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/lsp.2024.3509335",
+        "title": [
+          "Enhancing the Transferability of Adversarial Point Clouds by Initializing Transferable Adversarial Noise"
+        ],
+        "container-title": [
+          "IEEE Signal Processing Letters"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/lsp.2024.3509335",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/97/10802935/10804833.pdf?arnumber=10804833",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-9479-4005",
+            "authenticated-orcid": false,
+            "given": "Hai",
+            "family": "Chen",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Intelligent Computing and Signal Processing, Ministry of Education, Anhui University, Hefei, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7647-3603",
+            "authenticated-orcid": false,
+            "given": "Shu",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Intelligent Computing and Signal Processing, Ministry of Education, Anhui University, Hefei, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6090-910X",
+            "authenticated-orcid": false,
+            "given": "Yuanting",
+            "family": "Yan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Intelligent Computing and Signal Processing, Ministry of Education, Anhui University, Hefei, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3811-6995",
+            "authenticated-orcid": false,
+            "given": "Fulan",
+            "family": "Qian",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Intelligent Computing and Signal Processing, Ministry of Education, Anhui University, Hefei, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tpami.2026.3664421",
+        "title": [
+          "Enhancing Adversarial Transferability With Cost-Efficient Landscape Flattening"
+        ],
+        "container-title": [
+          "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              6
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tpami.2026.3664421",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/34/11512030/11395656.pdf?arnumber=11395656",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-6315-497X",
+            "authenticated-orcid": false,
+            "given": "Zhipeng",
+            "family": "Wei",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "College of Computer Science and Artificial Intelligence, Fudan University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3148-264X",
+            "authenticated-orcid": false,
+            "given": "Jingjing",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Trustworthy Embodied AI, Fudan University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Feng",
+            "family": "Han",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Computer Science and Artificial Intelligence, Fudan University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yue",
+            "family": "Yu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Computer Science and Artificial Intelligence, Fudan University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1907-8567",
+            "authenticated-orcid": false,
+            "given": "Yu-Gang",
+            "family": "Jiang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Trustworthy Embodied AI, Fudan University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              30
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Transferable adversarial examples (AEs) have attracted considerable attention due to their ability to expose vulnerabilities in black-box deep neural networks (DNNs). However, achieving superior transferability for targeted attacks remains a challenge. In this article, inspired by the observation that AEs with smaller intra-class distances and larger inter-class distances tend to exhibit higher transferability, we propose a novel targeted attack based on Feature Contrastive Optimization (FCO). This attack enhances adversarial transferability by minimizing intra-class distances and maximizing inter-class distances. Specifically, we first define positive samples (belonging to the target class) and negative samples (belonging to non-target classes) that correspond to targeted AEs. Subsequently, leveraging these defined positive and negative samples, we propose two metrics—Intra-class Compactness (IC) and Inter-class Separability (IS)—to construct a novel Feature Contrastive (FC) loss. By integrating this plug-and-play FC loss into standard adversarial objectives, the generated AEs are encouraged to better align with the target class distribution while diverging from those of non-target classes. Extensive experiments on the ImageNet-compatible dataset demonstrate that our approach consistently improves targeted transferability across a broad range of DNN architectures.</jats:p>",
+        "DOI": "10.1145/3811823",
+        "title": [
+          "Boosting Targeted Adversarial Transferability with Feature Contrastive Optimization"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0003-9005-1337",
+            "authenticated-orcid": false,
+            "given": "Jingtian",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Institute of Information Science, Beijing Key Laboratory of Advanced Information Science and Network Technology, Beijing Jiaotong University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6111-9000",
+            "authenticated-orcid": false,
+            "given": "Xiaolong",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Information Science, Beijing Key Laboratory of Advanced Information Science and Network Technology, Beijing Jiaotong University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5182-2798",
+            "authenticated-orcid": false,
+            "given": "Jian",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Qilu University of Technology, Jinan, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9030-7393",
+            "authenticated-orcid": false,
+            "given": "Bin",
+            "family": "Ma",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Qilu University of Technology, Jinan, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8581-9554",
+            "authenticated-orcid": false,
+            "given": "Yao",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Information Science, Beijing Key Laboratory of Advanced Information Science and Network Technology, Beijing Jiaotong University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6371-6490",
+            "authenticated-orcid": false,
+            "given": "Jinhua",
+            "family": "Zeng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Academy of Forensic Science, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              21
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Multimedia Computing, Communications, and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3811823",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3811823",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              21
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1109/tpami.2026.3666165",
+        "title": [
+          "On the Adversarial Transferability of Generalized “Skip Connections”"
+        ],
+        "container-title": [
+          "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              7
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tpami.2026.3666165",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/34/11552636/11399637.pdf?arnumber=11399637",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-8623-6318",
+            "authenticated-orcid": false,
+            "given": "Yisen",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "State Key Lab of General Artificial Intelligence, School of Intelligence Science and Technology, Peking University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2663-2052",
+            "authenticated-orcid": false,
+            "given": "Yichuan",
+            "family": "Mo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Lab of General Artificial Intelligence, School of Intelligence Science and Technology, Peking University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5147-3516",
+            "authenticated-orcid": false,
+            "given": "Dongxian",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Tsinghua University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1588-2654",
+            "authenticated-orcid": false,
+            "given": "Mingjie",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Lab of General Artificial Intelligence, School of Intelligence Science and Technology, Peking University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2099-4973",
+            "authenticated-orcid": false,
+            "given": "Xingjun",
+            "family": "Ma",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Fudan University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1493-7569",
+            "authenticated-orcid": false,
+            "given": "Zhouchen",
+            "family": "Lin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Lab of General Artificial Intelligence, School of Intelligence Science and Technology, Peking University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tgrs.2025.3535697",
+        "title": [
+          "Boosting Adversarial Transferability by Batchwise Amplitude Spectrum Normalization"
+        ],
+        "container-title": [
+          "IEEE Transactions on Geoscience and Remote Sensing"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tgrs.2025.3535697",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/36/10807682/10856210.pdf?arnumber=10856210",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-9295-1361",
+            "authenticated-orcid": false,
+            "given": "Qianlong",
+            "family": "Dang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "College of Science, and the Joint Laboratory of Algorithm and Simulation for Low Altitude Aircraft, Northwest A&#x0026;F University, Yangling, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9283-4488",
+            "authenticated-orcid": false,
+            "given": "Tao",
+            "family": "Zhan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Information Engineering, Northwest A&#x0026;F University, Yangling, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0415-8556",
+            "authenticated-orcid": false,
+            "given": "Maoguo",
+            "family": "Gong",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Collaborative Intelligence Systems, Ministry of Education, Xidian University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4460-2460",
+            "authenticated-orcid": false,
+            "given": "Xiaoyu",
+            "family": "He",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Engineering, Sun Yat-sen University, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1038/s41598-026-45207-8",
+        "title": [
+          "Attentional semantic attack for enhancing adversarial samples transferability"
+        ],
+        "container-title": [
+          "Scientific Reports"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              26
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              26
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1038/s41598-026-45207-8",
+        "link": [
+          {
+            "URL": "https://www.nature.com/articles/s41598-026-45207-8",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://www.nature.com/articles/s41598-026-45207-8.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://www.nature.com/articles/s41598-026-45207-8.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "given": "Pengju",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Jing",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tcsvt.2025.3609284",
+        "title": [
+          "Improving Transferability of Adversarial Examples via Bayesian Attacks"
+        ],
+        "container-title": [
+          "IEEE Transactions on Circuits and Systems for Video Technology"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tcsvt.2025.3609284",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/76/11424237/11174104.pdf?arnumber=11174104",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-3977-345X",
+            "authenticated-orcid": false,
+            "given": "Qizhang",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Technology, Harbin Institute of Technology, Harbin, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0709-4877",
+            "authenticated-orcid": false,
+            "given": "Yiwen",
+            "family": "Guo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Technology, Harbin Institute of Technology, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9299-5951",
+            "authenticated-orcid": false,
+            "given": "Xiaochen",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Mathematics and Statistics, University of Glasgow, Glasgow, U.K."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3330-783X",
+            "authenticated-orcid": false,
+            "given": "Wangmeng",
+            "family": "Zuo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Technology, Harbin Institute of Technology, Harbin, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4072-0710",
+            "authenticated-orcid": false,
+            "given": "Hao",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, University of California at Davis, Davis, CA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "abstract": "<jats:p>Adversarial transferability makes black-box attacks practical and exposes weaknesses of deep neural networks for computer vision, image recognition, and visual understanding. Among various transferability-enhancing methods, input transformation is one of the most effective strategies. However, existing methods often ignore the decoupling of style and semantics in the input image, as well as the need for customized transformation strategies, resulting in limited performance gains or suboptimal outcomes. In this paper, we propose a novel Fourier-based perspective for input transformation generalization in the context of vision adversarial attacks. The main observations are that the Fourier amplitude captures stylistic information and the phase encompasses richer semantics which are crucial for visual understanding. Motivated by this, we develop a Fourier-based strategy, which performs a stylistic transform and semantic mixup on the input examples to improve transferability. To avoid inconsistent semantics of augmented images for the surrogate model, we mix the original images with the augmentations to maintain semantic consistency and mitigate imprecise gradients. Extensive experiments on ImageNet-compatible datasets demonstrate that our method consistently outperforms existing input transformation attacks.</jats:p>",
+        "DOI": "10.3390/bdcc10050135",
+        "title": [
+          "Enhancing Adversarial Transferability via Fourier-Based Input Transformation"
+        ],
+        "author": [
+          {
+            "given": "Zilin",
+            "family": "Tian",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "College of Computer Science and Technology, Harbin Engineering University, Harbin 150001, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Xin",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Hangzhou Institute of Technology, Xidian University, Hangzhou 311231, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0009-1458-4514",
+            "authenticated-orcid": false,
+            "given": "Yunfei",
+            "family": "Long",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Computer Science and Technology, Harbin Engineering University, Harbin 150001, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3814-7783",
+            "authenticated-orcid": false,
+            "given": "Liguo",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Computer Science and Technology, Harbin Engineering University, Harbin 150001, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              27
+            ]
+          ]
+        },
+        "container-title": [
+          "Big Data and Cognitive Computing"
+        ],
+        "link": [
+          {
+            "URL": "https://www.mdpi.com/2504-2289/10/5/135/pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.3390/bdcc10050135",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              27
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1016/j.eswa.2025.128967",
+        "title": [
+          "AdvReal: Physical adversarial patch generation framework for security evaluation of object detection systems"
+        ],
+        "container-title": [
+          "Expert Systems with Applications"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              1
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.eswa.2025.128967",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0957417425025849?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0957417425025849?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-8190-0390",
+            "authenticated-orcid": false,
+            "given": "Yuanhao",
+            "family": "Huang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3504-8963",
+            "authenticated-orcid": false,
+            "given": "Yilong",
+            "family": "Ren",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0003-6869-1362",
+            "authenticated-orcid": false,
+            "given": "Jinlei",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0003-3483-9410",
+            "authenticated-orcid": false,
+            "given": "Lujia",
+            "family": "Huo",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0005-6245-458X",
+            "authenticated-orcid": false,
+            "given": "Xuesong",
+            "family": "Bai",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jinchuan",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0704-7077",
+            "authenticated-orcid": false,
+            "given": "Haiyang",
+            "family": "Yu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              5
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    Knowledge transfer is an effective method for learning, particularly useful when labeled data are limited or when training a model from scratch is too expensive. Most of the research on transfer learning focuses on achieving\n                    <jats:italic>accurate</jats:italic>\n                    models, overlooking the crucial aspect of adversarial robustness. However, ensuring robustness is vital, especially when applying transfer learning in safety-critical domains. We compare robustness of models obtained by 11 training procedures on source domains and 3 retraining schemes on target domains, including normal, adversarial, contrastive, and Lipschitz constrained training variants. Robustness is analyzed by adversarial attacks with respect to two different transfer learning model outputs: (i) the latent representations and (ii) the predictions. Studying latent representations in correlation with predictions is crucial for robustness of transfer learning models, since they are solely learned on the source domain. Besides adversarial attacks that aim at changing the prediction, we also analyze the effect of directly attacking representations. Our results show that adversarial robustness can transfer across domains, but effective robust transfer learning requires techniques that ensure robustness independent of the training data to preserve them during the transfer. Retraining on the target domain has a minor impact on the robustness of the target model. Representations exhibit greater robustness compared to predictions across both the source and target domain.\n                  </jats:p>",
+        "DOI": "10.1007/s10115-024-02333-x",
+        "title": [
+          "Evaluating the transferability of adversarial robustness to target domains"
+        ],
+        "author": [
+          {
+            "given": "Anna-Kathrin",
+            "family": "Kopetzki",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Aleksandar",
+            "family": "Bojchevski",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Stephan",
+            "family": "Günnemann",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              25
+            ]
+          ]
+        },
+        "container-title": [
+          "Knowledge and Information Systems"
+        ],
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s10115-024-02333-x.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s10115-024-02333-x/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s10115-024-02333-x.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s10115-024-02333-x",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              25
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "DOI": "10.32604/cmc.2025.059863",
+        "title": [
+          "Enhancing Adversarial Example Transferability via Regularized Constrained Feature Layer"
+        ],
+        "author": [
+          {
+            "given": "Xiaoyin",
+            "family": "Yi",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Long",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Jiacheng",
+            "family": "Huang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Ning",
+            "family": "Yu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Qian",
+            "family": "Huang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "container-title": [
+          "Computers, Materials &amp; Continua"
+        ],
+        "link": [
+          {
+            "URL": "https://cdn.techscience.cn/files/cmc/2025/TSP_CMC-83-1/TSP_CMC_59863/TSP_CMC_59863.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.32604/cmc.2025.059863",
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1109/tifs.2025.3536611",
+        "title": [
+          "Adversarial Example Soups: Improving Transferability and Stealthiness for Free"
+        ],
+        "container-title": [
+          "IEEE Transactions on Information Forensics and Security"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tifs.2025.3536611",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/10206/10810755/10858076.pdf?arnumber=10858076",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-0859-2747",
+            "authenticated-orcid": false,
+            "given": "Bo",
+            "family": "Yang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Mathematical Engineering and Advanced Computing and Henan Key Laboratory of Information Security, Information Engineering University, Zhengzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1649-7336",
+            "authenticated-orcid": false,
+            "given": "Hengwei",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Mathematical Engineering and Advanced Computing and Henan Key Laboratory of Information Security, Information Engineering University, Zhengzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jindong",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Mathematical Engineering and Advanced Computing and Henan Key Laboratory of Information Security, Information Engineering University, Zhengzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0007-9738-8417",
+            "authenticated-orcid": false,
+            "given": "Yulong",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Cyber Science and Engineering, Xi&#x2019;an Jiaotong University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6265-7345",
+            "authenticated-orcid": false,
+            "given": "Chenhao",
+            "family": "Lin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Cyber Science and Engineering, Xi&#x2019;an Jiaotong University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6959-0569",
+            "authenticated-orcid": false,
+            "given": "Chao",
+            "family": "Shen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Cyber Science and Engineering, Xi&#x2019;an Jiaotong University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0745-4294",
+            "authenticated-orcid": false,
+            "given": "Zhengyu",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Cyber Science and Engineering, Xi&#x2019;an Jiaotong University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              5
+            ]
+          ]
+        },
+        "DOI": "10.1007/s00371-026-04464-4",
+        "title": [
+          "Improving transferability of adversarial examples with mixed representation attack"
+        ],
+        "author": [
+          {
+            "given": "Yunfei",
+            "family": "Long",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zilin",
+            "family": "Tian",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Liguo",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Haocheng",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Huosheng",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              19
+            ]
+          ]
+        },
+        "container-title": [
+          "The Visual Computer"
+        ],
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s00371-026-04464-4.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s00371-026-04464-4",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s00371-026-04464-4.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s00371-026-04464-4",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              19
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              7
+            ]
+          ]
+        },
+        "DOI": "10.1007/s00138-026-01817-w",
+        "title": [
+          "Enhancing adversarial transferability via importance-aware pixel-level mask"
+        ],
+        "author": [
+          {
+            "given": "Yannan",
+            "family": "Jia",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Lize",
+            "family": "Gu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Shihui",
+            "family": "Zheng",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              20
+            ]
+          ]
+        },
+        "container-title": [
+          "Machine Vision and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s00138-026-01817-w.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s00138-026-01817-w",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s00138-026-01817-w.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s00138-026-01817-w",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              20
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              18
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Deep learning models are vulnerable to adversarial examples generated by adding imperceptible perturbations to original images. Transfer-based adversarial attacks have attracted tremendous attention as they can utilize adversarial examples crafted on surrogate models to mislead target models. An effective strategy to boost adversarial transferability is to create diverse input patterns through input transformation. However, previous works rely on probability to control the diverse input patterns, ignoring the influence of randomness brought by probability on transferability. In this work, we rethink the randomness in these input transformation methods and identify the flaw of excessive randomness, which affects further improvement of transferability. From a statistical perspective, we propose a gradient average attack, which approximates the expected value of gradients by averaging multiple gradients, alleviating the impact of excessive randomness, and generating more transferable adversarial examples. Extensive experiments on the ImageNet dataset demonstrate that our method can remarkably enhance the input transformation attacks of multiple random transformation forms (e.g. resizing and padding, cropping, rotation, translation etc.) and gains heightened transferability. In addition, our method can be seamlessly incorporated with many existing attack methods to further achieve higher attack success rates. Moreover, when attacking a practical image recognition system on the Baidu AI Cloud, the 83.0% attack success rate reveals that real-world-implemented intelligent systems are subject to serious security threats.</jats:p>",
+        "DOI": "10.1093/comjnl/bxaf139",
+        "title": [
+          "Rethinking adversarial transferability from a random and average perspective"
+        ],
+        "author": [
+          {
+            "given": "Bo",
+            "family": "Yang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Information Engineering University , No. 62 Kexue Road, Gaoxin District, Zhengzhou 450001, Henan ,",
+                "place": [
+                  "China"
+                ]
+              },
+              {
+                "name": "State Key Laboratory of Mathematical Engineering and Advanced Computing , No. 62 Kexue Road, Gaoxin District, Zhengzhou 450001, Henan ,",
+                "place": [
+                  "China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hengwei",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Information Engineering University , No. 62 Kexue Road, Gaoxin District, Zhengzhou 450001, Henan ,",
+                "place": [
+                  "China"
+                ]
+              },
+              {
+                "name": "State Key Laboratory of Mathematical Engineering and Advanced Computing , No. 62 Kexue Road, Gaoxin District, Zhengzhou 450001, Henan,",
+                "place": [
+                  "China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jindong",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Information Engineering University , No. 62 Kexue Road, Gaoxin District, Zhengzhou 450001, Henan ,",
+                "place": [
+                  "China"
+                ]
+              },
+              {
+                "name": "State Key Laboratory of Mathematical Engineering and Advanced Computing , No. 62 Kexue Road, Gaoxin District, Zhengzhou 450001, Henan ,",
+                "place": [
+                  "China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              18
+            ]
+          ]
+        },
+        "container-title": [
+          "The Computer Journal"
+        ],
+        "link": [
+          {
+            "URL": "https://academic.oup.com/comjnl/article-pdf/69/4/689/66005381/bxaf139.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "https://academic.oup.com/comjnl/article-pdf/69/4/689/66005381/bxaf139.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1093/comjnl/bxaf139",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              18
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1109/tifs.2025.3574989",
+        "title": [
+          "Boosting the Transferability of Adversarial Examples Through Gradient Aggregation"
+        ],
+        "container-title": [
+          "IEEE Transactions on Information Forensics and Security"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tifs.2025.3574989",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/10206/10810755/11018126.pdf?arnumber=11018126",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0007-9145-5041",
+            "authenticated-orcid": false,
+            "given": "Fuquan",
+            "family": "Gan",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Engineering, South China University of Technology, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1001-4425",
+            "authenticated-orcid": false,
+            "given": "Yan",
+            "family": "Wo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Engineering, South China University of Technology, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "items-per-page": 40,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "method": "nap",
+  "source": "fasterrcnn",
+  "attack_artifacts": 2,
+  "recolor_audits": [],
+  "created_utc": "2026-09-12T11:53:34.674576+00:00"
+}

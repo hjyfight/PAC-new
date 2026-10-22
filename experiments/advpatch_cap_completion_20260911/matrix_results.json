@@ -1,0 +1,1464 @@
+{
+  "updated_utc": "2026-09-11T14:01:39.437957+00:00",
+  "complete": true,
+  "attack_cells_present": 216,
+  "expected_attack_cells": 216,
+  "model_order": [
+    "yolov2",
+    "yolov3",
+    "yolov4",
+    "yolov5s",
+    "yolov5m",
+    "fasterrcnn"
+  ],
+  "matrices": {
+    "advpatch": {
+      "label": "AdvPatch",
+      "cells": {
+        "yolov2": {
+          "yolov2": {
+            "map50_pct": 12.505874065921358,
+            "conditional_asr": 0.9238938053097345,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov2/eval/yolov2/advpatch/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 81.26059726207583,
+            "conditional_asr": 0.08620689655172414,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov2/eval/yolov3/advpatch/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 60.33622509722017,
+            "conditional_asr": 0.2120689655172414,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov2/eval/yolov4/advpatch/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 24.231064871487273,
+            "conditional_asr": 0.7387543252595156,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov2/eval/yolov5s/advpatch/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 38.12288154371629,
+            "conditional_asr": 0.5803108808290155,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov2/eval/yolov5m/advpatch/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 83.8047644675971,
+            "conditional_asr": 0.036020583190394515,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov2/eval/fasterrcnn/advpatch/metrics.json"
+          }
+        },
+        "yolov3": {
+          "yolov2": {
+            "map50_pct": 55.50138710210919,
+            "conditional_asr": 0.42123893805309737,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov3/eval/yolov2/advpatch/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 19.09423238366548,
+            "conditional_asr": 0.7758620689655172,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov3/eval/yolov3/advpatch/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 33.50049285481257,
+            "conditional_asr": 0.4879310344827586,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov3/eval/yolov4/advpatch/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 28.19671357444508,
+            "conditional_asr": 0.7076124567474048,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov3/eval/yolov5s/advpatch/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 35.03906891475424,
+            "conditional_asr": 0.5561312607944733,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov3/eval/yolov5m/advpatch/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 72.79881349498424,
+            "conditional_asr": 0.0411663807890223,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov3/eval/fasterrcnn/advpatch/metrics.json"
+          }
+        },
+        "yolov4": {
+          "yolov2": {
+            "map50_pct": 43.42446903058054,
+            "conditional_asr": 0.37168141592920356,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov4/eval/yolov2/advpatch/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 36.66188780233175,
+            "conditional_asr": 0.3793103448275862,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov4/eval/yolov3/advpatch/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 14.566917513287159,
+            "conditional_asr": 0.8396551724137931,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov4/eval/yolov4/advpatch/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 11.853917250654662,
+            "conditional_asr": 0.6626297577854672,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov4/eval/yolov5s/advpatch/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 15.836085308139852,
+            "conditional_asr": 0.6683937823834197,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov4/eval/yolov5m/advpatch/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 66.09778914142343,
+            "conditional_asr": 0.058319039451114926,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov4/eval/fasterrcnn/advpatch/metrics.json"
+          }
+        },
+        "yolov5s": {
+          "yolov2": {
+            "map50_pct": 82.28816816150743,
+            "conditional_asr": 0.15398230088495576,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov2/advpatch/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 86.99129723085392,
+            "conditional_asr": 0.04482758620689655,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov3/advpatch/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 78.12048117859683,
+            "conditional_asr": 0.0896551724137931,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov4/advpatch/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 30.402825723050263,
+            "conditional_asr": 0.8581314878892734,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov5s/advpatch/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 61.79311659035258,
+            "conditional_asr": 0.2711571675302245,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov5m/advpatch/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 92.07945612926316,
+            "conditional_asr": 0.02058319039451115,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/fasterrcnn/advpatch/metrics.json"
+          }
+        },
+        "yolov5m": {
+          "yolov2": {
+            "map50_pct": 30.61690653018697,
+            "conditional_asr": 0.6814159292035398,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov5m/eval/yolov2/advpatch/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 55.487882773319,
+            "conditional_asr": 0.31551724137931036,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov5m/eval/yolov3/advpatch/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 14.462619893807185,
+            "conditional_asr": 0.746551724137931,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov5m/eval/yolov4/advpatch/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 9.031814225374886,
+            "conditional_asr": 0.870242214532872,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov5m/eval/yolov5s/advpatch/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 21.583334804361545,
+            "conditional_asr": 0.9050086355785838,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov5m/eval/yolov5m/advpatch/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 59.23844170916449,
+            "conditional_asr": 0.11663807890222985,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov5m/eval/fasterrcnn/advpatch/metrics.json"
+          }
+        },
+        "fasterrcnn": {
+          "yolov2": {
+            "map50_pct": 34.303821784843244,
+            "conditional_asr": 0.679646017699115,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/yolov2/advpatch/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 13.548722159090742,
+            "conditional_asr": 0.7224137931034482,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/yolov3/advpatch/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 12.540560339564793,
+            "conditional_asr": 0.7844827586206896,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/yolov4/advpatch/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 3.1547921417878717,
+            "conditional_asr": 0.9307958477508651,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/yolov5s/advpatch/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 18.711597678358693,
+            "conditional_asr": 0.7288428324697754,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/yolov5m/advpatch/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 17.852002198289803,
+            "conditional_asr": 0.6415094339622641,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/fasterrcnn/advpatch/metrics.json"
+          }
+        }
+      },
+      "whitebox_cells": 6,
+      "blackbox_cells": 30,
+      "complete": true,
+      "whitebox_mean": 19.334197781429268,
+      "blackbox_mean": 44.634527874746794
+    },
+    "p1": {
+      "label": "PAC-P1",
+      "cells": {
+        "yolov2": {
+          "yolov2": {
+            "map50_pct": 28.196306563986056,
+            "conditional_asr": 0.8070796460176991,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov2/eval/yolov2/p1/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 82.69606603008478,
+            "conditional_asr": 0.08103448275862069,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov2/eval/yolov3/p1/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 59.861076389007,
+            "conditional_asr": 0.23103448275862068,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov2/eval/yolov4/p1/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 27.59740647525811,
+            "conditional_asr": 0.583044982698962,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov2/eval/yolov5s/p1/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 37.719326008851986,
+            "conditional_asr": 0.5164075993091537,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov2/eval/yolov5m/p1/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 86.51813293826208,
+            "conditional_asr": 0.0274442538593482,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov2/eval/fasterrcnn/p1/metrics.json"
+          }
+        },
+        "yolov3": {
+          "yolov2": {
+            "map50_pct": 60.595134166054486,
+            "conditional_asr": 0.3752212389380531,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov3/eval/yolov2/p1/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 24.46976216081083,
+            "conditional_asr": 0.6827586206896552,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov3/eval/yolov3/p1/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 35.77524041233313,
+            "conditional_asr": 0.46551724137931033,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov3/eval/yolov4/p1/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 29.197645803062102,
+            "conditional_asr": 0.7076124567474048,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov3/eval/yolov5s/p1/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 35.04749890871337,
+            "conditional_asr": 0.5371329879101899,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov3/eval/yolov5m/p1/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 72.4288341890377,
+            "conditional_asr": 0.03773584905660377,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov3/eval/fasterrcnn/p1/metrics.json"
+          }
+        },
+        "yolov4": {
+          "yolov2": {
+            "map50_pct": 52.24518030023546,
+            "conditional_asr": 0.30973451327433627,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov4/eval/yolov2/p1/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 41.34825994570349,
+            "conditional_asr": 0.35517241379310344,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov4/eval/yolov3/p1/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 15.4639271807092,
+            "conditional_asr": 0.8327586206896552,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov4/eval/yolov4/p1/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 14.492191239783475,
+            "conditional_asr": 0.6453287197231834,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov4/eval/yolov5s/p1/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 18.79828866376999,
+            "conditional_asr": 0.614853195164076,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov4/eval/yolov5m/p1/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 73.42107762700448,
+            "conditional_asr": 0.04974271012006861,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov4/eval/fasterrcnn/p1/metrics.json"
+          }
+        },
+        "yolov5s": {
+          "yolov2": {
+            "map50_pct": 84.85380100852896,
+            "conditional_asr": 0.14513274336283186,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov2/p1/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 84.57119703843348,
+            "conditional_asr": 0.05172413793103448,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov3/p1/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 76.87041750883732,
+            "conditional_asr": 0.10344827586206896,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov4/p1/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 38.1286666925541,
+            "conditional_asr": 0.773356401384083,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov5s/p1/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 59.33777388054659,
+            "conditional_asr": 0.29015544041450775,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov5m/p1/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 91.99367945519077,
+            "conditional_asr": 0.02058319039451115,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/fasterrcnn/p1/metrics.json"
+          }
+        },
+        "yolov5m": {
+          "yolov2": {
+            "map50_pct": 40.619649931636275,
+            "conditional_asr": 0.5592920353982301,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov5m/eval/yolov2/p1/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 51.7484976985528,
+            "conditional_asr": 0.35,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov5m/eval/yolov3/p1/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 17.640700700594145,
+            "conditional_asr": 0.7137931034482758,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov5m/eval/yolov4/p1/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 12.998901516371692,
+            "conditional_asr": 0.8079584775086506,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov5m/eval/yolov5s/p1/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 28.115472457721395,
+            "conditional_asr": 0.8480138169257341,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov5m/eval/yolov5m/p1/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 59.85583741932843,
+            "conditional_asr": 0.09777015437392796,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov5m/eval/fasterrcnn/p1/metrics.json"
+          }
+        },
+        "fasterrcnn": {
+          "yolov2": {
+            "map50_pct": 45.46773472461233,
+            "conditional_asr": 0.536283185840708,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/yolov2/p1/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 17.524589623082694,
+            "conditional_asr": 0.6431034482758621,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/yolov3/p1/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 13.54917569830194,
+            "conditional_asr": 0.7672413793103449,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/yolov4/p1/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 5.407634838319257,
+            "conditional_asr": 0.8910034602076125,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/yolov5s/p1/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 19.603803432416285,
+            "conditional_asr": 0.6770293609671848,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/yolov5m/p1/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 29.855644239861473,
+            "conditional_asr": 0.42710120068610635,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/fasterrcnn/p1/metrics.json"
+          }
+        }
+      },
+      "whitebox_cells": 6,
+      "blackbox_cells": 30,
+      "complete": true,
+      "whitebox_mean": 27.37162988260718,
+      "blackbox_mean": 46.992825119063816
+    },
+    "p2": {
+      "label": "PAC-P2",
+      "cells": {
+        "yolov2": {
+          "yolov2": {
+            "map50_pct": 22.479353333198386,
+            "conditional_asr": 0.8389380530973451,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov2/eval/yolov2/p2/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 82.73261647636096,
+            "conditional_asr": 0.07931034482758621,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov2/eval/yolov3/p2/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 62.073000520986355,
+            "conditional_asr": 0.20689655172413793,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov2/eval/yolov4/p2/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 28.751222008349064,
+            "conditional_asr": 0.643598615916955,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov2/eval/yolov5s/p2/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 36.09237270799135,
+            "conditional_asr": 0.5595854922279793,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov2/eval/yolov5m/p2/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 81.8135461694133,
+            "conditional_asr": 0.0411663807890223,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov2/eval/fasterrcnn/p2/metrics.json"
+          }
+        },
+        "yolov3": {
+          "yolov2": {
+            "map50_pct": 58.71600212938509,
+            "conditional_asr": 0.3858407079646018,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov3/eval/yolov2/p2/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 23.74409112884372,
+            "conditional_asr": 0.6982758620689655,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov3/eval/yolov3/p2/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 37.39600194170544,
+            "conditional_asr": 0.44310344827586207,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov3/eval/yolov4/p2/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 30.49047300414398,
+            "conditional_asr": 0.6903114186851211,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov3/eval/yolov5s/p2/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 34.93661423936937,
+            "conditional_asr": 0.5716753022452504,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov3/eval/yolov5m/p2/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 75.63784504437923,
+            "conditional_asr": 0.03430531732418525,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov3/eval/fasterrcnn/p2/metrics.json"
+          }
+        },
+        "yolov4": {
+          "yolov2": {
+            "map50_pct": 45.711975958249056,
+            "conditional_asr": 0.3380530973451327,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov4/eval/yolov2/p2/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 31.489995532555405,
+            "conditional_asr": 0.4017241379310345,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov4/eval/yolov3/p2/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 13.17979975201379,
+            "conditional_asr": 0.8637931034482759,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov4/eval/yolov4/p2/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 14.175617346577102,
+            "conditional_asr": 0.6401384083044983,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov4/eval/yolov5s/p2/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 16.565171383249066,
+            "conditional_asr": 0.6683937823834197,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov4/eval/yolov5m/p2/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 62.895203482489435,
+            "conditional_asr": 0.0634648370497427,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov4/eval/fasterrcnn/p2/metrics.json"
+          }
+        },
+        "yolov5s": {
+          "yolov2": {
+            "map50_pct": 83.87686936114244,
+            "conditional_asr": 0.14690265486725665,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov2/p2/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 85.26981784677233,
+            "conditional_asr": 0.056896551724137934,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov3/p2/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 77.33861936778443,
+            "conditional_asr": 0.08620689655172414,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov4/p2/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 33.91517789756996,
+            "conditional_asr": 0.8442906574394463,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov5s/p2/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 61.07596317274293,
+            "conditional_asr": 0.2711571675302245,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov5m/p2/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 91.99388646570429,
+            "conditional_asr": 0.022298456260720412,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/fasterrcnn/p2/metrics.json"
+          }
+        },
+        "yolov5m": {
+          "yolov2": {
+            "map50_pct": 30.12585020390897,
+            "conditional_asr": 0.6424778761061947,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov5m/eval/yolov2/p2/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 45.96500076411898,
+            "conditional_asr": 0.41379310344827586,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov5m/eval/yolov3/p2/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 12.02801358761249,
+            "conditional_asr": 0.7913793103448276,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov5m/eval/yolov4/p2/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 13.527118602543336,
+            "conditional_asr": 0.78719723183391,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov5m/eval/yolov5s/p2/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 26.092393857836704,
+            "conditional_asr": 0.8549222797927462,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov5m/eval/yolov5m/p2/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 62.236427824097184,
+            "conditional_asr": 0.09777015437392796,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov5m/eval/fasterrcnn/p2/metrics.json"
+          }
+        },
+        "fasterrcnn": {
+          "yolov2": {
+            "map50_pct": 37.37259791524482,
+            "conditional_asr": 0.6353982300884956,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/yolov2/p2/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 17.776705819322146,
+            "conditional_asr": 0.653448275862069,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/yolov3/p2/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 13.28549557023327,
+            "conditional_asr": 0.7810344827586206,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/yolov4/p2/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 4.233321998831338,
+            "conditional_asr": 0.9065743944636678,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/yolov5s/p2/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 21.84544180824381,
+            "conditional_asr": 0.687392055267703,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/yolov5m/p2/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 21.91215962511756,
+            "conditional_asr": 0.5626072041166381,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/fasterrcnn/p2/metrics.json"
+          }
+        }
+      },
+      "whitebox_cells": 6,
+      "blackbox_cells": 30,
+      "complete": true,
+      "whitebox_mean": 23.553829265763355,
+      "blackbox_mean": 45.24762627511691
+    },
+    "cap": {
+      "label": "CAP",
+      "cells": {
+        "yolov2": {
+          "yolov2": {
+            "map50_pct": 5.519805899415277,
+            "conditional_asr": 0.9858407079646018,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov2/eval/yolov2/cap/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 14.939105586384677,
+            "conditional_asr": 0.6827586206896552,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov2/eval/yolov3/cap/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 7.52254554749123,
+            "conditional_asr": 0.8586206896551725,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov2/eval/yolov4/cap/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 5.5978336300987905,
+            "conditional_asr": 0.8304498269896193,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov2/eval/yolov5s/cap/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 22.847490859757077,
+            "conditional_asr": 0.5578583765112263,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov2/eval/yolov5m/cap/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 48.77940597064821,
+            "conditional_asr": 0.12864493996569468,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov2/eval/fasterrcnn/cap/metrics.json"
+          }
+        },
+        "yolov3": {
+          "yolov2": {
+            "map50_pct": 81.53603611309444,
+            "conditional_asr": 0.15575221238938053,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov3/eval/yolov2/cap/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 38.15061822912177,
+            "conditional_asr": 0.5258620689655172,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov3/eval/yolov3/cap/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 64.0758447973638,
+            "conditional_asr": 0.22758620689655173,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov3/eval/yolov4/cap/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 49.822657571417,
+            "conditional_asr": 0.2647058823529412,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov3/eval/yolov5s/cap/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 66.67337552877107,
+            "conditional_asr": 0.1692573402417962,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov3/eval/yolov5m/cap/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 89.0023919182867,
+            "conditional_asr": 0.024013722126929673,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov3/eval/fasterrcnn/cap/metrics.json"
+          }
+        },
+        "yolov4": {
+          "yolov2": {
+            "map50_pct": 44.718931816018404,
+            "conditional_asr": 0.39823008849557523,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov4/eval/yolov2/cap/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 26.34057096555923,
+            "conditional_asr": 0.4896551724137931,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov4/eval/yolov3/cap/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 14.44256402990722,
+            "conditional_asr": 0.8672413793103448,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov4/eval/yolov4/cap/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 14.867328028687139,
+            "conditional_asr": 0.5674740484429066,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov4/eval/yolov5s/cap/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 13.697592508196871,
+            "conditional_asr": 0.6027633851468048,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov4/eval/yolov5m/cap/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 60.037816173723236,
+            "conditional_asr": 0.10806174957118353,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov4/eval/fasterrcnn/cap/metrics.json"
+          }
+        },
+        "yolov5s": {
+          "yolov2": {
+            "map50_pct": 60.28656573250799,
+            "conditional_asr": 0.30796460176991153,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov5s/eval/yolov2/cap/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 72.92983858733933,
+            "conditional_asr": 0.15689655172413794,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov5s/eval/yolov3/cap/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 64.8669752551537,
+            "conditional_asr": 0.2689655172413793,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov5s/eval/yolov4/cap/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 30.083469914652127,
+            "conditional_asr": 0.7629757785467128,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov5s/eval/yolov5s/cap/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 63.60354566111733,
+            "conditional_asr": 0.26252158894645944,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov5s/eval/yolov5m/cap/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 76.84522852855757,
+            "conditional_asr": 0.04974271012006861,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov5s/eval/fasterrcnn/cap/metrics.json"
+          }
+        },
+        "yolov5m": {
+          "yolov2": {
+            "map50_pct": 14.83047930878605,
+            "conditional_asr": 0.6619469026548672,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov5m/eval/yolov2/cap/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 10.98066096193572,
+            "conditional_asr": 0.7310344827586207,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov5m/eval/yolov3/cap/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 6.62782991410189,
+            "conditional_asr": 0.8793103448275862,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov5m/eval/yolov4/cap/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 4.160369914498877,
+            "conditional_asr": 0.8200692041522492,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov5m/eval/yolov5s/cap/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 13.928949983418468,
+            "conditional_asr": 0.8065630397236615,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov5m/eval/yolov5m/cap/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 47.89688090278725,
+            "conditional_asr": 0.08576329331046312,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov5m/eval/fasterrcnn/cap/metrics.json"
+          }
+        },
+        "fasterrcnn": {
+          "yolov2": {
+            "map50_pct": 81.43455319796743,
+            "conditional_asr": 0.07256637168141593,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/fasterrcnn/eval/yolov2/cap/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 90.14107236275275,
+            "conditional_asr": 0.032758620689655175,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/fasterrcnn/eval/yolov3/cap/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 58.870715074748624,
+            "conditional_asr": 0.28793103448275864,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/fasterrcnn/eval/yolov4/cap/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 27.822673643109084,
+            "conditional_asr": 0.48961937716262977,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/fasterrcnn/eval/yolov5s/cap/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 40.60210150565741,
+            "conditional_asr": 0.29360967184801384,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/fasterrcnn/eval/yolov5m/cap/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 80.60159663679963,
+            "conditional_asr": 0.029159519725557463,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/fasterrcnn/eval/fasterrcnn/cap/metrics.json"
+          }
+        }
+      },
+      "whitebox_cells": 6,
+      "blackbox_cells": 30,
+      "complete": true,
+      "whitebox_mean": 30.454500782219082,
+      "blackbox_mean": 44.411947252217296
+    },
+    "cap_bc1": {
+      "label": "PAC(CAP, Bc1)",
+      "cells": {
+        "yolov2": {
+          "yolov2": {
+            "map50_pct": 8.951569971203083,
+            "conditional_asr": 0.952212389380531,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov2/cap_bc1_yolov2/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 12.0801346320747,
+            "conditional_asr": 0.6982758620689655,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov3/cap_bc1_yolov2/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 6.451998283649009,
+            "conditional_asr": 0.8793103448275862,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov4/cap_bc1_yolov2/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 5.868835567953704,
+            "conditional_asr": 0.8096885813148789,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov5s/cap_bc1_yolov2/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 19.83271836610959,
+            "conditional_asr": 0.5561312607944733,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov5m/cap_bc1_yolov2/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 42.09542519865329,
+            "conditional_asr": 0.16981132075471697,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/fasterrcnn/cap_bc1_yolov2/metrics.json"
+          }
+        },
+        "yolov3": {
+          "yolov2": {
+            "map50_pct": 86.5683022707432,
+            "conditional_asr": 0.10088495575221239,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov2/cap_bc1_yolov3/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 46.56636135213998,
+            "conditional_asr": 0.4672413793103448,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov3/cap_bc1_yolov3/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 63.71518472217803,
+            "conditional_asr": 0.25689655172413794,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov4/cap_bc1_yolov3/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 52.91256267936968,
+            "conditional_asr": 0.24048442906574394,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov5s/cap_bc1_yolov3/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 68.32123485314061,
+            "conditional_asr": 0.13471502590673576,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov5m/cap_bc1_yolov3/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 91.73107492204844,
+            "conditional_asr": 0.015437392795883362,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/fasterrcnn/cap_bc1_yolov3/metrics.json"
+          }
+        },
+        "yolov4": {
+          "yolov2": {
+            "map50_pct": 50.407776433715235,
+            "conditional_asr": 0.36106194690265486,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov2/cap_bc1_yolov4/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 32.16955693612651,
+            "conditional_asr": 0.43103448275862066,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov3/cap_bc1_yolov4/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 13.501874072035378,
+            "conditional_asr": 0.8551724137931035,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov4/cap_bc1_yolov4/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 15.07032564506195,
+            "conditional_asr": 0.5692041522491349,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov5s/cap_bc1_yolov4/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 18.115601819940228,
+            "conditional_asr": 0.5440414507772021,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov5m/cap_bc1_yolov4/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 62.06451839703825,
+            "conditional_asr": 0.11492281303602059,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/fasterrcnn/cap_bc1_yolov4/metrics.json"
+          }
+        },
+        "yolov5s": {
+          "yolov2": {
+            "map50_pct": 71.28053658430451,
+            "conditional_asr": 0.21946902654867256,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov2/cap_bc1_yolov5s/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 70.51893296456542,
+            "conditional_asr": 0.1793103448275862,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov3/cap_bc1_yolov5s/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 61.773940056214784,
+            "conditional_asr": 0.2982758620689655,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov4/cap_bc1_yolov5s/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 43.01927836310216,
+            "conditional_asr": 0.6211072664359861,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov5s/cap_bc1_yolov5s/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 66.1231191851498,
+            "conditional_asr": 0.23488773747841105,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov5m/cap_bc1_yolov5s/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 82.69155145079603,
+            "conditional_asr": 0.036020583190394515,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/fasterrcnn/cap_bc1_yolov5s/metrics.json"
+          }
+        },
+        "yolov5m": {
+          "yolov2": {
+            "map50_pct": 19.983845615278035,
+            "conditional_asr": 0.5929203539823009,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov2/cap_bc1_yolov5m/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 14.923492989296369,
+            "conditional_asr": 0.6724137931034483,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov3/cap_bc1_yolov5m/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 6.554959350980852,
+            "conditional_asr": 0.9086206896551724,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov4/cap_bc1_yolov5m/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 8.07301206691187,
+            "conditional_asr": 0.7076124567474048,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov5s/cap_bc1_yolov5m/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 16.7295894991477,
+            "conditional_asr": 0.7374784110535406,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov5m/cap_bc1_yolov5m/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 56.786957710523126,
+            "conditional_asr": 0.07890222984562607,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/fasterrcnn/cap_bc1_yolov5m/metrics.json"
+          }
+        },
+        "fasterrcnn": {
+          "yolov2": {
+            "map50_pct": 84.51676275958523,
+            "conditional_asr": 0.06371681415929203,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov2/cap_bc1_fasterrcnn/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 90.83462247280654,
+            "conditional_asr": 0.027586206896551724,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov3/cap_bc1_fasterrcnn/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 52.69052945172887,
+            "conditional_asr": 0.34655172413793106,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov4/cap_bc1_fasterrcnn/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 30.46221025722804,
+            "conditional_asr": 0.45674740484429066,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov5s/cap_bc1_fasterrcnn/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 42.919838911501316,
+            "conditional_asr": 0.2607944732297064,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov5m/cap_bc1_fasterrcnn/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 84.25461006969836,
+            "conditional_asr": 0.0274442538593482,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/fasterrcnn/cap_bc1_fasterrcnn/metrics.json"
+          }
+        }
+      },
+      "whitebox_cells": 6,
+      "blackbox_cells": 30,
+      "complete": true,
+      "whitebox_mean": 35.50388055455445,
+      "blackbox_mean": 46.251318751822446
+    },
+    "cap_bc2": {
+      "label": "PAC(CAP, Bc2)",
+      "cells": {
+        "yolov2": {
+          "yolov2": {
+            "map50_pct": 7.723594501686868,
+            "conditional_asr": 0.9610619469026549,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov2/cap_bc2_yolov2/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 9.494804883855943,
+            "conditional_asr": 0.7413793103448276,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov3/cap_bc2_yolov2/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 7.619713989203043,
+            "conditional_asr": 0.8879310344827587,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov4/cap_bc2_yolov2/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 6.365720406118711,
+            "conditional_asr": 0.8027681660899654,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov5s/cap_bc2_yolov2/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 20.687369312723526,
+            "conditional_asr": 0.6217616580310881,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov5m/cap_bc2_yolov2/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 37.07740694202586,
+            "conditional_asr": 0.19210977701543738,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/fasterrcnn/cap_bc2_yolov2/metrics.json"
+          }
+        },
+        "yolov3": {
+          "yolov2": {
+            "map50_pct": 87.28522351782915,
+            "conditional_asr": 0.10973451327433628,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov2/cap_bc2_yolov3/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 51.93142875020874,
+            "conditional_asr": 0.38275862068965516,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov3/cap_bc2_yolov3/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 62.48446831127863,
+            "conditional_asr": 0.2672413793103448,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov4/cap_bc2_yolov3/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 55.642352344461735,
+            "conditional_asr": 0.22491349480968859,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov5s/cap_bc2_yolov3/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 66.95979761959376,
+            "conditional_asr": 0.15889464594127806,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov5m/cap_bc2_yolov3/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 90.3686873506659,
+            "conditional_asr": 0.018867924528301886,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/fasterrcnn/cap_bc2_yolov3/metrics.json"
+          }
+        },
+        "yolov4": {
+          "yolov2": {
+            "map50_pct": 48.01504557621823,
+            "conditional_asr": 0.3327433628318584,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov2/cap_bc2_yolov4/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 31.1190780559985,
+            "conditional_asr": 0.41724137931034483,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov3/cap_bc2_yolov4/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 14.343904966775606,
+            "conditional_asr": 0.843103448275862,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov4/cap_bc2_yolov4/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 16.56485904309134,
+            "conditional_asr": 0.5501730103806228,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov5s/cap_bc2_yolov4/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 15.32904179420869,
+            "conditional_asr": 0.5699481865284974,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov5m/cap_bc2_yolov4/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 61.899662804240144,
+            "conditional_asr": 0.09948542024013722,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/fasterrcnn/cap_bc2_yolov4/metrics.json"
+          }
+        },
+        "yolov5s": {
+          "yolov2": {
+            "map50_pct": 65.16846251658835,
+            "conditional_asr": 0.2743362831858407,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov2/cap_bc2_yolov5s/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 68.74541611161203,
+            "conditional_asr": 0.18620689655172415,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov3/cap_bc2_yolov5s/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 60.170090366752646,
+            "conditional_asr": 0.3086206896551724,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov4/cap_bc2_yolov5s/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 37.04017024121255,
+            "conditional_asr": 0.6868512110726643,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov5s/cap_bc2_yolov5s/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 65.08623153121324,
+            "conditional_asr": 0.23834196891191708,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov5m/cap_bc2_yolov5s/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 79.17152075541297,
+            "conditional_asr": 0.04288164665523156,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/fasterrcnn/cap_bc2_yolov5s/metrics.json"
+          }
+        },
+        "yolov5m": {
+          "yolov2": {
+            "map50_pct": 20.170823434557803,
+            "conditional_asr": 0.5663716814159292,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov2/cap_bc2_yolov5m/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 9.171439661156706,
+            "conditional_asr": 0.7310344827586207,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov3/cap_bc2_yolov5m/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 7.8927254882992735,
+            "conditional_asr": 0.8775862068965518,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov4/cap_bc2_yolov5m/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 10.38195515740474,
+            "conditional_asr": 0.6833910034602076,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov5s/cap_bc2_yolov5m/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 20.663783421651598,
+            "conditional_asr": 0.7478411053540587,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov5m/cap_bc2_yolov5m/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 68.25096369199923,
+            "conditional_asr": 0.04974271012006861,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/fasterrcnn/cap_bc2_yolov5m/metrics.json"
+          }
+        },
+        "fasterrcnn": {
+          "yolov2": {
+            "map50_pct": 83.1846202524925,
+            "conditional_asr": 0.06548672566371681,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov2/cap_bc2_fasterrcnn/metrics.json"
+          },
+          "yolov3": {
+            "map50_pct": 90.35928052188808,
+            "conditional_asr": 0.029310344827586206,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov3/cap_bc2_fasterrcnn/metrics.json"
+          },
+          "yolov4": {
+            "map50_pct": 59.24584214871796,
+            "conditional_asr": 0.28620689655172415,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov4/cap_bc2_fasterrcnn/metrics.json"
+          },
+          "yolov5s": {
+            "map50_pct": 28.371844761189237,
+            "conditional_asr": 0.47923875432525953,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov5s/cap_bc2_fasterrcnn/metrics.json"
+          },
+          "yolov5m": {
+            "map50_pct": 39.40441623595709,
+            "conditional_asr": 0.2918825561312608,
+            "relation": "blackbox_transfer",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/yolov5m/cap_bc2_fasterrcnn/metrics.json"
+          },
+          "fasterrcnn": {
+            "map50_pct": 84.4492185268825,
+            "conditional_asr": 0.029159519725557463,
+            "relation": "whitebox",
+            "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cap_recolor/eval/fasterrcnn/cap_bc2_fasterrcnn/metrics.json"
+          }
+        }
+      },
+      "whitebox_cells": 6,
+      "blackbox_cells": 30,
+      "complete": true,
+      "whitebox_mean": 36.02535006806964,
+      "blackbox_mean": 45.72296215289183
+    }
+  },
+  "recolor_penalties": {
+    "p1": {
+      "whitebox_mean_penalty": 8.037432101177913,
+      "blackbox_mean_penalty": 2.358297244317022
+    },
+    "p2": {
+      "whitebox_mean_penalty": 4.219631484334087,
+      "blackbox_mean_penalty": 0.613098400370113
+    },
+    "cap_bc1": {
+      "whitebox_mean_penalty": 5.049379772335367,
+      "blackbox_mean_penalty": 1.83937149960515
+    },
+    "cap_bc2": {
+      "whitebox_mean_penalty": 5.57084928585056,
+      "blackbox_mean_penalty": 1.311014900674536
+    }
+  },
+  "average_rule": "WB: six diagonal cells; BB: 30 off-diagonal cells. No incomplete averages or zero imputation.",
+  "psnr_ssim": "Not calculated or changed"
+}

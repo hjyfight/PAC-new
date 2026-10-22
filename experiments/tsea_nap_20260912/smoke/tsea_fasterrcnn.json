@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "method": "tsea",
+  "detector": "fasterrcnn",
+  "batch_size": 8,
+  "images": 614,
+  "batches_per_epoch": 77,
+  "train_images_only": true,
+  "detector_frozen": true,
+  "finite_nonzero_detection_gradient": true,
+  "steps": [
+    {
+      "step": 1,
+      "loss": 1.0983647108078003,
+      "detection": 0.9983647465705872,
+      "tv": 0.10000000149011612,
+      "detection_gradient_abs_sum": 0.28089478611946106,
+      "parameter_update_max": 0.029996156692504883
+    },
+    {
+      "step": 2,
+      "loss": 1.1081361770629883,
+      "detection": 0.9980066418647766,
+      "tv": 0.11012957245111465,
+      "detection_gradient_abs_sum": 0.10959257930517197,
+      "parameter_update_max": 0.02990451455116272
+    }
+  ],
+  "reserved_mib": 5808.0,
+  "allocated_mib": 4221.19287109375,
+  "disabled_ensemble_max_error": 0.0,
+  "enabled_ensemble_loss_difference": 0.00014257431030273438,
+  "tsea_residual_locations": [
+    "backbone.body.layer3.1.bn3",
+    "backbone.body.layer3.2.bn3",
+    "backbone.body.layer3.3.bn3",
+    "backbone.body.layer3.4.bn3",
+    "backbone.body.layer3.5.bn3"
+  ],
+  "nap_generator_frozen_and_buffers_unchanged": false,
+  "seconds": 8.736148020019755
+}

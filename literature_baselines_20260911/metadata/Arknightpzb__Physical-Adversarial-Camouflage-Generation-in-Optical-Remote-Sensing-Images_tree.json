@@ -1,0 +1,2120 @@
+{
+  "sha": "c22952630ee48c6d6846d7721a49e509be03158d",
+  "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/trees/c22952630ee48c6d6846d7721a49e509be03158d",
+  "tree": [
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd12994fe821d9622a5ed26cbc78f48eda2e6597",
+      "size": 1068,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/dd12994fe821d9622a5ed26cbc78f48eda2e6597"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7f6413f72d42f96866b5bbeccbe424680d87021",
+      "size": 3671,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/e7f6413f72d42f96866b5bbeccbe424680d87021"
+    },
+    {
+      "path": "adversarial-texture",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2806c60407117ee2425c9e33d60f5c972fe4afde",
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/trees/2806c60407117ee2425c9e33d60f5c972fe4afde"
+    },
+    {
+      "path": "adversarial-texture/texture-0.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4f337252e12439a01eaf764b40c9158d2366bf4",
+      "size": 37980,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/c4f337252e12439a01eaf764b40c9158d2366bf4"
+    },
+    {
+      "path": "adversarial-texture/texture-10.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a33ce3613916d1f01b1392111e2568a1c28bb2da",
+      "size": 46985,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/a33ce3613916d1f01b1392111e2568a1c28bb2da"
+    },
+    {
+      "path": "adversarial-texture/texture-15.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a40df1bd86654b3c1500b055ae79b2766f558b92",
+      "size": 48623,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/a40df1bd86654b3c1500b055ae79b2766f558b92"
+    },
+    {
+      "path": "adversarial-texture/texture-20.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a72170dda946be6b61aa67a600971304317a822f",
+      "size": 48878,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/a72170dda946be6b61aa67a600971304317a822f"
+    },
+    {
+      "path": "adversarial-texture/texture-25.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "093690b6198ba1dde38da818658e3d818d4dc4b7",
+      "size": 50354,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/093690b6198ba1dde38da818658e3d818d4dc4b7"
+    },
+    {
+      "path": "adversarial-texture/texture-30.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bb1e6e18910e3fe51482042897f26e02509438d",
+      "size": 51229,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/5bb1e6e18910e3fe51482042897f26e02509438d"
+    },
+    {
+      "path": "adversarial-texture/texture-35.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "018061542983caa498388927290e3d0975db110d",
+      "size": 52455,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/018061542983caa498388927290e3d0975db110d"
+    },
+    {
+      "path": "adversarial-texture/texture-40.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c3928b2b6cf1c012b788b6c682d090a1c1b4bfe",
+      "size": 52363,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/9c3928b2b6cf1c012b788b6c682d090a1c1b4bfe"
+    },
+    {
+      "path": "adversarial-texture/texture-45.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6b678e5448eee1d1521b842d3c5331e7138b75f",
+      "size": 52094,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/d6b678e5448eee1d1521b842d3c5331e7138b75f"
+    },
+    {
+      "path": "adversarial-texture/texture-5.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edeb363ed877e38c553528fd3ac7161f6f47671f",
+      "size": 43060,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/edeb363ed877e38c553528fd3ac7161f6f47671f"
+    },
+    {
+      "path": "adversarial-texture/texture-50.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d21d03a0020449935cf98759a6ce77367b8b6165",
+      "size": 52034,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/d21d03a0020449935cf98759a6ce77367b8b6165"
+    },
+    {
+      "path": "adversarial-texture/texture-55.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfd1241fc36650cae9a97e329e7b2eba4f3dfb11",
+      "size": 51753,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/cfd1241fc36650cae9a97e329e7b2eba4f3dfb11"
+    },
+    {
+      "path": "adversarial-texture/texture-60.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88255f170d22e7f9bb86ad9f5779741bd4c0c5ef",
+      "size": 51428,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/88255f170d22e7f9bb86ad9f5779741bd4c0c5ef"
+    },
+    {
+      "path": "adversarial-texture/z_model.pth",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9568dd69c385300ac9284c53c063a2a5ccca2429",
+      "size": 5291,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/9568dd69c385300ac9284c53c063a2a5ccca2429"
+    },
+    {
+      "path": "dnnlib",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d4c22f0417038ca822c53f095d2bc32cf288002d",
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/trees/d4c22f0417038ca822c53f095d2bc32cf288002d"
+    },
+    {
+      "path": "dnnlib/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7423bffe245d0ff3f32e8658aa67daae454e64e",
+      "size": 488,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/e7423bffe245d0ff3f32e8658aa67daae454e64e"
+    },
+    {
+      "path": "dnnlib/__pycache__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2f82c77d382d8d4b785aff73939e778c4fafcd63",
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/trees/2f82c77d382d8d4b785aff73939e778c4fafcd63"
+    },
+    {
+      "path": "dnnlib/__pycache__/__init__.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f10f320b69676a5b6c4e891864e4b20f24f150d",
+      "size": 198,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/1f10f320b69676a5b6c4e891864e4b20f24f150d"
+    },
+    {
+      "path": "dnnlib/__pycache__/util.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8d5d1df09173b638e77bae678fbf3639f1780e5",
+      "size": 14031,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/b8d5d1df09173b638e77bae678fbf3639f1780e5"
+    },
+    {
+      "path": "dnnlib/util.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bbdf3bd8fe1c138cd969d37dcc52190b45c4c16",
+      "size": 17132,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/6bbdf3bd8fe1c138cd969d37dcc52190b45c4c16"
+    },
+    {
+      "path": "generated-texture",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e7537445ac32381bdfd94e1e8aeace4c29f1769f",
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/trees/e7537445ac32381bdfd94e1e8aeace4c29f1769f"
+    },
+    {
+      "path": "generated-texture/seed0000.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9aa3bde7248f60b6daf70ae4764e0b8e9e9e457f",
+      "size": 136990,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/9aa3bde7248f60b6daf70ae4764e0b8e9e9e457f"
+    },
+    {
+      "path": "generated-texture/seed0001.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76cad63bb7858c8ed175b5b8fabd27a4eff75c43",
+      "size": 133035,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/76cad63bb7858c8ed175b5b8fabd27a4eff75c43"
+    },
+    {
+      "path": "generated-texture/seed0002.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ae05fb2f33b6a43c52314d69225362720afa01b",
+      "size": 106720,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/5ae05fb2f33b6a43c52314d69225362720afa01b"
+    },
+    {
+      "path": "generated-texture/seed0003.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e98b6d67a7fdf9bfcec32c4ddf98c06e2a15408f",
+      "size": 144678,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/e98b6d67a7fdf9bfcec32c4ddf98c06e2a15408f"
+    },
+    {
+      "path": "generated-texture/seed0004.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c07958ef6d16c502aca8346d401c58e4b2bc25a",
+      "size": 113067,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/4c07958ef6d16c502aca8346d401c58e4b2bc25a"
+    },
+    {
+      "path": "generated-texture/seed0005.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09eb6ab3876fe68ef2497a723b5aa66aa1aa2bed",
+      "size": 115206,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/09eb6ab3876fe68ef2497a723b5aa66aa1aa2bed"
+    },
+    {
+      "path": "generated-texture/seed0006.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a30b7b59f6e9d2e7b1e809708befdfad70f6bf7",
+      "size": 114921,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/9a30b7b59f6e9d2e7b1e809708befdfad70f6bf7"
+    },
+    {
+      "path": "generated-texture/seed0007.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbdd1e9c0311febaa57c5c90def1ba8d4a238bd9",
+      "size": 120452,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/cbdd1e9c0311febaa57c5c90def1ba8d4a238bd9"
+    },
+    {
+      "path": "generated-texture/seed0008.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e1efbc4bf17f6bee54e80088eb12f958971ed84",
+      "size": 84002,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/1e1efbc4bf17f6bee54e80088eb12f958971ed84"
+    },
+    {
+      "path": "generated-texture/seed0009.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "639b303bd4864bfd3c8cefb58a6b698119e2dc75",
+      "size": 117988,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/639b303bd4864bfd3c8cefb58a6b698119e2dc75"
+    },
+    {
+      "path": "generated-texture/seed0010.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa968c7a4dbc1bd1f368a6ca343c08d595330d6c",
+      "size": 104997,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/aa968c7a4dbc1bd1f368a6ca343c08d595330d6c"
+    },
+    {
+      "path": "generated-texture/seed0011.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42885afa54cb6b138a837ab3b8b29b0366317fa9",
+      "size": 133367,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/42885afa54cb6b138a837ab3b8b29b0366317fa9"
+    },
+    {
+      "path": "generated-texture/seed0012.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4aa538a8b4061430d760679d6bbf013826e970f",
+      "size": 123834,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/b4aa538a8b4061430d760679d6bbf013826e970f"
+    },
+    {
+      "path": "generated-texture/seed0013.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbe43f754e577c2c3e9dbef2977201eeb0ebcce3",
+      "size": 77995,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/bbe43f754e577c2c3e9dbef2977201eeb0ebcce3"
+    },
+    {
+      "path": "generated-texture/seed0014.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "170ad2ec9ee45868ebd03bb62d806e3036a1b54b",
+      "size": 120658,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/170ad2ec9ee45868ebd03bb62d806e3036a1b54b"
+    },
+    {
+      "path": "generated-texture/seed0015.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02874b6c3e0dfb11751ec5d9a683f0177c7a07fc",
+      "size": 102113,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/02874b6c3e0dfb11751ec5d9a683f0177c7a07fc"
+    },
+    {
+      "path": "generated-texture/seed0016.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c6a05e33f504d4f769c5d00d752e5221d24ad9e",
+      "size": 110600,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/8c6a05e33f504d4f769c5d00d752e5221d24ad9e"
+    },
+    {
+      "path": "generated-texture/seed0017.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8503618eb9dbc524cddb3afe41e2315f51486f85",
+      "size": 106098,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/8503618eb9dbc524cddb3afe41e2315f51486f85"
+    },
+    {
+      "path": "generated-texture/seed0018.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ad052f0e35efb6949b306cf5bd419583918fa93",
+      "size": 123058,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/3ad052f0e35efb6949b306cf5bd419583918fa93"
+    },
+    {
+      "path": "generated-texture/seed0019.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b3a5c3aa82f421df106523782e4d674b0491994",
+      "size": 131319,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/4b3a5c3aa82f421df106523782e4d674b0491994"
+    },
+    {
+      "path": "generated-texture/seed0020.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c6bf17ecefc49a9ac2b8a2e6d90db7781e4e344",
+      "size": 70586,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/9c6bf17ecefc49a9ac2b8a2e6d90db7781e4e344"
+    },
+    {
+      "path": "generated-texture/seed0021.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31ae7dbdb768db56ca1cda487561bebe53aff6c8",
+      "size": 139597,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/31ae7dbdb768db56ca1cda487561bebe53aff6c8"
+    },
+    {
+      "path": "generated-texture/seed0022.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cce548bbabd8ca4febc66a90e4b1d1589a10e15",
+      "size": 129349,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/5cce548bbabd8ca4febc66a90e4b1d1589a10e15"
+    },
+    {
+      "path": "generated-texture/seed0023.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff54705ba8d4850584d8471dffd1303ec18665d0",
+      "size": 106509,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/ff54705ba8d4850584d8471dffd1303ec18665d0"
+    },
+    {
+      "path": "generated-texture/seed0024.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad53f9367a01aeb553867b2ab6c661bbe57cb34d",
+      "size": 110457,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/ad53f9367a01aeb553867b2ab6c661bbe57cb34d"
+    },
+    {
+      "path": "generated-texture/seed0025.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18a56b7d1d15ab9c2297f6c22fd82279009c6c08",
+      "size": 124996,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/18a56b7d1d15ab9c2297f6c22fd82279009c6c08"
+    },
+    {
+      "path": "generated-texture/seed0026.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "531ec3464fe7b986595ff16d65d54b715dc5ccfa",
+      "size": 125727,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/531ec3464fe7b986595ff16d65d54b715dc5ccfa"
+    },
+    {
+      "path": "generated-texture/seed0027.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fe9376710e674720d5df0dc4e4985530cc0f403",
+      "size": 138994,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/7fe9376710e674720d5df0dc4e4985530cc0f403"
+    },
+    {
+      "path": "generated-texture/seed0028.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91c0f2e1441d036b3f8d29fa8b4ea1c24b6d5fd7",
+      "size": 107684,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/91c0f2e1441d036b3f8d29fa8b4ea1c24b6d5fd7"
+    },
+    {
+      "path": "generated-texture/seed0029.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "945cc64ffa979554cef5af969ae2969310cea7ac",
+      "size": 129339,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/945cc64ffa979554cef5af969ae2969310cea7ac"
+    },
+    {
+      "path": "generated-texture/seed0030.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3effb5d13497ecd697243d6a3152ac208ba6d28",
+      "size": 86350,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/e3effb5d13497ecd697243d6a3152ac208ba6d28"
+    },
+    {
+      "path": "generated-texture/seed0031.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7e558007c70161383fc489ab9ff0d80afd658d5",
+      "size": 70110,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/a7e558007c70161383fc489ab9ff0d80afd658d5"
+    },
+    {
+      "path": "generated-texture/seed0032.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6a6adf2d4f79a220b623f1263afa7fd48c7b9da",
+      "size": 93578,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/d6a6adf2d4f79a220b623f1263afa7fd48c7b9da"
+    },
+    {
+      "path": "generated-texture/seed0033.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "517cdd552ffb7a92c8d6fd9dbccbdcdb6338d091",
+      "size": 109934,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/517cdd552ffb7a92c8d6fd9dbccbdcdb6338d091"
+    },
+    {
+      "path": "generated-texture/seed0034.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82920f1e5f4c32503ad3f5aacaf79f5e766038ce",
+      "size": 119909,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/82920f1e5f4c32503ad3f5aacaf79f5e766038ce"
+    },
+    {
+      "path": "generated-texture/seed0035.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "300fa07d327c55807633ac27cf100b12de99a2b4",
+      "size": 106124,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/300fa07d327c55807633ac27cf100b12de99a2b4"
+    },
+    {
+      "path": "generated-texture/seed0036.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b19b4a54f1e7f77ca1af79b389e4d1f5f09faacd",
+      "size": 106071,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/b19b4a54f1e7f77ca1af79b389e4d1f5f09faacd"
+    },
+    {
+      "path": "generated-texture/seed0037.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdfc300a685fda06a5cf2e7139f38ac5ccd0b70a",
+      "size": 106683,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/fdfc300a685fda06a5cf2e7139f38ac5ccd0b70a"
+    },
+    {
+      "path": "generated-texture/seed0038.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb20120f1502bae07bbaa884f8bc9964c0812268",
+      "size": 104109,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/bb20120f1502bae07bbaa884f8bc9964c0812268"
+    },
+    {
+      "path": "generated-texture/seed0039.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ac07d77922053fe570a800095dfb0e66ba73088",
+      "size": 123382,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/4ac07d77922053fe570a800095dfb0e66ba73088"
+    },
+    {
+      "path": "generated-texture/seed0040.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce4906ab18126a95d882317b57194e22c5e7c145",
+      "size": 88152,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/ce4906ab18126a95d882317b57194e22c5e7c145"
+    },
+    {
+      "path": "generated-texture/seed0041.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e52277bbcb0e06130ef8476031a917d6e1b1ffc0",
+      "size": 110267,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/e52277bbcb0e06130ef8476031a917d6e1b1ffc0"
+    },
+    {
+      "path": "generated-texture/seed0042.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99247a386f0eb49b27ac7632a3f5ad34369b82fd",
+      "size": 92112,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/99247a386f0eb49b27ac7632a3f5ad34369b82fd"
+    },
+    {
+      "path": "generated-texture/seed0043.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ac4f0c627c3c6915a8cb281bf0cca427137d558",
+      "size": 117490,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/8ac4f0c627c3c6915a8cb281bf0cca427137d558"
+    },
+    {
+      "path": "generated-texture/seed0044.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdb24e3822e67edc2efb3b0fc4144301a074bbcd",
+      "size": 122380,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/cdb24e3822e67edc2efb3b0fc4144301a074bbcd"
+    },
+    {
+      "path": "generated-texture/seed0045.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29942389412cd36bc1052a6da7e0fd6b2cd429a4",
+      "size": 144637,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/29942389412cd36bc1052a6da7e0fd6b2cd429a4"
+    },
+    {
+      "path": "generated-texture/seed0046.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8efac6c0f45bde085c42d2afcfa9581e9859bf3",
+      "size": 110770,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/a8efac6c0f45bde085c42d2afcfa9581e9859bf3"
+    },
+    {
+      "path": "generated-texture/seed0047.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57db10b29640bf4dbf2b77f724b34d0c49450f2f",
+      "size": 107074,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/57db10b29640bf4dbf2b77f724b34d0c49450f2f"
+    },
+    {
+      "path": "generated-texture/seed0048.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "473c78b1b6a61af95b2bfd08bf64edb403ee815b",
+      "size": 109810,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/473c78b1b6a61af95b2bfd08bf64edb403ee815b"
+    },
+    {
+      "path": "generated-texture/seed0049.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4331a8983ebb13b349efa519b15e3579c558a99",
+      "size": 80152,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/a4331a8983ebb13b349efa519b15e3579c558a99"
+    },
+    {
+      "path": "generated-texture/seed0050.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7dd867cb63c1a717509b5cd629f9e9573fb36b0",
+      "size": 118261,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/d7dd867cb63c1a717509b5cd629f9e9573fb36b0"
+    },
+    {
+      "path": "generated-texture/seed0051.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7833a67dafa9b2f993767713b3573dc00e0373f",
+      "size": 139967,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/f7833a67dafa9b2f993767713b3573dc00e0373f"
+    },
+    {
+      "path": "generated-texture/seed0052.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2db9ea5fdc58c889205a67575ef5d1243162641d",
+      "size": 92334,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/2db9ea5fdc58c889205a67575ef5d1243162641d"
+    },
+    {
+      "path": "generated-texture/seed0053.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccfb85481e9c3c31e7ec04adc02f8c66effada90",
+      "size": 128199,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/ccfb85481e9c3c31e7ec04adc02f8c66effada90"
+    },
+    {
+      "path": "generated-texture/seed0054.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdc1803263f566d899ea31cde4fe783bd06ec490",
+      "size": 128808,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/fdc1803263f566d899ea31cde4fe783bd06ec490"
+    },
+    {
+      "path": "generated-texture/seed0055.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9270cbd036725a747e0ac812067edf9aa5e06966",
+      "size": 86752,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/9270cbd036725a747e0ac812067edf9aa5e06966"
+    },
+    {
+      "path": "generated-texture/seed0056.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61554cf03b7dc07c1fbf74c184d30c1b67ab7ee2",
+      "size": 117705,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/61554cf03b7dc07c1fbf74c184d30c1b67ab7ee2"
+    },
+    {
+      "path": "generated-texture/seed0057.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d3f6fdef3e9b5c55eec417ee13876bf7bb7005e",
+      "size": 136514,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/6d3f6fdef3e9b5c55eec417ee13876bf7bb7005e"
+    },
+    {
+      "path": "generated-texture/seed0058.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "587a978ecd28efe3c81db7af73ee1ce8e1a7848b",
+      "size": 89761,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/587a978ecd28efe3c81db7af73ee1ce8e1a7848b"
+    },
+    {
+      "path": "generated-texture/seed0059.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd63228a339bc643a4137a9dec2a9090b269a2b4",
+      "size": 127389,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/cd63228a339bc643a4137a9dec2a9090b269a2b4"
+    },
+    {
+      "path": "generated-texture/seed0060.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb39ae258fd419baa62f68b0825b669dd38cd610",
+      "size": 124450,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/cb39ae258fd419baa62f68b0825b669dd38cd610"
+    },
+    {
+      "path": "generated-texture/seed0061.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d4ee614346adfb70453c5ac076ffc193c0c514d",
+      "size": 85041,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/5d4ee614346adfb70453c5ac076ffc193c0c514d"
+    },
+    {
+      "path": "generated-texture/seed0062.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd577a65edbe751ea5b42bfd61f61ac9c14df7d5",
+      "size": 96236,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/dd577a65edbe751ea5b42bfd61f61ac9c14df7d5"
+    },
+    {
+      "path": "generated-texture/seed0063.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2202dfbf8e241b162efe21340a10ff373b52e1fe",
+      "size": 112344,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/2202dfbf8e241b162efe21340a10ff373b52e1fe"
+    },
+    {
+      "path": "images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "236d954a08f28267679615d1ae254cb9eb4323bf",
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/trees/236d954a08f28267679615d1ae254cb9eb4323bf"
+    },
+    {
+      "path": "images/painting.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d32e6803f6d3f81c2bd73ff9f3c600f09a8532d2",
+      "size": 201024,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/d32e6803f6d3f81c2bd73ff9f3c600f09a8532d2"
+    },
+    {
+      "path": "stylegan3test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "480ab16036438028617108c6f258a4ac902188cf",
+      "size": 6132,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/480ab16036438028617108c6f258a4ac902188cf"
+    },
+    {
+      "path": "torch_utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4ac077590fe32276832d6a89fb5dec4c4007ec90",
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/trees/4ac077590fe32276832d6a89fb5dec4c4007ec90"
+    },
+    {
+      "path": "torch_utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "939e7c6c8f94c4ea1141885c3c3295fe083b06aa",
+      "size": 448,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/939e7c6c8f94c4ea1141885c3c3295fe083b06aa"
+    },
+    {
+      "path": "torch_utils/__pycache__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "99c4895f555d7ec47269fc3d39b7a7073100dfee",
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/trees/99c4895f555d7ec47269fc3d39b7a7073100dfee"
+    },
+    {
+      "path": "torch_utils/__pycache__/__init__.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d408544f12531ad0b5c329fc9da48f092f32bb48",
+      "size": 136,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/d408544f12531ad0b5c329fc9da48f092f32bb48"
+    },
+    {
+      "path": "torch_utils/__pycache__/custom_ops.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf6e1d5cba8ced2445ad10cdf3537c89d0b64e2f",
+      "size": 3692,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/bf6e1d5cba8ced2445ad10cdf3537c89d0b64e2f"
+    },
+    {
+      "path": "torch_utils/__pycache__/misc.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7839dc99fdbe85e3a468b6d0103b96e007a04fe",
+      "size": 9455,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/e7839dc99fdbe85e3a468b6d0103b96e007a04fe"
+    },
+    {
+      "path": "torch_utils/__pycache__/persistence.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3b968666174aa06309e103e3d899e4725b8ca31",
+      "size": 8650,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/e3b968666174aa06309e103e3d899e4725b8ca31"
+    },
+    {
+      "path": "torch_utils/custom_ops.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a127a47a27af9b18628e9f9bb095b75b64ba8741",
+      "size": 6646,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/a127a47a27af9b18628e9f9bb095b75b64ba8741"
+    },
+    {
+      "path": "torch_utils/misc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "335397dd1662d8f5bfd44e17899a00549867f4bc",
+      "size": 11106,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/335397dd1662d8f5bfd44e17899a00549867f4bc"
+    },
+    {
+      "path": "torch_utils/ops",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "25f774d8b800f498036ef27c619e5482bae2891a",
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/trees/25f774d8b800f498036ef27c619e5482bae2891a"
+    },
+    {
+      "path": "torch_utils/ops/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "939e7c6c8f94c4ea1141885c3c3295fe083b06aa",
+      "size": 448,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/939e7c6c8f94c4ea1141885c3c3295fe083b06aa"
+    },
+    {
+      "path": "torch_utils/ops/__pycache__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b271723609e2e095ff060141a0b590e6863cbdfc",
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/trees/b271723609e2e095ff060141a0b590e6863cbdfc"
+    },
+    {
+      "path": "torch_utils/ops/__pycache__/__init__.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "318dce9e6e5b9c12c073e4404c5266c02dcaf622",
+      "size": 140,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/318dce9e6e5b9c12c073e4404c5266c02dcaf622"
+    },
+    {
+      "path": "torch_utils/ops/__pycache__/bias_act.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "746efaf175f6826711e74d98bdcee59bb568bc41",
+      "size": 8247,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/746efaf175f6826711e74d98bdcee59bb568bc41"
+    },
+    {
+      "path": "torch_utils/ops/__pycache__/conv2d_gradfix.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "628129421c6971d7aad815171e2541f590836493",
+      "size": 7363,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/628129421c6971d7aad815171e2541f590836493"
+    },
+    {
+      "path": "torch_utils/ops/__pycache__/conv2d_resample.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c23f57756fd984730844dbb6be134f4400317e9e",
+      "size": 4425,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/c23f57756fd984730844dbb6be134f4400317e9e"
+    },
+    {
+      "path": "torch_utils/ops/__pycache__/filtered_lrelu.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06da3e5e596af421d7fdaa31522018889da4d8b0",
+      "size": 9985,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/06da3e5e596af421d7fdaa31522018889da4d8b0"
+    },
+    {
+      "path": "torch_utils/ops/__pycache__/fma.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa4facd0bbf13ec1e33853cdef925732108fc9d8",
+      "size": 1713,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/fa4facd0bbf13ec1e33853cdef925732108fc9d8"
+    },
+    {
+      "path": "torch_utils/ops/__pycache__/grid_sample_gradfix.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2822c575b47b1202a16656004d65136f2483b34a",
+      "size": 2607,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/2822c575b47b1202a16656004d65136f2483b34a"
+    },
+    {
+      "path": "torch_utils/ops/__pycache__/upfirdn2d.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5af174fc1875f76677ffbc65cf24a0dede33529",
+      "size": 14154,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/b5af174fc1875f76677ffbc65cf24a0dede33529"
+    },
+    {
+      "path": "torch_utils/ops/bias_act.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3adaeee2ae44e96655d354c2bdfb81de8ebfe6c6",
+      "size": 4389,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/3adaeee2ae44e96655d354c2bdfb81de8ebfe6c6"
+    },
+    {
+      "path": "torch_utils/ops/bias_act.cu",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed1d16f14eadd1344939e074ace1375cfd936cea",
+      "size": 6160,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/ed1d16f14eadd1344939e074ace1375cfd936cea"
+    },
+    {
+      "path": "torch_utils/ops/bias_act.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60b81c6058d54638a6d74a13046fa388442d767d",
+      "size": 1293,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/60b81c6058d54638a6d74a13046fa388442d767d"
+    },
+    {
+      "path": "torch_utils/ops/bias_act.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7df5e2b0c66777456b54a6f59575106ee86509c",
+      "size": 9849,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/c7df5e2b0c66777456b54a6f59575106ee86509c"
+    },
+    {
+      "path": "torch_utils/ops/conv2d_gradfix.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "156b6b22503b3be31d134b48ed1725e911f0e7ce",
+      "size": 9745,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/156b6b22503b3be31d134b48ed1725e911f0e7ce"
+    },
+    {
+      "path": "torch_utils/ops/conv2d_resample.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5eb5877d7ffe4af74a2165f1d8d8c39dfac2476b",
+      "size": 6765,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/5eb5877d7ffe4af74a2165f1d8d8c39dfac2476b"
+    },
+    {
+      "path": "torch_utils/ops/filtered_lrelu.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff4149b8b46b54d2f400ae10e44d19f20503ba1f",
+      "size": 15597,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/ff4149b8b46b54d2f400ae10e44d19f20503ba1f"
+    },
+    {
+      "path": "torch_utils/ops/filtered_lrelu.cu",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e6f47f873d42f7181a0faf64779377e70be3012",
+      "size": 67307,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/8e6f47f873d42f7181a0faf64779377e70be3012"
+    },
+    {
+      "path": "torch_utils/ops/filtered_lrelu.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c403e3f275f472315662321cad54dd0dbc56d00",
+      "size": 4448,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/2c403e3f275f472315662321cad54dd0dbc56d00"
+    },
+    {
+      "path": "torch_utils/ops/filtered_lrelu.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "322081acf1de061fdf5d4a3f321fcdd4bdd5188c",
+      "size": 12920,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/322081acf1de061fdf5d4a3f321fcdd4bdd5188c"
+    },
+    {
+      "path": "torch_utils/ops/filtered_lrelu_ns.cu",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef5d948c4fdf9cb0fe8a42f6268c61aeef6b2000",
+      "size": 1638,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/ef5d948c4fdf9cb0fe8a42f6268c61aeef6b2000"
+    },
+    {
+      "path": "torch_utils/ops/filtered_lrelu_rd.cu",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "968347882e9aebd36204f67e201cd16226dd9132",
+      "size": 1607,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/968347882e9aebd36204f67e201cd16226dd9132"
+    },
+    {
+      "path": "torch_utils/ops/filtered_lrelu_wr.cu",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4c6a24aae908bc07248f7ff710cbd1a11a38bb1",
+      "size": 1608,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/a4c6a24aae908bc07248f7ff710cbd1a11a38bb1"
+    },
+    {
+      "path": "torch_utils/ops/fma.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51a45dfa0829987e8ee5214663e068cb3af2a8b9",
+      "size": 2047,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/51a45dfa0829987e8ee5214663e068cb3af2a8b9"
+    },
+    {
+      "path": "torch_utils/ops/grid_sample_gradfix.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "017f03ac127be121f3349ee35e7714104be04a42",
+      "size": 3575,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/017f03ac127be121f3349ee35e7714104be04a42"
+    },
+    {
+      "path": "torch_utils/ops/upfirdn2d.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44fa337d8d4c34dfa010a59cd27d86857db671aa",
+      "size": 5027,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/44fa337d8d4c34dfa010a59cd27d86857db671aa"
+    },
+    {
+      "path": "torch_utils/ops/upfirdn2d.cu",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a33e31bbb1bbc1cd02ee7d2ede3943917f3906e",
+      "size": 23137,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/3a33e31bbb1bbc1cd02ee7d2ede3943917f3906e"
+    },
+    {
+      "path": "torch_utils/ops/upfirdn2d.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2793daf874492af01e8634a7863c036e17b6731f",
+      "size": 1849,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/2793daf874492af01e8634a7863c036e17b6731f"
+    },
+    {
+      "path": "torch_utils/ops/upfirdn2d.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4aadcf134f29bc2083709fa5768b25f314eca681",
+      "size": 16428,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/4aadcf134f29bc2083709fa5768b25f314eca681"
+    },
+    {
+      "path": "torch_utils/persistence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f90ce85e8ace0f44e839158b22c5790de448d82d",
+      "size": 9752,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/f90ce85e8ace0f44e839158b22c5790de448d82d"
+    },
+    {
+      "path": "torch_utils/training_stats.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5de4134f1943e7c3104bbc926b2abaf828626525",
+      "size": 10720,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/5de4134f1943e7c3104bbc926b2abaf828626525"
+    },
+    {
+      "path": "weights",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "867f6ab349776a2a76ed929194aaca50facf0a46",
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/trees/867f6ab349776a2a76ed929194aaca50facf0a46"
+    },
+    {
+      "path": "weights/9-ckpt",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "754bd2825002b47f7fd42ce3d6963db1f50a57a4",
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/trees/754bd2825002b47f7fd42ce3d6963db1f50a57a4"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "145ae165b03497df85fc8ed252a7c0b64bbf504e",
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/trees/145ae165b03497df85fc8ed252a7c0b64bbf504e"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v2/confusion_matrix.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55fbbdc043b7fb35ef967787080b85498dada506",
+      "size": 244242,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/55fbbdc043b7fb35ef967787080b85498dada506"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v2/test_batch0_labels.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "061b17451abd0c9d760a7ce9ee0111c9e0b8e35c",
+      "size": 109228,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/061b17451abd0c9d760a7ce9ee0111c9e0b8e35c"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v2/test_batch0_pred.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0930052332e673a5b7c7e0c48722e7bbc0346826",
+      "size": 98303,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/0930052332e673a5b7c7e0c48722e7bbc0346826"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v2/test_batch1_labels.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c2286a6ed9f492f39e60e92437d6dccaa1ddece",
+      "size": 50595,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/6c2286a6ed9f492f39e60e92437d6dccaa1ddece"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v2/test_batch1_pred.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c2286a6ed9f492f39e60e92437d6dccaa1ddece",
+      "size": 50595,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/6c2286a6ed9f492f39e60e92437d6dccaa1ddece"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v2/test_batch2_labels.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a61cf62e3d22e81b6b63429bce722650fef9461",
+      "size": 30772,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/6a61cf62e3d22e81b6b63429bce722650fef9461"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v2/test_batch2_pred.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a61cf62e3d22e81b6b63429bce722650fef9461",
+      "size": 30772,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/6a61cf62e3d22e81b6b63429bce722650fef9461"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v2/texture-0.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4f337252e12439a01eaf764b40c9158d2366bf4",
+      "size": 37980,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/c4f337252e12439a01eaf764b40c9158d2366bf4"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v2/texture-10.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a33ce3613916d1f01b1392111e2568a1c28bb2da",
+      "size": 46985,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/a33ce3613916d1f01b1392111e2568a1c28bb2da"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v2/texture-15.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a40df1bd86654b3c1500b055ae79b2766f558b92",
+      "size": 48623,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/a40df1bd86654b3c1500b055ae79b2766f558b92"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v2/texture-20.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a72170dda946be6b61aa67a600971304317a822f",
+      "size": 48878,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/a72170dda946be6b61aa67a600971304317a822f"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v2/texture-25.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "093690b6198ba1dde38da818658e3d818d4dc4b7",
+      "size": 50354,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/093690b6198ba1dde38da818658e3d818d4dc4b7"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v2/texture-30.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bb1e6e18910e3fe51482042897f26e02509438d",
+      "size": 51229,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/5bb1e6e18910e3fe51482042897f26e02509438d"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v2/texture-35.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "018061542983caa498388927290e3d0975db110d",
+      "size": 52455,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/018061542983caa498388927290e3d0975db110d"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v2/texture-40.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c3928b2b6cf1c012b788b6c682d090a1c1b4bfe",
+      "size": 52363,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/9c3928b2b6cf1c012b788b6c682d090a1c1b4bfe"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v2/texture-45.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6b678e5448eee1d1521b842d3c5331e7138b75f",
+      "size": 52094,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/d6b678e5448eee1d1521b842d3c5331e7138b75f"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v2/texture-5.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edeb363ed877e38c553528fd3ac7161f6f47671f",
+      "size": 43060,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/edeb363ed877e38c553528fd3ac7161f6f47671f"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v2/texture-50.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d21d03a0020449935cf98759a6ce77367b8b6165",
+      "size": 52034,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/d21d03a0020449935cf98759a6ce77367b8b6165"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v2/texture-55.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfd1241fc36650cae9a97e329e7b2eba4f3dfb11",
+      "size": 51753,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/cfd1241fc36650cae9a97e329e7b2eba4f3dfb11"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v2/texture.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88255f170d22e7f9bb86ad9f5779741bd4c0c5ef",
+      "size": 51428,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/88255f170d22e7f9bb86ad9f5779741bd4c0c5ef"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v2/z_model.pth",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9568dd69c385300ac9284c53c063a2a5ccca2429",
+      "size": 5291,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/9568dd69c385300ac9284c53c063a2a5ccca2429"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v3",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c1c8e8b055219d52a3eac935d80b62baad367ccc",
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/trees/c1c8e8b055219d52a3eac935d80b62baad367ccc"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v3/confusion_matrix.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55fbbdc043b7fb35ef967787080b85498dada506",
+      "size": 244242,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/55fbbdc043b7fb35ef967787080b85498dada506"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v3/test_batch0_labels.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "061b17451abd0c9d760a7ce9ee0111c9e0b8e35c",
+      "size": 109228,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/061b17451abd0c9d760a7ce9ee0111c9e0b8e35c"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v3/test_batch0_pred.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0930052332e673a5b7c7e0c48722e7bbc0346826",
+      "size": 98303,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/0930052332e673a5b7c7e0c48722e7bbc0346826"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v3/test_batch1_labels.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c2286a6ed9f492f39e60e92437d6dccaa1ddece",
+      "size": 50595,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/6c2286a6ed9f492f39e60e92437d6dccaa1ddece"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v3/test_batch1_pred.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c2286a6ed9f492f39e60e92437d6dccaa1ddece",
+      "size": 50595,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/6c2286a6ed9f492f39e60e92437d6dccaa1ddece"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v3/test_batch2_labels.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a61cf62e3d22e81b6b63429bce722650fef9461",
+      "size": 30772,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/6a61cf62e3d22e81b6b63429bce722650fef9461"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v3/test_batch2_pred.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a61cf62e3d22e81b6b63429bce722650fef9461",
+      "size": 30772,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/6a61cf62e3d22e81b6b63429bce722650fef9461"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v3/texture-0.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de6459b2a5c225ad521f4ec3ed2f78a524616887",
+      "size": 36419,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/de6459b2a5c225ad521f4ec3ed2f78a524616887"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v3/texture-10.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecc5810e9601bec1263cc57436f97ed517c3aa84",
+      "size": 42726,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/ecc5810e9601bec1263cc57436f97ed517c3aa84"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v3/texture-15.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "316c192cdf392ded487da46054be10651ca1ae37",
+      "size": 45210,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/316c192cdf392ded487da46054be10651ca1ae37"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v3/texture-20.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c40f17e596c4e7f2c5e7662dc3bc81f7b258f6fe",
+      "size": 45451,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/c40f17e596c4e7f2c5e7662dc3bc81f7b258f6fe"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v3/texture-25.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bad05a5cd5288e0e2209f7612c4d48e474a5b76a",
+      "size": 44703,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/bad05a5cd5288e0e2209f7612c4d48e474a5b76a"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v3/texture-30.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "395ae9326d8025243d748656558e7d0de034185a",
+      "size": 45619,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/395ae9326d8025243d748656558e7d0de034185a"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v3/texture-35.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51e72ea6c5b9997eda74681a960dc1044ae6dd0c",
+      "size": 47889,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/51e72ea6c5b9997eda74681a960dc1044ae6dd0c"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v3/texture-40.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56ea0eef5bbe16ea0c1ee3f1f09ba03a9cbfe2fe",
+      "size": 47195,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/56ea0eef5bbe16ea0c1ee3f1f09ba03a9cbfe2fe"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v3/texture-45.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e4fb9801a5168679e310d1c560c29411cd9ddae",
+      "size": 48757,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/9e4fb9801a5168679e310d1c560c29411cd9ddae"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v3/texture-5.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2c76fc83d899b0cb72cdf598d3a827926189a06",
+      "size": 38808,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/f2c76fc83d899b0cb72cdf598d3a827926189a06"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v3/texture-50.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fa920716f8452b2a27965956787c46e00481690",
+      "size": 47129,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/1fa920716f8452b2a27965956787c46e00481690"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v3/texture-55.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa8f8a9d83d79bf09d3d4a35fa6b078c7289373c",
+      "size": 47302,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/fa8f8a9d83d79bf09d3d4a35fa6b078c7289373c"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v3/texture.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "443123342c545e2857017e187abd6445656887e8",
+      "size": 47709,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/443123342c545e2857017e187abd6445656887e8"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv-v3/z_model.pth",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16a0d6dc8c8381d6ba27b9ed647c2dfcb2d25376",
+      "size": 5291,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/16a0d6dc8c8381d6ba27b9ed647c2dfcb2d25376"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9e6a5ead9ee0c32a7da160a31704daabef43409e",
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/trees/9e6a5ead9ee0c32a7da160a31704daabef43409e"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv/confusion_matrix.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55fbbdc043b7fb35ef967787080b85498dada506",
+      "size": 244242,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/55fbbdc043b7fb35ef967787080b85498dada506"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv/test_batch0_labels.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "061b17451abd0c9d760a7ce9ee0111c9e0b8e35c",
+      "size": 109228,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/061b17451abd0c9d760a7ce9ee0111c9e0b8e35c"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv/test_batch0_pred.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7879930f1cf381adc9e359df7ca6218fc0e82be0",
+      "size": 97022,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/7879930f1cf381adc9e359df7ca6218fc0e82be0"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv/test_batch1_labels.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c2286a6ed9f492f39e60e92437d6dccaa1ddece",
+      "size": 50595,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/6c2286a6ed9f492f39e60e92437d6dccaa1ddece"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv/test_batch1_pred.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a27e1c9d364ccf17699942ef3a893421e5b099b",
+      "size": 54124,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/2a27e1c9d364ccf17699942ef3a893421e5b099b"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv/test_batch2_labels.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a61cf62e3d22e81b6b63429bce722650fef9461",
+      "size": 30772,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/6a61cf62e3d22e81b6b63429bce722650fef9461"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv/test_batch2_pred.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a61cf62e3d22e81b6b63429bce722650fef9461",
+      "size": 30772,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/6a61cf62e3d22e81b6b63429bce722650fef9461"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv/texture-0.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5eedddba2d0bdbbea67a837632c17684ee7d91d",
+      "size": 34200,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/f5eedddba2d0bdbbea67a837632c17684ee7d91d"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv/texture-10.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95638a6e72a65bd90a123aa5100ad23768d38cd5",
+      "size": 35264,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/95638a6e72a65bd90a123aa5100ad23768d38cd5"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv/texture-15.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f80b694abab95f6ce2bca44d187d5011f0b754e0",
+      "size": 36061,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/f80b694abab95f6ce2bca44d187d5011f0b754e0"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv/texture-20.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8db9794e8ad725fc222a861799c3d389052ff1bc",
+      "size": 36105,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/8db9794e8ad725fc222a861799c3d389052ff1bc"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv/texture-25.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61e000f04f299371c9479e968dd257ac214eebcb",
+      "size": 37277,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/61e000f04f299371c9479e968dd257ac214eebcb"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv/texture-30.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfa09919906282d1a207ea812ce7afc38013383e",
+      "size": 38299,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/cfa09919906282d1a207ea812ce7afc38013383e"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv/texture-35.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f61d14eb704f6b9d1643400241968df529c98447",
+      "size": 37645,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/f61d14eb704f6b9d1643400241968df529c98447"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv/texture-40.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fd88c2ca697a7345924aa6c57ac2025248b9acc",
+      "size": 37263,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/7fd88c2ca697a7345924aa6c57ac2025248b9acc"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv/texture-45.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b887af30fe2c713fc9d225088af9ab104cd747b5",
+      "size": 38763,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/b887af30fe2c713fc9d225088af9ab104cd747b5"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv/texture-5.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3aa34e1593143a52f9d95c1893e85f3b3d2d621",
+      "size": 34077,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/c3aa34e1593143a52f9d95c1893e85f3b3d2d621"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv/texture-50.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c69c7c6d3f85bd3f35f2809d9d8906fca4a049a",
+      "size": 38947,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/5c69c7c6d3f85bd3f35f2809d9d8906fca4a049a"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv/texture-55.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9244208297d85cbfe2ea53539eb5ce4d01f844c4",
+      "size": 39221,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/9244208297d85cbfe2ea53539eb5ce4d01f844c4"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv/texture.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "857049e8838eedd5526a242a1767bcadc83cc001",
+      "size": 41098,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/857049e8838eedd5526a242a1767bcadc83cc001"
+    },
+    {
+      "path": "weights/9-ckpt/yolov7_1024_exp_gadv/z_model.pth",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9a270f991b6004bb71d98fe57c66686c5dbdb73",
+      "size": 5291,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/c9a270f991b6004bb71d98fe57c66686c5dbdb73"
+    },
+    {
+      "path": "weights/init_z",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eebcc1a06cd152a4a42d52bfdfa735372f3167ee",
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/trees/eebcc1a06cd152a4a42d52bfdfa735372f3167ee"
+    },
+    {
+      "path": "weights/init_z/0.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8388f0026f13259148e9df197f99fbe8f7ff6221",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/8388f0026f13259148e9df197f99fbe8f7ff6221"
+    },
+    {
+      "path": "weights/init_z/1.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e29de01c14fafa69fbae408d10c66464d2223f23",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/e29de01c14fafa69fbae408d10c66464d2223f23"
+    },
+    {
+      "path": "weights/init_z/10.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23da6689aa27f14aa2090477771562d507c2de8a",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/23da6689aa27f14aa2090477771562d507c2de8a"
+    },
+    {
+      "path": "weights/init_z/11.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bbf74d1876b91cbe774927f41f0330d767af660",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/9bbf74d1876b91cbe774927f41f0330d767af660"
+    },
+    {
+      "path": "weights/init_z/12.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3126e4ce55dfd5f072ce9463927fcd45c648f35a",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/3126e4ce55dfd5f072ce9463927fcd45c648f35a"
+    },
+    {
+      "path": "weights/init_z/13.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28aafaea7b4b89544f942f094ad5fef0f01c1f90",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/28aafaea7b4b89544f942f094ad5fef0f01c1f90"
+    },
+    {
+      "path": "weights/init_z/14.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab169bfe7ff11cff38413a5cd7f8a735ded75985",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/ab169bfe7ff11cff38413a5cd7f8a735ded75985"
+    },
+    {
+      "path": "weights/init_z/15.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39a84652bcf27ece00facd70e5c4671f9f6e33f9",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/39a84652bcf27ece00facd70e5c4671f9f6e33f9"
+    },
+    {
+      "path": "weights/init_z/16.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5529e3ec16be2932f3dfc2cafc62746742b5e6b9",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/5529e3ec16be2932f3dfc2cafc62746742b5e6b9"
+    },
+    {
+      "path": "weights/init_z/17.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a21a286a85a7262b6177f6e767401230a7e5a01",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/3a21a286a85a7262b6177f6e767401230a7e5a01"
+    },
+    {
+      "path": "weights/init_z/18.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d08a12a1ec3122926a173b7e430b420321ff124e",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/d08a12a1ec3122926a173b7e430b420321ff124e"
+    },
+    {
+      "path": "weights/init_z/19.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4df221b171e7c9e6700aad6f094ac16b55af0d2e",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/4df221b171e7c9e6700aad6f094ac16b55af0d2e"
+    },
+    {
+      "path": "weights/init_z/2.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bfa04257512a597758b866545f5402e924520df",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/1bfa04257512a597758b866545f5402e924520df"
+    },
+    {
+      "path": "weights/init_z/20.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56a3068a13bf878bd4c2b3e10419354af255c78c",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/56a3068a13bf878bd4c2b3e10419354af255c78c"
+    },
+    {
+      "path": "weights/init_z/21.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a75512bd0a02dce3970225ce8da9318015087d3",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/5a75512bd0a02dce3970225ce8da9318015087d3"
+    },
+    {
+      "path": "weights/init_z/22.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9546fca8b52decb87c7c31eb38c827c832a0519c",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/9546fca8b52decb87c7c31eb38c827c832a0519c"
+    },
+    {
+      "path": "weights/init_z/23.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "beeac8a317c13b28a9aa4a8eabc9a860bf31ce03",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/beeac8a317c13b28a9aa4a8eabc9a860bf31ce03"
+    },
+    {
+      "path": "weights/init_z/24.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b536f398970c532f146119aabddfd8d697b2f666",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/b536f398970c532f146119aabddfd8d697b2f666"
+    },
+    {
+      "path": "weights/init_z/25.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d726dea4b6a5dc11d227fb988cfccc15c6ef651",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/6d726dea4b6a5dc11d227fb988cfccc15c6ef651"
+    },
+    {
+      "path": "weights/init_z/26.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65de495a9601df433d8a9f63f6ad859876ae8830",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/65de495a9601df433d8a9f63f6ad859876ae8830"
+    },
+    {
+      "path": "weights/init_z/27.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0517571ce06a6b05df20c28c4e99f8ccc718aadd",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/0517571ce06a6b05df20c28c4e99f8ccc718aadd"
+    },
+    {
+      "path": "weights/init_z/28.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20c9a91e941a581fbc6e155d590dac821d191a3b",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/20c9a91e941a581fbc6e155d590dac821d191a3b"
+    },
+    {
+      "path": "weights/init_z/29.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "357ee260773b7e192e1b119b783acd3f61d7e307",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/357ee260773b7e192e1b119b783acd3f61d7e307"
+    },
+    {
+      "path": "weights/init_z/3.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf0dcbd9671ca835d9c5d7bfd50464bc063a8599",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/cf0dcbd9671ca835d9c5d7bfd50464bc063a8599"
+    },
+    {
+      "path": "weights/init_z/30.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "058d8f6eaede207371a8664e2351985578d23b53",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/058d8f6eaede207371a8664e2351985578d23b53"
+    },
+    {
+      "path": "weights/init_z/31.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f5a4d4c267dd44696ccaf4f363a094efbc068b7",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/9f5a4d4c267dd44696ccaf4f363a094efbc068b7"
+    },
+    {
+      "path": "weights/init_z/32.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04dcd8d689b4023f319abd54974b70ee2c072c82",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/04dcd8d689b4023f319abd54974b70ee2c072c82"
+    },
+    {
+      "path": "weights/init_z/33.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09eceee8b785b252464128f78bd8e936d10cfae4",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/09eceee8b785b252464128f78bd8e936d10cfae4"
+    },
+    {
+      "path": "weights/init_z/34.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a41848cd1b89b3fa79dc995224c6c8116d2fc56",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/9a41848cd1b89b3fa79dc995224c6c8116d2fc56"
+    },
+    {
+      "path": "weights/init_z/35.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41487e75c935e2712a9308cfa5b749691eab345a",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/41487e75c935e2712a9308cfa5b749691eab345a"
+    },
+    {
+      "path": "weights/init_z/36.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36648b4556740ddcfc67fdd6216a57eca14429fc",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/36648b4556740ddcfc67fdd6216a57eca14429fc"
+    },
+    {
+      "path": "weights/init_z/37.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91263049d175aecbe3995503057afd7f2d2d255f",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/91263049d175aecbe3995503057afd7f2d2d255f"
+    },
+    {
+      "path": "weights/init_z/38.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c41a5b714569b42374d4bd1f739edf19951c222",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/7c41a5b714569b42374d4bd1f739edf19951c222"
+    },
+    {
+      "path": "weights/init_z/39.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63db115633fd13ce082862612020625960eb9630",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/63db115633fd13ce082862612020625960eb9630"
+    },
+    {
+      "path": "weights/init_z/4.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f098c7218bf96763360a0ba2c122c2c307d027b",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/8f098c7218bf96763360a0ba2c122c2c307d027b"
+    },
+    {
+      "path": "weights/init_z/40.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f8f81c107f39d6962456fbe0c1f80effc7e0e12",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/0f8f81c107f39d6962456fbe0c1f80effc7e0e12"
+    },
+    {
+      "path": "weights/init_z/41.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b64acb0f23683180c67ecfce50ec297e13577ed8",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/b64acb0f23683180c67ecfce50ec297e13577ed8"
+    },
+    {
+      "path": "weights/init_z/42.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c74cf03f44f6271d834bc158610347e7692792d",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/9c74cf03f44f6271d834bc158610347e7692792d"
+    },
+    {
+      "path": "weights/init_z/43.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f6e2da9518534229b99ede29db5380e0a09387f",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/3f6e2da9518534229b99ede29db5380e0a09387f"
+    },
+    {
+      "path": "weights/init_z/44.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21b3918b1eaecd986000ce5b1aee6ed63922dc4c",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/21b3918b1eaecd986000ce5b1aee6ed63922dc4c"
+    },
+    {
+      "path": "weights/init_z/45.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41695adb30aa2c3b216b1dca1c9ec882a29a4dd8",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/41695adb30aa2c3b216b1dca1c9ec882a29a4dd8"
+    },
+    {
+      "path": "weights/init_z/46.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea08a84cbe380fb67d8fbcd2795275051db0383f",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/ea08a84cbe380fb67d8fbcd2795275051db0383f"
+    },
+    {
+      "path": "weights/init_z/47.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e414550bc07a051721ca400936f54015d8068104",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/e414550bc07a051721ca400936f54015d8068104"
+    },
+    {
+      "path": "weights/init_z/48.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3a94367feb5d8b55ee4ca8c56dcffd0f1533699",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/c3a94367feb5d8b55ee4ca8c56dcffd0f1533699"
+    },
+    {
+      "path": "weights/init_z/49.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d5eaae4c23a8a199ed2ece1bcc45747318bf160",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/9d5eaae4c23a8a199ed2ece1bcc45747318bf160"
+    },
+    {
+      "path": "weights/init_z/5.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e426444a7074e88eb175fbc69c6440bcc91ee553",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/e426444a7074e88eb175fbc69c6440bcc91ee553"
+    },
+    {
+      "path": "weights/init_z/50.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4c5966e0a81defe0b2dcc15a383361ce05a6603",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/b4c5966e0a81defe0b2dcc15a383361ce05a6603"
+    },
+    {
+      "path": "weights/init_z/51.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ce3a676410413546085a280935af7f1c644d570",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/6ce3a676410413546085a280935af7f1c644d570"
+    },
+    {
+      "path": "weights/init_z/52.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef5947a64e0355a551f444f7da5329aa8b08d37f",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/ef5947a64e0355a551f444f7da5329aa8b08d37f"
+    },
+    {
+      "path": "weights/init_z/53.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5eccf4b19490d02c8f198c5fe5d2441aab0375f",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/d5eccf4b19490d02c8f198c5fe5d2441aab0375f"
+    },
+    {
+      "path": "weights/init_z/54.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "632e15c7d99a1cd80ced7820270d15af82655ea6",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/632e15c7d99a1cd80ced7820270d15af82655ea6"
+    },
+    {
+      "path": "weights/init_z/55.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ecf336b9379a2461e96f74820aae03cbee3aa46",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/3ecf336b9379a2461e96f74820aae03cbee3aa46"
+    },
+    {
+      "path": "weights/init_z/56.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5db3c5b308c5e04baf6eba6f1692bc157100f8ea",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/5db3c5b308c5e04baf6eba6f1692bc157100f8ea"
+    },
+    {
+      "path": "weights/init_z/57.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5d29c9531d9492d0afa67c09cec55646bb5fb78",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/e5d29c9531d9492d0afa67c09cec55646bb5fb78"
+    },
+    {
+      "path": "weights/init_z/58.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1075caecca27252694cf878f70e5ee59b91eea0b",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/1075caecca27252694cf878f70e5ee59b91eea0b"
+    },
+    {
+      "path": "weights/init_z/59.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c405edd0b0329928a303541869fb4e0d08e3356f",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/c405edd0b0329928a303541869fb4e0d08e3356f"
+    },
+    {
+      "path": "weights/init_z/6.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f13f5d90083f09e7ce83861d28b04f8af8a4bf33",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/f13f5d90083f09e7ce83861d28b04f8af8a4bf33"
+    },
+    {
+      "path": "weights/init_z/60.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f2c3cd2e4b3529c9c03426e61f3bc03d0a6d808",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/7f2c3cd2e4b3529c9c03426e61f3bc03d0a6d808"
+    },
+    {
+      "path": "weights/init_z/61.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64a8343001d6620395241f089a8d0d582fabab4c",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/64a8343001d6620395241f089a8d0d582fabab4c"
+    },
+    {
+      "path": "weights/init_z/62.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "329f1d90fa05cc6a6021ad761830edb004a64c24",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/329f1d90fa05cc6a6021ad761830edb004a64c24"
+    },
+    {
+      "path": "weights/init_z/63.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "408acd6f71ce088d6c3a84a55431d813042985a2",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/408acd6f71ce088d6c3a84a55431d813042985a2"
+    },
+    {
+      "path": "weights/init_z/7.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b77568cfda84c1ed78bce205e01314b6a383a0b",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/8b77568cfda84c1ed78bce205e01314b6a383a0b"
+    },
+    {
+      "path": "weights/init_z/8.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a493eb2cdc9384795d13cb4bcde304924c12476",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/1a493eb2cdc9384795d13cb4bcde304924c12476"
+    },
+    {
+      "path": "weights/init_z/9.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1caf9fcb3f38a4373afbb111fe0143a2febb63fb",
+      "size": 4224,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/1caf9fcb3f38a4373afbb111fe0143a2febb63fb"
+    },
+    {
+      "path": "weights/z_model.pth",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9568dd69c385300ac9284c53c063a2a5ccca2429",
+      "size": 5291,
+      "url": "https://api.github.com/repos/Arknightpzb/Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images/git/blobs/9568dd69c385300ac9284c53c063a2a5ccca2429"
+    }
+  ],
+  "truncated": false
+}

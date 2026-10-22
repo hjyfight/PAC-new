@@ -1,0 +1,50 @@
+{
+  "summary": [
+    {
+      "method": "AdvPatch",
+      "whitebox_mean": 19.334197781429268,
+      "blackbox_mean": 44.6345278747468,
+      "whitebox_cells": 6,
+      "blackbox_cells": 30
+    },
+    {
+      "method": "PAC-P1",
+      "whitebox_mean": 27.371629882607177,
+      "blackbox_mean": 46.99282511906382,
+      "whitebox_cells": 6,
+      "blackbox_cells": 30
+    },
+    {
+      "method": "PAC-P2",
+      "whitebox_mean": 23.553829265763355,
+      "blackbox_mean": 45.2476262751169,
+      "whitebox_cells": 6,
+      "blackbox_cells": 30
+    },
+    {
+      "method": "CAP",
+      "whitebox_mean": 30.454500782219082,
+      "blackbox_mean": 44.411947252217296,
+      "whitebox_cells": 6,
+      "blackbox_cells": 30
+    },
+    {
+      "method": "PAC(CAP, Bc1)",
+      "whitebox_mean": 35.50388055455444,
+      "blackbox_mean": 46.25131875182244,
+      "whitebox_cells": 6,
+      "blackbox_cells": 30
+    },
+    {
+      "method": "PAC(CAP, Bc2)",
+      "whitebox_mean": 36.02535006806964,
+      "blackbox_mean": 45.72296215289183,
+      "whitebox_cells": 6,
+      "blackbox_cells": 30
+    }
+  ],
+  "audit_passed": true,
+  "report": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/report.md",
+  "tables": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/tables",
+  "patch_panel": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/patches_best_all_sources.png"
+}

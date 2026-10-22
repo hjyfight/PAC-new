@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "method": "nap",
+  "detector": "yolov5m",
+  "batch_size": 8,
+  "images": 614,
+  "batches_per_epoch": 77,
+  "train_images_only": true,
+  "detector_frozen": true,
+  "finite_nonzero_detection_gradient": true,
+  "steps": [
+    {
+      "step": 1,
+      "loss": 0.8641926050186157,
+      "detection": 0.8547771573066711,
+      "tv": 0.009415457025170326,
+      "detection_gradient_abs_sum": 1.4267464876174927,
+      "parameter_update_max": 0.005000114440917969
+    },
+    {
+      "step": 2,
+      "loss": 0.8615692257881165,
+      "detection": 0.8521084785461426,
+      "tv": 0.009460743516683578,
+      "detection_gradient_abs_sum": 2.008301258087158,
+      "parameter_update_max": 0.005269467830657959
+    }
+  ],
+  "reserved_mib": 6410.0,
+  "allocated_mib": 5689.6162109375,
+  "disabled_ensemble_max_error": null,
+  "enabled_ensemble_loss_difference": null,
+  "tsea_residual_locations": [],
+  "nap_generator_frozen_and_buffers_unchanged": true,
+  "seconds": 2.811993595038075
+}

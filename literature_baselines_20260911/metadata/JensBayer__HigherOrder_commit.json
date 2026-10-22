@@ -1,0 +1,101 @@
+{
+  "sha": "efd0778134f3ce54b90cc7ccf29ddf12e56abb1a",
+  "node_id": "C_kwDOQyhB5NoAKGVmZDA3NzgxMzRmM2NlNTRiOTBjYzdjY2YyOWRkZjEyZTU2YWJiMWE",
+  "commit": {
+    "author": {
+      "name": "Jens Bayer",
+      "email": "105378369+JensBayer@users.noreply.github.com",
+      "date": "2026-02-03T15:03:42Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-02-03T15:03:42Z"
+    },
+    "message": "Update README.md",
+    "tree": {
+      "sha": "af33e49a2601e024b2a7f341b0494f900adb1d8b",
+      "url": "https://api.github.com/repos/JensBayer/HigherOrder/git/trees/af33e49a2601e024b2a7f341b0494f900adb1d8b"
+    },
+    "url": "https://api.github.com/repos/JensBayer/HigherOrder/git/commits/efd0778134f3ce54b90cc7ccf29ddf12e56abb1a",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpgg5OCRC1aQ7uu5UhlAAAMbMQADqMxroba3DgrPeWkvGtAonJ\nJ/yqhbBTFp0vCYQD6g645kPNSW4HiCxmbpEbmPvXJyNI58PP6cbr7FGED2MTVJ+o\n3+0dRBKLvnqG4zR8wnL75JkCF5okckN05+CaQe7LPqLn9LT5tOiwFb/ExgD/Y5Oz\n/Ya+ZgRHQIi8S7KWeWfo7YyestlAba3cCxvRErloTGYGul5F4BPBbedDj9GlxeD2\np4AUKTBHoXOYq9hhRdWcVDKtjMhQvoPfiGKf21fjgrrCeM3o+PjVSpB5RloKt62J\nwxpb1SvRn7PmsLJO/jItZ00bX7bMYc719QtR+pIcfMRj4TNheaGkqke7FPD+8TDh\n6Elat19dMxXO1VC8A4RI1ecjzjurbppINROwkWLDuw4AH5DtqMTirp4G/UL/gody\nHa367jdYrBfjfgXeoRh0PrFoLMWAuaZ9j/EQl9ekmCalEIMheTR9VAcRZUapIJf9\n1wXv7iOw/ekqC75FnGn9Owj5/nADcP8iT0vpkXDoOeOA2oB35M1YA4k4DpKVDtd8\nkv9oKxyXPFpwNkSsc6kEBXmFBiWjh7b/wVUaBI8HF+GlCArspG4rdWO7+sMUa1E8\n1qiOFH5hKE43yh7WBefHWBRFkoIfs3LPL3LY4wlP8bklrPjGokuxuAYyqfko3NQ4\nUvclXksH7ozWODeSloqn\n=nVgj\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree af33e49a2601e024b2a7f341b0494f900adb1d8b\nparent 4dbcc48f25f4d94b4f8f4f9375c342102e4cf769\nauthor Jens Bayer <105378369+JensBayer@users.noreply.github.com> 1770131022 +0100\ncommitter GitHub <noreply@github.com> 1770131022 +0100\n\nUpdate README.md",
+      "verified_at": "2026-02-03T15:03:43Z"
+    }
+  },
+  "url": "https://api.github.com/repos/JensBayer/HigherOrder/commits/efd0778134f3ce54b90cc7ccf29ddf12e56abb1a",
+  "html_url": "https://github.com/JensBayer/HigherOrder/commit/efd0778134f3ce54b90cc7ccf29ddf12e56abb1a",
+  "comments_url": "https://api.github.com/repos/JensBayer/HigherOrder/commits/efd0778134f3ce54b90cc7ccf29ddf12e56abb1a/comments",
+  "author": {
+    "login": "JensBayer",
+    "id": 105378369,
+    "node_id": "U_kgDOBkfyQQ",
+    "avatar_url": "https://avatars.githubusercontent.com/u/105378369?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/JensBayer",
+    "html_url": "https://github.com/JensBayer",
+    "followers_url": "https://api.github.com/users/JensBayer/followers",
+    "following_url": "https://api.github.com/users/JensBayer/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JensBayer/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/JensBayer/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/JensBayer/subscriptions",
+    "organizations_url": "https://api.github.com/users/JensBayer/orgs",
+    "repos_url": "https://api.github.com/users/JensBayer/repos",
+    "events_url": "https://api.github.com/users/JensBayer/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/JensBayer/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "4dbcc48f25f4d94b4f8f4f9375c342102e4cf769",
+      "url": "https://api.github.com/repos/JensBayer/HigherOrder/commits/4dbcc48f25f4d94b4f8f4f9375c342102e4cf769",
+      "html_url": "https://github.com/JensBayer/HigherOrder/commit/4dbcc48f25f4d94b4f8f4f9375c342102e4cf769"
+    }
+  ],
+  "stats": {
+    "total": 2,
+    "additions": 1,
+    "deletions": 1
+  },
+  "files": [
+    {
+      "sha": "efd52cc40acbd0cb2175c49ff4a2d3cd490760ca",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/JensBayer/HigherOrder/blob/efd0778134f3ce54b90cc7ccf29ddf12e56abb1a/README.md",
+      "raw_url": "https://github.com/JensBayer/HigherOrder/raw/efd0778134f3ce54b90cc7ccf29ddf12e56abb1a/README.md",
+      "contents_url": "https://api.github.com/repos/JensBayer/HigherOrder/contents/README.md?ref=efd0778134f3ce54b90cc7ccf29ddf12e56abb1a",
+      "patch": "@@ -1,7 +1,7 @@\n # Higher-Order Adversarial Patches for Real-Time Object Detectors\n \n [![arXiv](https://img.shields.io/badge/arXiv-2601.04991-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2601.04991)\n-[![code](https://img.shields.io/badge/Github-Code-keygen.svg?logo=github)](https://github.com/HigherOrder/)\n+[![code](https://img.shields.io/badge/Github-Code-keygen.svg?logo=github)](https://github.com/JensBayer/HigherOrder/)\n [![models](https://img.shields.io/badge/Hugging_Face-Models-blue.svg?logo=huggingface)](https://huggingface.co/jenso/HigherOrder)\n ![license](https://img.shields.io/github/license/JensBayer/HigherOrder)\n "
+    }
+  ]
+}

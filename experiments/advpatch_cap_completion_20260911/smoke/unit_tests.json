@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "tests_run": 11,
+  "tests_passed": 10,
+  "failures": 0,
+  "errors": 0,
+  "skipped": [
+    {
+      "test": "test_tv_matches_released_advreal_function (test_advreal2d.AdvReal2DTests)",
+      "reason": "External AdvReal reference loss.py is absent; shared TV implementation is unchanged"
+    }
+  ],
+  "runner": "Python unittest",
+  "test_files": [
+    "tests/test_patch.py",
+    "tests/test_advreal2d.py"
+  ]
+}

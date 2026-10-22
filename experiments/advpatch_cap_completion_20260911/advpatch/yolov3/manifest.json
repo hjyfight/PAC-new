@@ -1,0 +1,165 @@
+{
+  "seed": 1788272031,
+  "data_yaml": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal2d-20260908/data/inria.yaml",
+  "train_images": 614,
+  "test_images": 288,
+  "test_targets": 589,
+  "batch_size": 8,
+  "patch_size": 300,
+  "patch_area_fraction": 0.25,
+  "placement": "center of each ground-truth person box, same integer rounding/clamping as selected PAC run",
+  "imgsz": 640,
+  "preprocess": "advpatch",
+  "pixel_pipeline": "PIL RGB -> center pad original size to square with RGB 127 -> PIL bilinear 640x640",
+  "conf_thres": 0.001,
+  "nms_iou": 0.6,
+  "max_det": 300,
+  "asr_conf": 0.5,
+  "asr_iou": 0.5,
+  "asr_definition": "GT detected clean at confidence>=.5 and IoU>=.5 but missed with patch, divided by clean-detected GT; one-to-one matching",
+  "detectors": {
+    "yolov5s": {
+      "weights": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advpad-20260908/yolov5s.pt",
+      "sha256": "8b3b748c1e592ddd8868022e8732fde20025197328490623cc16c6f24d0782ee",
+      "implementation": "PAC-yolo pinned YOLOv5 loader, official COCO v6.2 checkpoint",
+      "parameters": 7235389
+    },
+    "yolov2": {
+      "weights": "/datacc05/huotianlin/code-hu/PAC/third_party/weights/yolov2.weights",
+      "sha256": "d9945162ed6f54ce1a901e3ec537bdba4d572ecae7873087bd730e5a7942df3f",
+      "implementation": "/datacc05/huotianlin/code-hu/PAC/third_party/T-SEA-pac/detlib/HHDet/yolov2/yolov2/darknet.py",
+      "parameters": 50962889
+    },
+    "yolov3": {
+      "weights": "/datacc05/huotianlin/code-hu/PAC/third_party/weights/yolov3.weights",
+      "sha256": "523e4e69e1d015393a1b0a441cef1d9c7659e3eb2d7e15f793f060a21b32f297",
+      "implementation": "/datacc05/huotianlin/code-hu/PAC/third_party/T-SEA-pac/detlib/HHDet/yolov3/PyTorch_YOLOv3/pytorchyolo/models.py",
+      "parameters": 61949149
+    },
+    "yolov4": {
+      "weights": "/datacc05/huotianlin/code-hu/PAC/third_party/weights/yolov4.weights",
+      "sha256": "e8a4f6c62188738d86dc6898d82724ec0964d0eb9d2ae0f0a9d53d65d108d562",
+      "implementation": "/datacc05/huotianlin/code-hu/PAC/third_party/T-SEA-pac/detlib/HHDet/yolov4/Pytorch_YOLOv4/tool/darknet2pytorch.py",
+      "parameters": 64363101
+    },
+    "yolov5m": {
+      "weights": "/datacc05/huotianlin/code-hu/PAC/third_party/weights/yolov5m-v6.2.pt",
+      "sha256": "61d933360ba5a7733a36764996c800287d973889d875227f5beedd2473a97a56",
+      "implementation": "PAC-yolo pinned YOLOv5 loader, official COCO v6.2 checkpoint",
+      "parameters": 21190557
+    },
+    "fasterrcnn": {
+      "weights": "/datacc05/huotianlin/code-hu/PAC/third_party/weights/fasterrcnn_resnet50_fpn_coco-258fb6c6.pth",
+      "sha256": "258fb6c638b15964ddcdd1ae0748c5eef1be9e732750120cc857feed3faac384",
+      "implementation": "torchvision 0.20.1 fasterrcnn_resnet50_fpn COCO_V1 (FrozenBatchNorm eps=0)",
+      "parameters": 41755286
+    }
+  },
+  "method": "AdvPatch",
+  "optimization_source": "yolov3",
+  "epochs": 200,
+  "initial_lr": 0.03,
+  "early_stopping": false,
+  "tv_weight": 2.5,
+  "tv_floor": 0.1,
+  "nps_weight": 0.01,
+  "optimizer": "Adam AMSGrad",
+  "lr_schedule": "ReduceLROnPlateau(mode=min, patience=50)",
+  "batches_per_epoch": 77,
+  "expected_optimizer_steps": 15400,
+  "workers": 4,
+  "checkpoint_selection": "minimum epoch-mean total training loss",
+  "test_used_during_training": false,
+  "eval_eot": false,
+  "train_eot": {
+    "median_kernel": 7,
+    "contrast": [
+      0.8,
+      1.2
+    ],
+    "brightness": [
+      -0.1,
+      0.1
+    ],
+    "noise": [
+      -0.1,
+      0.1
+    ],
+    "rotation_degrees": [
+      -20,
+      20
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "rgb_clamp": [
+      1e-06,
+      0.99999
+    ]
+  },
+  "detector_confidence": "mean per-image peak objectness * person probability",
+  "adaptation": "Shared PAC budget/placement; FRCNN person-confidence extension is explicitly documented.",
+  "source_code_sha256": {
+    "train_patch.py": "5e76c99ba84e30236678ff8d828ee1954fe66fbdc752e9fe834034131f89afa0",
+    "detector_backends.py": "d612a3932c788bd9acc3d8d9ed0fd8dc50e41aac792fab928d314ffbaf9ac64b",
+    "eval_transfer.py": "5a2c49defff7440fd6ad498b4730d19919c07770a8d2a536df2072cc264c6864",
+    "utils/patch.py": "fd7d91e0360235ad2b275905817ee82e5442d6ebc2534932f1cec92931897f51",
+    "utils/dataloaders.py": "d7497b7ebc3879ea90c59134ff0cc1232d592ca8ce838e6b28f05e2268cfcd7c",
+    "utils/general.py": "121caf73bd4d8d6597ded4157335a650dc181cb2fa31c32ff7ab9ced271150fb",
+    "utils/metrics.py": "085d17cbd1a002938be928301b9afe272295ab8031965f3e57533f21241033f4",
+    "models/experimental.py": "8423b61af8c4e2535583e0c5125e9cdeeea50a1e066950af2d0f3a9013a92d72"
+  },
+  "targets": [
+    "yolov2",
+    "yolov3",
+    "yolov4",
+    "yolov5s",
+    "yolov5m",
+    "fasterrcnn"
+  ],
+  "patches": [
+    {
+      "id": "clean",
+      "label": "Clean",
+      "path": null,
+      "optimization_source": null
+    },
+    {
+      "id": "advpatch",
+      "label": "AdvPatch (yolov3)",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov3/patches/advpatch/best.pt",
+      "optimization_source": "yolov3",
+      "variant": "advpatch",
+      "sha256": "f6d8a98dbf53c0ad6814a0d56c05eebeb51d8a030675e35f326d52a981308af1",
+      "min": 0.0,
+      "max": 1.0,
+      "std": 0.1696280837059021,
+      "source_best_epoch": 183
+    },
+    {
+      "id": "p1",
+      "label": "PAC-P1 (yolov3)",
+      "variant": "p1",
+      "optimization_source": "yolov3",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov3/patches/p1.pt",
+      "sha256": "e813a8cc59386d7305243df3d5ec996aeaa6b9a590c6eb98d9513e21e6545ba3",
+      "source_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov3/patches/advpatch/best.pt",
+      "source_sha256": "f6d8a98dbf53c0ad6814a0d56c05eebeb51d8a030675e35f326d52a981308af1",
+      "source_best_epoch": 183,
+      "base_colors": "bc1"
+    },
+    {
+      "id": "p2",
+      "label": "PAC-P2 (yolov3)",
+      "variant": "p2",
+      "optimization_source": "yolov3",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov3/patches/p2.pt",
+      "sha256": "e5820a9e9c831839b034f55cc4cfd8edd13faa6ce0563dd40fe715cf09d8d8e5",
+      "source_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov3/patches/advpatch/best.pt",
+      "source_sha256": "f6d8a98dbf53c0ad6814a0d56c05eebeb51d8a030675e35f326d52a981308af1",
+      "source_best_epoch": 183,
+      "base_colors": "bc2"
+    }
+  ]
+}

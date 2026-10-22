@@ -1,0 +1,9 @@
+{
+  "issue": "AF_UNIX socket path exceeded OS limit under the long experiment TMPDIR",
+  "resolution": "Use a short TMPDIR within PAC-yolo",
+  "TMPDIR": "/datacc05/huotianlin/code-hu/PAC-yolo/.tmp_ac11",
+  "stopped_preflight_pids": [
+    2833633
+  ],
+  "formal_training_started": false
+}

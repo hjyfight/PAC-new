@@ -1,0 +1,454 @@
+{
+  "sha": "56634bc32ffc75edf1391a3d19db874d1274e231",
+  "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/trees/56634bc32ffc75edf1391a3d19db874d1274e231",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c794d42a34d53874fa0ea4e0f91e6b8acda2b2f1",
+      "size": 104,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/c794d42a34d53874fa0ea4e0f91e6b8acda2b2f1"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "922f84d473999da0aa5d3ab78b86adf44c6f28fc",
+      "size": 6105,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/922f84d473999da0aa5d3ab78b86adf44c6f28fc"
+    },
+    {
+      "path": "adversarial_patches",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fae524d20d2667b5ccb24954994dd35d03e59d31",
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/trees/fae524d20d2667b5ccb24954994dd35d03e59d31"
+    },
+    {
+      "path": "adversarial_patches/patch_phy.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "473ce2e4e123b7541b9b57fb4291692af364daeb",
+      "size": 31122,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/473ce2e4e123b7541b9b57fb4291692af364daeb"
+    },
+    {
+      "path": "adversarial_patches/patch_sim_v1.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eff2547ad70d40b876a44128d9f6f4a974e638d3",
+      "size": 31122,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/eff2547ad70d40b876a44128d9f6f4a974e638d3"
+    },
+    {
+      "path": "adversarial_patches/patch_sim_v2.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c36f676b55d95093adc357d9502d39e03a28cdef",
+      "size": 31122,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/c36f676b55d95093adc357d9502d39e03a28cdef"
+    },
+    {
+      "path": "figs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c24bed3e8f80763c131873c8389140cce694a7b2",
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/trees/c24bed3e8f80763c131873c8389140cce694a7b2"
+    },
+    {
+      "path": "figs/image.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3675b6f4cc8d57542f230b056ff9b087909af6ff",
+      "size": 455385,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/3675b6f4cc8d57542f230b056ff9b087909af6ff"
+    },
+    {
+      "path": "figs/mainfig.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80e46e51413d55f1e3ec0a2792c1a8e706eadfdc",
+      "size": 277914,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/80e46e51413d55f1e3ec0a2792c1a8e706eadfdc"
+    },
+    {
+      "path": "openvla-oft",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "36fa4d8978f9b821bfdf80bc0b3bf63b8bf78e96",
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/trees/36fa4d8978f9b821bfdf80bc0b3bf63b8bf78e96"
+    },
+    {
+      "path": "openvla-oft/experiments",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8b44764e809894615f8f6a6295cd741b67b0e682",
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/trees/8b44764e809894615f8f6a6295cd741b67b0e682"
+    },
+    {
+      "path": "openvla-oft/experiments/robot",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7a9ad6cc4957c9f4fe8e37e087ae658da18c6f5d",
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/trees/7a9ad6cc4957c9f4fe8e37e087ae658da18c6f5d"
+    },
+    {
+      "path": "openvla-oft/experiments/robot/aloha",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b310fc3f69fdfa15c92c499ed4f5657ff38a856d",
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/trees/b310fc3f69fdfa15c92c499ed4f5657ff38a856d"
+    },
+    {
+      "path": "openvla-oft/experiments/robot/aloha/aloha_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3dc5b8aae766a07c4032acd7371be0feff5bbeb",
+      "size": 3059,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/b3dc5b8aae766a07c4032acd7371be0feff5bbeb"
+    },
+    {
+      "path": "openvla-oft/experiments/robot/aloha/constants.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5599e3590be470b6f57d01fe4c3aa0e7739e1353",
+      "size": 5252,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/5599e3590be470b6f57d01fe4c3aa0e7739e1353"
+    },
+    {
+      "path": "openvla-oft/experiments/robot/aloha/preprocess_split_aloha_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8de07f232a48d6713e2758f78fde7fe75e28bd37",
+      "size": 10698,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/8de07f232a48d6713e2758f78fde7fe75e28bd37"
+    },
+    {
+      "path": "openvla-oft/experiments/robot/aloha/real_env.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3f6c8f54b9f84c49a992345973b44eda45aaa42",
+      "size": 9975,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/f3f6c8f54b9f84c49a992345973b44eda45aaa42"
+    },
+    {
+      "path": "openvla-oft/experiments/robot/aloha/requirements_aloha.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c84c6d08c5b343b91ca2eed61bd1f029a7d61037",
+      "size": 257,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/c84c6d08c5b343b91ca2eed61bd1f029a7d61037"
+    },
+    {
+      "path": "openvla-oft/experiments/robot/aloha/robot_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82f080cc9e6ebe92b6b3447bfd9cc5d5e60b78a8",
+      "size": 7523,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/82f080cc9e6ebe92b6b3447bfd9cc5d5e60b78a8"
+    },
+    {
+      "path": "openvla-oft/experiments/robot/aloha/run_aloha_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "520f5af9a284cead73d8cd027f821b5490354a45",
+      "size": 13255,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/520f5af9a284cead73d8cd027f821b5490354a45"
+    },
+    {
+      "path": "openvla-oft/experiments/robot/libero",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5f46044bf1373409cb1f1a2ffc32817665327bb7",
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/trees/5f46044bf1373409cb1f1a2ffc32817665327bb7"
+    },
+    {
+      "path": "openvla-oft/experiments/robot/libero/libero_requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca0c0467efa33b91ad76d66976da480c1e5f572f",
+      "size": 63,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/ca0c0467efa33b91ad76d66976da480c1e5f572f"
+    },
+    {
+      "path": "openvla-oft/experiments/robot/libero/libero_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e2c23458cbf48a9d78bf61e7cf0cbd5e196d635",
+      "size": 3166,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/8e2c23458cbf48a9d78bf61e7cf0cbd5e196d635"
+    },
+    {
+      "path": "openvla-oft/experiments/robot/libero/regenerate_libero_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0966413ee197c6f6a2da4d03310943a84584dbb7",
+      "size": 11225,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/0966413ee197c6f6a2da4d03310943a84584dbb7"
+    },
+    {
+      "path": "openvla-oft/experiments/robot/libero/run_libero_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66079569cb24ed95b8f671af3f0f992d5de895b5",
+      "size": 25991,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/66079569cb24ed95b8f671af3f0f992d5de895b5"
+    },
+    {
+      "path": "openvla-oft/experiments/robot/libero/sample_libero_spatial_observation.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8863226be214ba60f8be5b3674d272024df93439",
+      "size": 301501,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/8863226be214ba60f8be5b3674d272024df93439"
+    },
+    {
+      "path": "openvla-oft/experiments/robot/openvla_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c14c9dcfd3d10bbf80191dd64120e8746e72bb6a",
+      "size": 30203,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/c14c9dcfd3d10bbf80191dd64120e8746e72bb6a"
+    },
+    {
+      "path": "openvla-oft/experiments/robot/robot_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64559e99040752be0f58d07675f8f621023499dd",
+      "size": 6102,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/64559e99040752be0f58d07675f8f621023499dd"
+    },
+    {
+      "path": "openvla-oft/sbatch_test.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c0eb7e3be3acdc4c5e79ba66168268c4208b2dc",
+      "size": 1723,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/1c0eb7e3be3acdc4c5e79ba66168268c4208b2dc"
+    },
+    {
+      "path": "sbatch_train.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "259e782f221d1aa572ae2cdb339c08d2156e1cf1",
+      "size": 698,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/259e782f221d1aa572ae2cdb339c08d2156e1cf1"
+    },
+    {
+      "path": "trans.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2dcf650904b9110718db7fb6b390bfb58a8debb",
+      "size": 7429,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/d2dcf650904b9110718db7fb6b390bfb58a8debb"
+    },
+    {
+      "path": "videos",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c57458012506fcab922f5c2181400497b0e6c741",
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/trees/c57458012506fcab922f5c2181400497b0e6c741"
+    },
+    {
+      "path": "videos/baseline--openvla_oft--task=LIBERO-long.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3e5048fab08a6118ef357a731ba53b2c69d33c6",
+      "size": 1152603,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/c3e5048fab08a6118ef357a731ba53b2c69d33c6"
+    },
+    {
+      "path": "videos/baseline--openvla_oft--task=LIBERO-long.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e424cd3231ee7905b33795016cfe326241a919c",
+      "size": 124422,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/8e424cd3231ee7905b33795016cfe326241a919c"
+    },
+    {
+      "path": "videos/benign_1.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d83c08f5239972ebbe08639fa36d303c67019c6f",
+      "size": 3981804,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/d83c08f5239972ebbe08639fa36d303c67019c6f"
+    },
+    {
+      "path": "videos/benign_1.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33c70a6a6682c5fdf491f998328267ff7b55519a",
+      "size": 1010006,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/33c70a6a6682c5fdf491f998328267ff7b55519a"
+    },
+    {
+      "path": "videos/benign_2.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7079fc7c426d17f536508352891fdbfc500e701",
+      "size": 4121909,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/c7079fc7c426d17f536508352891fdbfc500e701"
+    },
+    {
+      "path": "videos/benign_2.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51b5236844a44b753badeceaac078cd5364c25c8",
+      "size": 1057313,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/51b5236844a44b753badeceaac078cd5364c25c8"
+    },
+    {
+      "path": "videos/benign_3.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10fb50455da16546a1977895f4782ce7f4809d44",
+      "size": 3319476,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/10fb50455da16546a1977895f4782ce7f4809d44"
+    },
+    {
+      "path": "videos/benign_3.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2dffb5966f23f4bd182df689ca8083be55e234d",
+      "size": 732744,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/b2dffb5966f23f4bd182df689ca8083be55e234d"
+    },
+    {
+      "path": "videos/our_patch_1.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b208e9efbc77477ed7f74be20a76488ad90e07d",
+      "size": 4686540,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/3b208e9efbc77477ed7f74be20a76488ad90e07d"
+    },
+    {
+      "path": "videos/our_patch_1.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e892c682a62e4d3e1c122bdceb4a49ac8ca8a993",
+      "size": 997288,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/e892c682a62e4d3e1c122bdceb4a49ac8ca8a993"
+    },
+    {
+      "path": "videos/our_patch_2.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2446a60f0627e1b82effab768748c77ccf3d116b",
+      "size": 4007249,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/2446a60f0627e1b82effab768748c77ccf3d116b"
+    },
+    {
+      "path": "videos/our_patch_2.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4eaddeb0783711fcbc7bd15bb6d677c24c1b142b",
+      "size": 879776,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/4eaddeb0783711fcbc7bd15bb6d677c24c1b142b"
+    },
+    {
+      "path": "videos/our_patch_3.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e3dd89e1b62a10a7f13628f9889f915624f6368",
+      "size": 28872512,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/5e3dd89e1b62a10a7f13628f9889f915624f6368"
+    },
+    {
+      "path": "videos/our_patch_3.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70609ffeeaf0eb3b33376a9c0c00b7007551f2f6",
+      "size": 4182779,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/70609ffeeaf0eb3b33376a9c0c00b7007551f2f6"
+    },
+    {
+      "path": "videos/our_physical--openvla_oft--task=LIBERO-spatial.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ef7945d0761dbfaa8a4d50f1d7eb8db8d7e5144",
+      "size": 911638,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/8ef7945d0761dbfaa8a4d50f1d7eb8db8d7e5144"
+    },
+    {
+      "path": "videos/our_physical--openvla_oft--task=LIBERO-spatial.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfa0bd166a07d349830e96a915c93b92769fa8bd",
+      "size": 72426,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/bfa0bd166a07d349830e96a915c93b92769fa8bd"
+    },
+    {
+      "path": "videos/our_physical_openvla_oft--task=LIBERO-long.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a1b05161b0c6f1aaaa2ad524c5a25ea95062daf",
+      "size": 2307849,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/4a1b05161b0c6f1aaaa2ad524c5a25ea95062daf"
+    },
+    {
+      "path": "videos/our_physical_openvla_oft--task=LIBERO-long.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6afb418a4c5ca366674cb3ab5c2dcc18250c209",
+      "size": 165707,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/e6afb418a4c5ca366674cb3ab5c2dcc18250c209"
+    },
+    {
+      "path": "videos/our_simulated--openvla_oft--task=LIBERO-long.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "526fd1d6110c7a4cf4b49c232e86fbe92cabdb9d",
+      "size": 2350816,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/526fd1d6110c7a4cf4b49c232e86fbe92cabdb9d"
+    },
+    {
+      "path": "videos/our_simulated--openvla_oft--task=LIBERO-long.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2c63be2cae53b250689c7dfaf9087c287810cc5",
+      "size": 128097,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/f2c63be2cae53b250689c7dfaf9087c287810cc5"
+    },
+    {
+      "path": "videos/our_simulated--openvla_oft--task=LIBERO-spatial.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4817536e4a36467662df0c5617975f75bcdacab7",
+      "size": 937804,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/4817536e4a36467662df0c5617975f75bcdacab7"
+    },
+    {
+      "path": "videos/our_simulated--openvla_oft--task=LIBERO-spatial.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a53e961dfe4382e04f946122a275bb46dc37cdf5",
+      "size": 75951,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/a53e961dfe4382e04f946122a275bb46dc37cdf5"
+    },
+    {
+      "path": "white_patch",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b7b0278de24a358eb6417bbd131a06fa26a5402e",
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/trees/b7b0278de24a358eb6417bbd131a06fa26a5402e"
+    },
+    {
+      "path": "white_patch/appply_random_transform.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ec31c854f4b39f0bda6a15258f74fada160a98b",
+      "size": 15731,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/2ec31c854f4b39f0bda6a15258f74fada160a98b"
+    },
+    {
+      "path": "white_patch/feature_space.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0320de877f54427123f513e639045f61fad4d34",
+      "size": 36282,
+      "url": "https://api.github.com/repos/yuyi-sd/UPA-RFAS/git/blobs/e0320de877f54427123f513e639045f61fad4d34"
+    }
+  ],
+  "truncated": false
+}

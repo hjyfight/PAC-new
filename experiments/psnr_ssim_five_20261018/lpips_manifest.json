@@ -1,0 +1,140 @@
+{
+  "status": "complete_five_image_pilot",
+  "source_manifest": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/psnr_ssim_five_20261018/manifest.json",
+  "source_manifest_sha256": "07a2b09f82d43737bde8456c866b1217aa453d6d44bf83e4deb26247fc282e9c",
+  "selected_images": 5,
+  "methods": {
+    "advpatch": {
+      "donor": "AdvPatch",
+      "variant": "Original",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advpad-20260908/runs/official_pad3_20260908/patches/ap_s000_advpatch/best.pt",
+      "sha256": "bb27f8379b9b31f5bf7e02de674bdb0cf9a71b28deb795870ff73f42bcf385c3"
+    },
+    "p1": {
+      "donor": "AdvPatch",
+      "variant": "Bc1",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advpad-20260908/runs/official_pad3_20260908/patches/ap_s000_p1/best.pt",
+      "sha256": "f819616dce2aea1d3cb3229e76ed848c77b0f8220d1a0c71bcf9d34d1912c640"
+    },
+    "p2": {
+      "donor": "AdvPatch",
+      "variant": "Bc2",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advpad-20260908/runs/official_pad3_20260908/patches/ap_s000_p2/best.pt",
+      "sha256": "1b6e3286cadfdea53a373b04560a031b2bde162119912a4276db984cf0f971f8"
+    },
+    "tsea": {
+      "donor": "T-SEA",
+      "variant": "Original",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/tsea_nap_20260912/tsea/yolov5s/patches/tsea/best.pt",
+      "sha256": "2a484388bbf78b1ce020dc0514902a104547c335902dec5e0529cc91f930cf66"
+    },
+    "tsea_bc1": {
+      "donor": "T-SEA",
+      "variant": "Bc1",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/tsea_nap_20260912/tsea/yolov5s/patches/best_bc1.pt",
+      "sha256": "5a010bc37e01b44d3765850850c9ca6908930b62b7fdf79bfbeb66ae97d30eeb"
+    },
+    "tsea_bc2": {
+      "donor": "T-SEA",
+      "variant": "Bc2",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/tsea_nap_20260912/tsea/yolov5s/patches/best_bc2.pt",
+      "sha256": "25f520e5a2d77dbe9e5c48a88afa2690a95d7b28690c1f79a918317591875a39"
+    },
+    "advreal": {
+      "donor": "AdvReal-2D",
+      "variant": "Original",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal2d-20260908/runs/advreal2d_authorbudget_seed0_20260908/patches/advreal2d_yolov5s/best.pt",
+      "sha256": "2022397a27a1c02f58f5370b16c190386e5fe92bd8fa15d67560762b4c04f480"
+    },
+    "advreal_bc1": {
+      "donor": "AdvReal-2D",
+      "variant": "Bc1",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/patches/yolov5s/advreal_r1.pt",
+      "sha256": "6e355b3e8981420ddd443937ddae8f2b99b3d9f2b5058490409533767b4f51f9"
+    },
+    "advreal_bc2": {
+      "donor": "AdvReal-2D",
+      "variant": "Bc2",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/patches/yolov5s/advreal_r2.pt",
+      "sha256": "ae5de2fea291b9c00b0c51b4324a8bb9c46d7241d29ea40156e9cde9f8cb864c"
+    }
+  },
+  "samples": [
+    {
+      "sample_id": "s01",
+      "image": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-master/datasets/inria/images/val/person_and_bike_095.png",
+      "tensor_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/psnr_ssim_five_20261018/tensors/s01.npz",
+      "tensor_sha256": "28b6e76a6af3d10145ccd1d25c4d2bbc80f9d6219c7510fa0f821f65c5b3fb9b",
+      "roi_size": [
+        224,
+        224
+      ],
+      "roi_count": 1
+    },
+    {
+      "sample_id": "s02",
+      "image": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-master/datasets/inria/images/val/person_250.png",
+      "tensor_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/psnr_ssim_five_20261018/tensors/s02.npz",
+      "tensor_sha256": "6ab2d47eebbda3f49211cdfb0d725f14104f338d166f34266006b5ec7fbfd730",
+      "roi_size": [
+        224,
+        224
+      ],
+      "roi_count": 3
+    },
+    {
+      "sample_id": "s03",
+      "image": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-master/datasets/inria/images/val/person_073.png",
+      "tensor_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/psnr_ssim_five_20261018/tensors/s03.npz",
+      "tensor_sha256": "e3f6f8681226b39c1d2f98b3cff2a1fd305555fba892c0020416af7c68aa9a93",
+      "roi_size": [
+        224,
+        224
+      ],
+      "roi_count": 1
+    },
+    {
+      "sample_id": "s04",
+      "image": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-master/datasets/inria/images/val/person_and_bike_086.png",
+      "tensor_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/psnr_ssim_five_20261018/tensors/s04.npz",
+      "tensor_sha256": "f97762d417c29cbc0551d9d3688dfe43925a146ad2716435b82f6d102748c1bf",
+      "roi_size": [
+        224,
+        224
+      ],
+      "roi_count": 1
+    },
+    {
+      "sample_id": "s05",
+      "image": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-master/datasets/inria/images/val/person_and_bike_029.png",
+      "tensor_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/psnr_ssim_five_20261018/tensors/s05.npz",
+      "tensor_sha256": "6902161d92efbef69e396578bff89ac09d6ef09cbef86d7200eb4965092aee3f",
+      "roi_size": [
+        224,
+        224
+      ],
+      "roi_count": 2
+    }
+  ],
+  "metric": "LPIPS",
+  "package": "lpips==0.1.4",
+  "model": "AlexNet",
+  "version": "0.1",
+  "device": "cuda",
+  "input_color": "RGB",
+  "input_range": "[-1, 1] after mapping from [0, 1]",
+  "full_canvas": "640x640, including gray padding",
+  "roi_protocol": "Each GT person ROI is bicubic-resized to 224x224; scores averaged within image, then across five images",
+  "direction": "lower is more perceptually similar to the clean reference",
+  "tensor_input": "exact float32 rendered tensors from tensors/*.npz; PNG previews are not used",
+  "aggregation": "arithmetic mean of five per-image scores; person ROIs averaged within each image first",
+  "versions": {
+    "numpy": "2.2.6",
+    "torch": "2.5.1+cu124"
+  },
+  "files": {
+    "per_image": "lpips_per_image.csv",
+    "per_person": "lpips_per_person.csv",
+    "summary": "lpips_summary.csv"
+  }
+}

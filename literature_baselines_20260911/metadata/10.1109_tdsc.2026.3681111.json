@@ -1,0 +1,647 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        7,
+        31
+      ]
+    ],
+    "date-time": "2026-07-31T15:23:37Z",
+    "timestamp": 1785511417935,
+    "version": "3.56.0"
+  },
+  "reference-count": 52,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "issue": "4",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            1
+          ]
+        ],
+        "date-time": "2026-07-01T00:00:00Z",
+        "timestamp": 1782864000000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            1
+          ]
+        ],
+        "date-time": "2026-07-01T00:00:00Z",
+        "timestamp": 1782864000000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-029"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            1
+          ]
+        ],
+        "date-time": "2026-07-01T00:00:00Z",
+        "timestamp": 1782864000000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-037"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100001809",
+      "name": "National Natural Science Foundation of China",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "62425308"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "62425308"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001809",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100001809",
+      "name": "National Natural Science Foundation of China",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "U24B20178"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "U24B20178"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001809",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100007128",
+      "name": "Natural Science Foundation of Shaanxi Province",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "2024JCTBZC-03"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "2024JCTBZC-03"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100007128",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "IEEE Trans. Dependable and Secure Comput."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2026,
+        7
+      ]
+    ]
+  },
+  "DOI": "10.1109/tdsc.2026.3681111",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2026,
+        4,
+        6
+      ]
+    ],
+    "date-time": "2026-04-06T19:59:47Z",
+    "timestamp": 1775505587000
+  },
+  "page": "8216-8230",
+  "source": "Crossref",
+  "is-referenced-by-count": 1,
+  "title": [
+    "Robust Adversarial Patch for Object Detection Using Self-Similarity for Multiscale Attacks"
+  ],
+  "prefix": "10.1109",
+  "volume": "23",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0001-5672-4110",
+      "authenticated-orcid": false,
+      "given": "Yang",
+      "family": "Li",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "School of Automation, Northwestern Polytechnical University, Xi&#x2019;an, China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0008-6107-9812",
+      "authenticated-orcid": false,
+      "given": "Tingrui",
+      "family": "Wang",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of Automation, Northwestern Polytechnical University, Xi&#x2019;an, China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Mingxin",
+      "family": "Fu",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of Automation, Northwestern Polytechnical University, Xi&#x2019;an, China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-1496-405X",
+      "authenticated-orcid": false,
+      "given": "Xin",
+      "family": "Zhou",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of Automation, Northwestern Polytechnical University, Xi&#x2019;an, China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-8162-2896",
+      "authenticated-orcid": false,
+      "given": "Quan",
+      "family": "Pan",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of Automation, Northwestern Polytechnical University, Xi&#x2019;an, China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-7144-7449",
+      "authenticated-orcid": false,
+      "given": "Zhunga",
+      "family": "Liu",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of Automation, Northwestern Polytechnical University, Xi&#x2019;an, China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "263",
+  "reference": [
+    {
+      "key": "ref1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IVS.2017.7995703"
+    },
+    {
+      "key": "ref2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.landig.2025.100894"
+    },
+    {
+      "key": "ref3",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.landig.2025.100886"
+    },
+    {
+      "key": "ref4",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jmsy.2025.01.014"
+    },
+    {
+      "key": "ref5",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.53941/ijamm.2025.100006"
+    },
+    {
+      "key": "ref6",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/SP.2017.49"
+    },
+    {
+      "key": "ref7",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CVPR.2015.7298640"
+    },
+    {
+      "key": "ref8",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/EuroSP.2016.36"
+    },
+    {
+      "key": "ref9",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.patcog.2023.109849"
+    },
+    {
+      "key": "ref10",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/jiot.2026.3697260"
+    },
+    {
+      "key": "ref11",
+      "article-title": "Explaining and harnessing adversarial examples",
+      "author": "Goodfellow",
+      "year": "2014"
+    },
+    {
+      "key": "ref12",
+      "first-page": "1",
+      "article-title": "Adversarial patch",
+      "volume-title": "Proc 31st Conf. Neural Inf. Proces. Syst.",
+      "author": "Brown",
+      "year": "2017"
+    },
+    {
+      "key": "ref13",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CVPRW.2019.00012"
+    },
+    {
+      "key": "ref14",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-030-58548-8_1"
+    },
+    {
+      "key": "ref15",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CVPR52688.2022.01295"
+    },
+    {
+      "key": "ref16",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JSEN.2024.3472032"
+    },
+    {
+      "issue": "21",
+      "key": "ref17",
+      "article-title": "Infrared adversarial patch generation based on reinforcement learning",
+      "volume-title": "Mathematics",
+      "volume": "12",
+      "author": "Zhou",
+      "year": "2024"
+    },
+    {
+      "key": "ref18",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-030-58558-7_39"
+    },
+    {
+      "key": "ref19",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3474085.3475653"
+    },
+    {
+      "key": "ref20",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CVPR42600.2020.00080"
+    },
+    {
+      "key": "ref21",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICCV48922.2021.00775"
+    },
+    {
+      "key": "ref22",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TIFS.2022.3198857"
+    },
+    {
+      "key": "ref23",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CVPR52733.2024.02322"
+    },
+    {
+      "key": "ref24",
+      "first-page": "2378",
+      "article-title": "DiffPatch: Generating customizable adversarial patches using diffusion models",
+      "volume-title": "Proc. IEEE Int. Conf. Image Process.",
+      "author": "Wang",
+      "year": "2025"
+    },
+    {
+      "key": "ref25",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/icip55913.2025.11084754"
+    },
+    {
+      "key": "ref26",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TMM.2023.3330089"
+    },
+    {
+      "key": "ref27",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TIFS.2024.3468908"
+    },
+    {
+      "key": "ref28",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TPAMI.2025.3526188"
+    },
+    {
+      "key": "ref29",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICCV51070.2023.00414"
+    },
+    {
+      "key": "ref30",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CVPR52729.2023.01965"
+    },
+    {
+      "key": "ref31",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/73721.73746"
+    },
+    {
+      "issue": "10",
+      "key": "ref32",
+      "first-page": "795",
+      "article-title": "Self-similarity and fractals in science and art",
+      "volume": "37",
+      "author": "Schroeder",
+      "year": "1989",
+      "journal-title": "J. Audio Eng. Soc."
+    },
+    {
+      "key": "ref33",
+      "article-title": "Self-similarity of images and non-local image processing",
+      "author": "Glew",
+      "year": "2011"
+    },
+    {
+      "key": "ref34",
+      "article-title": "Structural similarity index (SSIM) revisited: A data-driven approach",
+      "volume-title": "Expert Syst. Appl.",
+      "volume": "189",
+      "author": "Bakurov",
+      "year": "2022"
+    },
+    {
+      "key": "ref35",
+      "article-title": "No need to worry about adversarial examples in object detection in autonomous vehicles",
+      "author": "Lu",
+      "year": "2017"
+    },
+    {
+      "key": "ref36",
+      "first-page": "284",
+      "article-title": "Synthesizing robust adversarial examples",
+      "volume-title": "Proc. Int. Conf. Mach. Learn.",
+      "author": "Athalye",
+      "year": "2018"
+    },
+    {
+      "key": "ref37",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TIP.2003.819861"
+    },
+    {
+      "key": "ref38",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2976749.2978392"
+    },
+    {
+      "key": "ref39",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CVPR.2017.690"
+    },
+    {
+      "key": "ref40",
+      "article-title": "YOLOv5: A state-of-the-art real-time object detection system",
+      "year": "2021"
+    },
+    {
+      "key": "ref41",
+      "first-page": "1",
+      "article-title": "Adam: A method for stochastic optimization",
+      "volume-title": "Proc Int. Conf. Learn. Representations",
+      "author": "Kingma",
+      "year": "2015"
+    },
+    {
+      "key": "ref42",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CVPR.2005.177"
+    },
+    {
+      "key": "ref43",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TITS.2023.3317054"
+    },
+    {
+      "key": "ref44",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3319535.3354259"
+    },
+    {
+      "key": "ref45",
+      "article-title": "YOLOv4: Optimal speed and accuracy of object detection",
+      "author": "Bochkovskiy",
+      "year": "2020"
+    },
+    {
+      "key": "ref46",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CVPR52729.2023.00721"
+    },
+    {
+      "key": "ref47",
+      "article-title": "YOLOv11: An overview of the key architectural enhancements",
+      "author": "Khanam",
+      "year": "2024"
+    },
+    {
+      "key": "ref48",
+      "first-page": "1",
+      "article-title": "YOLOv12: Attention-centric real-time object detectors",
+      "volume-title": "Proc 39th Conf. Neural Inf. Process. Syst.",
+      "author": "Tian",
+      "year": "2025"
+    },
+    {
+      "key": "ref49",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-030-58452-8_13"
+    },
+    {
+      "key": "ref50",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TPAMI.2016.2577031"
+    },
+    {
+      "key": "ref51",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CVPR.2016.91"
+    },
+    {
+      "key": "ref52",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICCV.2017.74"
+    }
+  ],
+  "container-title": [
+    "IEEE Transactions on Dependable and Secure Computing"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "http://xplorestaging.ieee.org/ielx8/8858/11603880/11475045.pdf?arnumber=11475045",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        7,
+        13
+      ]
+    ],
+    "date-time": "2026-07-13T20:09:14Z",
+    "timestamp": 1783973354000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://ieeexplore.ieee.org/document/11475045/"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        7
+      ]
+    ]
+  },
+  "references-count": 52,
+  "journal-issue": {
+    "issue": "4"
+  },
+  "URL": "https://doi.org/10.1109/tdsc.2026.3681111",
+  "relation": {},
+  "ISSN": [
+    "1545-5971",
+    "1941-0018",
+    "2160-9209"
+  ],
+  "issn-type": [
+    {
+      "value": "1545-5971",
+      "type": "print"
+    },
+    {
+      "value": "1941-0018",
+      "type": "electronic"
+    },
+    {
+      "value": "2160-9209",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2026,
+        7
+      ]
+    ]
+  }
+}

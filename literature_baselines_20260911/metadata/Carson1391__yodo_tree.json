@@ -1,0 +1,337 @@
+{
+  "sha": "9e1200a0e8c5441fcf95ea2ea0dc7b9d582e736b",
+  "url": "https://api.github.com/repos/Carson1391/yodo/git/trees/9e1200a0e8c5441fcf95ea2ea0dc7b9d582e736b",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a47b712546456d421772fec63314850fcba82ad",
+      "size": 839,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/7a47b712546456d421772fec63314850fcba82ad"
+    },
+    {
+      "path": "MASTER_FINDINGS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf6d905a8e44eaef5726af410bacfc9fbbe9909f",
+      "size": 102279,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/cf6d905a8e44eaef5726af410bacfc9fbbe9909f"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5c3537f25c0043b9c785655415d3570fd82a885",
+      "size": 12134,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/b5c3537f25c0043b9c785655415d3570fd82a885"
+    },
+    {
+      "path": "capture_embeddings_webcam.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9549a844a0a043de415fcbfb6b1272b386a482e",
+      "size": 13857,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/d9549a844a0a043de415fcbfb6b1272b386a482e"
+    },
+    {
+      "path": "constructive_interference.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b38c76a2f9d36a9a10d01a7892cb676e3ba1621",
+      "size": 26578,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/9b38c76a2f9d36a9a10d01a7892cb676e3ba1621"
+    },
+    {
+      "path": "deformable_patch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b34ec4a95a963933a14e7d1ffca3746ecfa486e",
+      "size": 39647,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/4b34ec4a95a963933a14e7d1ffca3746ecfa486e"
+    },
+    {
+      "path": "destructive_interference.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2be60aeb888feefc7509afd0a6845e67b2f62f53",
+      "size": 22953,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/2be60aeb888feefc7509afd0a6845e67b2f62f53"
+    },
+    {
+      "path": "final_boss.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8c0fd13a0f08de8e5482b8e1a18553967ae9f8d",
+      "size": 52036,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/f8c0fd13a0f08de8e5482b8e1a18553967ae9f8d"
+    },
+    {
+      "path": "forward_person_delta.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5758502e467561b74ac5edaf8e7b9089938092cd",
+      "size": 34381,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/5758502e467561b74ac5edaf8e7b9089938092cd"
+    },
+    {
+      "path": "fractal_image_patch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58a073196de84acc87c43b5b6bf5ffdbaed65bc8",
+      "size": 31961,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/58a073196de84acc87c43b5b6bf5ffdbaed65bc8"
+    },
+    {
+      "path": "fractal_patch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc860f6ac463f7d0ded58bae04f2eb4f8c9837c4",
+      "size": 29147,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/dc860f6ac463f7d0ded58bae04f2eb4f8c9837c4"
+    },
+    {
+      "path": "freq_analysis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d70ca2c3655428197ff1e14dc4d0e9cc13fa948",
+      "size": 13048,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/5d70ca2c3655428197ff1e14dc4d0e9cc13fa948"
+    },
+    {
+      "path": "interference_analysis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a73ff21221130471d555776d6637b383d496503",
+      "size": 24896,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/9a73ff21221130471d555776d6637b383d496503"
+    },
+    {
+      "path": "l2_fft_laplacian_kfac.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "417275fe08b1e940df8b9ab1dcb225b6553cfbde",
+      "size": 55957,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/417275fe08b1e940df8b9ab1dcb225b6553cfbde"
+    },
+    {
+      "path": "results",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8823308d53666d743ab4b8fe9e6f213cbffcabac",
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/trees/8823308d53666d743ab4b8fe9e6f213cbffcabac"
+    },
+    {
+      "path": "results/COMPREHENSIVE_SUMMARY.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4755d9dad7ad140b5b887f7c86ae4d72a28de517",
+      "size": 20256,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/4755d9dad7ad140b5b887f7c86ae4d72a28de517"
+    },
+    {
+      "path": "results/figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bcdc7276f478a89b64248375a472e22af3b37ecd",
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/trees/bcdc7276f478a89b64248375a472e22af3b37ecd"
+    },
+    {
+      "path": "results/figures/cross_layer_interference.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9e4ca5b882ed13219e2f79cc4360803c615b7eb",
+      "size": 250918,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/d9e4ca5b882ed13219e2f79cc4360803c615b7eb"
+    },
+    {
+      "path": "results/figures/cross_layer_summary.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f44699fb7e67be68a66a3c87c51a2bdd75c561e",
+      "size": 238014,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/7f44699fb7e67be68a66a3c87c51a2bdd75c561e"
+    },
+    {
+      "path": "results/figures/fractal_comparison.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6062f0306b4949ad11cab2f34b1742db99265cdb",
+      "size": 109869,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/6062f0306b4949ad11cab2f34b1742db99265cdb"
+    },
+    {
+      "path": "results/figures/freq_cross_layer.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20e39869608aa965af471ec06b0f70f3e8833e92",
+      "size": 136278,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/20e39869608aa965af471ec06b0f70f3e8833e92"
+    },
+    {
+      "path": "results/figures/shape_comparison.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ca3aba81782dce93d75bbe3032cc07b28e2cd42",
+      "size": 75712,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/4ca3aba81782dce93d75bbe3032cc07b28e2cd42"
+    },
+    {
+      "path": "results/figures/texture_comparison.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93d91a5b90e879a297955e4687ca97ba31ed051e",
+      "size": 69031,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/93d91a5b90e879a297955e4687ca97ba31ed051e"
+    },
+    {
+      "path": "results/fractal",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "37ee8fca93309c46853291086dc33cafc3518794",
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/trees/37ee8fca93309c46853291086dc33cafc3518794"
+    },
+    {
+      "path": "results/fractal/fractal_d3_416.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e566913ba9ebde42b2e62e5704130c967aacdf6",
+      "size": 46122,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/6e566913ba9ebde42b2e62e5704130c967aacdf6"
+    },
+    {
+      "path": "results/fractal/fractal_d4_416.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6f75588db83997ec2b786827287d399a1f3a41d",
+      "size": 46667,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/a6f75588db83997ec2b786827287d399a1f3a41d"
+    },
+    {
+      "path": "results/fractal/fractal_d5_416.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acbf9315fe397e41deb4aa9aa04e0b4efdd0d4f3",
+      "size": 47517,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/acbf9315fe397e41deb4aa9aa04e0b4efdd0d4f3"
+    },
+    {
+      "path": "results/fractal/fractal_patch_results.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13f5bd46ca7bed0da9b58e67eeba56d8544653e2",
+      "size": 1256,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/13f5bd46ca7bed0da9b58e67eeba56d8544653e2"
+    },
+    {
+      "path": "results/fractal/fractal_patch_results.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10edd03125abb94ae889ff26e73f819390dc9779",
+      "size": 4163,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/10edd03125abb94ae889ff26e73f819390dc9779"
+    },
+    {
+      "path": "results/freq_deep",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8efdc7d2019bac7fbfc5110d2121f01eec95eac3",
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/trees/8efdc7d2019bac7fbfc5110d2121f01eec95eac3"
+    },
+    {
+      "path": "results/freq_deep/freq_summary.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6372e0d128c4d7d6601705e2ea88410684a3360e",
+      "size": 2006,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/6372e0d128c4d7d6601705e2ea88410684a3360e"
+    },
+    {
+      "path": "results/freq_deep/freq_summary.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0271e3eaf20df6b2fee51fdf6403c5046a1b4b5",
+      "size": 13863,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/f0271e3eaf20df6b2fee51fdf6403c5046a1b4b5"
+    },
+    {
+      "path": "results/interference",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "05e6caad3d74a9604c705f9ce846b1af9515d699",
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/trees/05e6caad3d74a9604c705f9ce846b1af9515d699"
+    },
+    {
+      "path": "results/interference/interference_4way.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c87f7ebb4fa279954ec339f5bb246f0ae11b3c80",
+      "size": 5978,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/c87f7ebb4fa279954ec339f5bb246f0ae11b3c80"
+    },
+    {
+      "path": "results/interference/interference_4way.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf5b8c90a0491402844395f45af0f990c42db347",
+      "size": 20399,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/bf5b8c90a0491402844395f45af0f990c42db347"
+    },
+    {
+      "path": "results/person_signal_summary.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ef075b7673a1f7640f5ec23fda6e4334a32e538",
+      "size": 3530,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/4ef075b7673a1f7640f5ec23fda6e4334a32e538"
+    },
+    {
+      "path": "results/person_signal_summary.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cc0e6a7c14985f94a5ab7b60cf028a8d81b9f6f",
+      "size": 9004,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/7cc0e6a7c14985f94a5ab7b60cf028a8d81b9f6f"
+    },
+    {
+      "path": "results/triangular",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd8f5d2b26ebbc4742648ccb2cc9f1ccef8dfd99",
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/trees/fd8f5d2b26ebbc4742648ccb2cc9f1ccef8dfd99"
+    },
+    {
+      "path": "results/triangular/triangular_patch.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38b1e24652b4d4aa4a6c0f15091b3f0302a0af3b",
+      "size": 117076,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/38b1e24652b4d4aa4a6c0f15091b3f0302a0af3b"
+    },
+    {
+      "path": "test_patch_metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d4b60d4484a6d30105899c7e39a0010b1489897",
+      "size": 37305,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/8d4b60d4484a6d30105899c7e39a0010b1489897"
+    },
+    {
+      "path": "train_v45_fft_signature.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0cf71a9e6688c0356334d21e6cbdcf6bbb2c536",
+      "size": 19766,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/d0cf71a9e6688c0356334d21e6cbdcf6bbb2c536"
+    },
+    {
+      "path": "triangular_patch_test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3616930c8832dc3549fce4d11287ab520673b2f5",
+      "size": 32156,
+      "url": "https://api.github.com/repos/Carson1391/yodo/git/blobs/3616930c8832dc3549fce4d11287ab520673b2f5"
+    }
+  ],
+  "truncated": false
+}

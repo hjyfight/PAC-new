@@ -1,0 +1,4605 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 188309,
+    "items": [
+      {
+        "abstract": "<jats:p>Deep neural network (DNN)-based object detec-tors are widely used for analyzing aerial and satellite imagery in applications such as environmental monitoring and urban analytics. Despite their strong performance, these models are known to be vulnerable to adversarial examples, and physical adversarial attacks using printable patterns pose realistic security threats. This study evaluates physical adversarial patch attacks against an aerial vehicle detector by bridging digital optimization and real-world deployment. Adversarial patches are optimized in the digital domain using a loss function that minimizes the maximum objectness score while incorporating non-printability score (NPS) and total variation (TV) constraints to ensure both printability and spatial smoothness. The optimized patches are printed and deployed in three configurations: ON, OFF, and OFF-Side. Experiments using a YOLOv3 detector show that while the OFF patch achieves the highest effectiveness in the digital domain (85.51% Average Objectness Reduction Rate (AORR)), the ON patch demonstrates superior robustness in physical environments (0.197–0.343 Objectness Score Ratio (OSR)) due to its consistent visibility. Furthermore, the results indicate that weather-based augmentation does not necessarily improve patch optimization in this domain. These findings provide critical insights into the practical vulnerabilities of aerial object detection systems.</jats:p>",
+        "DOI": "10.14569/ijacsa.2026.0170608",
+        "title": [
+          "Digital-to-Physical Transfer of Adversarial Patches for Aerial Vehicle Detection"
+        ],
+        "author": [
+          {
+            "given": "Jung Heum",
+            "family": "Woo",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Eun-Kyu",
+            "family": "Lee",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "container-title": [
+          "International Journal of Advanced Computer Science and Applications"
+        ],
+        "link": [
+          {
+            "URL": "http://thesai.org/Downloads/Volume17No6/Paper_8-Digital_to_Physical_Transfer_of_Adversarial_Patches.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://thesai.org/Downloads/Volume17No6/Paper_8-Digital_to_Physical_Transfer_of_Adversarial_Patches.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.14569/ijacsa.2026.0170608",
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              5
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title>\n          <jats:p>Despite ongoing research on the topic of adversarial examples in deep learning for computer vision, some fundamentals of the nature of these attacks remain unclear. As the manifold hypothesis posits, high-dimensional data tends to be part of a low-dimensional manifold. To verify the thesis with adversarial patches–a special form of adversarial attack that can be used to fool object detectors in the physical world–this paper provides an analysis of a set of adversarial patches and investigates the reconstruction abilities of five different dimensionality reduction methods. Quantitatively, the performance of reconstructed patches in an attack setting is measured and the impact of sampled patches from the latent space during adversarial training is investigated. The evaluation is performed on two publicly available datasets for person detection. The results indicate that more sophisticated dimensionality reduction methods offer no advantages over a simple principal component analysis.</jats:p>",
+        "DOI": "10.1007/s00138-025-01689-6",
+        "title": [
+          "Traversing the subspace of adversarial patches"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-2806-6920",
+            "authenticated-orcid": false,
+            "given": "Jens",
+            "family": "Bayer",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7367-2519",
+            "authenticated-orcid": false,
+            "given": "Stefan",
+            "family": "Becker",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8577-5256",
+            "authenticated-orcid": false,
+            "given": "David",
+            "family": "Münch",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7857-0332",
+            "authenticated-orcid": false,
+            "given": "Michael",
+            "family": "Arens",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3556-7181",
+            "authenticated-orcid": false,
+            "given": "Jürgen",
+            "family": "Beyerer",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              25
+            ]
+          ]
+        },
+        "container-title": [
+          "Machine Vision and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s00138-025-01689-6.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s00138-025-01689-6/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s00138-025-01689-6.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s00138-025-01689-6",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              25
+            ]
+          ]
+        }
+      },
+      {
+        "abstract": "<jats:p>In recent years, deep learning has been extensively deployed on unmanned aerial vehicles (UAVs), particularly for object detection. As the cornerstone of UAV-based object detection, deep neural networks are susceptible to adversarial attacks, with adversarial patches being a relatively straightforward method to implement. However, current research on adversarial patches, especially those targeting UAV object detection, is limited. This scarcity is notable given the complex and dynamically changing environment inherent in UAV image acquisition, which necessitates the development of more robust adversarial patches to achieve effective attacks. To address the challenge of adversarial attacks in UAV high-altitude reconnaissance, this paper presents a robust adversarial patch generation framework. Firstly, the dataset is reconstructed by considering various environmental factors that UAVs may encounter during image collection, and the influences of reflections and shadows during photography are integrated into patch training. Additionally, a nested optimization method is employed to enhance the continuity of attacks across different altitudes. Experimental results demonstrate that the adversarial patches generated by the proposed method exhibit greater robustness in complex environments and have better transferability among similar models.</jats:p>",
+        "DOI": "10.3390/math13040591",
+        "title": [
+          "URAdv: A Novel Framework for Generating Ultra-Robust Adversarial Patches Against UAV Object Detection"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0009-9118-2842",
+            "authenticated-orcid": false,
+            "given": "Hailong",
+            "family": "Xi",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Equipment Management and Unmanned Aerial Vehicle Engineering School, Air Force Engineering University, Xi’an 710043, China"
+              },
+              {
+                "name": "National Key Laboratory of Unmanned Aerial Vehicle Technology, Xi’an 710051, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Le",
+            "family": "Ru",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Equipment Management and Unmanned Aerial Vehicle Engineering School, Air Force Engineering University, Xi’an 710043, China"
+              },
+              {
+                "name": "National Key Laboratory of Unmanned Aerial Vehicle Technology, Xi’an 710051, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1485-7465",
+            "authenticated-orcid": false,
+            "given": "Jiwei",
+            "family": "Tian",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Air Traffic Control and Navigation School, Air Force Engineering University, Xi’an 710043, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0007-8285-776X",
+            "authenticated-orcid": false,
+            "given": "Bo",
+            "family": "Lu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Equipment Management and Unmanned Aerial Vehicle Engineering School, Air Force Engineering University, Xi’an 710043, China"
+              },
+              {
+                "name": "National Key Laboratory of Unmanned Aerial Vehicle Technology, Xi’an 710051, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Shiguang",
+            "family": "Hu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Equipment Management and Unmanned Aerial Vehicle Engineering School, Air Force Engineering University, Xi’an 710043, China"
+              },
+              {
+                "name": "National Key Laboratory of Unmanned Aerial Vehicle Technology, Xi’an 710051, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Wenfei",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Equipment Management and Unmanned Aerial Vehicle Engineering School, Air Force Engineering University, Xi’an 710043, China"
+              },
+              {
+                "name": "National Key Laboratory of Unmanned Aerial Vehicle Technology, Xi’an 710051, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xiaohui",
+            "family": "Luan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "China Academy of Space Technology (Xi’an), Xi’an 710000, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              11
+            ]
+          ]
+        },
+        "container-title": [
+          "Mathematics"
+        ],
+        "link": [
+          {
+            "URL": "https://www.mdpi.com/2227-7390/13/4/591/pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.3390/math13040591",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              11
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1109/tgrs.2025.3594008",
+        "title": [
+          "A Unified Framework for Generating Diverse and Stealthy Adversarial Patches Against Aerial Object Detection"
+        ],
+        "container-title": [
+          "IEEE Transactions on Geoscience and Remote Sensing"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tgrs.2025.3594008",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/36/10807682/11104146.pdf?arnumber=11104146",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "given": "Yixing",
+            "family": "Yong",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Shaanxi Key Laboratory of Deep Space Exploration Intelligent Information Technology, School of Information and Communications Engineering, Xi&#x2019;an Jiaotong University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4091-2165",
+            "authenticated-orcid": false,
+            "given": "Jian",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shaanxi Key Laboratory of Deep Space Exploration Intelligent Information Technology, School of Information and Communications Engineering, Xi&#x2019;an Jiaotong University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3911-8263",
+            "authenticated-orcid": false,
+            "given": "Lijun",
+            "family": "He",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shaanxi Key Laboratory of Deep Space Exploration Intelligent Information Technology, School of Information and Communications Engineering, Xi&#x2019;an Jiaotong University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7566-1634",
+            "authenticated-orcid": false,
+            "given": "Fan",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shaanxi Key Laboratory of Deep Space Exploration Intelligent Information Technology, School of Information and Communications Engineering, Xi&#x2019;an Jiaotong University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "abstract": "<jats:p>Object detection is a central task in computer vision, with wide adoption in real-world applications such as surveillance systems, autonomous driving, healthcare monitoring, and smart devices. Models such as YOLOv8, SSD, Faster R-CNN, and DETR are widely used to identify and locate objects in images or video streams, making them essential building blocks of modern artificial intelligence technologies.\\cite{ultralytics2023}\\cite{zou2023} This research explores the vulnerability of object detection models to adversarial patches beyond surface-level performance evaluation, emphasizing a deeper mechanistic understanding of architectural behavior. Initial experiments with YOLOv8 revealed substantial performance degradation under adversarial influence, consistent with the results shown in Figure 1, which motivated a broader comparative study incorporating three additional detection models: DETR, SSD, and Faster R-CNN. Comparative, structural, and probing approaches are used to examine how model architectures respond to adversarial patches and to identify factors affecting model robustness and reliability. These investigations reveal not only which models fail under attack, but also why they fail, demonstrating how hidden visual signals can disrupt detection pipelines and how architectural design choices contribute to both resilience and fragility. Overall, the findings provide a comparative assessment of detection model vulnerability while offering deeper insight into the internal mechanisms of modern object detection systems, thereby establishing a foundation for the development of more reliable and secure computer vision architectures.</jats:p>",
+        "DOI": "10.32473/flairs.39.1.141849",
+        "title": [
+          "How the Architectural Design of the Detection Model Can Enhance the Effect of Adversarial Patches"
+        ],
+        "author": [
+          {
+            "given": "Terrelle",
+            "family": "Thomas",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Idongesit",
+            "family": "Mkpong-Ruffin",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Deidre",
+            "family": "Evans",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Chutima",
+            "family": "Boonthum-Denecke",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              6
+            ]
+          ]
+        },
+        "container-title": [
+          "The International FLAIRS Conference Proceedings"
+        ],
+        "link": [
+          {
+            "URL": "https://journals.flvc.org/FLAIRS/article/download/141849/147215",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://journals.flvc.org/FLAIRS/article/download/141849/147215",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.32473/flairs.39.1.141849",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              6
+            ]
+          ]
+        }
+      },
+      {
+        "abstract": "<jats:p>This paper proposes a novel adversarial patch-generation method for infrared images, focusing on enhancing the robustness and transferability of infrared adversarial patches. To improve the flexibility and diversity of the generation process, a Bernoulli random dropout strategy is adopted. The loss function integrates multiple components, including target hiding loss, smoothing loss, structural similarity loss, and patch pixel value loss, ensuring that the generated patches maintain low texture complexity and natural visual features. During model training, the Grad-CAM algorithm is employed to identify the critical regions of interest in the target detector, where adversarial patches are applied to maximize the attack effectiveness. Furthermore, affine transformations and random erasing operations are introduced to increase the diversity and adaptability of patches, thereby enhancing their effectiveness across different scenarios. Experimental results demonstrate that the proposed GADP (Generative Adversarial Patch based on Bernoulli Random Dropout and Loss Function Optimization) algorithm achieves a high Attack Success Rate of 75.8% on various target detection models, significantly reducing the average precision (AP). Specifically, the AP of the YOLOv5s model drops from 81.3% to 15.1%. Compared with existing adversarial attack methods such as advYOLO Patch and QR Attack, GADP exhibits superior transferability and attack performance, reducing the Average Precision of multiple detection models to around 40%. The proposed method is not only theoretically innovative but also shows potential practical value, particularly in tasks such as unmanned aerial vehicle (UAV) detection and ground security under low-visibility environments. This study provides new insights into adversarial attack research for infrared target recognition.</jats:p>",
+        "DOI": "10.3390/jimaging11110378",
+        "title": [
+          "Investigation of the Robustness and Transferability of Adversarial Patches in Multi-View Infrared Target Detection"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-8483-8684",
+            "authenticated-orcid": false,
+            "given": "Qing",
+            "family": "Zhou",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Defence Science and Technology, Xi’an Technological University, Xi’an 710021, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zhongchen",
+            "family": "Zhou",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Unmanned System Research Institute, Northwestern Polytechnical University, Xi’an 710072, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zhaoxiang",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Unmanned System Research Institute, Northwestern Polytechnical University, Xi’an 710072, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0009-7970-9285",
+            "authenticated-orcid": false,
+            "given": "Wei",
+            "family": "Luo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Science and Technology Innovation Center, China Ship Development and Design Center, Wuhan 834099, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Feng",
+            "family": "Xiao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Defence Science and Technology, Xi’an Technological University, Xi’an 710021, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Sijia",
+            "family": "Xia",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Science and Technology Innovation Center, China Ship Development and Design Center, Wuhan 834099, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Chunjia",
+            "family": "Zhu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Science and Technology Innovation Center, China Ship Development and Design Center, Wuhan 834099, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Long",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Aviation Engineering School, Air Force Engineering University, Xi’an 710038, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              27
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of Imaging"
+        ],
+        "link": [
+          {
+            "URL": "https://www.mdpi.com/2313-433X/11/11/378/pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.3390/jimaging11110378",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              27
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1109/tsmc.2025.3584347",
+        "title": [
+          "Evolutionary Multiobjective Cross-Spectral Adversarial Attacks With Synergistic Patches"
+        ],
+        "container-title": [
+          "IEEE Transactions on Systems, Man, and Cybernetics: Systems"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              10
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              10
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tsmc.2025.3584347",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/6221021/11173422/11086424.pdf?arnumber=11086424",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-9344-4238",
+            "authenticated-orcid": false,
+            "given": "Wencheng",
+            "family": "Han",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Electronic Engineering, the Key Laboratory of Collaborative Intelligence Systems, Ministry of Education, Xidian University, Xi&#x2019;an, Shaanxi, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6294-6761",
+            "authenticated-orcid": false,
+            "given": "Hao",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronic Engineering, the Key Laboratory of Collaborative Intelligence Systems, Ministry of Education, Xidian University, Xi&#x2019;an, Shaanxi, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0415-8556",
+            "authenticated-orcid": false,
+            "given": "Maoguo",
+            "family": "Gong",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronic Engineering, the Key Laboratory of Collaborative Intelligence Systems, Ministry of Education, Xidian University, Xi&#x2019;an, Shaanxi, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3459-5079",
+            "authenticated-orcid": false,
+            "given": "Yue",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Technology, Xidian University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6631-1651",
+            "authenticated-orcid": false,
+            "given": "A. K.",
+            "family": "Qin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computing Technologies, Swinburne University of Technology, Hawthorn, VIC, Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6983-4244",
+            "authenticated-orcid": false,
+            "given": "Lining",
+            "family": "Xing",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronic Engineering, the Key Laboratory of Collaborative Intelligence Systems, Ministry of Education, Xidian University, Xi&#x2019;an, Shaanxi, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0006-9950-4728",
+            "authenticated-orcid": false,
+            "given": "Yu",
+            "family": "Zhou",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronic Engineering, the Key Laboratory of Collaborative Intelligence Systems, Ministry of Education, Xidian University, Xi&#x2019;an, Shaanxi, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tpami.2025.3526188",
+        "title": [
+          "Distributionally Location-Aware Transferable Adversarial Patches for Facial Images"
+        ],
+        "container-title": [
+          "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              4
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              4
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tpami.2025.3526188",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/34/10916529/10829780.pdf?arnumber=10829780",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-0778-8377",
+            "authenticated-orcid": false,
+            "given": "Xingxing",
+            "family": "Wei",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Institute of Artificial Intelligence, Beihang University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0007-0481-5855",
+            "authenticated-orcid": false,
+            "given": "Shouwei",
+            "family": "Ruan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Artificial Intelligence, Beihang University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1299-683X",
+            "authenticated-orcid": false,
+            "given": "Yinpeng",
+            "family": "Dong",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science and Technology, Institute for Artificial Intelligence, Beijing National Research Center for Information Science and Technology, Tsinghua University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8294-6315",
+            "authenticated-orcid": false,
+            "given": "Hang",
+            "family": "Su",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science and Technology, Institute for Artificial Intelligence, Beijing National Research Center for Information Science and Technology, Tsinghua University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7141-708X",
+            "authenticated-orcid": false,
+            "given": "Xiaochun",
+            "family": "Cao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Cyber Science and Technology, Shenzhen Campus of Sun Yat-Sen University, Shenzhen, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.33778/kcsa.2025.25.3.197",
+        "title": [
+          "Evaluating the Practical Effectiveness of Adversarial Patches Against YOLOv8"
+        ],
+        "container-title": [
+          "Jouranl of Information and Security"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              30
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              30
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.33778/kcsa.2025.25.3.197",
+        "author": [
+          {
+            "name": "육군사관학교 AI연구개발센터 연구원",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Hongchul",
+            "family": "Nam",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Hyun",
+            "family": "Kwon",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Moohyun",
+            "family": "Lee",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Kwan",
+            "family": "Jeong",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1016/j.neucom.2024.128915",
+        "title": [
+          "Fooling human detectors via robust and visually natural adversarial patches"
+        ],
+        "container-title": [
+          "Neurocomputing"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              2
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              2
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.neucom.2024.128915",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0925231224016862?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0925231224016862?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "author": [
+          {
+            "given": "Dawei",
+            "family": "Zhou",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hongbin",
+            "family": "Qu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1435-489X",
+            "authenticated-orcid": false,
+            "given": "Nannan",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Chunlei",
+            "family": "Peng",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zhuoqi",
+            "family": "Ma",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xi",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xinbo",
+            "family": "Gao",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/access.2026.3731223",
+        "title": [
+          "Undermining Trust in Multimodal Computer Vision Models: Realistic Adversarial Patches"
+        ],
+        "container-title": [
+          "IEEE Access"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/access.2026.3731223",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/6287639/6514899/11683429.pdf?arnumber=11683429",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0008-1717-5161",
+            "authenticated-orcid": false,
+            "given": "Max",
+            "family": "Wiedemann",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Helmut-Schmidt-University/University of the Federal Armed Forces Hamburg",
+                "place": [
+                  "Hamburg, Germany"
+                ],
+                "department": [
+                  "Chair of Hybrid Intelligence"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0003-6337-2514",
+            "authenticated-orcid": false,
+            "given": "Luca",
+            "family": "Eisentraut",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Helmut-Schmidt-University/University of the Federal Armed Forces Hamburg",
+                "place": [
+                  "Hamburg, Germany"
+                ],
+                "department": [
+                  "Chair of Hybrid Intelligence"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2263-6408",
+            "authenticated-orcid": false,
+            "given": "Ricardo",
+            "family": "Buettner",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Helmut-Schmidt-University/University of the Federal Armed Forces Hamburg",
+                "place": [
+                  "Hamburg, Germany"
+                ],
+                "department": [
+                  "Chair of Hybrid Intelligence"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              2
+            ]
+          ]
+        },
+        "DOI": "10.1007/s00530-024-01648-7",
+        "title": [
+          "Visual-textual adversarial learning for person re-identification"
+        ],
+        "author": [
+          {
+            "given": "Pengqi",
+            "family": "Yin",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              16
+            ]
+          ]
+        },
+        "container-title": [
+          "Multimedia Systems"
+        ],
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s00530-024-01648-7.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s00530-024-01648-7/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s00530-024-01648-7.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s00530-024-01648-7",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              16
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              8
+            ]
+          ]
+        },
+        "DOI": "10.1007/s11633-025-1617-6",
+        "title": [
+          "Adversarial Patches in 3D: A Stealth Threat to Monocular Depth Estimation"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0003-3092-1361",
+            "authenticated-orcid": false,
+            "given": "Meng",
+            "family": "Pan",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yunshu",
+            "family": "Dai",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jianhuang",
+            "family": "Lai",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0310-4679",
+            "authenticated-orcid": false,
+            "given": "Xiaohua",
+            "family": "Xie",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              10
+            ]
+          ]
+        },
+        "container-title": [
+          "Machine Intelligence Research"
+        ],
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s11633-025-1617-6.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s11633-025-1617-6",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s11633-025-1617-6.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s11633-025-1617-6",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              10
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1109/jsen.2025.3586858",
+        "title": [
+          "Adversarial Patches for Fooling Positive–Negative Obstacle Detectors on Unstructured Roads"
+        ],
+        "container-title": [
+          "IEEE Sensors Journal"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              1
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/jsen.2025.3586858",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/7361/11189863/11079837.pdf?arnumber=11079837",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-6886-4759",
+            "authenticated-orcid": false,
+            "given": "Yijian",
+            "family": "Duan",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "College of Mechanical Engineering, Guangxi University, Nanning, Guangxi, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Liwen",
+            "family": "Meng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Mechanical Engineering, Guangxi University, Nanning, Guangxi, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6830-1211",
+            "authenticated-orcid": false,
+            "given": "Jihong",
+            "family": "Zhu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Precision Instrument, Tsinghua University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3615-9465",
+            "authenticated-orcid": false,
+            "given": "Yanmei",
+            "family": "Meng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Mechanical Engineering, Guangxi University, Nanning, Guangxi, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4712-0045",
+            "authenticated-orcid": false,
+            "given": "Yuan",
+            "family": "Liang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Mechanical Engineering, Guangxi University, Nanning, Guangxi, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3457-1982",
+            "authenticated-orcid": false,
+            "given": "Jinlai",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Automotive and Mechanical Engineering, Changsha University of Science and Technology, Changsha, Hunan, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jiachun",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Mechanical Engineering, Guangxi University, Nanning, Guangxi, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tifs.2025.3620155",
+        "title": [
+          "PoisonPatch: Natural Adversarial Patches via Diffusion Models and Federated Learning Poisoning"
+        ],
+        "container-title": [
+          "IEEE Transactions on Information Forensics and Security"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tifs.2025.3620155",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/10206/10810755/11199899.pdf?arnumber=11199899",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-0759-2208",
+            "authenticated-orcid": false,
+            "given": "Yulong",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Networking and Switching Technology, School of Computer Science (National Pilot Software Engineering School), Beijing University of Posts and Telecommunications, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0006-6136-7115",
+            "authenticated-orcid": false,
+            "given": "Yifei",
+            "family": "Fu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Networking and Switching Technology, School of Computer Science (National Pilot Software Engineering School), Beijing University of Posts and Telecommunications, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0006-0003-2477",
+            "authenticated-orcid": false,
+            "given": "Wenwei",
+            "family": "Kong",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Networking and Switching Technology, School of Computer Science (National Pilot Software Engineering School), Beijing University of Posts and Telecommunications, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Chang",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Networking and Switching Technology, School of Computer Science (National Pilot Software Engineering School), Beijing University of Posts and Telecommunications, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4266-7527",
+            "authenticated-orcid": false,
+            "given": "Sen",
+            "family": "Su",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Networking and Switching Technology, School of Computer Science (National Pilot Software Engineering School), Beijing University of Posts and Telecommunications, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "abstract": "<jats:p>Adversarial patch attacks inject localized perturbations into images to mislead deep vision models. These attacks can be physically deployed, posing serious risks to real-world applications. In this paper, we propose CertMask, a certifiably robust defense that constructs a provably sufficient set of binary masks to neutralize patch effects with strong theoretical guarantees. While the state-of-the-art approach (PatchCleanser) requires two rounds of masking and incurs O(n^2) inference cost, CertMask performs only a single round of masking with O(n) time complexity, where n is the cardinality of the mask set to cover an input image. Our proposed mask set is computed using a mathematically rigorous coverage strategy that ensures each possible patch location is covered at least k times, providing both efficiency and robustness. We offer a theoretical analysis of the coverage condition and prove its sufficiency for certification. Experiments on ImageNet, ImageNette, and CIFAR-10 show that CertMask improves certified robust accuracy by up to +13.4% over PatchCleanser, while maintaining clean accuracy nearly identical to the vanilla model.</jats:p>",
+        "DOI": "10.1609/aaai.v40i10.37716",
+        "title": [
+          "CertMask: Certifiable Defense Against Adversarial Patches via Theoretically Optimal Mask Coverage"
+        ],
+        "author": [
+          {
+            "given": "Xuntao",
+            "family": "Lyu",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Ching-Chi",
+            "family": "Lin",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Abdullah Al",
+            "family": "Arafat",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Georg",
+            "family": "Von der Brüggen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Jian-Jia",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Zhishan",
+            "family": "Guo",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              14
+            ]
+          ]
+        },
+        "container-title": [
+          "Proceedings of the AAAI Conference on Artificial Intelligence"
+        ],
+        "link": [
+          {
+            "URL": "https://ojs.aaai.org/index.php/AAAI/article/download/37716/41678",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://ojs.aaai.org/index.php/AAAI/article/download/37716/41678",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1609/aaai.v40i10.37716",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              14
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              12
+            ]
+          ]
+        },
+        "DOI": "10.1007/s41635-026-00186-0",
+        "title": [
+          "Generalize Adversarial Malware Detection"
+        ],
+        "author": [
+          {
+            "given": "Umesh",
+            "family": "Kashyap",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ashish",
+            "family": "Vishwakarma",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Sk Subidh",
+            "family": "Ali",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              5
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of Hardware and Systems Security"
+        ],
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s41635-026-00186-0.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s41635-026-00186-0",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s41635-026-00186-0.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s41635-026-00186-0",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              5
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1016/j.neunet.2025.107287",
+        "title": [
+          "Adversarial perturbation and defense for generalizable person re-identification"
+        ],
+        "container-title": [
+          "Neural Networks"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              6
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.neunet.2025.107287",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0893608025001662?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0893608025001662?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "author": [
+          {
+            "given": "Hongchen",
+            "family": "Tan",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6124-6328",
+            "authenticated-orcid": false,
+            "given": "Kaiqiang",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0006-6018-0738",
+            "authenticated-orcid": false,
+            "given": "Pingping",
+            "family": "Tao",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xiuping",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1016/j.eswa.2025.128541",
+        "title": [
+          "Diffusion-based adversarial attack method against person re-identification"
+        ],
+        "container-title": [
+          "Expert Systems with Applications"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              10
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              10
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.eswa.2025.128541",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0957417425021608?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0957417425021608?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "author": [
+          {
+            "given": "Kejia",
+            "family": "Zhang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0008-2569-7349",
+            "authenticated-orcid": false,
+            "given": "Yingxin",
+            "family": "Qin",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Haiwei",
+            "family": "Pan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Baoying",
+            "family": "Ma",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "abstract": "<jats:p>Deep learning-based perception is fundamental to Unmanned Aerial Vehicles (UAVs), yet it remains vulnerable to physical adversarial patches. Existing methods for generating adversarial patches typically rely on localized key features, making them highly fragile under partial occlusion, a common scenario in UAV operations due to environmental obstruction and viewpoint variation. To address this limitation, we propose Multi-Scale Feature Dispersion (MSFD), an information-theoretic framework for generating robust adversarial patches under incomplete observations. MSFD maximizes information entropy to promote statistically uniform perturbations, while spatial autocorrelation introduces structural redundancy to preserve attack effectiveness when critical regions are occluded. Additionally, a multi-scale consistency constraint ensures robustness across varying flight altitudes. Experiments on the VisDrone dataset and in high-fidelity AirSim environments demonstrate that MSFD achieves an attack success rate (ASR) of 45.6% under 50% occlusion, whereas existing methods degrade to near-zero performance. These results highlight the importance of feature dispersion in adversarial robustness and provide a principled approach for evaluating perception security in real-world UAV scenarios.</jats:p>",
+        "DOI": "10.3390/drones10070501",
+        "title": [
+          "Multi-Scale Feature Dispersion: Towards Occlusion-Resilient Adversarial Patches for UAV Perception"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0009-9118-2842",
+            "authenticated-orcid": false,
+            "given": "Hailong",
+            "family": "Xi",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Equipment Management and Unmanned Aerial Vehicle Engineering School, Air Force Engineering University, Xi’an 710043, China"
+              },
+              {
+                "name": "National Key Laboratory of Unmanned Aerial Vehicle Technology, Xi’an 710043, China"
+              },
+              {
+                "name": "The Youth Innovation Team of Shaanxi University, Xi’an 710043, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0000-4711-3991",
+            "authenticated-orcid": false,
+            "given": "Le",
+            "family": "Ru",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Equipment Management and Unmanned Aerial Vehicle Engineering School, Air Force Engineering University, Xi’an 710043, China"
+              },
+              {
+                "name": "National Key Laboratory of Unmanned Aerial Vehicle Technology, Xi’an 710043, China"
+              },
+              {
+                "name": "The Youth Innovation Team of Shaanxi University, Xi’an 710043, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Wenfei",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Equipment Management and Unmanned Aerial Vehicle Engineering School, Air Force Engineering University, Xi’an 710043, China"
+              },
+              {
+                "name": "National Key Laboratory of Unmanned Aerial Vehicle Technology, Xi’an 710043, China"
+              },
+              {
+                "name": "The Youth Innovation Team of Shaanxi University, Xi’an 710043, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1485-7465",
+            "authenticated-orcid": false,
+            "given": "Jiwei",
+            "family": "Tian",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Air Traffic Control and Navigation School, Air Force Engineering University, Xi’an 710043, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              30
+            ]
+          ]
+        },
+        "container-title": [
+          "Drones"
+        ],
+        "link": [
+          {
+            "URL": "https://www.mdpi.com/2504-446X/10/7/501/pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.3390/drones10070501",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              30
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1109/access.2026.3724861",
+        "title": [
+          "Target-Oriented Adversarial Patches Against Vision–Language Models via Heatmap-Guided Localization"
+        ],
+        "container-title": [
+          "IEEE Access"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/access.2026.3724861",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/6287639/11323511/11658574.pdf?arnumber=11658574",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0006-3096-2843",
+            "authenticated-orcid": false,
+            "given": "Xueying",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "China University of Petroleum-Beijing at Karamay",
+                "place": [
+                  "Karamay, Xinjiang, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0005-5437-9743",
+            "authenticated-orcid": false,
+            "given": "Dingyi",
+            "family": "Lu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "China University of Petroleum-Beijing at Karamay",
+                "place": [
+                  "Karamay, Xinjiang, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0006-6794-688X",
+            "authenticated-orcid": false,
+            "given": "Chengci",
+            "family": "Hu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Honghe University",
+                "place": [
+                  "Mengzi, Yunnan, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0009-6177-8100",
+            "authenticated-orcid": false,
+            "given": "Xiaoshi",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Research Institute of Exploration and Development, PetroChina Xinjiang Oilfield Company",
+                "place": [
+                  "Karamay, Xinjiang, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0000-3648-499X",
+            "authenticated-orcid": false,
+            "given": "Zhangmeizhi",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "China University of Petroleum-Beijing at Karamay",
+                "place": [
+                  "Karamay, Xinjiang, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0000-0290-6007",
+            "authenticated-orcid": false,
+            "given": "Wenjun",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "China University of Petroleum-Beijing at Karamay",
+                "place": [
+                  "Karamay, Xinjiang, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0000-2884-2603",
+            "authenticated-orcid": false,
+            "given": "Yahui",
+            "family": "Chai",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "China University of Petroleum-Beijing at Karamay",
+                "place": [
+                  "Karamay, Xinjiang, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0009-5097-5045",
+            "authenticated-orcid": false,
+            "given": "Hongming",
+            "family": "Hu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "China University of Petroleum-Beijing at Karamay",
+                "place": [
+                  "Karamay, Xinjiang, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0006-3514-3775",
+            "authenticated-orcid": false,
+            "given": "Jun",
+            "family": "Wei",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Karamay Vocational and Technical College",
+                "place": [
+                  "Karamay, Xinjiang, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tiv.2024.3449830",
+        "title": [
+          "AVATAR: Autonomous Vehicle Assessment Through Testing of Adversarial Patches in Real-Time"
+        ],
+        "container-title": [
+          "IEEE Transactions on Intelligent Vehicles"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              5
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              5
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tiv.2024.3449830",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/7274857/11151628/10646575.pdf?arnumber=10646575",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-4592-2928",
+            "authenticated-orcid": false,
+            "given": "Abhijith",
+            "family": "Sharma",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Electrical and Computer Engineering, University of Waterloo, Waterloo, ON, Canada"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7203-8698",
+            "authenticated-orcid": false,
+            "given": "Apurva",
+            "family": "Narayan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of System Design Engineering, University of Waterloo, Waterloo, ON, Canada"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1412-7961",
+            "authenticated-orcid": false,
+            "given": "Nasser Lashgarian",
+            "family": "Azad",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of System Design Engineering, University of Waterloo, Waterloo, ON, Canada"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8327-0000",
+            "authenticated-orcid": false,
+            "given": "Sebastian",
+            "family": "Fischmeister",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Electrical and Computer Engineering, University of Waterloo, Waterloo, ON, Canada"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8556-1541",
+            "authenticated-orcid": false,
+            "given": "Stefan",
+            "family": "Marksteiner",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "AVL List GmbH, Graz, Austria"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              10
+            ]
+          ]
+        },
+        "DOI": "10.1007/s00371-025-04082-6",
+        "title": [
+          "Window person detection dataset"
+        ],
+        "author": [
+          {
+            "given": "Xiaochuan",
+            "family": "Liu",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zhenyuan",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jianan",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Shiyue",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Qin",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Quanxiao",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              4
+            ]
+          ]
+        },
+        "container-title": [
+          "The Visual Computer"
+        ],
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s00371-025-04082-6.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s00371-025-04082-6/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s00371-025-04082-6.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s00371-025-04082-6",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              4
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.55041/ijsrem65186",
+        "title": [
+          "ADVERSARIAL PROMPT INJECTION DETECTION SYSTEM"
+        ],
+        "container-title": [
+          "International Journal of Scientific Research in Engineering and Management"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              6
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.55041/ijsrem65186",
+        "author": [
+          {
+            "given": "Anjali krishna c",
+            "family": "Anjali krishna c",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1016/j.cose.2025.104356",
+        "title": [
+          "PatchView: Multi-modality detection of security patches"
+        ],
+        "container-title": [
+          "Computers &amp; Security"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              4
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              4
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.cose.2025.104356",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0167404825000458?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0167404825000458?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-9751-3694",
+            "authenticated-orcid": false,
+            "given": "Nitzan",
+            "family": "Farhi",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Noam",
+            "family": "Koenigstein",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yuval",
+            "family": "Shavitt",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1016/j.patcog.2024.110915",
+        "title": [
+          "RADAP: A Robust and Adaptive Defense Against Diverse Adversarial Patches on face recognition"
+        ],
+        "container-title": [
+          "Pattern Recognition"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              1
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.patcog.2024.110915",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0031320324006666?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0031320324006666?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "author": [
+          {
+            "given": "Xiaoliang",
+            "family": "Liu",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7285-326X",
+            "authenticated-orcid": false,
+            "given": "Furao",
+            "family": "Shen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3949-352X",
+            "authenticated-orcid": false,
+            "given": "Jian",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Changhai",
+            "family": "Nie",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tifs.2025.3625662",
+        "title": [
+          "Masked Text Adversarial Training for Cloth-Changing Person Re-Identification"
+        ],
+        "container-title": [
+          "IEEE Transactions on Information Forensics and Security"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tifs.2025.3625662",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/10206/10810755/11218207.pdf?arnumber=11218207",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "given": "Chengrui",
+            "family": "Hao",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Integrated Services Networks, School of Cyber Engineering, Xidian University, Xi&#x2019;an, Shaanxi, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Boyu",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Integrated Services Networks, School of Cyber Engineering, Xidian University, Xi&#x2019;an, Shaanxi, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3448-2514",
+            "authenticated-orcid": false,
+            "given": "Chunlei",
+            "family": "Peng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Integrated Services Networks, School of Cyber Engineering, Xidian University, Xi&#x2019;an, Shaanxi, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6550-212X",
+            "authenticated-orcid": false,
+            "given": "Decheng",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Integrated Services Networks, School of Cyber Engineering, Xidian University, Xi&#x2019;an, Shaanxi, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4695-6134",
+            "authenticated-orcid": false,
+            "given": "Nannan",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Integrated Services Networks, School of Telecommunications Engineering, Xidian University, Xi&#x2019;an, Shaanxi, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ruimin",
+            "family": "Hu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Cyber Engineering, Xidian University, Xi&#x2019;an, Shaanxi, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7985-0037",
+            "authenticated-orcid": false,
+            "given": "Xinbo",
+            "family": "Gao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Integrated Services Networks, School of Electronic Engineering, Xidian University, Xi&#x2019;an, Shaanxi, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1016/j.patcog.2025.112760",
+        "title": [
+          "Global aggregated gradient-guided adversarial attacks for person re-identification"
+        ],
+        "container-title": [
+          "Pattern Recognition"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              4
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              4
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.patcog.2025.112760",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0031320325014232?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0031320325014232?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0009-6548-8012",
+            "authenticated-orcid": false,
+            "given": "Zeze",
+            "family": "Tao",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0008-8256-2109",
+            "authenticated-orcid": false,
+            "given": "Hui",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0006-4019-7065",
+            "authenticated-orcid": false,
+            "given": "Jinjia",
+            "family": "Peng",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6834-0413",
+            "authenticated-orcid": false,
+            "given": "Huibing",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/jiot.2025.3581207",
+        "title": [
+          "B²PATCH: Designing Adversarial Patches to Manipulate Bounding Box Perception in Vehicular Attacks"
+        ],
+        "container-title": [
+          "IEEE Internet of Things Journal"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              1
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/jiot.2025.3581207",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/6488907/11134518/11045066.pdf?arnumber=11045066",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-7943-1468",
+            "authenticated-orcid": false,
+            "given": "Chen",
+            "family": "Gu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Information Engineering, Hefei University of Technology, Hefei, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Kun",
+            "family": "Zhu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Information Engineering, Hefei University of Technology, Hefei, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9517-9688",
+            "authenticated-orcid": false,
+            "given": "Donghui",
+            "family": "Hu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Information Engineering, Hefei University of Technology, Hefei, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              5
+            ]
+          ]
+        },
+        "DOI": "10.1007/s42154-025-00389-1",
+        "title": [
+          "A Geometry and Semantics-Based Progressive Generation Approach for Traffic Sign Adversarial Patches"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-5758-0374",
+            "authenticated-orcid": false,
+            "given": "Zhuang",
+            "family": "Zhang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3690-6296",
+            "authenticated-orcid": false,
+            "given": "Lijun",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4153-8109",
+            "authenticated-orcid": false,
+            "given": "Dejian",
+            "family": "Meng",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5085-7219",
+            "authenticated-orcid": false,
+            "given": "Wei",
+            "family": "Tian",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0005-1448-6309",
+            "authenticated-orcid": false,
+            "given": "Ye",
+            "family": "Han",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5263-2662",
+            "authenticated-orcid": false,
+            "given": "Kaikun",
+            "family": "Pei",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0001-7706-7268",
+            "authenticated-orcid": false,
+            "given": "Jun",
+            "family": "Yan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              8
+            ]
+          ]
+        },
+        "container-title": [
+          "Automotive Innovation"
+        ],
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s42154-025-00389-1.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s42154-025-00389-1",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s42154-025-00389-1.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s42154-025-00389-1",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              8
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1109/tpami.2026.3664842",
+        "title": [
+          "AdvDiffusion: Adversarial Patches Generation for Face Recognition With High Transferability in Physical Domain"
+        ],
+        "container-title": [
+          "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              7
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tpami.2026.3664842",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/34/11552636/11418702.pdf?arnumber=11418702",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-8053-4587",
+            "authenticated-orcid": false,
+            "given": "Fei",
+            "family": "Peng",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Artificial Intelligence, and Guangdong Key Laboratory of Blockchain Security, Guangzhou University, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0008-5042-3075",
+            "authenticated-orcid": false,
+            "given": "Yang",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Computer Science and Electronic Engineering, Hunan University, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Guohui",
+            "family": "Zhou",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Artificial Intelligence, Guangzhou University, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1229-2317",
+            "authenticated-orcid": false,
+            "given": "Min",
+            "family": "Long",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronics and Communication Engineering, Guangzhou University, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tmm.2026.3705904",
+        "title": [
+          "Transferable Adversarial Attack on Person Re-Identification via Direction-Aware Attack"
+        ],
+        "container-title": [
+          "IEEE Transactions on Multimedia"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tmm.2026.3705904",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/6046/4456689/11573649.pdf?arnumber=11573649",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "given": "Zeze",
+            "family": "Tao",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Cyber Security and Computer, Hebei University, Hebei, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jinjia",
+            "family": "Peng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Cyber Security and Computer, Hebei University, Hebei, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Huibing",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of information science and technology, Dalian Maritime University, Liaoning, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "DOI": "10.32604/cmc.2026.078413",
+        "title": [
+          "Adversarial AI through Frequency-Domain Imperceptible Attack on Person Re-Identification"
+        ],
+        "author": [
+          {
+            "given": "Asma",
+            "family": "Sattar",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Maryam",
+            "family": "Bukhari",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "M. Saud",
+            "family": "Khan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Anam",
+            "family": "Mustaqeem",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mi Young",
+            "family": "Lee",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Seungmin",
+            "family": "Rho",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "container-title": [
+          "Computers, Materials &amp; Continua"
+        ],
+        "link": [
+          {
+            "URL": "https://cdn.techscience.cn/files/cmc/2026/TSP_CMC-88-2/TSP_CMC_78413/TSP_CMC_78413.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.32604/cmc.2026.078413",
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1109/tifs.2026.3684819",
+        "title": [
+          "ABDP: Adversarial Backdoor Detection and Purification"
+        ],
+        "container-title": [
+          "IEEE Transactions on Information Forensics and Security"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tifs.2026.3684819",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/10206/11313711/11482646.pdf?arnumber=11482646",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-3027-3109",
+            "authenticated-orcid": false,
+            "given": "Haojie",
+            "family": "Yuan",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Cyber Science and Technology, University of Science and Technology of China, Hefei, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3571-7808",
+            "authenticated-orcid": false,
+            "given": "Bin Benjamin",
+            "family": "Zhu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Microsoft Research Asia, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3028-0755",
+            "authenticated-orcid": false,
+            "given": "Qi",
+            "family": "Chu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Cyber Science and Technology, University of Science and Technology of China, Hefei, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0026-6813",
+            "authenticated-orcid": false,
+            "given": "Tao",
+            "family": "Gong",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Cyber Science and Technology, University of Science and Technology of China, Hefei, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4417-9316",
+            "authenticated-orcid": false,
+            "given": "Nenghai",
+            "family": "Yu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Cyber Science and Technology, University of Science and Technology of China, Hefei, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9230-2799",
+            "authenticated-orcid": false,
+            "given": "Dongmei",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Microsoft Research Asia, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1016/j.knosys.2026.116297",
+        "title": [
+          "A graph-guided geometry-collapse adversarial attack for person re-identification"
+        ],
+        "container-title": [
+          "Knowledge-Based Systems"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              8
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              8
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.knosys.2026.116297",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0950705126010233?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0950705126010233?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0004-4314-3850",
+            "authenticated-orcid": false,
+            "given": "Mubashir",
+            "family": "Javaid",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Muhammad Javed",
+            "family": "Iqbal",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2709-0849",
+            "authenticated-orcid": false,
+            "given": "Muazzam",
+            "family": "Maqsood",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "DOI": "10.32604/cmes.2025.064138",
+        "title": [
+          "Deepfake Detection Using Adversarial Neural Network"
+        ],
+        "author": [
+          {
+            "given": "Priyadharsini",
+            "family": "Selvaraj",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Senthil Kumar",
+            "family": "Jagatheesaperumal",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Karthiga",
+            "family": "Marimuthu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Oviya",
+            "family": "Saravanan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Bader Fahad",
+            "family": "Alkhamees",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mohammad Mehedi",
+            "family": "Hassan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "container-title": [
+          "Computer Modeling in Engineering &amp; Sciences"
+        ],
+        "link": [
+          {
+            "URL": "https://cdn.techscience.cn/files/CMES/2025/TSP_CMES-143-2/TSP_CMES_64138/TSP_CMES_64138.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.32604/cmes.2025.064138",
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              11
+            ]
+          ]
+        },
+        "DOI": "10.1007/s00371-025-04150-x",
+        "title": [
+          "MTF-ARD: multi-teacher adversarial distillation for robust person re-identification"
+        ],
+        "author": [
+          {
+            "given": "Ya",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jinbo",
+            "family": "Ye",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hao",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Qing",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              9
+            ]
+          ]
+        },
+        "container-title": [
+          "The Visual Computer"
+        ],
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s00371-025-04150-x.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s00371-025-04150-x/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s00371-025-04150-x.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s00371-025-04150-x",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              9
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              30
+            ]
+          ]
+        },
+        "abstract": "<jats:p>\n                    Open source code is pervasive. In this setting, embedded vulnerabilities are spreading to downstream software at an alarming rate. Although such vulnerabilities are generally identified and addressed rapidly, inconsistent maintenance policies can cause security patches to go unnoticed. Indeed, security patches can be\n                    <jats:italic toggle=\"yes\">silent</jats:italic>\n                    , i.e., they do not always come with comprehensive advisories such as CVEs. This lack of transparency leaves users oblivious to available security updates, providing ample opportunity for attackers to exploit unpatched vulnerabilities. Consequently, identifying silent security patches just in time when they are released is essential for preventing n-day attacks and for ensuring robust and secure maintenance practices. With\n                    <jats:sc>llmda</jats:sc>\n                    we propose to (1) leverage large language models (LLMs) to augment patch information with generated code change explanations, (2) design a representation learning approach that explores code-text alignment methodologies for feature combination, (3) implement a label-wise training with labeled instructions for guiding the embedding based on security relevance, and (4) rely on a probabilistic batch contrastive learning mechanism for building a high-precision identifier of security patches. We evaluate\n                    <jats:sc>llmda</jats:sc>\n                    on the PatchDB and SPI-DB literature datasets and show that our approach substantially improves over the state of the art, notably GraphSPD by 20% in terms of F-Measure on the SPI-DB benchmark.\n                  </jats:p>",
+        "DOI": "10.1145/3749370",
+        "title": [
+          "Just-in-Time Detection of Silent Security Patches"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-6377-0884",
+            "authenticated-orcid": false,
+            "given": "Xunzhu",
+            "family": "Tang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "University of Luxembourg, Esch-sur-Alzette, Luxembourg"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4462-6916",
+            "authenticated-orcid": false,
+            "given": "Kisub",
+            "family": "Kim",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "DGIST, Daegu, Republic of Korea"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7657-4738",
+            "authenticated-orcid": false,
+            "given": "Saad",
+            "family": "Ezzini",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "King Fahd University of Petroleum and Minerals, Dhahran, Saudi Arabia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6314-7515",
+            "authenticated-orcid": false,
+            "given": "Yewei",
+            "family": "Song",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Luxembourg, Esch-sur-Alzette, Luxembourg"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8049-3997",
+            "authenticated-orcid": false,
+            "given": "Haoye",
+            "family": "Tian",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Melbourne, Melbourne, Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4052-475X",
+            "authenticated-orcid": false,
+            "given": "Jacques",
+            "family": "Klein",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Luxembourg, Esch-sur-Alzette, Luxembourg"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7270-9869",
+            "authenticated-orcid": false,
+            "given": "Tegawendé",
+            "family": "Bissyandé",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Luxembourg, Esch-sur-Alzette, Luxembourg"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              13
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Software Engineering and Methodology"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3749370",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3749370",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              13
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1016/j.patcog.2025.112622",
+        "title": [
+          "Adversarial flow-based generative models for visible-to-Infrared person re-Identification"
+        ],
+        "container-title": [
+          "Pattern Recognition"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              4
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              4
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.patcog.2025.112622",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0031320325012853?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0031320325012853?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-3319-692X",
+            "authenticated-orcid": false,
+            "given": "Honghu",
+            "family": "Pan",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yongyong",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xin",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zhenyu",
+            "family": "He",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "abstract": "<jats:p>Traffic sign recognition (TSR) is a safety-critical component of driver-assistance and autonomous driving systems, yet it remains vulnerable to adversarial patch attacks that are physically realizable and effective under common viewing conditions. This paper investigates a robustness-oriented TSR approach that combines Vision Transformers (ViTs) with feature purification to suppress patch-induced feature contamination while preserving sign-relevant semantics. The method estimates patch influence at the token level and applies a lightweight purification mechanism to down-weight suspicious tokens and reinforce stable contextual cues prior to classification. A training protocol based on diverse synthetic patch augmentation and transformation-aware consistency regularization is described to improve generalization to unseen patch patterns and real-world transformations. The proposed evaluation reports clean accuracy, robust accuracy, and attack success rate under targeted and untargeted patch attacks with realistic geometric and photometric variations. The study aims to provide a practical defense layer that improves recognition reliability without redesigning existing TSR pipelines.</jats:p>",
+        "DOI": "10.51582/interconf.19-20.02.2026.026",
+        "title": [
+          "Improving robustness of traffic  sign recognition against adversarial patches using vision transformers  and feature purificatio"
+        ],
+        "author": [
+          {
+            "given": "Orkhan",
+            "family": "Mustafayev",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              23
+            ]
+          ]
+        },
+        "container-title": [
+          "InterConf"
+        ],
+        "link": [
+          {
+            "URL": "https://archive.interconf.center/index.php/2709-4685/article/download/7914/7977",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://archive.interconf.center/index.php/2709-4685/article/download/7914/7977",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.51582/interconf.19-20.02.2026.026",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              23
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 40,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

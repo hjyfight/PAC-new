@@ -1,0 +1,67 @@
+# ---- nested / local-only repos ----
+github-pac-yolo/
+**/.git/
+.github-tools/
+
+# ---- temp ----
+.tmp_*/
+*.tmp
+
+# ---- datasets ----
+datasets/
+**/datasets/
+detector_hub/
+**/detector_hub/
+INRIAPerson/
+**/INRIAPerson/
+
+# ---- weights / model files ----
+*.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+*.pkl
+**/weights/
+
+# ---- archives ----
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# ---- generated run outputs ----
+**/runs/
+**/appearance_comparison/
+**/tensors/
+**/pip_cache/
+**/wandb/
+**/logs/
+**/logs100/
+**/logs100_tv25/
+**/*.log
+**/events.out.tfevents*
+
+# ---- caches ----
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+**/.venv/
+**/venv/
+
+# ---- oversized notebooks with embedded outputs ----
+adversarial-yolo-master/adversarial_examples.ipynb
+
+# ---- IDE metadata ----
+.idea/
+**/.idea/
+.vscode/
+
+# ---- manuscript (kept out of this public code repository) ----
+article/

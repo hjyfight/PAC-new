@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "method": "tsea",
+  "source": "fasterrcnn",
+  "epochs": 1000,
+  "attack_evaluations": 36,
+  "completed_utc": "2026-09-12T12:03:17.987585+00:00"
+}

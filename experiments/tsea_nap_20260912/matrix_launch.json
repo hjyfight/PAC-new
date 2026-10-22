@@ -1,0 +1,47 @@
+{
+  "controller_pid": 3336913,
+  "started_utc": "2026-09-12T08:20:11.411769+00:00",
+  "command": [
+    "/datacc05/huotianlin/miniconda3/envs/pac/bin/python",
+    "-B",
+    "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/tsea_nap_20260912/controller.py"
+  ],
+  "allowed_gpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "controller_sha256": "580e38953f23eb2fb2d4c43ceb85ee5db116d25f28e29860066c6d0f3fbdd99d",
+  "runtime_environment": {
+    "XDG_CACHE_HOME": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/tsea_nap_20260912/cache",
+    "XDG_CONFIG_HOME": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/tsea_nap_20260912/config",
+    "MPLCONFIGDIR": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/tsea_nap_20260912/mplconfig",
+    "TORCH_HOME": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/tsea_nap_20260912/torch",
+    "TMPDIR": "/datacc05/huotianlin/code-hu/PAC-yolo/.tmp_tn12",
+    "YOLOV5_CONFIG_DIR": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/tsea_nap_20260912/yolo_config",
+    "YOLO_CONFIG_DIR": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/tsea_nap_20260912/yolo_config",
+    "NUMBA_CACHE_DIR": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/tsea_nap_20260912/cache/numba",
+    "YOLOv5_DATASETS_DIR": "/datacc05/huotianlin/code-hu/PAC-yolo/datasets",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONUNBUFFERED": "1",
+    "OMP_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MPLBACKEND": "Agg",
+    "YOLOv5_AUTOINSTALL": "false",
+    "GIT_OPTIONAL_LOCKS": "0",
+    "HF_HOME": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/tsea_nap_20260912/hf",
+    "HF_HUB_CACHE": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/tsea_nap_20260912/hf/hub",
+    "HF_DATASETS_CACHE": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/tsea_nap_20260912/hf/datasets",
+    "PIP_CACHE_DIR": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/tsea_nap_20260912/cache/pip",
+    "TORCH_EXTENSIONS_DIR": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/tsea_nap_20260912/cache/torch_extensions",
+    "WANDB_DIR": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/tsea_nap_20260912/wandb",
+    "TOKENIZERS_PARALLELISM": "false",
+    "GIT_TERMINAL_PROMPT": "0"
+  }
+}

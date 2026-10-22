@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "source": "yolov4",
+  "epochs": 200,
+  "attack_evaluations": 18,
+  "whitebox_evaluations": 3,
+  "blackbox_evaluations": 15,
+  "clean_evaluations": 6,
+  "completed_utc": "2026-09-11T14:01:38.002943+00:00"
+}

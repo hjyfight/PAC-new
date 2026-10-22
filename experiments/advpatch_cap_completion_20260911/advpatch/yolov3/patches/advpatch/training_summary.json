@@ -1,0 +1,20 @@
+{
+  "requested_epochs": 200,
+  "completed_epochs": 200,
+  "optimizer_steps": 15400,
+  "stop_reason": "epoch_limit",
+  "checkpoint_selection": "minimum epoch-mean training total loss",
+  "best_training_loss_epoch": 183,
+  "best_training_loss": 0.9404898878029193,
+  "early_stopping": false,
+  "detector": "yolov3",
+  "peak_cuda_reserved_mib": 11178.0,
+  "test_used_during_training": false,
+  "method": "AdvPatch (shared PAC protocol)",
+  "detector_confidence": "mean per-image peak objectness * person probability",
+  "tv_weight": 2.5,
+  "tv_floor": 0.1,
+  "nps_weight": 0.01,
+  "optimizer": "Adam AMSGrad",
+  "lr_schedule": "ReduceLROnPlateau(mode=min, patience=50)"
+}

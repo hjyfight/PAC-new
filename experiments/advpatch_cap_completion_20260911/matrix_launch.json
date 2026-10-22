@@ -1,0 +1,41 @@
+{
+  "controller_pid": 2968501,
+  "started_utc": "2026-09-11T13:13:02.843504+00:00",
+  "command": [
+    "/datacc05/huotianlin/miniconda3/envs/pac/bin/python",
+    "-B",
+    "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/controller.py"
+  ],
+  "allowed_gpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "controller_sha256": "b6b6ebe4481e43925af545fc9269e838f06aa4e942c13a7985cd2d64787e485b",
+  "prepare_sha256": "da21733f058e79f044345493070ce167004eac8bc8de4ec8d77abd7c0db99c82",
+  "validate_sha256": "7fb7c5f8aa296cdf793265c942ffafb83dd7676b9b697dbc7457e208b6bac117",
+  "runtime_environment": {
+    "XDG_CACHE_HOME": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cache",
+    "XDG_CONFIG_HOME": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/config",
+    "MPLCONFIGDIR": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/mplconfig",
+    "TORCH_HOME": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/torch",
+    "TMPDIR": "/datacc05/huotianlin/code-hu/PAC-yolo/.tmp_ac11",
+    "YOLOV5_CONFIG_DIR": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/yolo_config",
+    "YOLO_CONFIG_DIR": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/yolo_config",
+    "NUMBA_CACHE_DIR": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/cache/numba",
+    "YOLOv5_DATASETS_DIR": "/datacc05/huotianlin/code-hu/PAC-yolo/datasets",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONUNBUFFERED": "1",
+    "OMP_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MPLBACKEND": "Agg",
+    "YOLOv5_AUTOINSTALL": "false",
+    "GIT_OPTIONAL_LOCKS": "0"
+  }
+}

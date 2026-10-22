@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "method": "tsea",
+  "source": "yolov5m",
+  "epochs": 1000,
+  "attack_evaluations": 36,
+  "completed_utc": "2026-09-12T10:02:14.431658+00:00"
+}

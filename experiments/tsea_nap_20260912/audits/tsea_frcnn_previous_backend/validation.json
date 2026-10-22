@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "source": "fasterrcnn",
+  "target": "yolov5s",
+  "comparison_project": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advpatch-cap-20260911",
+  "physical_gpu": 5,
+  "command": [
+    "/datacc05/huotianlin/miniconda3/envs/pac/bin/python",
+    "-B",
+    "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advpatch-cap-20260911/eval_transfer.py",
+    "--manifest",
+    "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/tsea_nap_20260912/audits/tsea_frcnn_previous_backend/manifest.json",
+    "--detector",
+    "yolov5s",
+    "--device",
+    "cuda:0",
+    "--batch-size",
+    "8",
+    "--workers",
+    "4",
+    "--patches",
+    "clean,best_raw,gray"
+  ],
+  "evaluation_code_sha256": {
+    "eval_transfer.py": "5a2c49defff7440fd6ad498b4730d19919c07770a8d2a536df2072cc264c6864",
+    "detector_backends.py": "d612a3932c788bd9acc3d8d9ed0fd8dc50e41aac792fab928d314ffbaf9ac64b",
+    "utils/patch.py": "fd7d91e0360235ad2b275905817ee82e5442d6ebc2534932f1cec92931897f51"
+  },
+  "map50_pct": {
+    "clean": 95.70236404628326,
+    "best_raw": 1.3900738354764315,
+    "gray": 42.78009785634614
+  },
+  "max_absolute_map50_difference": {
+    "clean": 0.0,
+    "best_raw": 0.0
+  },
+  "images": 288,
+  "targets": 589,
+  "completed_utc": "2026-09-12T12:27:52.235164+00:00"
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "tests_run": 14,
+  "failures": 0,
+  "errors": 0,
+  "skipped": [
+    {
+      "test": "test_tv_matches_released_advreal_function (test_advreal2d.AdvReal2DTests)",
+      "reason": "Existing external AdvReal file absent; shared TV independently checked against author T-SEA"
+    }
+  ]
+}

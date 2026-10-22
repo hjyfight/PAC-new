@@ -1,0 +1,7 @@
+{
+  "state": "complete",
+  "epochs": 1000,
+  "physical_gpu": 4,
+  "elapsed_seconds": 5929.379878178006,
+  "updated_utc": "2026-09-12T12:21:36.366531+00:00"
+}

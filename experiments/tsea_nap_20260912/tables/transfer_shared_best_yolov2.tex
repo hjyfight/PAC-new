@@ -1,0 +1,27 @@
+% Standalone export; requires booktabs and graphicx. Does not edit the manuscript.
+\begin{table*}[t]
+\centering
+\renewcommand{\arraystretch}{1.12}
+\caption{Transfer $mAP_{50}$ from YOLOv2 under the shared protocol. The source-model column is a white-box control; BB Avg. excludes that column.}
+\label{tab:shared_transfer_yolov2}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{llcccccc}
+\toprule
+Method & YOLOv2 & YOLOv3 & YOLOv4 & YOLOv5s & YOLOv5m & Faster R-CNN & BB Avg. \\
+\midrule
+AdvPatch & 12.51 & 81.26 & 60.34 & 24.23 & 38.12 & 83.80 & 57.55 \\
+PAC-P1 & 28.20 & 82.70 & 59.86 & 27.60 & 37.72 & 86.52 & 58.88 \\
+PAC-P2 & 22.48 & 82.73 & 62.07 & 28.75 & 36.09 & 81.81 & 58.29 \\
+CAP & 5.52 & 14.94 & 7.52 & 5.60 & 22.85 & 48.78 & 19.94 \\
+PAC(CAP, Bc1) & 8.95 & 12.08 & 6.45 & 5.87 & 19.83 & 42.10 & 17.27 \\
+PAC(CAP, Bc2) & 7.72 & 9.49 & 7.62 & 6.37 & 20.69 & 37.08 & 16.25 \\
+AdvReal & 6.30 & 29.20 & 11.94 & 8.32 & 25.53 & 59.17 & 26.83 \\
+PAC-R1* (AdvReal) & 10.54 & 33.62 & 12.47 & 9.05 & 23.64 & 55.33 & 26.82 \\
+PAC-R2* (AdvReal) & 8.59 & 21.70 & 11.91 & 9.24 & 22.92 & 51.74 & 23.50 \\
+T-SEA & 5.63 & 10.30 & 13.16 & 8.28 & 19.50 & 56.81 & 21.61 \\
+PAC(T-SEA, Bc1) & 8.32 & 12.01 & 13.14 & 8.34 & 18.23 & 54.34 & 21.21 \\
+PAC(T-SEA, Bc2) & 7.97 & 8.45 & 13.23 & 10.48 & 20.48 & 46.09 & 19.75 \\
+NAP & 23.54 & 47.97 & 37.28 & 25.58 & 30.12 & 47.43 & 37.67 \\
+\bottomrule
+\end{tabular}}
+\end{table*}

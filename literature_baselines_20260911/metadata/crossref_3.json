@@ -1,0 +1,4767 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 191267,
+    "items": [
+      {
+        "DOI": "10.1016/j.neucom.2025.131456",
+        "title": [
+          "Latent-space diffusion models for stealthy and transferable adversarial attacks on object detection"
+        ],
+        "container-title": [
+          "Neurocomputing"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.neucom.2025.131456",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0925231225021289?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0925231225021289?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-7142-9734",
+            "authenticated-orcid": false,
+            "given": "Wenxuan",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Huihui",
+            "family": "Qi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zhixiang",
+            "family": "Huang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Bangjie",
+            "family": "Yin",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Peng",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tgrs.2025.3594008",
+        "title": [
+          "A Unified Framework for Generating Diverse and Stealthy Adversarial Patches Against Aerial Object Detection"
+        ],
+        "container-title": [
+          "IEEE Transactions on Geoscience and Remote Sensing"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tgrs.2025.3594008",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/36/10807682/11104146.pdf?arnumber=11104146",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "given": "Yixing",
+            "family": "Yong",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Shaanxi Key Laboratory of Deep Space Exploration Intelligent Information Technology, School of Information and Communications Engineering, Xi&#x2019;an Jiaotong University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4091-2165",
+            "authenticated-orcid": false,
+            "given": "Jian",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shaanxi Key Laboratory of Deep Space Exploration Intelligent Information Technology, School of Information and Communications Engineering, Xi&#x2019;an Jiaotong University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3911-8263",
+            "authenticated-orcid": false,
+            "given": "Lijun",
+            "family": "He",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shaanxi Key Laboratory of Deep Space Exploration Intelligent Information Technology, School of Information and Communications Engineering, Xi&#x2019;an Jiaotong University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7566-1634",
+            "authenticated-orcid": false,
+            "given": "Fan",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shaanxi Key Laboratory of Deep Space Exploration Intelligent Information Technology, School of Information and Communications Engineering, Xi&#x2019;an Jiaotong University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "abstract": "<jats:p>In vision-guided autonomous robots, object detectors play a crucial role in perceiving the environment for path planning and decision-making. However, adaptive adversarial patch attacks undermine the resilience of detector-based systems. Strengthening object detectors against such adaptive attacks enhances the robustness of navigation systems. Existing defenses against patch attacks are primarily designed for stationary scenes and struggle against adaptive patch attacks that vary in scale, position, and orientation in dynamic environments. In this paper, we introduce Ad_YOLO+, an efficient and effective plugin that extends Ad_YOLO to defend against white-box patch-based image attacks. Built on YOLOv5x with an additional patch detection layer, Ad_YOLO+ is trained on a specially crafted adversarial dataset (COCO-Visdrone-2019). Unlike conventional methods that rely on redundant image preprocessing, our approach directly detects adversarial patches and the overlaid objects. Experiments on the adversarial training dataset demonstrate that Ad_YOLO+ improves both provable robustness and clean accuracy. Ad_YOLO+ achieves 85.4% top-1 clean accuracy on the COCO dataset and 74.63% top-1 robust provable accuracy against pixel square patches anywhere on the image for the COCO-VisDrone-2019 dataset. Moreover, under adaptive attacks in AirSim simulations, Ad_YOLO+ reduces the attack success rate, ensuring tracking resilience in both dynamic and static settings. Additionally, it generalizes well to other patch detection weight configurations.</jats:p>",
+        "DOI": "10.3390/automation6030044",
+        "title": [
+          "Robust Object Detection Under Adversarial Patch Attacks in Vision-Based Navigation"
+        ],
+        "author": [
+          {
+            "given": "Haotian",
+            "family": "Gu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Mechanical Engineering, Stevens Institute of Technology, Hoboken, NJ 07030, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hyung Jin",
+            "family": "Yoon",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Mechanical Engineering, Tennessee Technological University, Cookeville, TN 38505, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8489-005X",
+            "authenticated-orcid": false,
+            "given": "Hamidreza",
+            "family": "Jafarnejadsani",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Mechanical Engineering, Stevens Institute of Technology, Hoboken, NJ 07030, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              9
+            ]
+          ]
+        },
+        "container-title": [
+          "Automation"
+        ],
+        "link": [
+          {
+            "URL": "https://www.mdpi.com/2673-4052/6/3/44/pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.3390/automation6030044",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              9
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1109/tdsc.2026.3681111",
+        "title": [
+          "Robust Adversarial Patch for Object Detection Using Self-Similarity for Multiscale Attacks"
+        ],
+        "container-title": [
+          "IEEE Transactions on Dependable and Secure Computing"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              7
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tdsc.2026.3681111",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/8858/11603880/11475045.pdf?arnumber=11475045",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-5672-4110",
+            "authenticated-orcid": false,
+            "given": "Yang",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Automation, Northwestern Polytechnical University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0008-6107-9812",
+            "authenticated-orcid": false,
+            "given": "Tingrui",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Automation, Northwestern Polytechnical University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mingxin",
+            "family": "Fu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Automation, Northwestern Polytechnical University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1496-405X",
+            "authenticated-orcid": false,
+            "given": "Xin",
+            "family": "Zhou",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Automation, Northwestern Polytechnical University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8162-2896",
+            "authenticated-orcid": false,
+            "given": "Quan",
+            "family": "Pan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Automation, Northwestern Polytechnical University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7144-7449",
+            "authenticated-orcid": false,
+            "given": "Zhunga",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Automation, Northwestern Polytechnical University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tgrs.2025.3579916",
+        "title": [
+          "Physical Adversarial Background Patch Against Aerial Object Detection Based on Pareto Efficiency"
+        ],
+        "container-title": [
+          "IEEE Transactions on Geoscience and Remote Sensing"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tgrs.2025.3579916",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/36/10807682/11036740.pdf?arnumber=11036740",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-6294-6761",
+            "authenticated-orcid": false,
+            "given": "Hao",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Electronic Engineering, Key Laboratory of Collaborative Intelligence Systems, Ministry of Education, Xidian University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0000-1380-4161",
+            "authenticated-orcid": false,
+            "given": "Jiachang",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronic Engineering, Key Laboratory of Collaborative Intelligence Systems, Ministry of Education, Xidian University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0415-8556",
+            "authenticated-orcid": false,
+            "given": "Maoguo",
+            "family": "Gong",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronic Engineering, Key Laboratory of Collaborative Intelligence Systems, Ministry of Education, Xidian University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1476-2431",
+            "authenticated-orcid": false,
+            "given": "Haiyue",
+            "family": "Yu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Systems Engineering, National University of Defense Technology, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Kelin",
+            "family": "Dang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronic Engineering, Key Laboratory of Collaborative Intelligence Systems, Ministry of Education, Xidian University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0006-9950-4728",
+            "authenticated-orcid": false,
+            "given": "Yu",
+            "family": "Zhou",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronic Engineering, Key Laboratory of Collaborative Intelligence Systems, Ministry of Education, Xidian University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6631-1651",
+            "authenticated-orcid": false,
+            "given": "A. K.",
+            "family": "Qin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computing Technologies, Swinburne University of Technology, Hawthorn, VIC, Australia"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3459-5079",
+            "authenticated-orcid": false,
+            "given": "Yue",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Technology, Xidian University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/access.2025.3576264",
+        "title": [
+          "OD-SHIELD: Convolutional Autoencoder-Based Defense Against Adversarial Patch Attacks in Object Detection"
+        ],
+        "container-title": [
+          "IEEE Access"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/access.2025.3576264",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/6287639/10820123/11021559.pdf?arnumber=11021559",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0005-4280-4802",
+            "authenticated-orcid": false,
+            "given": "Byeongchan",
+            "family": "Kim",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Statistics and Data Science, Chung-Ang University, Seoul, South Korea"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0007-1329-2240",
+            "authenticated-orcid": false,
+            "given": "Heemin",
+            "family": "Kim",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Statistics and Data Science, Chung-Ang University, Seoul, South Korea"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0009-3857-1750",
+            "authenticated-orcid": false,
+            "given": "Minjung",
+            "family": "Kang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Statistics and Data Science, Chung-Ang University, Seoul, South Korea"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0004-5334-6416",
+            "authenticated-orcid": false,
+            "given": "Hyunjee",
+            "family": "Nam",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Statistics and Data Science, Chung-Ang University, Seoul, South Korea"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0253-110X",
+            "authenticated-orcid": false,
+            "given": "Sunghwan",
+            "family": "Park",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Security Convergence Science, Chung-Ang University, Seoul, South Korea"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5887-2184",
+            "authenticated-orcid": false,
+            "given": "Jaewoo",
+            "family": "Lee",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Industrial Security, Chung-Ang University, Seoul, South Korea"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7117-7669",
+            "authenticated-orcid": false,
+            "given": "Il-Youp",
+            "family": "Kwak",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Statistics and Data Science, Chung-Ang University, Seoul, South Korea"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1016/j.eswa.2025.128967",
+        "title": [
+          "AdvReal: Physical adversarial patch generation framework for security evaluation of object detection systems"
+        ],
+        "container-title": [
+          "Expert Systems with Applications"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              1
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.eswa.2025.128967",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0957417425025849?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0957417425025849?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-8190-0390",
+            "authenticated-orcid": false,
+            "given": "Yuanhao",
+            "family": "Huang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3504-8963",
+            "authenticated-orcid": false,
+            "given": "Yilong",
+            "family": "Ren",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0003-6869-1362",
+            "authenticated-orcid": false,
+            "given": "Jinlei",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0003-3483-9410",
+            "authenticated-orcid": false,
+            "given": "Lujia",
+            "family": "Huo",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0005-6245-458X",
+            "authenticated-orcid": false,
+            "given": "Xuesong",
+            "family": "Bai",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jinchuan",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0704-7077",
+            "authenticated-orcid": false,
+            "given": "Haiyang",
+            "family": "Yu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              5
+            ]
+          ]
+        },
+        "DOI": "10.1007/s10489-025-06246-2",
+        "title": [
+          "IPAttack: imperceptible adversarial patch to attack object detectors"
+        ],
+        "author": [
+          {
+            "given": "Yongming",
+            "family": "Wen",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Peiyuan",
+            "family": "Si",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Wei",
+            "family": "Zhou",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zongheng",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Chao",
+            "family": "Yi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Renyang",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              19
+            ]
+          ]
+        },
+        "container-title": [
+          "Applied Intelligence"
+        ],
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s10489-025-06246-2.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s10489-025-06246-2/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s10489-025-06246-2.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s10489-025-06246-2",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              19
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1109/tsp.2026.3697369",
+        "title": [
+          "Robust Filtering for Multi-Object Tracking Against Stealthy Measurement-Oriented Adversarial Attacks"
+        ],
+        "container-title": [
+          "IEEE Transactions on Signal Processing"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tsp.2026.3697369",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/78/11345506/11535426.pdf?arnumber=11535426",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-0567-7796",
+            "authenticated-orcid": false,
+            "given": "Vahid",
+            "family": "Ghorbani",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Engineering, RMIT University, Melbourne, VIC, Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4800-6554",
+            "authenticated-orcid": false,
+            "given": "Amirali K.",
+            "family": "Gostar",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Engineering, RMIT University, Melbourne, VIC, Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9525-1467",
+            "authenticated-orcid": false,
+            "given": "Reza",
+            "family": "Hoseinnezhad",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Engineering, RMIT University, Melbourne, VIC, Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1235-9673",
+            "authenticated-orcid": false,
+            "given": "Zahir",
+            "family": "Tari",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computing Technologies, RMIT University, Melbourne, VIC, Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9411-5295",
+            "authenticated-orcid": false,
+            "given": "Aidan",
+            "family": "Blair",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computing Technologies, RMIT University, Melbourne, VIC, Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6657-3114",
+            "authenticated-orcid": false,
+            "given": "Amir",
+            "family": "Ghorbani",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Infrastructure Engineering, University of Melbourne, Melbourne, VIC, Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0124-4715",
+            "authenticated-orcid": false,
+            "given": "Giorgio",
+            "family": "Battistelli",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Dipartimento di Ingegneria dell&#x2019;Informazione (DINFO), Universit&#x00E0; di Firenze, Firenze, Italy"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.26583/bit.2026.1.04",
+        "title": [
+          "ADVERSARIAL PATCH DETECTION METHOD  VIA MATHEMATICAL TRANSFORMATIONS"
+        ],
+        "container-title": [
+          "Bezopasnost informacionnyh tehnology"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              2
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              2
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.26583/bit.2026.1.04",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-4467-5117",
+            "authenticated-orcid": false,
+            "given": "Dmitry A.",
+            "family": "Yesipov",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "ITMO University"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0001-8148-6764",
+            "authenticated-orcid": false,
+            "given": "Alyona D.",
+            "family": "Kletenkova",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Positive Technologies"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6407-7934",
+            "authenticated-orcid": false,
+            "given": "Ilya Yu.",
+            "family": "Popov",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "ITMO University"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "abstract": "<jats:p>Deep neural networks have demonstrated remarkable performance in object detection tasks; however, they remain highly susceptible to adversarial attacks. Previous surveys in computer vision have provided considerable coverage of physical adversarial attacks, yet the aspect of systematically categorizing and evaluating their physical deployment methods for object detection has not received commensurate focus. To address this gap, we categorize physical adversarial attacks into three primary classes based on the physical deployment of adversarial patterns: manipulating 2D physical objects, injecting adversarial signals, and placing 3D adversarial camouflage. These categories are further analyzed and compared across nine key attributes. Furthermore, we elucidate the relationship between physical adversarial attacks against object detection models and two critical properties: transferability and perceptibility. Our findings indicate that while attacks involving the manipulation of 2D physical objects are relatively straightforward to deploy, their adversarial patterns are often perceptible to human observers. Similarly, 3D adversarial camouflage tends to lack stealthiness, whereas adversarial signal injection offers stronger imperceptibility. However, all three attack types exhibit limited transferability across different models and modalities. Finally, we discuss current challenges and propose actionable directions for future research, aiming to foster the development of more robust object detection systems.</jats:p>",
+        "DOI": "10.3390/electronics14214236",
+        "title": [
+          "From 2D-Patch to 3D-Camouflage: A Review of Physical Adversarial Attack in Object Detection"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0001-2855-5433",
+            "authenticated-orcid": false,
+            "given": "Guojia",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Cyber Science and Engineering, Zhengzhou University, Zhengzhou 450002, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mingyue",
+            "family": "Cao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Cyber Science and Engineering, Zhengzhou University, Zhengzhou 450002, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yihong",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Cyber Science and Engineering, Zhengzhou University, Zhengzhou 450002, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Simin",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Cyber Science and Engineering, Zhengzhou University, Zhengzhou 450002, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0008-8369-5173",
+            "authenticated-orcid": false,
+            "given": "Yan",
+            "family": "Cao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Cyber Science and Engineering, Zhengzhou University, Zhengzhou 450002, China"
+              },
+              {
+                "name": "Key Laboratory of Cyberspace Security, Ministry of Education, Zhengzhou 450001, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              29
+            ]
+          ]
+        },
+        "container-title": [
+          "Electronics"
+        ],
+        "link": [
+          {
+            "URL": "https://www.mdpi.com/2079-9292/14/21/4236/pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.3390/electronics14214236",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              29
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1109/tcsvt.2025.3525725",
+        "title": [
+          "A Unified Framework for Adversarial Patch Attacks Against Visual 3D Object Detection in Autonomous Driving"
+        ],
+        "container-title": [
+          "IEEE Transactions on Circuits and Systems for Video Technology"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              5
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              5
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tcsvt.2025.3525725",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/76/10989278/10824853.pdf?arnumber=10824853",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-4091-2165",
+            "authenticated-orcid": false,
+            "given": "Jian",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Shaanxi Key Laboratory of Deep Space Exploration Intelligent Information Technology, School of Information and Communications Engineering, Xi&#x2019;an Jiaotong University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7566-1634",
+            "authenticated-orcid": false,
+            "given": "Fan",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shaanxi Key Laboratory of Deep Space Exploration Intelligent Information Technology, School of Information and Communications Engineering, Xi&#x2019;an Jiaotong University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3911-8263",
+            "authenticated-orcid": false,
+            "given": "Lijun",
+            "family": "He",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shaanxi Key Laboratory of Deep Space Exploration Intelligent Information Technology, School of Information and Communications Engineering, Xi&#x2019;an Jiaotong University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "abstract": "<jats:p>Object detection is used to automatically identify and locate specific objects within images or videos for applications like autonomous driving, security surveillance, and medical imaging. Protecting object detection models against adversarial attacks, particularly malicious patches, is crucial to ensure reliable and safe performance in safety-critical applications, where misdetections can lead to severe consequences. Existing defenses against patch attacks are primarily designed for stationary scenes and struggle against adversarial image patches that vary in scale, position, and orientation in dynamic environments.In this paper, we introduce SAR, a patch-agnostic defense scheme based on image preprocessing that does not require additional model training. By integration of the patch-agnostic detection frontend with an additional broken pixel restoration backend, Segment and Recover (SAR) is developed for the large-mask-covered object-hiding attack. Our approach breaks the limitation of the patch scale, shape, and location, accurately localizes the adversarial patch on the frontend, and restores the broken pixel on the backend. Our evaluations of the clean performance demonstrate that SAR is compatible with a variety of pretrained object detectors. Moreover, SAR exhibits notable resilience improvements over state-of-the-art methods evaluated in this paper. Our comprehensive evaluation studies involve diverse patch types, such as localized-noise, printable, visible, and adaptive adversarial patches.</jats:p>",
+        "DOI": "10.3390/jimaging11090316",
+        "title": [
+          "Segment and Recover: Defending Object Detectors Against Adversarial Patch Attacks"
+        ],
+        "author": [
+          {
+            "given": "Haotian",
+            "family": "Gu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Mechanical Engineering, Stevens Institute of Technology, Hoboken, NJ 07030, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8489-005X",
+            "authenticated-orcid": false,
+            "given": "Hamidreza",
+            "family": "Jafarnejadsani",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Mechanical Engineering, Stevens Institute of Technology, Hoboken, NJ 07030, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              15
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of Imaging"
+        ],
+        "link": [
+          {
+            "URL": "https://www.mdpi.com/2313-433X/11/9/316/pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.3390/jimaging11090316",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              15
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1016/j.cviu.2024.104252",
+        "title": [
+          "Adversarial intensity awareness for robust object detection"
+        ],
+        "container-title": [
+          "Computer Vision and Image Understanding"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              2
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              2
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.cviu.2024.104252",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1077314224003333?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1077314224003333?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-6549-6148",
+            "authenticated-orcid": false,
+            "given": "Jikang",
+            "family": "Cheng",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Baojin",
+            "family": "Huang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0008-4429-9370",
+            "authenticated-orcid": false,
+            "given": "Yan",
+            "family": "Fang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zhen",
+            "family": "Han",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zhongyuan",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/access.2025.3543171",
+        "title": [
+          "DOG: An Object Detection Adversarial Attack Method"
+        ],
+        "container-title": [
+          "IEEE Access"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/access.2025.3543171",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/6287639/10820123/10891420.pdf?arnumber=10891420",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0007-1523-786X",
+            "authenticated-orcid": false,
+            "given": "Jinpeng",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "College of Electrical Engineering, Zhejiang University, Hangzhou, Zhejiang, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1101-0007",
+            "authenticated-orcid": false,
+            "given": "Xiaoyu",
+            "family": "Ji",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Electrical Engineering, Zhejiang University, Hangzhou, Zhejiang, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5043-9148",
+            "authenticated-orcid": false,
+            "given": "Wenyuan",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Electrical Engineering, Zhejiang University, Hangzhou, Zhejiang, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0888-2322",
+            "authenticated-orcid": false,
+            "given": "Yushi",
+            "family": "Cheng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Electrical Engineering, Zhejiang University, Hangzhou, Zhejiang, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "DOI": "10.1007/s10044-025-01535-5",
+        "title": [
+          "Adversarial translucent patch: a robust physical attack technique against object detectors"
+        ],
+        "author": [
+          {
+            "given": "Kalibinuer",
+            "family": "Tiliwalidi",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Chengyin",
+            "family": "Hu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Weiwen",
+            "family": "Shi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Guangxi",
+            "family": "Lu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hao",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              20
+            ]
+          ]
+        },
+        "container-title": [
+          "Pattern Analysis and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s10044-025-01535-5.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s10044-025-01535-5/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s10044-025-01535-5.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s10044-025-01535-5",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              20
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1109/jstars.2025.3613373",
+        "title": [
+          "An Adaptive Physical-World Adversarial Patch for Remote Sensing Image Object Detection Models Considering the Structural Characteristics"
+        ],
+        "container-title": [
+          "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/jstars.2025.3613373",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/4609443/10766875/11176801.pdf?arnumber=11176801",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0002-9885-2991",
+            "authenticated-orcid": false,
+            "given": "Xichen",
+            "family": "Xing",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "College of Surveying and Geo-Informatics, Tongji University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3510-4160",
+            "authenticated-orcid": false,
+            "given": "Xiong",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Surveying and Geo-Informatics, Tongji University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1276-0352",
+            "authenticated-orcid": false,
+            "given": "Qian",
+            "family": "Shi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Geography and Planning, Sun Yat-sen University, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0002-7751-0458",
+            "authenticated-orcid": false,
+            "given": "Yanmin",
+            "family": "Jin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Surveying and Geo-Informatics, Tongji University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7565-2124",
+            "authenticated-orcid": false,
+            "given": "Chao",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Surveying and Geo-Informatics, Tongji University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "abstract": "<jats:title>Abstract</jats:title>\n          <jats:p>Computer vision systems are actively deployed in safety-critical applications such as autonomous vehicles. Real-world adversarial patches are capable of compromising the artificial intelligence (AI) systems with catastrophic outcomes. Existing defenses against patch attacks are based on identifying neurons, features, or gradients of high intensity. However, these defenses are vulnerable to weaker attacks that have less obvious attack signatures. In this paper, we propose the PATCHOUT framework that detects and locates adversarial patches using semantic consistency. Within patch detection, the key insight is that the top class predictions for an entity are semantically consistent for benign images, whereas they are inconsistent for attacked images. Within patch localization, it is observed that patches are semantically consistent with a coarse grained segmentation of the image. This allows the PATCHOUT framework to detect and remove adversarial patches using a class consistency checker as well as image segmentation, attribution analysis, and image restoration techniques. The experimental evaluation demonstrates that PATCHOUT can detect a broad range of adversarial patches with over 90% accuracy. The framework achieves 20% higher accuracy than other defenses. The framework is also evaluated against unseen attacks and adaptive attacks, reducing the success rate of adaptive attacks from 56% to 24%.</jats:p>",
+        "DOI": "10.1007/s11063-025-11775-5",
+        "title": [
+          "PATCHOUT: Adversarial Patch Detection and Localization using Semantic Consistency"
+        ],
+        "author": [
+          {
+            "given": "Dominic",
+            "family": "Simon",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Sumit",
+            "family": "Jha",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Rickard",
+            "family": "Ewetz",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              1
+            ]
+          ]
+        },
+        "container-title": [
+          "Neural Processing Letters"
+        ],
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s11063-025-11775-5.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s11063-025-11775-5/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s11063-025-11775-5.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s11063-025-11775-5",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1109/tcsvt.2025.3552138",
+        "title": [
+          "Adversarial Feature Training for Few-Shot Object Detection"
+        ],
+        "container-title": [
+          "IEEE Transactions on Circuits and Systems for Video Technology"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              9
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tcsvt.2025.3552138",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/76/11154820/10930667.pdf?arnumber=10930667",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-2647-0089",
+            "authenticated-orcid": false,
+            "given": "Tianxu",
+            "family": "Wu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Electronic Information and Communications, Huazhong University of Science and Technology, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0362-6979",
+            "authenticated-orcid": false,
+            "given": "Zhimeng",
+            "family": "Xin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Cyber Science and Engineering, Huazhong University of Science and Technology, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9633-3392",
+            "authenticated-orcid": false,
+            "given": "Shiming",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronic Information and Communications, Huazhong University of Science and Technology, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2125-9041",
+            "authenticated-orcid": false,
+            "given": "Yixiong",
+            "family": "Zou",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Technology, Huazhong University of Science and Technology, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0607-1777",
+            "authenticated-orcid": false,
+            "given": "Xinge",
+            "family": "You",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronic Information and Communications, Huazhong University of Science and Technology, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              1
+            ]
+          ]
+        },
+        "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>3D object detection is one of the current popular hotspots by perceiving the surrounding environment through LiDAR and camera sensors to recognise the category and location of objects in the scene. Deep neural networks (DNNs) have been found to be vulnerable to adversarial examples. Although some approaches have begun to investigate the robustness of 3D object detection models, they are currently generating adversarial examples in a white‐box setting and there is a lack of research into generating transferable adversarial examples in a black‐box setting. In this paper, a non‐end‐to‐end attack algorithm was proposed for LiDAR pipelines that crafts transferable adversarial examples against 3D object detection. Specifically, the method generates adversarial examples by restraining features with high contribution to downstream tasks and amplifying features with low contribution to downstream tasks in the feature space. Extensive experiments validate that the method produces more transferable adversarial point clouds, for example, the method generates adversarial point clouds in the nuScenes dataset that are about 10 and 7 better than the state‐of‐the‐art method on mAP and NDS, respectively.</jats:p>",
+        "DOI": "10.1049/cvi2.70011",
+        "title": [
+          "Crafting Transferable Adversarial Examples Against 3D Object Detection"
+        ],
+        "author": [
+          {
+            "given": "Haiyan",
+            "family": "Long",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Information Engineering Liaodong University  Dandong China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hai",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Technology Anhui University  Hefei China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0000-8013-206X",
+            "authenticated-orcid": false,
+            "given": "Mengyao",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Technology Anhui University  Hefei China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Chonghao",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Technology Anhui University  Hefei China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3811-6995",
+            "authenticated-orcid": false,
+            "given": "Fulan",
+            "family": "Qian",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Artificial Intelligence Institute Anhui University  Hefei China"
+              },
+              {
+                "name": "The Information Materials and Intelligent Sensing Laboratory of Anhui Province Anhui University  Hefei China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              26
+            ]
+          ]
+        },
+        "container-title": [
+          "IET Computer Vision"
+        ],
+        "link": [
+          {
+            "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/cvi2.70011",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1049/cvi2.70011",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1016/j.neucom.2026.133045",
+        "title": [
+          "An effective and stealthy XSS adversarial sample generation method against deep learning detection models"
+        ],
+        "container-title": [
+          "Neurocomputing"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              5
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              5
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.neucom.2026.133045",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S092523122600442X?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S092523122600442X?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0002-9271-4870",
+            "authenticated-orcid": false,
+            "given": "Zhan",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2736-0615",
+            "authenticated-orcid": false,
+            "given": "Yong",
+            "family": "Fang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2781-3979",
+            "authenticated-orcid": false,
+            "given": "Yaochang",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2843-4225",
+            "authenticated-orcid": false,
+            "given": "Yijia",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              7
+            ]
+          ]
+        },
+        "DOI": "10.1007/s10586-026-06338-9",
+        "title": [
+          "An adversarial patch defense system based on patch detection and occlusion-aware image restoration"
+        ],
+        "author": [
+          {
+            "given": "Yunfei",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hong",
+            "family": "Huang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jie",
+            "family": "Gao",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yefei",
+            "family": "Lei",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              23
+            ]
+          ]
+        },
+        "container-title": [
+          "Cluster Computing"
+        ],
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s10586-026-06338-9.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s10586-026-06338-9",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s10586-026-06338-9.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s10586-026-06338-9",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              6
+            ]
+          ]
+        },
+        "DOI": "10.1007/s40745-025-00604-0",
+        "title": [
+          "PNAP-YOLO: An Improved Prompts-Based Naturalistic Adversarial Patch Model for Object Detectors"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-8937-3991",
+            "authenticated-orcid": false,
+            "given": "Jun",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Chenwu",
+            "family": "Shan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Liyan",
+            "family": "Shen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yawei",
+            "family": "Ren",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jiajie",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              2
+            ]
+          ]
+        },
+        "container-title": [
+          "Annals of Data Science"
+        ],
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s40745-025-00604-0.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s40745-025-00604-0/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s40745-025-00604-0.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s40745-025-00604-0",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1016/j.patcog.2025.112264",
+        "title": [
+          "Adversarial spectral perturbation for single-domain generalized object detection"
+        ],
+        "container-title": [
+          "Pattern Recognition"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.patcog.2025.112264",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0031320325009252?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0031320325009252?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0002-9836-7486",
+            "authenticated-orcid": false,
+            "given": "Xiangsheng",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Kangcheng",
+            "family": "Bin",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xiaojian",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Pengcheng",
+            "family": "Wan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ting",
+            "family": "Hu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ping",
+            "family": "Zhong",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              6
+            ]
+          ]
+        },
+        "DOI": "10.1007/s11431-025-3242-y",
+        "title": [
+          "Consistency conditional adversarial network for cross-domain object detection"
+        ],
+        "author": [
+          {
+            "given": "Siyu",
+            "family": "Zhang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Lei",
+            "family": "Su",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ke",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              25
+            ]
+          ]
+        },
+        "container-title": [
+          "Science China Technological Sciences"
+        ],
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s11431-025-3242-y.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s11431-025-3242-y",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s11431-025-3242-y.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s11431-025-3242-y",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              25
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1117/1.jei.34.1.013020",
+        "title": [
+          "Irregular-patch graph attention network for underwater object detection"
+        ],
+        "container-title": [
+          "Journal of Electronic Imaging"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              27
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              27
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1117/1.jei.34.1.013020",
+        "author": [
+          {
+            "given": "Qingzheng",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "North China University of Water Resources and Electric Power, School of Information Engineering, Zheng Zhou, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Xinyu",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "North China University of Water Resources and Electric Power, School of Information Engineering, Zheng Zhou, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yiliang",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "North China University of Water Resources and Electric Power, School of Information Engineering, Zheng Zhou, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Jiazhi",
+            "family": "Xie",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "North China University of Water Resources and Electric Power, School of Information Engineering, Zheng Zhou, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Ning",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "North China University of Water Resources and Electric Power, School of Information Engineering, Zheng Zhou, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.26599/tst.2024.9010029",
+        "title": [
+          "Adversarial Attack on Object Detection via Object Feature-Wise Attention and Perturbation Extraction"
+        ],
+        "container-title": [
+          "Tsinghua Science and Technology"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              6
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.26599/tst.2024.9010029",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/5971803/10817653/10817718.pdf?arnumber=10817718",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "given": "Wei",
+            "family": "Xue",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Technology, Anhui University of Technology,Maanshan,China,243032"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Xiaoyan",
+            "family": "Xia",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Technology, Anhui University of Technology,Maanshan,China,243032"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Pengcheng",
+            "family": "Wan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "National University of Defense Technology,National Key Laboratory of Science and Technology on Automatic Target Recognition,Changsha,China,410073"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Ping",
+            "family": "Zhong",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "National University of Defense Technology,National Key Laboratory of Science and Technology on Automatic Target Recognition,Changsha,China,410073"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Xiao",
+            "family": "Zheng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Technology, Anhui University of Technology,Maanshan,China,243032"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              5
+            ]
+          ]
+        },
+        "DOI": "10.1007/s10489-025-06511-4",
+        "title": [
+          "StealthMask: Highly stealthy adversarial attack on face recognition system"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-7531-4341",
+            "authenticated-orcid": false,
+            "given": "Jian-Xun",
+            "family": "Mi",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mingxuan",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Tao",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xiao",
+            "family": "Cheng",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              3
+            ]
+          ]
+        },
+        "container-title": [
+          "Applied Intelligence"
+        ],
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s10489-025-06511-4.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s10489-025-06511-4/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s10489-025-06511-4.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s10489-025-06511-4",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              3
+            ]
+          ]
+        }
+      },
+      {
+        "abstract": "<jats:p>Adversarial patches pose a significant threat to computer vision models' integrity, decreasing the accuracy of various tasks, including object detection (OD).\nMost existing OD defenses exhibit a trade-off between enhancing the model's adversarial robustness and maintaining its performance on benign images. \nWe propose KDAT (knowledge distillation with adversarial tuning), a novel mechanism that enhances the robustness of an OD model without compromising its performance on benign images or its inference time.\nOur method combines the knowledge distillation (KD) technique with the adversarial tuning concept to teach the model to match the predictions of adversarial images with those of their corresponding benign ones.\nTo match these predictions, we designed four unique loss components, allowing the student model to effectively distill the knowledge of different features from various parts of the teacher model.\nOur extensive evaluation on the COCO and INRIA datasets demonstrates KDAT's ability to improve the performance of Faster R-CNN and DETR on benign images by 2-4 mAP% and adversarial examples by 10-15 mAP%, outperforming other state-of-the-art (SOTA) defenses.\nFurthermore, our additional physical evaluation on the Superstore dataset demonstrates KDAT's SOTA adversarial robustness against printed patches (improvement of 22 mAP% compared to the undefended model).</jats:p>",
+        "DOI": "10.1609/aaai.v39i5.32485",
+        "title": [
+          "KDAT: Inherent Adversarial Robustness via Knowledge Distillation with Adversarial Tuning for Object Detection Models"
+        ],
+        "author": [
+          {
+            "given": "Yarin Yerushalmi",
+            "family": "Levi",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Edita",
+            "family": "Grolman",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Idan",
+            "family": "Yankelev",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Amit",
+            "family": "Giloni",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Omer",
+            "family": "Hofman",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Toshiya",
+            "family": "Shimizu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Asaf",
+            "family": "Shabtai",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yuval",
+            "family": "Elovici",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              11
+            ]
+          ]
+        },
+        "container-title": [
+          "Proceedings of the AAAI Conference on Artificial Intelligence"
+        ],
+        "link": [
+          {
+            "URL": "https://ojs.aaai.org/index.php/AAAI/article/download/32485/34640",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://ojs.aaai.org/index.php/AAAI/article/download/32485/34640",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1609/aaai.v39i5.32485",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              11
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1109/lgrs.2025.3615852",
+        "title": [
+          "SPAttack: A Physically Feasible Adversarial Patch Attack Against SAR Target Detection"
+        ],
+        "container-title": [
+          "IEEE Geoscience and Remote Sensing Letters"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/lgrs.2025.3615852",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/8859/10764750/11184543.pdf?arnumber=11184543",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0004-9972-7986",
+            "authenticated-orcid": false,
+            "given": "Mengchao",
+            "family": "Yuan",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Information Science of Electromagnetic Waves (MOE), Fudan University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0005-2528-6230",
+            "authenticated-orcid": false,
+            "given": "Weibo",
+            "family": "Qin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Information Science of Electromagnetic Waves (MOE), Fudan University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1912-7143",
+            "authenticated-orcid": false,
+            "given": "Haipeng",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Information Science of Electromagnetic Waves (MOE), Fudan University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tie.2025.3585041",
+        "title": [
+          "A Filtering Algorithm for Spacecraft Detection to Resist Adversarial Patch Attacks"
+        ],
+        "container-title": [
+          "IEEE Transactions on Industrial Electronics"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tie.2025.3585041",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/41/11281494/11082432.pdf?arnumber=11082432",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0009-1816-0110",
+            "authenticated-orcid": false,
+            "given": "Lei",
+            "family": "Zhu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Shen Yuan, Beihang University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9670-7710",
+            "authenticated-orcid": false,
+            "given": "Pengyu",
+            "family": "Guo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Cyber Science and Technology, Beihang University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3959-338X",
+            "authenticated-orcid": false,
+            "given": "Zhenyu",
+            "family": "Guan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Cyber Science and Technology, Beihang University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5563-310X",
+            "authenticated-orcid": false,
+            "given": "Qinglei",
+            "family": "Hu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Automation Science and Electrical Engineering, Beihang University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6129-3260",
+            "authenticated-orcid": false,
+            "given": "Yizhong",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Cyber Science and Technology, Beihang University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8338-0536",
+            "authenticated-orcid": false,
+            "given": "Dongyu",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Cyber Science and Technology, Beihang University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1016/j.isci.2026.117054",
+        "title": [
+          "AgroPatch AutoStrike for adversarial patch attacks on plant disease detection models"
+        ],
+        "container-title": [
+          "iScience"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              8
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              8
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.isci.2026.117054",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2589004226024326?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2589004226024326?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "author": [
+          {
+            "given": "Yuting",
+            "family": "Wu",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mingxing",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xiu",
+            "family": "Jin",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yue",
+            "family": "Dai",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Liang",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Wenjie",
+            "family": "Yuan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yong",
+            "family": "Ye",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zhengkang",
+            "family": "Zhu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Lichuan",
+            "family": "Gu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Youtao",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "abstract": "<jats:p>Three-dimensional object detection based on deep neural networks (DNNs) is widely used in safety-related applications, such as autonomous driving. However, existing research has shown that 3D object detection models are vulnerable to adversarial attacks. Hence, the improvement on the robustness of deep 3D detection models under adversarial attacks is investigated in this work. A deep autoencoder-based anomaly detection method is proposed, which has a strong ability to detect elaborate adversarial samples in an unsupervised way. The proposed anomaly detection method operates on a given Light Detection and Ranging (LiDAR) scene in its Bird’s Eye View (BEV) image and reconstructs the scene through an autoencoder. To improve the performance of the autoencoder, an augmented memory module with typical normal patterns recorded is introduced. It is designed to help the model to amplify the reconstruction errors of malicious samples with normal samples negligibly affected. Experiments on several public datasets show that the proposed anomaly detection method achieves an AUC of 0.8 under adversarial attacks and improves the robustness of 3D object detection.</jats:p>",
+        "DOI": "10.3390/electronics14020236",
+        "title": [
+          "Unsupervised Anomaly Detection for Improving Adversarial Robustness of 3D Object Detection Models"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0002-2192-0378",
+            "authenticated-orcid": false,
+            "given": "Mumuxin",
+            "family": "Cai",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Information and Software Engineering, University of Electronic Science and Technology of China, Chengdu 610054, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4160-8552",
+            "authenticated-orcid": false,
+            "given": "Xupeng",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Laboratory of Intelligent Collaborative Computing, University of Electronic Science and Technology of China, Chengdu 611731, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1557-4907",
+            "authenticated-orcid": false,
+            "given": "Ferdous",
+            "family": "Sohel",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Information Technology, Murdoch University, Murdoch, WA 6150, Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hang",
+            "family": "Lei",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Information and Software Engineering, University of Electronic Science and Technology of China, Chengdu 610054, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              8
+            ]
+          ]
+        },
+        "container-title": [
+          "Electronics"
+        ],
+        "link": [
+          {
+            "URL": "https://www.mdpi.com/2079-9292/14/2/236/pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.3390/electronics14020236",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              8
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1109/tsg.2026.3722831",
+        "title": [
+          "SAAs: Vulnerability of Learning-Based Anomaly Detection to Stealthy Adversarial Attacks on Grid-Tied Photovoltaic Systems"
+        ],
+        "container-title": [
+          "IEEE Transactions on Smart Grid"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/tsg.2026.3722831",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/5165411/5446437/11653471.pdf?arnumber=11653471",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "given": "Haoming",
+            "family": "Liu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Zhejiang University",
+                "place": [
+                  "Hangzhou, China"
+                ],
+                "department": [
+                  "State Key Laboratory of Industrial Control Technology"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2663-4787",
+            "authenticated-orcid": false,
+            "given": "Mengxiang",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Bristol",
+                "place": [
+                  "Bristol, U.K."
+                ],
+                "department": [
+                  "School of Computer Science"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Sha",
+            "family": "Peng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Grid Economic and Technological Research Institute Co., Ltd",
+                "place": [
+                  "Beijing, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0006-1697-9227",
+            "authenticated-orcid": false,
+            "given": "Qiliang",
+            "family": "Jiang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Zhejiang University",
+                "place": [
+                  "Hangzhou, China"
+                ],
+                "department": [
+                  "State Key Laboratory of Industrial Control Technology"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0007-4372-5254",
+            "authenticated-orcid": false,
+            "given": "Yitian",
+            "family": "Zhou",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Zhejiang University",
+                "place": [
+                  "Hangzhou, China"
+                ],
+                "department": [
+                  "State Key Laboratory of Industrial Control Technology"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8158-150X",
+            "authenticated-orcid": false,
+            "given": "Ruilong",
+            "family": "Deng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Zhejiang University",
+                "place": [
+                  "Hangzhou, China"
+                ],
+                "department": [
+                  "State Key Laboratory of Industrial Control Technology"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1016/j.neunet.2025.107829",
+        "title": [
+          "Stealthy and efficient adversarial example attack on video retrieval systems"
+        ],
+        "container-title": [
+          "Neural Networks"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              11
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              11
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.neunet.2025.107829",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0893608025007099?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0893608025007099?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-7165-937X",
+            "authenticated-orcid": false,
+            "given": "Xin",
+            "family": "Yao",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Enlang",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yimin",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jiawei",
+            "family": "Guo",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Kecheng",
+            "family": "Huang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2414-4802",
+            "authenticated-orcid": false,
+            "given": "Fengxiao",
+            "family": "Tang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ming",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "abstract": "<jats:p>This paper provides a comprehensive study of the security of YOLO (You Only Look Once) model series for object detection, emphasizing their evolution, technical innovations, and performance across the COCO dataset. The robustness of YOLO models under adversarial attacks and image corruption, offering insights into their resilience and adaptability, is analyzed in depth. As real-time object detection plays an increasingly vital role in applications such as autonomous driving, security, and surveillance, this review aims to clarify the strengths and limitations of each YOLO iteration, serving as a valuable resource for researchers and practitioners aiming to optimize model selection and deployment in dynamic, real-world environments. The results reveal that YOLOX models, particularly their large variants, exhibit superior robustness compared to other YOLO versions, maintaining higher accuracy under challenging conditions. Our findings serve as a valuable resource for researchers and practitioners aiming to optimize YOLO models for dynamic and adversarial real-world environments while guiding future research toward developing more resilient object detection systems.</jats:p>",
+        "DOI": "10.3390/electronics14081624",
+        "title": [
+          "Delving into YOLO Object Detection Models: Insights into Adversarial Robustness"
+        ],
+        "author": [
+          {
+            "given": "Kyriakos D.",
+            "family": "Apostolidis",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "MLV Research Group, Department of Informatics, Democritus University of Thrace, 65404 Kavala, Greece"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5545-1499",
+            "authenticated-orcid": false,
+            "given": "George A.",
+            "family": "Papakostas",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "MLV Research Group, Department of Informatics, Democritus University of Thrace, 65404 Kavala, Greece"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              17
+            ]
+          ]
+        },
+        "container-title": [
+          "Electronics"
+        ],
+        "link": [
+          {
+            "URL": "https://www.mdpi.com/2079-9292/14/8/1624/pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.3390/electronics14081624",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              17
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              9
+            ]
+          ]
+        },
+        "DOI": "10.1007/s10586-025-05118-1",
+        "title": [
+          "Adversarial examples detection for object detectors using consistency check framework"
+        ],
+        "author": [
+          {
+            "given": "Zhaoxin",
+            "family": "Zhang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Shize",
+            "family": "Huang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Qianhui",
+            "family": "Fan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Decun",
+            "family": "Dong",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              31
+            ]
+          ]
+        },
+        "container-title": [
+          "Cluster Computing"
+        ],
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s10586-025-05118-1.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s10586-025-05118-1/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s10586-025-05118-1.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s10586-025-05118-1",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              31
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1109/jiot.2025.3531852",
+        "title": [
+          "Transferable and Robust Dynamic Adversarial Attack Against Object Detection Models"
+        ],
+        "container-title": [
+          "IEEE Internet of Things Journal"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              1
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1109/jiot.2025.3531852",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/6488907/11008454/10845771.pdf?arnumber=10845771",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-3785-9874",
+            "authenticated-orcid": false,
+            "given": "Xinxin",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Aerospace Information Security and Trusted Computing, Ministry of Education, School of Cyber Science and Engineering, Wuhan University, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7212-5297",
+            "authenticated-orcid": false,
+            "given": "Jing",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Aerospace Information Security and Trusted Computing, Ministry of Education, School of Cyber Science and Engineering, Wuhan University, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zijun",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Aerospace Information Security and Trusted Computing, Ministry of Education, School of Cyber Science and Engineering, Wuhan University, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3472-419X",
+            "authenticated-orcid": false,
+            "given": "Kun",
+            "family": "He",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Aerospace Information Security and Trusted Computing, Ministry of Education, School of Cyber Science and Engineering, Wuhan University, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5387-7821",
+            "authenticated-orcid": false,
+            "given": "Zongru",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Electronic Information and Electrical Engineering, Shanghai Jiao Tong University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3634-3385",
+            "authenticated-orcid": false,
+            "given": "Ruiying",
+            "family": "Du",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Aerospace Information Security and Trusted Computing, Ministry of Education, School of Cyber Science and Engineering, Wuhan University, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3694-8237",
+            "authenticated-orcid": false,
+            "given": "Qiao",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Aerospace Information Security and Trusted Computing, Ministry of Education, School of Cyber Science and Engineering, Wuhan University, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Gongshen",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Electronic Information and Electrical Engineering, Shanghai Jiao Tong University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "abstract": "<jats:p>In real-world applications, autonomous driving systems need to handle a variety of complex scenarios, such as object occlusion and lighting changes. In these scenarios, accurately identifying various objects is crucial for perceiving the surrounding environment and making reliable decisions. In this context, the fusion of Lidar and cameras is vital for the accuracy of object detection. To this end, we propose an adversarial adaptive data augmentation strategy that introduces virtual adversarial perturbations during the image feature extraction process, effectively enhancing the robustness of 3D object detection methods and enabling them to maintain stable performance when facing environmental changes and data perturbations. Experimental results on the nuScenes-mini and KITTI datasets show that, compared with previous 3D object detection methods, our method not only improves detection accuracy but also demonstrates stronger stability.</jats:p>",
+        "DOI": "10.3390/s25113493",
+        "title": [
+          "Boosting 3D Object Detection with Adversarial Adaptive Data Augmentation Strategy"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0002-6282-2635",
+            "authenticated-orcid": false,
+            "given": "Shihao",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Advanced Manufacturing Technology for Automotive Parts of Ministry of Education, School of Automotive Engineering, Chongqing University of Technology, Chongqing 401320, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0000-3687-5771",
+            "authenticated-orcid": false,
+            "given": "Jingsong",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Advanced Manufacturing Technology for Automotive Parts of Ministry of Education, School of Automotive Engineering, Chongqing University of Technology, Chongqing 401320, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Jianghua",
+            "family": "Fu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Advanced Manufacturing Technology for Automotive Parts of Ministry of Education, School of Automotive Engineering, Chongqing University of Technology, Chongqing 401320, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Qiuyue",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Advanced Manufacturing Technology for Automotive Parts of Ministry of Education, School of Automotive Engineering, Chongqing University of Technology, Chongqing 401320, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              31
+            ]
+          ]
+        },
+        "container-title": [
+          "Sensors"
+        ],
+        "link": [
+          {
+            "URL": "https://www.mdpi.com/1424-8220/25/11/3493/pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.3390/s25113493",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              31
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1016/j.engappai.2026.114760",
+        "title": [
+          "Learning invariant representation for light field adversarial salient object detection"
+        ],
+        "container-title": [
+          "Engineering Applications of Artificial Intelligence"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              7
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.engappai.2026.114760",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0952197626010420?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0952197626010420?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "author": [
+          {
+            "given": "Mianzhao",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2074-0228",
+            "authenticated-orcid": false,
+            "given": "Fan",
+            "family": "Shi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Xu",
+            "family": "Cheng",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Shengyong",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "items-per-page": 40,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

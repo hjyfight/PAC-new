@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "target": "yolov5s",
+  "evaluations": 7,
+  "physical_gpu": 3,
+  "clean_map50_pct": 95.70236404628326,
+  "clean_reference_max_difference": 0.0,
+  "command": [
+    "/datacc05/huotianlin/miniconda3/envs/pac/bin/python",
+    "-B",
+    "eval_transfer.py",
+    "--manifest",
+    "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/tsea_nap_20260912/tsea/yolov3/manifest.json",
+    "--detector",
+    "yolov5s",
+    "--device",
+    "cuda:0",
+    "--batch-size",
+    "8",
+    "--workers",
+    "4",
+    "--patches",
+    "clean,best_raw,best_bc1,best_bc2,last_raw,last_bc1,last_bc2"
+  ],
+  "completed_utc": "2026-09-12T10:52:09.378213+00:00"
+}

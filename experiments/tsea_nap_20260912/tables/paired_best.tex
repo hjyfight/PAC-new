@@ -1,0 +1,26 @@
+% Standalone export; requires booktabs and graphicx. Does not edit the manuscript.
+\begin{table*}[t]
+\centering
+\renewcommand{\arraystretch}{1.12}
+\caption{Paired PAC adaptation under the shared INRIA protocol. WB averages six source-model diagonals; BB averages 30 off-diagonal transfers. Lower $mAP_{50}$ is better; positive $\Delta$ indicates an attack penalty. Checkpoints use training loss only. Missing runs are --; conversion time excludes I/O (CPU, two threads).}
+\label{tab:pac_paired_shared}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{llcccccc}
+\toprule
+Base attack & Variant & WB & BB & $\Delta$WB & $\Delta$BB & Extra epochs & Recolor (ms) \\
+\midrule
+AdvPatch & Original & 19.33 & 44.63 & -- & -- & -- & -- \\
+AdvPatch & +PAC(Bc1) & 27.37 & 46.99 & 8.04 & 2.36 & 0 & -- \\
+AdvPatch & +PAC(Bc2) & 23.55 & 45.25 & 4.22 & 0.61 & 0 & -- \\
+CAP & Original & 30.45 & 44.41 & -- & -- & -- & -- \\
+CAP & +PAC(Bc1) & 35.50 & 46.25 & 5.05 & 1.84 & 0 & -- \\
+CAP & +PAC(Bc2) & 36.03 & 45.72 & 5.57 & 1.31 & 0 & -- \\
+AdvReal & Original & 8.02 & 26.68 & -- & -- & -- & -- \\
+AdvReal & +PAC(Bc1) & 15.15 & 32.18 & 7.14 & 5.50 & 0 & -- \\
+AdvReal & +PAC(Bc2) & 12.82 & 28.06 & 4.80 & 1.38 & 0 & -- \\
+T-SEA & Original & 6.03 & 24.48 & -- & -- & -- & -- \\
+T-SEA & +PAC(Bc1) & 9.74 & 27.27 & 3.71 & 2.79 & 0 & 0.18 \\
+T-SEA & +PAC(Bc2) & 10.19 & 25.66 & 4.16 & 1.18 & 0 & 0.19 \\
+\bottomrule
+\end{tabular}}
+\end{table*}

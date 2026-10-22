@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "target": "yolov5m",
+  "evaluations": 4,
+  "clean_map50_pct": 96.0732794116757,
+  "clean_reference_max_difference": 0.0,
+  "command": [
+    "/datacc05/huotianlin/miniconda3/envs/pac/bin/python",
+    "-B",
+    "eval_transfer.py",
+    "--manifest",
+    "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/advpatch_cap_completion_20260911/advpatch/yolov5m/manifest.json",
+    "--detector",
+    "yolov5m",
+    "--device",
+    "cuda:0",
+    "--batch-size",
+    "8",
+    "--workers",
+    "4",
+    "--patches",
+    "clean,advpatch,p1,p2"
+  ],
+  "physical_gpu": 4,
+  "completed_utc": "2026-09-11T13:30:58.683772+00:00"
+}

@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-11",
+  "report": "open_baselines_person_protocol.md",
+  "scope": "literature_and_static_code_review_only",
+  "target": "person evasion",
+  "placement": "GT bbox center",
+  "patch_area_bbox_ratio": 0.25,
+  "rank_edition": "CAS March 2025 major categories; CCF as referenced",
+  "candidates": [
+    {
+      "method": "DynamicPAE",
+      "doi": "10.1109/TPAMI.2025.3626068",
+      "venue": "TPAMI",
+      "online_year": 2025,
+      "issue_year": 2026,
+      "first_arxiv": "2024-12",
+      "rank": "CAS 2025 major 1",
+      "repo": "hujinCN/DynamicPAE",
+      "commit": "2481550ea43c2bed2b3f3e0bdf04577828434905",
+      "status": "priority_review_dynamic_scene_conditioned",
+      "code_verified": "static_2026-09-09",
+      "runtime_verified": false
+    },
+    {
+      "method": "CDUPatch",
+      "doi": "10.1145/3746027.3755188",
+      "venue": "ACM MM",
+      "year": 2025,
+      "rank": "CCF A",
+      "repo": "Jiahuan-Long/CDUpatch",
+      "commit": "0418d7d967ba0d1b73203d3882aa725a2debb187",
+      "status": "conditional_rgb_person_adaptation",
+      "code_verified": "static_2026-09-09",
+      "runtime_verified": false
+    },
+    {
+      "method": "TAOB",
+      "doi": "10.1016/j.patcog.2025.112244",
+      "venue": "Pattern Recognition journal",
+      "online_year": 2025,
+      "issue_year": 2026,
+      "rank": "CAS 2025 major 1",
+      "repo": "mayfly227/TAOB",
+      "commit": "6208542979bdcc0b6f93df6c5ebb3e494bae8553",
+      "status": "extension_core_placement_and_target_constraints",
+      "code_verified": "static_2026-09-09",
+      "runtime_verified": false
+    },
+    {
+      "method": "DSAP",
+      "doi": "10.1109/TGRS.2025.3594008",
+      "venue": "TGRS",
+      "year": 2025,
+      "rank": "CAS 2025 major Earth Science 1 / Remote Sensing 2",
+      "repo": "Yongyx99/DSpatch",
+      "commit": "fce529074064f077bcdae5a40df201516fedc0bf",
+      "status": "extension_false_positive_to_person_suppression",
+      "code_verified": "static_2026-09-09",
+      "runtime_verified": false
+    },
+    {
+      "method": "Higher-Order",
+      "doi": "10.1007/978-3-032-31583-0_41",
+      "venue": "ICPR 2026 proceedings / LNCS",
+      "online_year": 2026,
+      "book_copyright_year": 2027,
+      "rank": "not_verified_as_requested_CCF_AB",
+      "repo": "JensBayer/HigherOrder",
+      "commit": "efd0778134f3ce54b90cc7ccf29ddf12e56abb1a",
+      "status": "excluded_main_shortlist_alternating_detector_training",
+      "code_verified": "static_2026-09-11",
+      "runtime_verified": false
+    }
+  ],
+  "previous_verification": "/datacc05/huotianlin/code-hu/PAC/third_party/verification/open_attack_baselines_20260909.json"
+}

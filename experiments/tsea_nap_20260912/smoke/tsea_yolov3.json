@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "method": "tsea",
+  "detector": "yolov3",
+  "batch_size": 8,
+  "images": 614,
+  "batches_per_epoch": 77,
+  "train_images_only": true,
+  "detector_frozen": true,
+  "finite_nonzero_detection_gradient": true,
+  "steps": [
+    {
+      "step": 1,
+      "loss": 1.0867596864700317,
+      "detection": 0.9867596626281738,
+      "tv": 0.10000000149011612,
+      "detection_gradient_abs_sum": 5.076773643493652,
+      "parameter_update_max": 0.02999943494796753
+    },
+    {
+      "step": 2,
+      "loss": 1.1058504581451416,
+      "detection": 0.990946888923645,
+      "tv": 0.11490356922149658,
+      "detection_gradient_abs_sum": 6.356289863586426,
+      "parameter_update_max": 0.030024290084838867
+    }
+  ],
+  "reserved_mib": 11756.0,
+  "allocated_mib": 10276.1279296875,
+  "disabled_ensemble_max_error": 0.0,
+  "enabled_ensemble_loss_difference": 4.488229751586914e-05,
+  "tsea_residual_locations": [
+    "shortcut.8",
+    "shortcut.11",
+    "shortcut.15",
+    "shortcut.18",
+    "shortcut.21",
+    "shortcut.24",
+    "shortcut.27",
+    "shortcut.30",
+    "shortcut.33",
+    "shortcut.36",
+    "shortcut.40",
+    "shortcut.43",
+    "shortcut.46",
+    "shortcut.49",
+    "shortcut.52",
+    "shortcut.55",
+    "shortcut.58",
+    "shortcut.61",
+    "shortcut.65",
+    "shortcut.68",
+    "shortcut.71",
+    "shortcut.74"
+  ],
+  "nap_generator_frozen_and_buffers_unchanged": false,
+  "seconds": 7.931811549991835
+}

@@ -1,0 +1,736 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        8,
+        18
+      ]
+    ],
+    "date-time": "2026-08-18T14:30:38Z",
+    "timestamp": 1787063438209,
+    "version": "build-2736575974"
+  },
+  "reference-count": 48,
+  "publisher": "Elsevier BV",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2025-03-01T00:00:00Z",
+        "timestamp": 1740787200000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2025-03-01T00:00:00Z",
+        "timestamp": 1740787200000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/legal/tdmrep-license"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2025-03-01T00:00:00Z",
+        "timestamp": 1740787200000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-017"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2025-03-01T00:00:00Z",
+        "timestamp": 1740787200000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-037"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2025-03-01T00:00:00Z",
+        "timestamp": 1740787200000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-012"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2025-03-01T00:00:00Z",
+        "timestamp": 1740787200000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-029"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2025-03-01T00:00:00Z",
+        "timestamp": 1740787200000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-004"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100012226",
+      "name": "Fundamental Research Funds for the Central Universities",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "ZYGX2024K006"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "ZYGX2024K006"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100012226",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "elsevier.com",
+      "sciencedirect.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "Applied Soft Computing"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2025,
+        3
+      ]
+    ]
+  },
+  "DOI": "10.1016/j.asoc.2025.112818",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2025,
+        2,
+        6
+      ]
+    ],
+    "date-time": "2025-02-06T12:46:42Z",
+    "timestamp": 1738846002000
+  },
+  "page": "112818",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 7,
+  "special_numbering": "C",
+  "title": [
+    "Two-stage optimized unified adversarial patch for attacking visible-infrared cross-modal detectors in the physical world"
+  ],
+  "prefix": "10.1016",
+  "volume": "171",
+  "author": [
+    {
+      "given": "Chengyin",
+      "family": "Hu",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0007-3574-8261",
+      "authenticated-orcid": false,
+      "given": "Weiwen",
+      "family": "Shi",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Wen",
+      "family": "Yao",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Tingsong",
+      "family": "Jiang",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Ling",
+      "family": "Tian",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Wen",
+      "family": "Li",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "78",
+  "reference": [
+    {
+      "key": "10.1016/j.asoc.2025.112818_b1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "K. He, X. Zhang, S. Ren, J. Sun, Deep residual learning for image recognition, in: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2016, pp. 770–778.",
+      "DOI": "10.1109/CVPR.2016.90"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b2",
+      "series-title": "Computer Vision and Pattern Recognition",
+      "first-page": "1",
+      "article-title": "Yolov3: An incremental improvement",
+      "volume": "Vol. 1804",
+      "author": "Farhadi",
+      "year": "2018"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b3",
+      "doi-asserted-by": "crossref",
+      "unstructured": "N. Kim, D. Kim, C. Lan, W. Zeng, S. Kwak, Restr: Convolution-free referring image segmentation using transformers, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2022, pp. 18145–18154.",
+      "DOI": "10.1109/CVPR52688.2022.01761"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b4",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Q. Chen, Y. Wang, T. Yang, X. Zhang, J. Cheng, J. Sun, You only look one-level feature, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2021, pp. 13039–13048.",
+      "DOI": "10.1109/CVPR46437.2021.01284"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b5",
+      "series-title": "Computer Vision–ECCV 2020: 16th European Conference, Glasgow, UK, August 23–28, 2020, Proceedings, Part I 16",
+      "first-page": "213",
+      "article-title": "End-to-end object detection with transformers",
+      "author": "Carion",
+      "year": "2020"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b6",
+      "doi-asserted-by": "crossref",
+      "unstructured": "J. Liu, X. Fan, Z. Huang, G. Wu, R. Liu, W. Zhong, Z. Luo, Target-aware dual adversarial learning and a multi-scenario multi-modality benchmark to fuse infrared and visible for object detection, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2022, pp. 5802–5811.",
+      "DOI": "10.1109/CVPR52688.2022.00571"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b7",
+      "series-title": "Unsupervised misaligned infrared and visible image fusion via cross-modality image generation and registration",
+      "author": "Wang",
+      "year": "2022"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b8",
+      "series-title": "Exploring adversarial robustness of multi-sensor perception systems in self driving",
+      "author": "Tu",
+      "year": "2021"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b9",
+      "series-title": "2nd International Conference on Learning Representations, ICLR 2014, Banff, AB, Canada, April 14-16, 2014, Conference Track Proceedings",
+      "article-title": "Intriguing properties of neural networks",
+      "author": "Szegedy",
+      "year": "2014"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b10",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.imavis.2023.104861",
+      "article-title": "Adversarial neon beam: A light-based physical attack to DNNs",
+      "author": "Hu",
+      "year": "2023",
+      "journal-title": "Comput. Vis. Image Underst."
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b11",
+      "doi-asserted-by": "crossref",
+      "unstructured": "R. Duan, Y. Chen, D. Niu, Y. Yang, A.K. Qin, Y. He, Advdrop: Adversarial attack to dnns by dropping information, in: Proceedings of the IEEE/CVF International Conference on Computer Vision, 2021, pp. 7506–7515.",
+      "DOI": "10.1109/ICCV48922.2021.00741"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b12",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.imavis.2023.104861",
+      "article-title": "Adversarial color projection: A projector-based physical-world attack to DNNs",
+      "author": "Hu",
+      "year": "2023",
+      "journal-title": "Image Vis. Comput."
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b13",
+      "series-title": "Asian Conference on Machine Learning",
+      "first-page": "483",
+      "article-title": "Adversarial laser spot: Robust and covert physical-world attack to DNNs",
+      "author": "Hu",
+      "year": "2023"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b14",
+      "doi-asserted-by": "crossref",
+      "unstructured": "D. Wang, T. Jiang, J. Sun, W. Zhou, Z. Gong, X. Zhang, W. Yao, X. Chen, Fca: Learning a 3d full-coverage vehicle camouflage for multi-view physical adversarial attack, in: Proceedings of the AAAI Conference on Artificial Intelligence, Vol. 36, 2022, pp. 2414–2422.",
+      "DOI": "10.1609/aaai.v36i2.20141"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b15",
+      "doi-asserted-by": "crossref",
+      "unstructured": "J. Wang, A. Liu, Z. Yin, S. Liu, S. Tang, X. Liu, Dual attention suppression attack: Generate adversarial camouflage in physical world, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2021, pp. 8565–8574.",
+      "DOI": "10.1109/CVPR46437.2021.00846"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b16",
+      "doi-asserted-by": "crossref",
+      "unstructured": "X. Zhu, X. Li, J. Li, Z. Wang, X. Hu, Fooling thermal infrared pedestrian detectors in real world using small bulbs, in: Proceedings of the AAAI Conference on Artificial Intelligence, Vol. 35, 2021, pp. 3616–3624.",
+      "DOI": "10.1609/aaai.v35i4.16477"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b17",
+      "doi-asserted-by": "crossref",
+      "unstructured": "X. Zhu, Z. Hu, S. Huang, J. Li, X. Hu, Infrared invisible clothing: Hiding from infrared detectors at multiple angles in real world, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2022, pp. 13317–13326.",
+      "DOI": "10.1109/CVPR52688.2022.01296"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b18",
+      "doi-asserted-by": "crossref",
+      "unstructured": "X. Wei, Y. Huang, Y. Sun, J. Yu, Unified Adversarial Patch for Cross-modal Attacks in the Physical World, in: Proceedings of the IEEE/CVF International Conference on Computer Vision, 2023, pp. 4445–4454.",
+      "DOI": "10.1109/ICCV51070.2023.00410"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b19",
+      "series-title": "ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing",
+      "first-page": "4853",
+      "article-title": "Map: Multispectral adversarial patch to attack person detection",
+      "author": "Kim",
+      "year": "2022"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b20",
+      "series-title": "Proceedings of ICNN’95-International Conference on Neural Networks",
+      "first-page": "1942",
+      "article-title": "Particle swarm optimization",
+      "volume": "Vol. 4",
+      "author": "Kennedy",
+      "year": "1995"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b21",
+      "series-title": "International Conference on Machine Learning",
+      "first-page": "284",
+      "article-title": "Synthesizing robust adversarial examples",
+      "author": "Athalye",
+      "year": "2018"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b22",
+      "series-title": "Free flir thermal dataset for algorithm training.",
+      "author": "FLIR",
+      "year": "2021"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b23",
+      "doi-asserted-by": "crossref",
+      "unstructured": "X. Jia, C. Zhu, M. Li, W. Tang, W. Zhou, LLVIP: A visible-infrared paired dataset for low-light vision, in: Proceedings of the IEEE/CVF International Conference on Computer Vision, 2021, pp. 3496–3504.",
+      "DOI": "10.1109/ICCVW54120.2021.00389"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b24",
+      "doi-asserted-by": "crossref",
+      "unstructured": "A. Zolfi, M. Kravchik, Y. Elovici, A. Shabtai, The translucent patch: A physical and universal attack on object detectors, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2021, pp. 15232–15241.",
+      "DOI": "10.1109/CVPR46437.2021.01498"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b25",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.patcog.2022.108979",
+      "article-title": "Adaptive momentum variance for attention-guided sparse adversarial attacks",
+      "volume": "133",
+      "author": "Li",
+      "year": "2023",
+      "journal-title": "Pattern Recognit."
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b26",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1109/TPAMI.2022.3176760",
+      "article-title": "Adversarial sticker: A stealthy attack method in the physical world",
+      "author": "Wei",
+      "year": "2022",
+      "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b27",
+      "series-title": "Computer Vision–ECCV 2020: 16th European Conference, Glasgow, UK, August 23–28, 2020, Proceedings, Part IV 16",
+      "first-page": "1",
+      "article-title": "Making an invisibility cloak: Real world adversarial attacks on object detectors",
+      "author": "Wu",
+      "year": "2020"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b28",
+      "series-title": "Computer Vision–ECCV 2020: 16th European Conference, Glasgow, UK, August 23–28, 2020, Proceedings, Part V 16",
+      "first-page": "665",
+      "article-title": "Adversarial t-shirt! evading person detectors in a physical world",
+      "author": "Xu",
+      "year": "2020"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b29",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Z. Hu, S. Huang, X. Zhu, F. Sun, B. Zhang, X. Hu, Adversarial texture for fooling person detectors in the physical world, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2022, pp. 13307–13316.",
+      "DOI": "10.1109/CVPR52688.2022.01295"
+    },
+    {
+      "issue": "14–28",
+      "key": "10.1016/j.asoc.2025.112818_b30",
+      "first-page": "3",
+      "article-title": "A thin-plate spline and the decomposition of deformations",
+      "volume": "2",
+      "author": "Bookstein",
+      "year": "1993",
+      "journal-title": "Math. Methods Med. Imaging"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b31",
+      "doi-asserted-by": "crossref",
+      "unstructured": "L. Huang, C. Gao, Y. Zhou, C. Xie, A.L. Yuille, C. Zou, N. Liu, Universal physical camouflage attacks on object detectors, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2020, pp. 720–729.",
+      "DOI": "10.1109/CVPR42600.2020.00080"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b32",
+      "doi-asserted-by": "crossref",
+      "unstructured": "A. Mahendran, A. Vedaldi, Understanding deep image representations by inverting them, in: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2015, pp. 5188–5196.",
+      "DOI": "10.1109/CVPR.2015.7299155"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b33",
+      "doi-asserted-by": "crossref",
+      "unstructured": "H. Wei, Z. Wang, X. Jia, Y. Zheng, H. Tang, S. Satoh, Z. Wang, Hotcold block: Fooling thermal infrared detectors with a novel wearable design, in: Proceedings of the AAAI Conference on Artificial Intelligence, Vol. 37, 2023, pp. 15233–15241.",
+      "DOI": "10.1609/aaai.v37i12.26777"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b34",
+      "doi-asserted-by": "crossref",
+      "unstructured": "X. Wei, J. Yu, Y. Huang, Physically Adversarial Infrared Patches With Learnable Shapes and Locations, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2023, pp. 12334–12342.",
+      "DOI": "10.1109/CVPR52729.2023.01187"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b35",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.neunet.2024.106310",
+      "article-title": "Adversarial infrared blocks: A multi-view black-box attack to thermal infrared detectors in physical world",
+      "volume": "175",
+      "author": "Hu",
+      "year": "2024",
+      "journal-title": "Neural Netw."
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b36",
+      "article-title": "Adversarial infrared curves: An attack on infrared pedestrian detectors in the physical world",
+      "author": "Hu",
+      "year": "2024",
+      "journal-title": "Neural Netw."
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b37",
+      "doi-asserted-by": "crossref",
+      "first-page": "91",
+      "DOI": "10.1016/j.inffus.2023.02.016",
+      "article-title": "TFSFB: Two-stage feature selection via fusing fuzzy multi-neighborhood rough set with binary whale optimization for imbalanced data",
+      "volume": "95",
+      "author": "Sun",
+      "year": "2023",
+      "journal-title": "Inf. Fusion"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b38",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.energy.2023.126846",
+      "article-title": "Multi-objective and two-stage optimization study of integrated energy systems considering P2G and integrated demand responses",
+      "volume": "270",
+      "author": "Pan",
+      "year": "2023",
+      "journal-title": "Energy"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b39",
+      "doi-asserted-by": "crossref",
+      "first-page": "306",
+      "DOI": "10.1016/j.aej.2024.05.078",
+      "article-title": "An improved dual-phased meta-heuristic optimization-based framework for energy efficient cluster-based routing in wireless sensor networks",
+      "volume": "101",
+      "author": "Roberts",
+      "year": "2024",
+      "journal-title": "Alex. Eng. J."
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b40",
+      "series-title": "yolov5",
+      "author": "Jocher",
+      "year": "2020"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b41",
+      "doi-asserted-by": "crossref",
+      "unstructured": "K. He, G. Gkioxari, P. Dollár, R. Girshick, Mask r-cnn, in: Proceedings of the IEEE International Conference on Computer Vision, 2017, pp. 2961–2969.",
+      "DOI": "10.1109/ICCV.2017.322"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b42",
+      "article-title": "Faster r-cnn: Towards real-time object detection with region proposal networks",
+      "volume": "28",
+      "author": "Ren",
+      "year": "2015",
+      "journal-title": "Adv. Neural Inf. Process. Syst."
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b43",
+      "doi-asserted-by": "crossref",
+      "unstructured": "J. Pang, K. Chen, J. Shi, H. Feng, W. Ouyang, D. Lin, Libra r-cnn: Towards balanced learning for object detection, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2019, pp. 821–830.",
+      "DOI": "10.1109/CVPR.2019.00091"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b44",
+      "doi-asserted-by": "crossref",
+      "unstructured": "T.-Y. Lin, P. Goyal, R. Girshick, K. He, P. Dollár, Focal loss for dense object detection, in: Proceedings of the IEEE International Conference on Computer Vision, 2017, pp. 2980–2988.",
+      "DOI": "10.1109/ICCV.2017.324"
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.asoc.2025.112818_b45",
+      "doi-asserted-by": "crossref",
+      "first-page": "66",
+      "DOI": "10.1038/scientificamerican0792-66",
+      "article-title": "Genetic algorithms",
+      "volume": "267",
+      "author": "Holland",
+      "year": "1992",
+      "journal-title": "Sci. Am."
+    },
+    {
+      "issue": "4",
+      "key": "10.1016/j.asoc.2025.112818_b46",
+      "doi-asserted-by": "crossref",
+      "first-page": "341",
+      "DOI": "10.1023/A:1008202821328",
+      "article-title": "Differential evolution-a simple and efficient heuristic for global optimization over continuous spaces",
+      "volume": "11",
+      "author": "Storn",
+      "year": "1997",
+      "journal-title": "J. Global Optim."
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b47",
+      "series-title": "Proceedings of the Thirtieth International Joint Conference on Artificial Intelligence, IJCAI 2021, Virtual Event / Montreal, Canada, 19-27 August 2021",
+      "first-page": "4312",
+      "article-title": "Recent advances in adversarial training for adversarial robustness",
+      "author": "Bai",
+      "year": "2021"
+    },
+    {
+      "key": "10.1016/j.asoc.2025.112818_b48",
+      "doi-asserted-by": "crossref",
+      "unstructured": "J. Hayes, On visible adversarial perturbations & digital watermarking, in: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops, 2018, pp. 1597–1604.",
+      "DOI": "10.1109/CVPRW.2018.00210"
+    }
+  ],
+  "container-title": [
+    "Applied Soft Computing"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S1568494625001292?httpAccept=text/xml",
+      "content-type": "text/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S1568494625001292?httpAccept=text/plain",
+      "content-type": "text/plain",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        4,
+        29
+      ]
+    ],
+    "date-time": "2025-04-29T22:13:44Z",
+    "timestamp": 1745964824000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1568494625001292"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2025,
+        3
+      ]
+    ]
+  },
+  "references-count": 48,
+  "alternative-id": [
+    "S1568494625001292"
+  ],
+  "URL": "https://doi.org/10.1016/j.asoc.2025.112818",
+  "relation": {},
+  "ISSN": [
+    "1568-4946"
+  ],
+  "issn-type": [
+    {
+      "value": "1568-4946",
+      "type": "print"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2025,
+        3
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "Elsevier",
+      "name": "publisher",
+      "label": "This article is maintained by"
+    },
+    {
+      "value": "Two-stage optimized unified adversarial patch for attacking visible-infrared cross-modal detectors in the physical world",
+      "name": "articletitle",
+      "label": "Article Title"
+    },
+    {
+      "value": "Applied Soft Computing",
+      "name": "journaltitle",
+      "label": "Journal Title"
+    },
+    {
+      "value": "https://doi.org/10.1016/j.asoc.2025.112818",
+      "name": "articlelink",
+      "label": "CrossRef DOI link to publisher maintained version"
+    },
+    {
+      "value": "article",
+      "name": "content_type",
+      "label": "Content Type"
+    },
+    {
+      "value": "© 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+      "name": "copyright",
+      "label": "Copyright"
+    }
+  ],
+  "article-number": "112818"
+}

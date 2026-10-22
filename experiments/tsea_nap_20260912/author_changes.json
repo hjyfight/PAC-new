@@ -1,0 +1,6 @@
+{
+  "file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/tsea_nap_20260912/author/Naturalistic-Adversarial-Patch/GANLatentDiscovery/models/BigGAN/BigGAN.py",
+  "change": "Remove unused ipdb import; no numerical or architecture changes",
+  "before_sha256": "c48c3296604914f52fdaa6cf73b4bab9efbfc18bb2a88a1a72896581e7003237",
+  "after_sha256": "b7a400118b09b0bf215e8bb6f62c5f1481fdeb3d43b066fe3f2801bf93911859"
+}

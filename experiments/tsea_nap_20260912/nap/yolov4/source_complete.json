@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "method": "nap",
+  "source": "yolov4",
+  "epochs": 1000,
+  "attack_evaluations": 12,
+  "completed_utc": "2026-09-12T12:15:09.749338+00:00"
+}

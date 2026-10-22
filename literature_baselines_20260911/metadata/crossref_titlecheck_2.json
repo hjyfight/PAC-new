@@ -1,0 +1,1462 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1088274,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              18
+            ]
+          ],
+          "date-time": "2026-08-18T00:28:48Z",
+          "timestamp": 1787012928850,
+          "version": "build-2736575974"
+        },
+        "reference-count": 61,
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "issue": "4",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  4,
+                  1
+                ]
+              ],
+              "date-time": "2024-04-01T00:00:00Z",
+              "timestamp": 1711929600000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  4,
+                  1
+                ]
+              ],
+              "date-time": "2024-04-01T00:00:00Z",
+              "timestamp": 1711929600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  4,
+                  1
+                ]
+              ],
+              "date-time": "2024-04-01T00:00:00Z",
+              "timestamp": 1711929600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/501100001809",
+            "name": "National Natural Science Foundation of China",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "62272116"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "62272116"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001809",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100001809",
+            "name": "National Natural Science Foundation of China",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "62302110"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "62302110"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001809",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100010256",
+            "name": "Guangzhou Science and Technology Project",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "2023A03J0114"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "2023A03J0114"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100010256",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100010256",
+            "name": "Guangzhou Science and Technology Project",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "2023A04J0387"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "2023A04J0387"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100010256",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "IEEE Trans. Circuits Syst. Video Technol."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              4
+            ]
+          ]
+        },
+        "DOI": "10.1109/tcsvt.2023.3307150",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2023,
+              8,
+              21
+            ]
+          ],
+          "date-time": "2023-08-21T14:08:40Z",
+          "timestamp": 1692626920000
+        },
+        "page": "2289-2303",
+        "source": "Crossref",
+        "is-referenced-by-count": 34,
+        "title": [
+          "Cross-Shaped Adversarial Patch Attack"
+        ],
+        "prefix": "10.1109",
+        "volume": "34",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0000-7062-9486",
+            "authenticated-orcid": false,
+            "given": "Yu",
+            "family": "Ran",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Cyber Engineering, Guangzhou University, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Weijia",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Information Technology, Deakin University, Waurn Ponds Campus, Geelong, VIC, Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3565-1180",
+            "authenticated-orcid": false,
+            "given": "Mingjie",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Cyber Engineering, Guangzhou University, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Lin-Cheng",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Cyber Engineering, Guangzhou University, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3010-4196",
+            "authenticated-orcid": false,
+            "given": "Yuan-Gen",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Cyber Engineering, Guangzhou University, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0385-8793",
+            "authenticated-orcid": false,
+            "given": "Jin",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Artificial Intelligence and Blockchain, Guangzhou University, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR.2016.90"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR52688.2022.00529"
+          },
+          {
+            "key": "ref3",
+            "first-page": "3104",
+            "article-title": "Sequence to sequence learning with neural networks",
+            "volume-title": "Proc. NeurIPS",
+            "volume": "27",
+            "author": "Sutskever"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TASLP.2014.2339736"
+          },
+          {
+            "key": "ref5",
+            "first-page": "1",
+            "article-title": "Intriguing properties of neural networks",
+            "volume-title": "Proc. ICLR",
+            "author": "Szegedy"
+          },
+          {
+            "key": "ref6",
+            "first-page": "1",
+            "article-title": "Explaining and harnessing adversarial examples",
+            "volume-title": "Proc. ICLR",
+            "author": "Goodfellow"
+          },
+          {
+            "key": "ref7",
+            "first-page": "1",
+            "article-title": "Adversarial examples in the physical world",
+            "volume-title": "Proc. ICLR",
+            "author": "Kurakin"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/SP.2017.49"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TCSVT.2020.3047084"
+          },
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/rob.21918"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TCSVT.2015.2406191"
+          },
+          {
+            "key": "ref12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/nature21056"
+          },
+          {
+            "key": "ref13",
+            "article-title": "Towards the science of security and privacy in machine learning",
+            "author": "Papernot",
+            "year": "2016",
+            "journal-title": "arXiv:1611.03814"
+          },
+          {
+            "key": "ref14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPRW.2018.00210"
+          },
+          {
+            "key": "ref15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/WACV.2019.00143"
+          },
+          {
+            "key": "ref16",
+            "first-page": "1",
+            "article-title": "Certified defenses for adversarial patches",
+            "volume-title": "Proc. ICLR",
+            "author": "Chiang"
+          },
+          {
+            "key": "ref17",
+            "first-page": "2237",
+            "article-title": "PatchGuard: A provably robust defense against adversarial patches via small receptive fields and masking",
+            "volume-title": "Proc. USS",
+            "author": "Xiang"
+          },
+          {
+            "key": "ref18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TCSVT.2020.3017006"
+          },
+          {
+            "key": "ref19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/3536425"
+          },
+          {
+            "key": "ref20",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.48550/ARXIV.1706.06083"
+          },
+          {
+            "key": "ref21",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/3128572.3140448"
+          },
+          {
+            "key": "ref22",
+            "first-page": "2137",
+            "article-title": "Black-box adversarial attacks with limited queries and information",
+            "volume-title": "Proc. ICML",
+            "author": "Ilyas"
+          },
+          {
+            "key": "ref23",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICCV.2019.00482"
+          },
+          {
+            "key": "ref24",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-030-58592-1_29"
+          },
+          {
+            "key": "ref25",
+            "first-page": "2484",
+            "article-title": "Simple black-box adversarial attacks",
+            "volume-title": "Proc. ICML",
+            "author": "Guo"
+          },
+          {
+            "key": "ref26",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.5244/C.30.137"
+          },
+          {
+            "key": "ref27",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-030-58574-7_41"
+          },
+          {
+            "key": "ref28",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-030-68238-5_32"
+          },
+          {
+            "key": "ref29",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1609/aaai.v36i6.20595"
+          },
+          {
+            "key": "ref30",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICME51207.2021.9428443"
+          },
+          {
+            "key": "ref31",
+            "first-page": "1",
+            "article-title": "Delving into transferable adversarial examples and black-box attacks",
+            "volume-title": "Proc. ICLR",
+            "author": "Liu"
+          },
+          {
+            "key": "ref32",
+            "first-page": "321",
+            "article-title": "Why do adversarial attacks transfer? Explaining transferability of evasion and poisoning attacks",
+            "volume-title": "Proc. USS",
+            "author": "Demontis"
+          },
+          {
+            "key": "ref33",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICCV.2019.00483"
+          },
+          {
+            "key": "ref34",
+            "first-page": "1",
+            "article-title": "Decision-based adversarial attacks: Reliable attacks against black-box machine learning models",
+            "volume-title": "Proc. ICLR",
+            "author": "Brendel"
+          },
+          {
+            "key": "ref35",
+            "first-page": "1",
+            "article-title": "Query-efficient hard-label black-box attack: An optimization-based approach",
+            "volume-title": "Proc. ICLR",
+            "author": "Cheng"
+          },
+          {
+            "key": "ref36",
+            "first-page": "1",
+            "article-title": "Sign-OPT: A query-efficient hard-label adversarial attack",
+            "volume-title": "Proc. ICLR",
+            "author": "Cheng"
+          },
+          {
+            "key": "ref37",
+            "first-page": "1",
+            "article-title": "Prior convictions: Black-box adversarial attacks with bandits and priors",
+            "volume-title": "Proc. ICLR",
+            "author": "Ilyas"
+          },
+          {
+            "key": "ref38",
+            "first-page": "1",
+            "article-title": "Query-efficient meta attack to deep neural networks",
+            "volume-title": "Proc. ICLR",
+            "author": "Du"
+          },
+          {
+            "key": "ref39",
+            "first-page": "1",
+            "article-title": "Adversarial patch",
+            "volume-title": "Proc. NeurIPS",
+            "author": "Brown"
+          },
+          {
+            "key": "ref40",
+            "first-page": "14963",
+            "article-title": "Transferable sparse adversarial attack",
+            "volume-title": "Proc. CVPR",
+            "author": "He"
+          },
+          {
+            "key": "ref41",
+            "first-page": "1",
+            "article-title": "Imagenet-trained CNNs are biased towards texture; Increasing shape bias improves accuracy and robustness",
+            "volume-title": "Proc. ICLR",
+            "author": "Geirhos"
+          },
+          {
+            "key": "ref42",
+            "first-page": "1",
+            "article-title": "Shape-texture debiased neural network training",
+            "volume-title": "Proc. ICLR",
+            "author": "Li"
+          },
+          {
+            "key": "ref43",
+            "first-page": "19000",
+            "article-title": "The origins and prevalence of texture bias in convolutional neural networks",
+            "volume-title": "Proc. NeurIPS",
+            "volume": "33",
+            "author": "Hermann"
+          },
+          {
+            "key": "ref44",
+            "first-page": "1",
+            "article-title": "Shape or texture: Understanding discriminative features in CNNs",
+            "volume-title": "Proc. ICLR",
+            "author": "Islam"
+          },
+          {
+            "key": "ref45",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-031-19772-7_31"
+          },
+          {
+            "key": "ref46",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR.2018.00957"
+          },
+          {
+            "key": "ref47",
+            "first-page": "1",
+            "article-title": "Structured adversarial attack: Towards general implementation and better interpretability",
+            "volume-title": "Proc. ICLR",
+            "author": "Xu"
+          },
+          {
+            "key": "ref48",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s10208-015-9296-2"
+          },
+          {
+            "key": "ref49",
+            "first-page": "1",
+            "article-title": "Improving black-box adversarial attacks with a transfer-based prior",
+            "volume-title": "Proc. NeurIPS",
+            "author": "Cheng"
+          },
+          {
+            "key": "ref50",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR46437.2021.01166"
+          },
+          {
+            "key": "ref51",
+            "first-page": "2507",
+            "article-title": "LaVAN: Localized and visible adversarial noise",
+            "volume-title": "Proc. ICML",
+            "author": "Karmon"
+          },
+          {
+            "key": "ref52",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR.2018.00175"
+          },
+          {
+            "key": "ref53",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/2976749.2978392"
+          },
+          {
+            "key": "ref54",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TPAMI.2022.3176760"
+          },
+          {
+            "key": "ref55",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR.2009.5206848"
+          },
+          {
+            "key": "ref56",
+            "article-title": "Learning multiple layers of features from tiny images",
+            "author": "Krizhevsky",
+            "year": "2009"
+          },
+          {
+            "key": "ref57",
+            "first-page": "1",
+            "article-title": "Very deep convolutional networks for large-scale image recognition",
+            "volume-title": "Proc. ICLR",
+            "author": "Simonyan"
+          },
+          {
+            "key": "ref58",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/1873951.1874254"
+          },
+          {
+            "key": "ref59",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR.2017.243"
+          },
+          {
+            "key": "ref60",
+            "article-title": "A study of the effect of JPG compression on adversarial images",
+            "author": "Dziugaite",
+            "year": "2016",
+            "journal-title": "arXiv:1608.00853"
+          },
+          {
+            "key": "ref61",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.14722/ndss.2018.23198"
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Circuits and Systems for Video Technology"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/76/10492617/10225573.pdf?arnumber=10225573",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              9
+            ]
+          ],
+          "date-time": "2025-01-09T15:11:30Z",
+          "timestamp": 1736435490000
+        },
+        "score": 47.16327,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/10225573/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              4
+            ]
+          ]
+        },
+        "references-count": 61,
+        "journal-issue": {
+          "issue": "4"
+        },
+        "URL": "https://doi.org/10.1109/tcsvt.2023.3307150",
+        "ISSN": [
+          "1051-8215",
+          "1558-2205"
+        ],
+        "issn-type": [
+          {
+            "value": "1051-8215",
+            "type": "print"
+          },
+          {
+            "value": "1558-2205",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              4
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              11
+            ]
+          ],
+          "date-time": "2026-02-11T13:51:48Z",
+          "timestamp": 1770817908506,
+          "version": "3.50.1"
+        },
+        "publisher-location": "Singapore",
+        "reference-count": 20,
+        "publisher": "Springer Nature Singapore",
+        "isbn-type": [
+          {
+            "value": "9789819562510",
+            "type": "print"
+          },
+          {
+            "value": "9789819562527",
+            "type": "electronic"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2026-01-01T00:00:00Z",
+              "timestamp": 1767225600000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2026-01-01T00:00:00Z",
+              "timestamp": 1767225600000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-981-95-6252-7_57",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              11
+            ]
+          ],
+          "date-time": "2026-02-11T11:43:48Z",
+          "timestamp": 1770810228000
+        },
+        "page": "618-626",
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Cross-Modal Adversarial Patch Attack Based on Class Activation Maps"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0000-6461-8457",
+            "authenticated-orcid": false,
+            "given": "Yaokang",
+            "family": "Liu",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1264-2812",
+            "authenticated-orcid": false,
+            "given": "Tiecheng",
+            "family": "Song",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Tao",
+            "family": "He",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Zhujun",
+            "family": "Lan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Qingyu",
+            "family": "Liang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              12
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "57_CR1",
+            "unstructured": "Szegedy, C., Zaremba, W., Sutskever, I., et al.: Intriguing properties of neural networks. arXiv preprint arXiv:1312.6199 (2013)"
+          },
+          {
+            "key": "57_CR2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.neucom.2023.126923",
+            "volume": "564",
+            "author": "X Zhu",
+            "year": "2024",
+            "unstructured": "Zhu, X., Li, X., Li, J., et al.: Hiding from thermal imaging pedestrian detectors in the physical world. Neurocomputing 564, 126923 (2024)",
+            "journal-title": "Neurocomputing"
+          },
+          {
+            "key": "57_CR3",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Wei, X., Huang, Y., Sun, Y., et al.: Unified adversarial patch for cross-modal attacks in the physical world. In: Proceedings of the IEEE/CVF International Conference on Computer Vision, pp. 4445–4454 (2023)",
+            "DOI": "10.1109/ICCV51070.2023.00410"
+          },
+          {
+            "key": "57_CR4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.asoc.2025.112818",
+            "volume": "171",
+            "author": "C Hu",
+            "year": "2025",
+            "unstructured": "Hu, C., Shi, W., Yao, W., et al.: Two-stage optimized unified adversarial patch for attacking visible-infrared cross-modal detectors in the physical world. Appl. Soft Comput. 171, 112818 (2025)",
+            "journal-title": "Appl. Soft Comput."
+          },
+          {
+            "key": "57_CR5",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Zhou, B., Khosla, A., Lapedriza, A., et al.: Learning deep features for discriminative localization. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 2921–2929 (2016)",
+            "DOI": "10.1109/CVPR.2016.319"
+          },
+          {
+            "key": "57_CR6",
+            "unstructured": "Kurakin, A., Goodfellow, I., Bengio, S.: Adversarial machine learning at scale. arXiv preprint arXiv:1611.01236 (2016)"
+          },
+          {
+            "key": "57_CR7",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Thys, S., Van Ranst, W., Goedemé, T.: Fooling automated surveillance cameras: adversarial patches to attack person detection. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 49–55 (2019)",
+            "DOI": "10.1109/CVPRW.2019.00012"
+          },
+          {
+            "key": "57_CR8",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Xiao, Z., Gao, X., Fu, C., et al.: Improving transferability of adversarial patches on face recognition with generative models. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 11845–11854 (2021)",
+            "DOI": "10.1109/CVPR46437.2021.01167"
+          },
+          {
+            "key": "57_CR9",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Zhu, X., Li, X., Li, J., et al.: Fooling thermal infrared pedestrian detectors in real world using small bulbs. In: Proceedings of the AAAI Conference on Artificial Intelligence, pp. 3616–3624 (2021)",
+            "DOI": "10.1609/aaai.v35i4.16477"
+          },
+          {
+            "key": "57_CR10",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Tiliwalidi, K., Hu, C., Shi, W.: Multi-view black-box physical attacks on infrared pedestrian detectors using adversarial infrared grid. arXiv preprint arXiv:2407.01168 (2024)",
+            "DOI": "10.1016/j.asoc.2025.112981"
+          },
+          {
+            "key": "57_CR11",
+            "unstructured": "Kotyan, S., Vargas, D.V.: Deep neural network loses attention to adversarial images. arXiv preprint arXiv:2106.05657 (2021)"
+          },
+          {
+            "issue": "2",
+            "key": "57_CR12",
+            "doi-asserted-by": "publisher",
+            "first-page": "88",
+            "DOI": "10.3390/systems13020088",
+            "volume": "13",
+            "author": "JH Sim",
+            "year": "2025",
+            "unstructured": "Sim, J.H., Song, H.M.: A generalized framework for adversarial attack detection and prevention using Grad-CAM and clustering techniques. Systems 13(2), 88 (2025)",
+            "journal-title": "Systems"
+          },
+          {
+            "key": "57_CR13",
+            "doi-asserted-by": "publisher",
+            "first-page": "275",
+            "DOI": "10.1016/j.patrec.2021.10.024",
+            "volume": "152",
+            "author": "P Xia",
+            "year": "2021",
+            "unstructured": "Xia, P., Niu, H., Li, Z., et al.: On the receptive field misalignment in CAM-based visual explanations. Pattern Recogn. Lett. 152, 275–282 (2021)",
+            "journal-title": "Pattern Recogn. Lett."
+          },
+          {
+            "key": "57_CR14",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Jia, X., Zhu, C., Li, M., et al.: LLVIP: a visible-infrared paired dataset for low-light vision. In: Proceedings of the IEEE/CVF International Conference on Computer Vision, pp. 3496–3504 (2021)",
+            "DOI": "10.1109/ICCVW54120.2021.00389"
+          },
+          {
+            "key": "57_CR15",
+            "unstructured": "Redmon, J., Farhadi, A.: Yolov3: an incremental improvement. arXiv preprint arXiv:1804.02767 (2018)"
+          },
+          {
+            "key": "57_CR16",
+            "unstructured": "Jocher, G., et al.: YOLOv5 (2021). https://github.com/ultralytics/yolov5"
+          },
+          {
+            "key": "57_CR17",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Wang, A., Chen, H., Liu, L., et al.: Yolov10: real-time end-to-end object detection. In: Advances in Neural Information Processing Systems, vol. 37, pp. 107984–108011 (2024)",
+            "DOI": "10.52202/079017-3429"
+          },
+          {
+            "key": "57_CR18",
+            "unstructured": "Ren, S., He, K., Girshick, R., Sun, J.: Faster R-CNN: towards real-time object detection with region proposal networks. In: Advances in Neural Information Processing Systems (2015)"
+          },
+          {
+            "key": "57_CR19",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Tan, M., Pang, R., Le, Q.V.: EfficientDet: scalable and efficient object detection. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 10781–10790 (2020)",
+            "DOI": "10.1109/CVPR42600.2020.01079"
+          },
+          {
+            "key": "57_CR20",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Lin, T.Y., Goyal, P., Girshick, R., et al.: Focal loss for dense object detection. In: Proceedings of the IEEE International Conference on Computer Vision, pp. 2980–2988 (2017)",
+            "DOI": "10.1109/ICCV.2017.324"
+          }
+        ],
+        "container-title": [
+          "Lecture Notes in Electrical Engineering",
+          "Proceedings of International Conference on Image, Vision and Intelligent Systems 2025 (ICIVIS 2025)"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/978-981-95-6252-7_57",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              11
+            ]
+          ],
+          "date-time": "2026-02-11T11:43:53Z",
+          "timestamp": 1770810233000
+        },
+        "score": 30.680353,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/978-981-95-6252-7_57"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "ISBN": [
+          "9789819562510",
+          "9789819562527"
+        ],
+        "references-count": 20,
+        "URL": "https://doi.org/10.1007/978-981-95-6252-7_57",
+        "ISSN": [
+          "1876-1100",
+          "1876-1119"
+        ],
+        "issn-type": [
+          {
+            "value": "1876-1100",
+            "type": "print"
+          },
+          {
+            "value": "1876-1119",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "12 February 2026",
+            "order": 1,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ChapterHistory",
+              "label": "Chapter History"
+            }
+          },
+          {
+            "value": "ICIVIS",
+            "order": 1,
+            "name": "conference_acronym",
+            "label": "Conference Acronym",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "International Conference on Image, Vision and Intelligent Systems",
+            "order": 2,
+            "name": "conference_name",
+            "label": "Conference Name",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "Hangzhou",
+            "order": 3,
+            "name": "conference_city",
+            "label": "Conference City",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "China",
+            "order": 4,
+            "name": "conference_country",
+            "label": "Conference Country",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "2025",
+            "order": 5,
+            "name": "conference_year",
+            "label": "Conference Year",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "23 May 2025",
+            "order": 7,
+            "name": "conference_start_date",
+            "label": "Conference Start Date",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "25 May 2025",
+            "order": 8,
+            "name": "conference_end_date",
+            "label": "Conference End Date",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "5th",
+            "order": 9,
+            "name": "conference_number",
+            "label": "Conference Number",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "icivis2025",
+            "order": 10,
+            "name": "conference_id",
+            "label": "Conference ID",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "http://www.icivis.net/",
+            "order": 11,
+            "name": "conference_url",
+            "label": "Conference URL",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          }
+        ]
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              21
+            ]
+          ],
+          "date-time": "2025-02-21T05:31:48Z",
+          "timestamp": 1740115908234,
+          "version": "3.37.3"
+        },
+        "reference-count": 7,
+        "publisher": "IEEE",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  12,
+                  19
+                ]
+              ],
+              "date-time": "2024-12-19T00:00:00Z",
+              "timestamp": 1734566400000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  12,
+                  19
+                ]
+              ],
+              "date-time": "2024-12-19T00:00:00Z",
+              "timestamp": 1734566400000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              19
+            ]
+          ]
+        },
+        "DOI": "10.1109/buildsec64048.2024.00012",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              12
+            ]
+          ],
+          "date-time": "2025-02-12T18:18:18Z",
+          "timestamp": 1739384298000
+        },
+        "page": "24-27",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Patch-based Adversarial Attack against DNNs"
+        ],
+        "prefix": "10.1109",
+        "author": [
+          {
+            "given": "Nemichand",
+            "family": "Rinwa",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Indian Institute of Technology Patna, Bihta,Patna,India"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Harsh",
+            "family": "Kasyap",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Indian Institute of Technology Patna, Bihta,Patna,India"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Somanath",
+            "family": "Tripathy",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Indian Institute of Technology Patna, Bihta,Patna,India"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.5555/2999134.2999257"
+          },
+          {
+            "article-title": "Explaining and harnessing adversarial examples",
+            "year": "2015",
+            "author": "Goodfellow",
+            "key": "ref2"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TEVC.2019.2890858"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1201/9781351251389-8"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TIFS.2022.3198857"
+          },
+          {
+            "article-title": "Adversarial patch",
+            "year": "2017",
+            "author": "Brown",
+            "key": "ref6"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-030-58604-1_19"
+          }
+        ],
+        "event": {
+          "name": "2024 Conference on Building a Secure &amp; Empowered Cyberspace (BuildSEC)",
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                12,
+                19
+              ]
+            ]
+          },
+          "location": "Delhi, India",
+          "end": {
+            "date-parts": [
+              [
+                2024,
+                12,
+                20
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "2024 Conference on Building a Secure &amp;amp; Empowered Cyberspace (BuildSEC)"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/10874138/10874224/10874326.pdf?arnumber=10874326",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              20
+            ]
+          ],
+          "date-time": "2025-02-20T19:55:02Z",
+          "timestamp": 1740081302000
+        },
+        "score": 29.247293,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/10874326/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              19
+            ]
+          ]
+        },
+        "references-count": 7,
+        "URL": "https://doi.org/10.1109/buildsec64048.2024.00012",
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              19
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 3,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

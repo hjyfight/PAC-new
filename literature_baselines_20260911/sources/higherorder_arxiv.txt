@@ -1,0 +1,1430 @@
+Higher-Order Adversarial Patches for Real-Time Object Detectors
+Report GitHub Issue
+×
+Title:
+Content selection saved. Describe the issue below:
+Description:
+Submit without GitHub
+Submit in GitHub
+arXiv is now an independent nonprofit!
+Learn more
+×
+Back to arXiv
+Why HTML?
+Report Issue
+Back to Abstract
+Download PDF
+Abstract
+1
+Introduction
+2
+Related Work
+3
+A Cat-and-Mouse Game
+3.1
+Adversarial Patches
+3.2
+Adversarial Training
+3.3
+Higher Order Patches
+4
+Experimental Setup
+4.1
+Conducted Experiments
+4.2
+Datasets
+4.3
+Object Detectors
+4.4
+Adversarial Patch Optimization
+4.5
+Adversarial Training
+5
+Evaluation
+5.1
+Baseline
+5.2
+Cat-and-Mouse-Game
+5.3
+Transferability
+5.4
+Discussion
+6
+Conclusion
+6.1
+Future Work
+References
+License: arXiv.org perpetual non-exclusive license
+arXiv:2601.04991v1 [cs.CV] 08 Jan 2026
+Higher-Order Adversarial Patches for Real-Time Object Detectors
+Jens Bayer
+Affiliation:
+Fraunhofer IOSB and Fraunhofer Center for Machine Learning
+Stefan Becker
+David Münch
+Michael Arens
+Jürgen Beyerer
+Affiliation:
+Fraunhofer IOSB and Fraunhofer Center for Machine Learning
+Affiliation:
+Karlsruhe Institute of Technology
+Abstract
+Higher-order adversarial attacks can directly be considered the result of a
+cat-and-mouse game – an elaborate action involving constant pursuit, near
+captures, and repeated escapes. This idiom describes the enduring circular
+training of adversarial attack patterns and adversarial training the best. The
+following work investigates the impact of higher-order adversarial attacks on
+object detectors by successively training attack patterns and hardening object
+detectors with adversarial training. The YOLOv10 object detector is chosen as a
+representative, and adversarial patches are used in an evasion attack manner.
+Our results indicate that higher-order adversarial patches are not only
+affecting the object detector directly trained on but rather provide a
+stronger generalization capacity compared to lower-order adversarial patches.
+Moreover, the results highlight that solely adversarial training is not
+sufficient to harden an object detector efficiently against this kind of
+adversarial attack.
+Code:
+https://github.com/JensBayer/HigherOrder
+A Preprint
+Keywords
+Adversarial Attacks
+⋅
+\cdot
+Adversarial Training
+⋅
+\cdot
+Object Detection
+1
+Introduction
+Recently, machine learning has seen some remarkable advancements in various
+applications. However, the vulnerability to adversarial attacks, where carefully
+crafted inputs are used to deceive a model into making erroneous decisions,
+remains. Due to their potential in exploiting and compromising the security and
+reliability of deep neural networks, a critical area of studying these
+phenomena has emerged. In the context of physical world attacks against object
+detectors, adversarial patches are one of the simplest and most direct approaches
+to fool these systems. Securing the models against these kinds of attacks can be
+achieved naively by introducing examples of adversarial patterns during
+the training. This so-called adversarial training results in a hardened model,
+which is more secure against a 1st-order
+attack
+Goodfellow et al. (2015)
+;
+Madry et al. (2018)
+. When optimizing a patch on this
+hardened 1st-order network, a 2nd-order patch can be optimized. This iterative
+cat-and-mouse dynamic may be conducted multiple times (see
+Figure 1
+), potentially yielding more robust models and
+enhanced patches. However, the question arises: To what extent does repeated
+engagement in this dynamic contribute to the robustness of the models and the
+strength of the patches?
+Figure 1:
+Playing the cat-and-mouse game: The mouse (attacker) tries to
+hide from the cat (defender). By integrating hardened models and
+optimized attack patterns into the respective optimization processes,
+a cat-and-mouse dynamic emerges.
+This work (i) investigates the behavior of both the patches and models when
+playing the cat-and-mouse game with different parameterizations. (ii) The impact
+of higher-order patches is analyzed, and the performance of higher-order hardened
+networks is compared in an extensive evaluation. Moreover, (iii) the network
+and dataset transferability of the higher-order patches is examined.
+As a reference object detector, the YOLOv10b object detector is chosen. The
+patches are optimized in an evasion attack manner.
+The rest of this paper is organized as follows:
+Section
+2
+provides related work regarding adversarial attacks and
+adversarial training.
+Section
+3
+introduces our
+methodology for analyzing the patches. The experimental setup is given in
+section 4
+and results of the evaluation are presented in
+section 5
+. A conclusion and a summary of our findings and
+directions for future research are given in
+section 6
+.
+2
+Related Work
+As adversarial attacks in computer vision comprise several subtopics, the
+following section only covers a fraction of works that are directly connected.
+For a broader overview, the interested reader is referred to one of the
+following surveys
+Akhtar and Mian (2018)
+;
+Serban et al. (2020)
+;
+Chakraborty et al. (2021)
+;
+Wei et al. (2024)
+.
+Multiple works use the term
+order
+in relation to adversarial attacks,
+yet most are about using higher-order derivative
+information
+Bai et al. (2018)
+;
+Singla and Feizi (2020)
+;
+Peng et al. (2024)
+or low-order and high-order
+interactions
+Ren et al. (2021)
+.
+By the term order, we refer to the
+number of cycles the adversarial counterplay dynamic has been played
+(see
+Figure 1
+). Unfortunately, there are only a
+few
+Cai et al. (2018)
+;
+Lin and Liao (2024)
+;
+Zhang et al. (2022)
+other works that
+investigate such a successive and iterative adversarial attack.
+Curriculum adversarial training, as proposed by Cai
+et al
+.
+Cai et al. (2018)
+, iteratively increases the attack strength until
+an upper bound specified by the defender is reached. By doing so, they overcome
+overfitting against attacks and significantly improve recent state-of-the-art
+methods. They also state an attack generalization issue, where models trained
+with weaker attacks may not generalize to stronger attacks.
+Lin
+et al
+.
+Lin and Liao (2024)
+propose a successive perturbation generation scheme for
+adversarial training (SPGAT) which successively strengthens adversarial
+examples. Instead of generating adversarial examples from the original input in
+each training epoch, they generate the adversarial examples based on previous
+epochs. Moreover, they shift models across the training epochs to enhance the
+efficiency of adversarial training. By doing so, they harden an image
+classifier against different attack schemes and conditions.
+To boost the transferability of adversarial examples, Zhang
+et al
+.
+Zhang et al. (2022)
+propose successively attacking multiple high-accuracy
+models and adding modest adversarial perturbations progressively across these
+models to obtain adversarial examples targeting the standard vulnerable
+directions of the models.
+Contrary to the presented work, this study does not investigate adversarial
+examples attacking image classifiers but rather adversarial
+patches
+Brown et al. (2017)
+attacking real-time object detectors. As these patches
+can easily be used to attack object detectors in the physical
+world
+Thys et al. (2019)
+;
+Wu et al. (2020)
+;
+Wei et al. (2024)
+;
+Li et al. (2025)
+and provide a high network and
+dataset transferability
+Bayer et al. (2024)
+, they pose a threat for every
+non-hardened system.
+3
+A Cat-and-Mouse Game
+Wiktionary defines a cat-and-mouse game as a situation where two parties
+closely monitor and challenge one another in a suspicious or self-protective
+manner, often because each party is attempting to gain an advantage over the
+other
+Wiktionary (2025)
+. This basically describes the dynamic of an attacker
+that successively optimizes his strategy while a defender reacts and hardens his
+defense. To study this cat-and-mouse dynamic in real-time object detection,
+first the attackers tactic (adversarial patches) and then the defenders response
+(adversarial training) are analyzed.
+3.1
+Adversarial Patches
+When it comes to physical adversarial attacks against object detectors,
+adversarial patches with the goal to suppress a detection are one of the most
+practically feasible attacks
+Thys et al. (2019)
+;
+Li et al. (2025)
+;
+Wei et al. (2024)
+. In the investigated
+setting, the attackers objective is to reduce the detectors confidence for the
+selected class. Regarding the threat model, a white box scenario is
+investigated. For the main experiments, the attacker has full access to the
+models. The transferability study can be considered a gray box scenario, as no
+information about the target models besides the common training dataset is
+considered during patch optimization.
+To maintain realistic optimization conditions, the patch optimization process
+applies an augmentation pipeline (e.g., scale, rotation, viewpoint) before
+placing the patch inside of bounding boxes of objects of interest. The patches
+are optimized by freezing the detector weights, propagating altered images of a
+training dataset through the detector, and using the
+objectness
+score of
+instances of the target class as a loss term. In addition, a
+smoothness
+and
+validity
+loss is used to reduce high-frequency information and
+prevent
+“illegal”
+colors. The final optimization loss
+L
+=
+λ
+obj
+​
+L
+obj
++
+λ
+smt
+​
+L
+smt
++
+λ
+val
+​
+L
+val
+L=\lambda_{\text{obj}}L_{\text{obj}}+\lambda_{\text{smt}}L_{\text{smt}}+\lambda_{\text{val}}L_{\text{val}}
+(1)
+is the weighted sum of the objectness, smoothness, and validity loss.
+During evaluation, there is a probability of
+p
+box
+p_{\text{box}}
+that patches are
+applied to instances of the investigated object class and of
+p
+hal
+p_{\text{hal}}
+that
+they are hallucinated at a random position in the image to distract the
+detector and punish overfitting. The patches are resized according to the
+shorter side of the respective bounding box and placed in the center of it.
+3.2
+Adversarial Training
+The defenders response in the cat-and-mouse game is adversarial training: the
+detector is optimized to perform well even under worst-case patch overlays.
+Patch-aware training is used in such a way that each ground-truth bounding box
+instance of objects of interest in the training dataset has a certain
+probability
+π
+\pi
+to contain an adversarial patch at a random position. The
+probability is a crucial parameter, as a value that is too high would lead to a
+detector, that assumes that the patch is a crucial part of the object of
+interest, causing a higher false positive rate. If the probability is too low,
+the desired effect of the robustness of the system against these patterns is not
+given.
+3.3
+Higher Order Patches
+Playing the cat-and-mouse game results in higher-order adversarial patches,
+which are the evolution in attack strategies designed to counteract defenses
+introduced by adversarial training. While traditional (1st-order) adversarial
+patches are optimized to deceive a standard (0th-order) object detector,
+(n+1)-th-order adversarial patches are crafted to bypass (n-th-order)
+detectors that have been hardened against such attacks through adversarial
+training.
+The optimization process for higher-order patches involves two sequential
+optimization processes: while the defenders model is adversarially trained
+using current estimates of the adversarial patch, the attacker optimizes
+patches to maximize its impact on the newly hardened model (see
+Figure 1
+).
+4
+Experimental Setup
+4.1
+Conducted Experiments
+There are two key factors in adversarial training that are investigated in the
+following experiments: the number of patches used and whether to include patches
+from all previous orders during training. These factors are combined and result
+in four distinct experimental settings:
+k=1 patch optimized, non-successive training:
+The n-th order
+model is exposed to the latest single n-th order patch. A single new
+patch (k=1) is optimized each order.
+k=1 patch optimized, successive training:
+The n-th order
+model is exposed to all (
+≤
+n
+\leq n
+)-th order patches. A single new patch
+(k=1) is optimized each order.
+k=3 patches optimized, non-successive training:
+The
+n-th order model is exposed to all n-th order patches. Multiple new
+patches (k=3) are optimized each order.
+k=3 patches optimized, successive training:
+The
+n-th order model is exposed to all (
+≤
+n
+\leq n
+)-th order patches. Multiple
+new patches (k=3) are optimized each order.
+Additionally, the optimized patches of these four experiments are evaluated in a
+transferability study, where they are used to attack other detectors of the YOLO
+family.
+4.2
+Datasets
+The class of objects of interest for the experiments is
+Person
+. To train
+the object detectors, COCO
+Lin et al. (2014)
+is used, as it is an established
+benchmark dataset and most detectors are pre-trained on it. Furthermore, by far
+the largest number of objects in COCO are persons; thus, the dataset provides a
+good foundation. As COCO test-dev does not provide ground-truth annotations,
+COCO
+val2017
+is used as an evaluation split. Throughout the rest of the
+paper, the evaluation set refers to
+val2017
+.
+In addition to COCO, a much smaller person-centered dataset is used:
+INRIA
+Person
+Dalal and Triggs (2005)
+. The dataset consists of images depicting persons in
+different environments. To optimize adversarial patches, the train split of the
+positive image set is used.
+4.3
+Object Detectors
+If not stated otherwise, all experiments use the YOLOv10b object detector
+provided by Ultralytics
+Jocher et al. (2023)
+. To enable adversarial training, the
+augmentation pipeline has been modified slightly: after loading an image, a
+random patch of the set of available patches is selected and applied inside
+bounding boxes of interest.
+To enable the patch optimization, some minor mandatory changes during the
+inference phase have also been made. Moreover, as YOLOv10 no longer has an
+objectness score, the pre-sigmoid prediction confidences of objects of interest
+of both detector heads (one-to-one and one-to-many) are used instead.
+4.4
+Adversarial Patch Optimization
+All optimized patches have a resolution of
+256
+×
+256
+256\times 256
+px and are initialized
+with random values in
+[
+0
+,
+1
+]
+3
+[0,1]^{3}
+. They are optimized in an evasion attack manner
+over 150 epochs using AdamW with an initial learning rate of 0.01 and a
+reduction of the learning rate every 50 epochs by a factor of 10. The
+augmentation pipeline applied to the patches consists of a random color jitter,
+followed by a random rotation in
+[
+−
+30
+∘
+,
+30
+∘
+]
+[-30^{\circ},30^{\circ}]
+and a random perspective
+transformation. The augmented patch is then randomly resized to match the
+smaller size of the corresponding bounding box by a factor of
+[
+0.3
+,
+0.6
+]
+[0.3,0.6]
+. The
+patches are optimized using
+INRIAPerson
+as a training dataset and use
+Person
+as the target class.
+4.5
+Adversarial Training
+The adversarial training procedure is based on the regular training script
+provided in the
+Ultralytics
+repository
+Jocher et al. (2023)
+. An additional
+augmentation step after the images are loaded is added: the images are
+propagated through a patch applier that modifies an image by placing an
+adversarial patch in the image at a random position inside the ground-truth
+bounding box with a probability of
+π
+=
+0.25
+\pi=0.25
+. Unlike during patch training, the
+patches are not augmented but rather only resized randomly to match the smaller
+size of the corresponding bounding box by a factor of
+[
+0.75
+,
+0.9
+]
+[0.75,0.9]
+.
+The patch application happens before mosaicing and any other augmentations.
+Each model is optimized with AdamW over 100 epochs using the COCO training
+split and the default hyperparameters presented by Ultralytics.
+5
+Evaluation
+The performance of the detectors is measured using the mean average precision
+(mAP) with multiple intersection over union (IoU) thresholds
+Lin et al. (2014)
+.
+Since we focus solely on the
+Person
+class, the class mean collapses to
+the class average precision; consequently, the AP
+Person@[.5:.95]
+{}_{\text{Person@[.5:.95]}}
+(AP)
+is reported.
+With a probability of
+p
+b
+​
+o
+​
+x
+=
+0.5
+p_{box}=0.5
+, an optimized patch is placed at the center
+of ground-truth bounding boxes in images of the evaluation set. Additionally,
+there is a chance of
+p
+h
+​
+a
+​
+l
+=
+0.5
+p_{hal}=0.5
+that the same patch is hallucinated and
+placed at random positions in the image. To ensure a reproducible evaluation, a
+fixed random seed is used. This way, images of different evaluations only differ
+in the content of applied patches.
+The patches are resized to match 50% of the shorter side of the respective
+bounding box. This way, the patches have a strong effect without completely
+covering a
+Person
+instance. In addition to the 50% resize factor, the
+appendix also covers results for resize factors of 25% and 75%.
+5.1
+Baseline
+The first step is to produce reference points for the object detectors. Towards
+this, the performance of each trained detector is investigated on the evaluation
+set when no patches are present. As presented in
+Table 1
+the
+detector performs slightly worse when grayscale patches are applied compared to
+the clean evaluation set. This is expected behavior, as the introduced
+occlusion of objects usually leads to a small performance drop.
+Successive
+k
+n
+AP
+clean
+{}_{\text{clean}}
+AP
+Grayscale
+{}_{\text{Grayscale}}
+✗
+1
+0
+0.59
+0.52
+✗
+1
+1
+0.58
+0.52
+✗
+1
+2
+0.58
+0.52
+✗
+1
+3
+0.58
+0.52
+✗
+1
+4
+0.58
+0.52
+✗
+1
+5
+0.59
+0.52
+Successive
+k
+n
+AP
+clean
+{}_{\text{clean}}
+AP
+Grayscale
+{}_{\text{Grayscale}}
+✗
+3
+0
+0.59
+0.52
+✗
+3
+1
+0.58
+0.54
+✗
+3
+2
+0.58
+0.53
+✗
+3
+3
+0.58
+0.53
+✗
+3
+4
+0.58
+0.54
+✗
+3
+5
+0.58
+0.53
+Successive
+k
+n
+AP
+clean
+{}_{\text{clean}}
+AP
+Grayscale
+{}_{\text{Grayscale}}
+✓
+1
+0
+0.59
+0.52
+✓
+1
+1
+0.58
+0.54
+✓
+1
+2
+0.58
+0.54
+✓
+1
+3
+0.58
+0.54
+✓
+1
+4
+0.58
+0.54
+✓
+1
+5
+0.58
+0.54
+Successive
+k
+n
+AP
+clean
+{}_{\text{clean}}
+AP
+Grayscale
+{}_{\text{Grayscale}}
+✓
+3
+0
+0.59
+0.52
+✓
+3
+1
+0.58
+0.54
+✓
+3
+2
+0.58
+0.54
+✓
+3
+3
+0.58
+0.54
+✓
+3
+4
+0.58
+0.54
+✓
+3
+5
+0.58
+0.54
+Table 1:
+Baseline detector performance where AP
+clean
+{}_{\text{clean}}
+is the
+performance of the detector on the evaluation set when no patches are
+present and AP
+Grayscale
+{}_{\text{Grayscale}}
+when 11 different grayscale levels are
+used instead of patches. The standard deviations for
+AP
+Grayscale
+{}_{\text{Grayscale}}
+are omitted, as they are below 0.01.
+5.2
+Cat-and-Mouse-Game
+The results of the main experiment are given in
+Figure 2
+.
+Each subplot corresponds to one experiment.
+Non-Successive (k=1)
+and
+Non-Successive (k=3)
+are the experiments where the lower-order patches
+are not included in adversarial training.
+Successive (k=1)
+and
+Successive (k=3)
+, on the other hand, include all previous lower-order
+patches in the adversarial training.
+Each column of a heatmap corresponds to a different order of tested adversarial
+patches, while each row is related to the order of the evaluated network.
+The shade of each cell encodes the achieved AP of a network for a set
+of 4 validation patches. These patches are optimized with the same parameters
+utilizing the same detectors as the corresponding train patches but are not
+included during adversarial training. The separated rows and columns labeled
+μ
+\mu
+are the arithmetic mean of the corresponding columns and rows.
+Non-Successive (k=1)
+is the simplest case where only a single patch is
+used for adversarial training. The resulting plot shows a comparable bad
+performance regardless of the patch order or model order. The highest
+Δ
+\Delta
+AP
+is at 0.16, while the mean is at
+0.10
+±
+0.06
+0.10\pm 0.06
+. As expected, all adversarial
+trained models perform better than the regular trained model when attacked with
+a 1st-order patch. Moreover, higher-order patches have on average a much
+higher impact on the detector performances than 1st-order patches.
+The benefit of including additional patches during adversarial training is
+presented in experiment
+Non-Successive (k=3)
+. The performance of
+higher-order models when attacked with higher-order patches improves. In
+addition, the main diagonal becomes visible, indicating that the adversarial
+training improves the performance of the networks when attacking with lower
+adversarial patches. Yet, this is only true for networks with an order equal to
+one plus the current patch order. For patches of order 1, 2, 3, and 4, models
+of order 2, 3, 4, and 5 perform worse than models of order 1, 2, 3, and 4. This
+suggests that there is no sufficient patch diversity present.
+Consequently, the
+Successive (k=1)
+and
+Successive (k=3)
+experiments are conducted, where all previously optimized patches are included
+in the current adversarial training. The results for
+Successive (k=1)
+and
+Successive (k=3)
+are quite similar: As expected, higher-order networks
+profit from including previous patches. The observed insufficient patch
+diversity as in
+Non-Successive (k=3)
+is no longer present.
+Interestingly, the overall performance of the networks in
+Successive (k=3)
+is higher compared to
+Successive (k=1)
+even for
+the lower-order networks, which could be due to either more robust networks or
+less impactful patches. The conducted transferability study gives a hint on how
+to interpret this observation.
+Depending on the experimental setup, a clear trend or prediction on how even
+higher-order patches would perform is hardly possible. However, a cautious
+prediction can be made: there is a certain trend that higher-order models,
+regardless of the setup, have a higher AP, averaged over the different patch
+orders. Higher-order patches in the
+Non-Successive
+cases do not seem to
+lower the AP on average at all, while in the
+Successive
+cases, a
+“wavy”
+downward trend becomes visible.
+Figure 2:
+Heatmap of the performance of higher-order patches and
+higher-order networks on the evaluation set. The columns represent the
+order of the tested adversarial patches, while the rows indicate the
+order of the evaluated network. The shade of each cell encodes the
+arithmetic mean of the achieved
+Δ
+​
+AP
+=
+A
+​
+P
+Grayscale
+−
+A
+​
+P
+\Delta\text{AP}=AP_{\text{Grayscale}}-AP
+of a network for a set of 4 validation patches.
+μ
+\mu
+is the row-
+and columnwise arithmetic mean.
+5.3
+Transferability
+Regarding the transferability of the optimized higher-order patches,
+Figure 3
+shows the aggregated performance of the
+investigated 21 COCO-pretrained object detectors
+(YOLOv9/10/11/12)
+Wang et al. (2024b)
+;
+Wang et al. (2024a)
+;
+Jocher and Qiu (2024)
+;
+Tian et al. (2025)
+.
+Each bar shows the mean performance for the corresponding validation patches of
+the given order. In addition, the standard deviation for each bar and the
+average clean and grayscale performance are given.
+All investigated models are of order 0 and are thus not hardened against
+adversarial patches. Again, the mentioned
+“wavy”
+downward trend in the
+Successive
+cases becomes visible. In addition, the question whether the
+patches in
+Successive(k=3)
+become less impactful can be answered.
+Compared to
+Successive(k=1)
+, the AP for patches of order 3, 4, and 6 is
+lower and thus reinforces the assumption of a decrease in patch performance. A
+similar observation can be made in the
+Non-Successive
+cases: a slightly
+upward trend for k=1 and a strong upward trend for k=3 become visible. A
+possible reason for this behavior could be that the internal activations of
+lower-order models are more similar to the investigated 0th-order models. Yet,
+the impact of 2nd-order patches for the
+Non-Successive
+case is
+significantly higher than the 1st-order patches.
+Figure 3:
+Results of the transferability study. Each bar shows the mean
+performance of 21 detectors for the corresponding patches of the given
+order. In addition, the standard deviation is given.
+5.4
+Discussion
+While the presented results provide an insight into the performance of higher-order
+patches and models, the results should be treated with caution. We do not cover
+and consider the impact of the distribution shift caused by different
+parameterization in model hardening and patch optimization, such as models
+trained and evaluated with COCO while the patches are optimized using
+INRIAPerson
+or different resize ranges. A change in the patch
+parameterization, such as the resize range, initial learning rate, number of
+epochs, or the optimizer, could also lead to stronger patches. Moreover, the
+experiments are solely conducted on the
+Person
+class, while the detectors
+are trained regularly using the complete 80 COCO classes. Nevertheless, the focus of the
+presented study is not to find optimal parameters but rather to get a more
+profound understanding of adversarial patches by an initial attempt at playing
+the cat-and-mouse game.
+A problem we experienced with the presented large-scale evaluation of
+adversarial patches is that the optimization of a single patch takes a
+comparably large amount of time (about 3.5 h with an Nvidia RTX4090 and an
+Intel i9-7980XE CPU). This is a result of a technical limitation in our current
+optimization strategy, which does not seem to improve in the near future. As a
+result, investigating even more higher-order adversarial patches and therefore
+indicating a clear trend of the patch performance could only be achieved with a
+reduced input dimensionality.
+6
+Conclusion
+The presented work investigates higher-order adversarial patches for real-time
+object detection. Higher-order patches are the result of successive optimizing
+adversarial patches and harden the object detector in a cat-and-mouse game
+manner. As a representative object detector, the extensive evaluation uses the
+popular YOLOv10 detector. Four different experiments are conducted to
+investigate two key factors: including previously used adversarial patches in
+the current adversarial training and the impact of using multiple adversarial
+patches compared to a single patch. The results indicate that higher-order
+adversarial patches have a stronger impact on the detector performance than
+1st-order adversarial patches. Moreover, higher-order detectors perform better
+than lower-order ones. Yet, the performance of the hardened models when
+attacked with even higher-order patches is only partly restored to the
+grayscale-patched and clean performance of the networks, supporting the thesis of
+an attack generalization issue in object detection similar to the one mentioned
+by Cai
+et al
+.
+Cai et al. (2018)
+in image classification.
+6.1
+Future Work
+Future work should investigate even more higher-order adversarial patches, check
+if there is a clear trend, and try to answer the question of whether the
+cat-and-mouse game converges or diverges. If there is an indication of
+accumulation points, then these should be used to enhance the hardening of
+object detectors and perhaps neural networks in general against adversarial
+attacks.
+References
+Akhtar and Mian (2018)
+N. Akhtar and A. Mian
+Threat of Adversarial Attacks on Deep Learning in Computer Vision: A Survey
+.
+IEEE Access
+6
+,
+pp. 14410–14430
+.
+External Links:
+Document
+,
+1801.00553
+,
+ISSN 2169-3536
+Cited by:
+§2
+.
+Bai
+et al.
+(2018)
+L. Bai, C. Changyou, W. Wang, and L. Carin
+Second-Order Adversarial Attack and Certifiable Robustness
+.
+(
+2017
+),
+pp. 1–14
+.
+External Links:
+arXiv:1809.03113v1
+Cited by:
+§2
+.
+Bayer
+et al.
+(2024)
+J. Bayer, S. Becker, D. Münch, and M. Arens
+Network transferability of adversarial patches in real-time object detection
+.
+In
+Artificial Intelligence for Security and Defence Applications II
+,
+Vol.
+13206
+,
+pp. 132060X
+.
+External Links:
+Document
+,
+Link
+Cited by:
+§2
+.
+Brown
+et al.
+(2017)
+T. B. Brown, D. Mane, R. Aurko, M. Abadi, and J. Gilmer
+Adversarial patch
+.
+In
+31st Conference on Neural Information Processing Systems (NIPS 2017)
+,
+Cited by:
+§2
+.
+Cai
+et al.
+(2018)
+Q. Cai, C. Liu, and D. Song
+Curriculum adversarial training
+.
+In
+Proceedings of the Twenty-Seventh International Joint Conference on Artificial Intelligence
+,
+pp. 3740–3747
+.
+Cited by:
+§2
+,
+§2
+,
+§6
+.
+Chakraborty
+et al.
+(2021)
+A. Chakraborty, M. Alam, V. Dey, A. Chattopadhyay, and D. Mukhopadhyay
+A survey on adversarial attacks and defences
+.
+CAAI Trans. Intell. Technol.
+6
+(
+1
+),
+pp. 25–45
+.
+External Links:
+Document
+,
+ISSN 24682322
+Cited by:
+§2
+.
+Dalal and Triggs (2005)
+N. Dalal and B. Triggs
+Histograms of Oriented Gradients for Human Detection
+.
+In
+CVPR
+,
+Vol.
+1
+,
+pp. 886–893
+.
+External Links:
+Document
+,
+ISBN 0-7695-2372-2
+,
+ISSN 2313433X
+Cited by:
+§4.2
+.
+Goodfellow
+et al.
+(2015)
+I. J. Goodfellow, J. Shlens, and C. Szegedy
+Explaining and harnessing adversarial examples
+.
+3rd International Conference on Learning Representations, ICLR 2015 - Conference Track Proceedings
+,
+pp. 1–11
+.
+External Links:
+1412.6572
+Cited by:
+§1
+.
+Jocher
+et al.
+(2023)
+Ultralytics YOLO
+External Links:
+Link
+Cited by:
+§4.3
+,
+§4.5
+.
+Jocher and Qiu (2024)
+Ultralytics yolo11
+External Links:
+Link
+Cited by:
+§5.3
+.
+Li
+et al.
+(2025)
+Y. Li, K. Liang, and B. Xiao
+UV-Attack: Physical-World Adversarial Attacks on Person Detection via Dynamic-NeRF-based UV Mapping
+.
+In
+ICLR 2025
+,
+Cited by:
+§2
+,
+§3.1
+.
+Lin
+et al.
+(2014)
+T. Y. Lin, M. Maire, S. Belongie, J. Hays, P. Perona, D. Ramanan, P. Dollár, and C. L. Zitnick
+Microsoft COCO: Common objects in context
+.
+Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+8693 LNCS
+(
+PART 5
+),
+pp. 740–755
+.
+External Links:
+Document
+,
+1405.0312
+,
+ISSN 16113349
+Cited by:
+§4.2
+,
+§5
+.
+Lin and Liao (2024)
+W. Lin and L. Liao
+Towards sustainable adversarial training with successive perturbation generation
+.
+Front. Inf. Technol. Electron. Eng.
+25
+(
+4
+),
+pp. 527–539
+.
+External Links:
+Document
+,
+ISSN 20959230
+Cited by:
+§2
+,
+§2
+.
+Madry
+et al.
+(2018)
+A. Madry, A. Makelov, L. Schmidt, D. Tsipras, and A. Vladu
+Towards deep learning models resistant to adversarial attacks
+.
+In
+International Conference on Learning Representations
+,
+External Links:
+Link
+Cited by:
+§1
+.
+Peng
+et al.
+(2024)
+A. Peng, G. Shi, Z. Lin, H. Zeng, and X. Yang
+Approximating High-order Adversarial Attacks Using Runge-Kutta Methods
+.
+Tsinghua Sci. Technol.
+.
+External Links:
+Document
+Cited by:
+§2
+.
+Ren
+et al.
+(2021)
+J. Ren, D. Zhang, Y. Wang, L. Chen, Z. Zhou, Y. Chen, X. Cheng, X. Wang, M. Zhou, J. Shi, and Q. Zhang
+A Unified Game-Theoretic Interpretation of Adversarial Robustness
+.
+Advances in Neural Information Processing Systems
+5
+(
+NeurIPS
+),
+pp. 3797–3810
+.
+External Links:
+2111.03536
+,
+ISBN 9781713845393
+,
+ISSN 10495258
+Cited by:
+§2
+.
+Serban
+et al.
+(2020)
+A. Serban, E. Poll, and J. Visser
+Adversarial Examples on Object Recognition: A Comprehensive Survey
+.
+ACM Comput. Surv.
+53
+(
+3
+).
+External Links:
+Document
+,
+2008.04094
+,
+ISSN 15577341
+Cited by:
+§2
+.
+Singla and Feizi (2020)
+S. Singla and S. Feizi
+Second-order provable defenses against adversarial attacks
+.
+37th International Conference on Machine Learning, ICML 2020
+PartF16814
+,
+pp. 8928–8938
+.
+External Links:
+2006.00731
+,
+ISBN 9781713821120
+Cited by:
+§2
+.
+Thys
+et al.
+(2019)
+S. Thys, W. V. Ranst, and T. Goedeme
+Fooling automated surveillance cameras: Adversarial patches to attack person detection
+.
+CVPR Workshops
+2019-June
+,
+pp. 49–55
+.
+External Links:
+Document
+,
+1904.08653
+,
+ISBN 9781728125060
+,
+ISSN 21607516
+Cited by:
+§2
+,
+§3.1
+.
+Tian
+et al.
+(2025)
+Y. Tian, Q. Ye, and D. Doermann
+Yolov12: attention-centric real-time object detectors
+.
+arXiv preprint arXiv:2502.12524
+.
+Cited by:
+§5.3
+.
+Wang
+et al.
+(2024a)
+A. Wang, H. Chen, L. Liu, K. Chen, Z. Lin, J. Han,
+et al.
+Yolov10: real-time end-to-end object detection
+.
+Advances in Neural Information Processing Systems
+37
+,
+pp. 107984–108011
+.
+Cited by:
+§5.3
+.
+Wang
+et al.
+(2024b)
+C. Wang, I. Yeh, and H. Mark Liao
+Yolov9: learning what you want to learn using programmable gradient information
+.
+In
+European conference on computer vision
+,
+pp. 1–21
+.
+Cited by:
+§5.3
+.
+Wei
+et al.
+(2024)
+H. Wei, H. Tang, X. Jia, Z. Wang, H. Yu, Z. Li, S. Satoh, L. Van Gool, and Z. Wang
+Physical Adversarial Attack Meets Computer Vision: A Decade Survey
+.
+IEEE Trans. Pattern Anal. Mach. Intell.
+46
+(
+12
+),
+pp. 9797–9817
+.
+External Links:
+Document
+,
+2209.15179
+,
+ISSN 19393539
+Cited by:
+§2
+,
+§2
+,
+§3.1
+.
+Wiktionary (2025)
+Wiktionary
+Cat and mouse — wiktionary, the free dictionary
+.
+Note:
+[Online; accessed 2-December-2025]
+External Links:
+Link
+Cited by:
+§3
+.
+Wu
+et al.
+(2020)
+Z. Wu, S. N. Lim, L. S. Davis, and T. Goldstein
+Making an Invisibility Cloak: Real World Adversarial Attacks on Object Detectors
+.
+Lect. Notes Comput. Sci.
+12349 LNCS
+,
+pp. 1–17
+.
+External Links:
+Document
+,
+1910.14667
+,
+ISBN 9783030585471
+,
+ISSN 16113349
+Cited by:
+§2
+.
+Zhang
+et al.
+(2022)
+X. Zhang, W. Zhang, L. Liu, Y. Wang, L. Gao, and S. Zhang
+Enhancing Transferability of Adversarial Examples by Successively Attacking Multiple Models
+.
+SSRN Electron. J.
+25
+(
+2
+),
+pp. 306–316
+.
+External Links:
+Document
+Cited by:
+§2
+,
+§2
+.
+Experimental support, please
+view the build logs
+for errors. Generated by
+L
+A
+T
+E
+xml
+.
+Instructions for reporting errors
+We are continuing to improve HTML versions of papers, and your feedback helps enhance accessibility and mobile
+      support. To report errors in the HTML that will help us improve conversion and rendering, choose any of the
+      methods listed below:
+Click the "Report Issue"
+(
+)
+button, located in the page header.
+Tip:
+You can select the relevant text first, to include it in your report.
+Our team has already identified
+the following issues
+. We appreciate your time reviewing and reporting rendering errors we
+      may not have found yet. Your efforts will help us improve the HTML versions for all readers, because disability
+      should not be a barrier to accessing research. Thank you for your continued support in championing open access for
+      all.
+Have a free development cycle? Help support accessibility at arXiv! Our collaborators at LaTeXML maintain a
+list of packages that need conversion
+, and welcome
+developer contributions
+.
+We gratefully acknowledge support from
+        our
+major funders
+,
+member institutions
+,
+,
+        and all contributors.
+About
+·
+Help
+·
+Contact
+·
+Subscribe
+·
+Copyright
+·
+Privacy
+·
+Accessibility
+·
+Operational Status
+(opens in new tab)
+Major funding support from

@@ -1,0 +1,23 @@
+{
+  "requested_epochs": 1000,
+  "completed_epochs": 1000,
+  "optimizer_steps": 77000,
+  "stop_reason": "epoch_limit",
+  "checkpoint_selection": "minimum epoch-mean training total loss",
+  "best_training_loss_epoch": 923,
+  "best_training_loss": 0.8368261959645655,
+  "early_stopping": false,
+  "detector": "yolov2",
+  "peak_cuda_reserved_mib": 4956.0,
+  "test_used_during_training": false,
+  "training_seconds": 5919.393609849038,
+  "method": "T-SEA (shared PAC protocol)",
+  "model_ensemble": [],
+  "tv_weight": 2.5,
+  "tv_floor": 0.1,
+  "nps_weight": 0,
+  "optimizer": "Adam AMSGrad",
+  "lr_schedule": "author ALRS (patience=10, decay=.97)",
+  "data_ensemble": "gate .5; flip .5; color jitter .1; rotation +/-5; transformed GT",
+  "patch_ensemble": "median7; jitter; clamp; batch-gated .9 cutout (side=.4, fill=.5); rotation +/-20"
+}

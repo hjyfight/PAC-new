@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "method": "nap",
+  "source": "fasterrcnn",
+  "epochs": 1000,
+  "attack_evaluations": 12,
+  "completed_utc": "2026-09-12T11:54:59.303237+00:00"
+}

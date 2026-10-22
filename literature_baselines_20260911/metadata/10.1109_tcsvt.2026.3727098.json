@@ -1,0 +1,432 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        8,
+        24
+      ]
+    ],
+    "date-time": "2026-08-24T19:26:27Z",
+    "timestamp": 1787599587899,
+    "version": "build-2736575974"
+  },
+  "reference-count": 0,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            1
+          ]
+        ],
+        "date-time": "2026-01-01T00:00:00Z",
+        "timestamp": 1767225600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            1
+          ]
+        ],
+        "date-time": "2026-01-01T00:00:00Z",
+        "timestamp": 1767225600000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-029"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            1
+          ]
+        ],
+        "date-time": "2026-01-01T00:00:00Z",
+        "timestamp": 1767225600000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-037"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100001809",
+      "name": "National Natural Science Foundation of China",
+      "doi-asserted-by": "crossref",
+      "award": [
+        "62406047"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "62406047"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001809",
+          "id-type": "DOI",
+          "asserted-by": "crossref"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100001809",
+      "name": "National Natural Science Foundation of China",
+      "doi-asserted-by": "crossref",
+      "award": [
+        "62172067"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "62172067"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001809",
+          "id-type": "DOI",
+          "asserted-by": "crossref"
+        }
+      ]
+    },
+    {
+      "name": "Natural Science Foundation of Chongqing for Distinguished Young Scholars",
+      "award": [
+        "CSTB2022NSCQ-JQX0001"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "CSTB2022NSCQ-JQX0001"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Science and Technology Research Program of Chongqing Municipal Education Commission",
+      "award": [
+        "KJQN202400608"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "KJQN202400608"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Special Grants for Postdoctoral Research Program of Chongqing",
+      "award": [
+        "2023CQBSHTB3160"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "2023CQBSHTB3160"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Natural Science Foundation of Chongqing for Innovation and Development Joint Foundation",
+      "award": [
+        "CSTB2024NSCQ-LMX0002"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "CSTB2024NSCQ-LMX0002"
+          ]
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "IEEE Trans. Circuits Syst. Video Technol."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2026
+      ]
+    ]
+  },
+  "DOI": "10.1109/tcsvt.2026.3727098",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2026,
+        8,
+        24
+      ]
+    ],
+    "date-time": "2026-08-24T19:10:09Z",
+    "timestamp": 1787598609000
+  },
+  "page": "1-1",
+  "source": "Crossref",
+  "is-referenced-by-count": 0,
+  "title": [
+    "Focus Matters: Advancing Adversarial Patch Transferability through Contextual Perception and Gradient-Prior Masking"
+  ],
+  "prefix": "10.1109",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0009-0007-1154-0300",
+      "authenticated-orcid": false,
+      "given": "Jingyu",
+      "family": "Wang",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Chongqing University of Posts and Telecommunications",
+          "place": [
+            "Chongqing, China"
+          ],
+          "department": [
+            "School of Computer Science and Technology and Chongqing Key Laboratory of Image Cognition"
+          ]
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0008-0716-5509",
+      "authenticated-orcid": false,
+      "given": "Yang",
+      "family": "Wei",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Chongqing University of Posts and Telecommunications",
+          "place": [
+            "Chongqing, China"
+          ],
+          "department": [
+            "School of Artificial Intelligence and Chongqing Key Laboratory of Image Cognition"
+          ]
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-1129-8036",
+      "authenticated-orcid": false,
+      "given": "Junhao",
+      "family": "Xiao",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Chongqing University of Posts and Telecommunications",
+          "place": [
+            "Chongqing, China"
+          ],
+          "department": [
+            "School of Computer Science and Technology and Chongqing Key Laboratory of Image Cognition"
+          ]
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0005-1596-1802",
+      "authenticated-orcid": false,
+      "given": "Baoyue",
+      "family": "Hu",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Chongqing University of Posts and Telecommunications",
+          "place": [
+            "Chongqing, China"
+          ],
+          "department": [
+            "School of Computer Science and Technology and Chongqing Key Laboratory of Image Cognition"
+          ]
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-1682-5037",
+      "authenticated-orcid": false,
+      "given": "Yongchao",
+      "family": "Wang",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Chongqing University of Posts and Telecommunications",
+          "place": [
+            "Chongqing, China"
+          ],
+          "department": [
+            "School of Artificial Intelligence and Chongqing Key Laboratory of Image Cognition"
+          ]
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-3134-217X",
+      "authenticated-orcid": false,
+      "given": "Xiuli",
+      "family": "Bi",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Chongqing University of Posts and Telecommunications",
+          "place": [
+            "Chongqing, China"
+          ],
+          "department": [
+            "School of Artificial Intelligence and Chongqing Key Laboratory of Image Cognition"
+          ]
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-8469-5302",
+      "authenticated-orcid": false,
+      "given": "Bin",
+      "family": "Xiao",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Chongqing University of Posts and Telecommunications",
+          "place": [
+            "Chongqing, China"
+          ],
+          "department": [
+            "School of Artificial Intelligence and Chongqing Key Laboratory of Image Cognition"
+          ]
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "263",
+  "container-title": [
+    "IEEE Transactions on Circuits and Systems for Video Technology"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "http://xplorestaging.ieee.org/ielx8/76/4358651/11664520.pdf?arnumber=11664520",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        8,
+        24
+      ]
+    ],
+    "date-time": "2026-08-24T19:10:10Z",
+    "timestamp": 1787598610000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://ieeexplore.ieee.org/document/11664520/"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2026
+      ]
+    ]
+  },
+  "references-count": 0,
+  "URL": "https://doi.org/10.1109/tcsvt.2026.3727098",
+  "relation": {},
+  "ISSN": [
+    "1051-8215",
+    "1558-2205"
+  ],
+  "issn-type": [
+    {
+      "value": "1051-8215",
+      "type": "print"
+    },
+    {
+      "value": "1558-2205",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2026
+      ]
+    ]
+  }
+}

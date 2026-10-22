@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "method": "tsea",
+  "source": "yolov2",
+  "epochs": 1000,
+  "optimizer_steps": 77000,
+  "best_training_loss_epoch": 923,
+  "best_training_loss": 0.8368261959645655,
+  "checkpoints": {
+    "best": {
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/tsea_nap_20260912/tsea/yolov2/patches/tsea/best.pt",
+      "sha256": "ea233c3a2999e6d89801e0b8f184dba959f6a6ef9883ca849496cf94fda26826",
+      "min": 0.0,
+      "max": 1.0,
+      "std": 0.207809180021286
+    },
+    "last": {
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/tsea_nap_20260912/tsea/yolov2/patches/tsea/last.pt",
+      "sha256": "bf82038d0f34b50f14605e814367d8932ef73cd0cd5ed1c3573a6ef5ba732972",
+      "min": 0.0,
+      "max": 1.0,
+      "std": 0.20654091238975525
+    }
+  },
+  "training_summary": {
+    "requested_epochs": 1000,
+    "completed_epochs": 1000,
+    "optimizer_steps": 77000,
+    "stop_reason": "epoch_limit",
+    "checkpoint_selection": "minimum epoch-mean training total loss",
+    "best_training_loss_epoch": 923,
+    "best_training_loss": 0.8368261959645655,
+    "early_stopping": false,
+    "detector": "yolov2",
+    "peak_cuda_reserved_mib": 4956.0,
+    "test_used_during_training": false,
+    "training_seconds": 5919.393609849038,
+    "method": "T-SEA (shared PAC protocol)",
+    "model_ensemble": [],
+    "tv_weight": 2.5,
+    "tv_floor": 0.1,
+    "nps_weight": 0,
+    "optimizer": "Adam AMSGrad",
+    "lr_schedule": "author ALRS (patience=10, decay=.97)",
+    "data_ensemble": "gate .5; flip .5; color jitter .1; rotation +/-5; transformed GT",
+    "patch_ensemble": "median7; jitter; clamp; batch-gated .9 cutout (side=.4, fill=.5); rotation +/-20"
+  },
+  "physical_gpu": 4,
+  "early_stopping": false,
+  "test_used_during_training": false,
+  "completed_utc": "2026-09-12T12:21:36.363559+00:00"
+}

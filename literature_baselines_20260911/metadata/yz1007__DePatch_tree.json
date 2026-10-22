@@ -1,0 +1,94 @@
+{
+  "sha": "7a81c120b24c784ebf20922c5849b7ad8c0862a1",
+  "url": "https://api.github.com/repos/yz1007/depatch/git/trees/7a81c120b24c784ebf20922c5849b7ad8c0862a1",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd6e803c7f7903d2140a54bd31224ab479c60c9b",
+      "size": 36,
+      "url": "https://api.github.com/repos/yz1007/depatch/git/blobs/dd6e803c7f7903d2140a54bd31224ab479c60c9b"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6163bc431ce85045493910f29371b8b9612ad3b",
+      "size": 1077,
+      "url": "https://api.github.com/repos/yz1007/depatch/git/blobs/f6163bc431ce85045493910f29371b8b9612ad3b"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e62c2b402e1deed74c609996b066324078cd3fa",
+      "size": 3142,
+      "url": "https://api.github.com/repos/yz1007/depatch/git/blobs/9e62c2b402e1deed74c609996b066324078cd3fa"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5fc0c1af9b5d31594457c77a3455f35dc60f019",
+      "size": 1409,
+      "url": "https://api.github.com/repos/yz1007/depatch/git/blobs/d5fc0c1af9b5d31594457c77a3455f35dc60f019"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cfecd33b837970ded73475e0fc2d1c20e983b885",
+      "url": "https://api.github.com/repos/yz1007/depatch/git/trees/cfecd33b837970ded73475e0fc2d1c20e983b885"
+    },
+    {
+      "path": "src/cli.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7164ba391df81003ec8536a8af1ab7c393d56f3e",
+      "size": 2421,
+      "url": "https://api.github.com/repos/yz1007/depatch/git/blobs/7164ba391df81003ec8536a8af1ab7c393d56f3e"
+    },
+    {
+      "path": "src/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1117ca3bd085e4cafc54c6d9acaed0b79e249ee8",
+      "size": 250,
+      "url": "https://api.github.com/repos/yz1007/depatch/git/blobs/1117ca3bd085e4cafc54c6d9acaed0b79e249ee8"
+    },
+    {
+      "path": "src/patcher.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66bfe3be321807162362fced373d27b6c54c7589",
+      "size": 1335,
+      "url": "https://api.github.com/repos/yz1007/depatch/git/blobs/66bfe3be321807162362fced373d27b6c54c7589"
+    },
+    {
+      "path": "src/scanner.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec706d1b9d668b6503c5b63e08f090aeee4ca8d1",
+      "size": 3302,
+      "url": "https://api.github.com/repos/yz1007/depatch/git/blobs/ec706d1b9d668b6503c5b63e08f090aeee4ca8d1"
+    },
+    {
+      "path": "src/types.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bb5c0825c41232b7016f6c9ec6d2d2e2171f247",
+      "size": 538,
+      "url": "https://api.github.com/repos/yz1007/depatch/git/blobs/3bb5c0825c41232b7016f6c9ec6d2d2e2171f247"
+    },
+    {
+      "path": "tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6caf35ac6dd74a931a047096bebb5d9d904e7767",
+      "size": 471,
+      "url": "https://api.github.com/repos/yz1007/depatch/git/blobs/6caf35ac6dd74a931a047096bebb5d9d904e7767"
+    }
+  ],
+  "truncated": false
+}

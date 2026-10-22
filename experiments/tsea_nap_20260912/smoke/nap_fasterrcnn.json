@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "method": "nap",
+  "detector": "fasterrcnn",
+  "batch_size": 8,
+  "images": 614,
+  "batches_per_epoch": 77,
+  "train_images_only": true,
+  "detector_frozen": true,
+  "finite_nonzero_detection_gradient": true,
+  "steps": [
+    {
+      "step": 1,
+      "loss": 1.001710295677185,
+      "detection": 0.9978882074356079,
+      "tv": 0.0038220342248678207,
+      "detection_gradient_abs_sum": 0.02412017248570919,
+      "parameter_update_max": 0.019999980926513672
+    },
+    {
+      "step": 2,
+      "loss": 1.0018489360809326,
+      "detection": 0.9980957508087158,
+      "tv": 0.0037531540729105473,
+      "detection_gradient_abs_sum": 0.008392460644245148,
+      "parameter_update_max": 0.021076947450637817
+    }
+  ],
+  "reserved_mib": 6400.0,
+  "allocated_mib": 4847.6982421875,
+  "disabled_ensemble_max_error": null,
+  "enabled_ensemble_loss_difference": null,
+  "tsea_residual_locations": [],
+  "nap_generator_frozen_and_buffers_unchanged": true,
+  "seconds": 3.435674019041471
+}

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "jobs": 11,
+  "attack_cells": 216,
+  "new_attack_evaluations": 162,
+  "new_clean_evaluations": 36,
+  "completed_utc": "2026-09-11T14:01:39.450783+00:00"
+}

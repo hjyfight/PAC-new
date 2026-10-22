@@ -1,0 +1,20 @@
+{
+  "settings_version": "0.0.7",
+  "datasets_dir": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advpatch-cap-20260911/datasets",
+  "weights_dir": "weights",
+  "runs_dir": "runs",
+  "uuid": "3cde0805eacd4d3a8fa56656efceeb0d9f10c1ffdf983d591298da9c1a809c19",
+  "sync": true,
+  "api_key": "",
+  "openai_api_key": "",
+  "clearml": true,
+  "comet": true,
+  "dvc": true,
+  "mlflow": true,
+  "neptune": true,
+  "raytune": true,
+  "tensorboard": false,
+  "wandb": false,
+  "vscode_msg": true,
+  "openvino_msg": true
+}

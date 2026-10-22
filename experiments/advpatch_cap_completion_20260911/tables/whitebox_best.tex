@@ -1,0 +1,22 @@
+% Standalone export; does not modify the manuscript. Requires booktabs and graphicx.
+\begin{table*}[t]
+\centering
+\renewcommand{\arraystretch}{1.15}
+\caption{White-box attack performance ($mAP_{50}$, lower is better) under the shared INRIA evaluation protocol. All attack checkpoints are selected by training loss.}
+\label{tab:advpatch_cap_completion_whitebox}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lccccccc}
+\toprule
+Method & YOLOv2 & YOLOv3 & YOLOv4 & YOLOv5s & YOLOv5m & Faster R-CNN & Avg. \\
+\midrule
+Clean & 95.03 & 96.90 & 95.29 & 95.70 & 96.07 & 97.32 & 96.05 \\
+\midrule
+AdvPatch & 12.51 & 19.09 & 14.57 & 30.40 & 21.58 & 17.85 & 19.33 \\
+PAC-P1 & 28.20 & 24.47 & 15.46 & 38.13 & 28.12 & 29.86 & 27.37 \\
+PAC-P2 & 22.48 & 23.74 & 13.18 & 33.92 & 26.09 & 21.91 & 23.55 \\
+CAP & 5.52 & 38.15 & 14.44 & 30.08 & 13.93 & 80.60 & 30.45 \\
+PAC(CAP, Bc1) & 8.95 & 46.57 & 13.50 & 43.02 & 16.73 & 84.25 & 35.50 \\
+PAC(CAP, Bc2) & 7.72 & 51.93 & 14.34 & 37.04 & 20.66 & 84.45 & 36.03 \\
+\bottomrule
+\end{tabular}}
+\end{table*}

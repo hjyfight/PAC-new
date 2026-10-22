@@ -1,0 +1,99 @@
+--- source/train_patch.py
++++ experiment/train_patch.py
+@@ -188,8 +188,8 @@
+         model = attempt_load(weights, device=device, fuse=False).eval().requires_grad_(False)
+         stride = int(model.stride.max())
+     else:
+-        if method not in ("advreal", "cap"):
+-            raise ValueError("--detector selects a native AdvReal-2D or CAP training source")
++        if method not in ("advpatch", "advreal", "cap"):
++            raise ValueError("--detector selects a native AdvPatch, AdvReal-2D or CAP training source")
+         from detector_backends import DetectorBackend
+         model = DetectorBackend(detector, device=device, image_size=imgsz, fused=False)
+         if Path(weights).resolve() != model.weight_path.resolve():
+@@ -264,9 +264,9 @@
+             else:
+                 patch = module()
+                 attacked = apply_patch(im, targets, module, frac, eot)
+-                # Retain the selected PAC and native AdvReal detector objectives.
++                # Retain each method's selected objective across native detectors.
+                 if detector is not None:
+-                    det = model.advreal_loss(attacked)
++                    det = model.advpatch_loss(attacked) if method == "advpatch" else model.advreal_loss(attacked)
+                 else:
+                     pred = model(attacked)[0]
+                     det = advreal_2d_loss(pred) if method == "advreal" else attack_loss(pred)
+@@ -352,6 +352,14 @@
+         "peak_cuda_reserved_mib": torch.cuda.max_memory_reserved(device) / 2 ** 20 if device.type == "cuda" else 0,
+         "test_used_during_training": False,
+     }
++    if method == "advpatch":
++        summary.update(
++            method="AdvPatch (shared PAC protocol)",
++            detector_confidence=("mean per-image peak pre-NMS ROI softmax person probability"
++                                 if detector == "fasterrcnn" else "mean per-image peak objectness * person probability"),
++            tv_weight=tv_weight, tv_floor=0.1 if tv_weight else None, nps_weight=nps_weight,
++            optimizer="Adam AMSGrad", lr_schedule="ReduceLROnPlateau(mode=min, patience=50)",
++        )
+     if method == "cap":
+         summary.update(
+             method="CAP", patch_optimizer_steps=patch_steps, isp_optimizer_steps=isp_steps,
+@@ -379,7 +387,7 @@
+     )
+     parser.add_argument("--detector", default=None,
+                         choices=("yolov2", "yolov3", "yolov4", "yolov5s", "yolov5m", "fasterrcnn"),
+-                        help="native training source for AdvReal-2D or CAP; omitted keeps the existing YOLOv5 loader")
++                        help="native source for AdvPatch, AdvReal-2D or CAP; omitted keeps the existing YOLOv5 loader")
+     parser.add_argument("--base-colors", default="bc1", choices=list(BASE_COLORS), help="paper base color set")
+     parser.add_argument("--source", type=str, default=None, help="trained AdvPatch to recolor (capgen-p)")
+     parser.add_argument("--patch-size", type=int, default=300, help="patch generation resolution (pixels)")
+--- source/detector_backends.py
++++ experiment/detector_backends.py
+@@ -15,6 +15,7 @@
+ 
+ from models.experimental import attempt_load
+ from utils.general import coco80_to_coco91_class, non_max_suppression, xyxy2xywh
++from utils.patch import attack_loss
+ 
+ PAC = Path('/datacc05/huotianlin/code-hu/PAC')
+ REFERENCE = Path('/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advpad-20260908')
+@@ -148,6 +149,30 @@
+         self.roi_logits = None
+         return predictions
+ 
++    def advpatch_loss(self, images):
++        """Mean per-image peak person confidence, matching the selected AdvPatch run.
++
++        YOLO uses objectness times person probability. Faster R-CNN has no
++        equivalent objectness output: use pre-NMS ROI softmax person scores,
++        split by each image's proposal count before taking the maximum.
++        """
++        if self.name != "fasterrcnn":
++            return attack_loss(self(images))
++        counts = []
++
++        def capture_counts(module, inputs):
++            counts.extend(len(proposals) for proposals in inputs[1])
++
++        handle = self.detector.roi_heads.register_forward_pre_hook(capture_counts)
++        try:
++            self(images)
++            scores = self.roi_logits.softmax(-1)[:, 1]
++            return torch.stack([values.max() if values.numel() else values.sum()
++                                for values in scores.split(counts)]).mean()
++        finally:
++            handle.remove()
++            self.roi_logits = None
++
+     def advreal_loss(self, images):
+         """Peak confidence as exposed by the released detlib API, averaged over images.
+ 
+@@ -194,7 +219,4 @@
+ 
+     def person_gradient_probe(self, images):
+         """Connectivity check only; this is not the AdvReal training objective."""
+-        output = self(images)
+-        if self.name == 'fasterrcnn':
+-            return self.roi_logits.softmax(-1)[:, 1].max()
+-        return (output[..., 4] * output[..., 5]).amax(dim=1).mean()
++        return self.advpatch_loss(images)

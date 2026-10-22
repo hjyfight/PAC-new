@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "attack_cells": 288,
+  "new_best_cells": 144,
+  "new_final_cells": 144,
+  "wb_cells_per_method": 6,
+  "bb_cells_per_method": 30,
+  "completed_utc": "2026-09-12T13:12:26.085593+00:00"
+}

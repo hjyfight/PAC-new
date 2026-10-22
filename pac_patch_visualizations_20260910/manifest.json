@@ -1,0 +1,625 @@
+{
+  "created_utc": "2026-09-10T11:31:25.182875+00:00",
+  "passed": true,
+  "patch_count": 27,
+  "checkpoint_version": "training-selected best",
+  "source_manifest": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/manifest.json",
+  "source_manifest_sha256": "687f7a81bfcc9687190ff8562fc9a37e1536c4c961eb536b03f1b1cdb6934a0c",
+  "loader": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/utils/patch.py",
+  "loader_sha256": "138b5f8c6507ce4ff6d93b7b3e3d0f42bfb7425015535691bb6357c203101b48",
+  "recolor_checks": [
+    {
+      "source": "yolov2",
+      "method": "advreal_r1",
+      "max_error": 8.461522127412024e-08
+    },
+    {
+      "source": "yolov2",
+      "method": "advreal_r2",
+      "max_error": 1.143006718162809e-07
+    },
+    {
+      "source": "yolov3",
+      "method": "advreal_r1",
+      "max_error": 7.900537224436732e-08
+    },
+    {
+      "source": "yolov3",
+      "method": "advreal_r2",
+      "max_error": 1.0869082289755028e-07
+    },
+    {
+      "source": "yolov4",
+      "method": "advreal_r1",
+      "max_error": 8.531645234732821e-08
+    },
+    {
+      "source": "yolov4",
+      "method": "advreal_r2",
+      "max_error": 1.056521546916045e-07
+    },
+    {
+      "source": "yolov5s",
+      "method": "advreal_r1",
+      "max_error": 7.54992166562829e-08
+    },
+    {
+      "source": "yolov5s",
+      "method": "advreal_r2",
+      "max_error": 1.035484613609583e-07
+    },
+    {
+      "source": "yolov5s",
+      "method": "p1",
+      "max_error": 8.321275890565971e-08
+    },
+    {
+      "source": "yolov5s",
+      "method": "p2",
+      "max_error": 1.0004230577287387e-07
+    },
+    {
+      "source": "yolov5m",
+      "method": "advreal_r1",
+      "max_error": 7.783665378902072e-08
+    },
+    {
+      "source": "yolov5m",
+      "method": "advreal_r2",
+      "max_error": 9.8172356133297e-08
+    },
+    {
+      "source": "fasterrcnn",
+      "method": "advreal_r1",
+      "max_error": 7.257742040689408e-08
+    },
+    {
+      "source": "fasterrcnn",
+      "method": "advreal_r2",
+      "max_error": 9.81723560222747e-08
+    }
+  ],
+  "display": "Original RGB; uint8 rounding only; no color/brightness/contrast adjustment.",
+  "patches": [
+    {
+      "source": "yolov2",
+      "method": "cap",
+      "label": "CAP (best)",
+      "description": "best epoch 985 / 1000",
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov2/patches/cap_yolov2/best.pt",
+      "checkpoint_sha256": "f2cab58a0e3d323f9b10249ab0f1e617df584821c4f19d0f5835bf348d4006c3",
+      "png": "patches/yolov2_cap.png",
+      "png_sha256": "45958088a1f6598dbe4b7c65152b903cb28dd250192bf831c12c5e2bfbdbde17",
+      "shape": [
+        3,
+        300,
+        300
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "std": 0.20620228350162506,
+      "max_png_quantization_error": 0.001960784079981792,
+      "whitebox_ap50": 5.519805899415277
+    },
+    {
+      "source": "yolov2",
+      "method": "advreal2d",
+      "label": "AdvReal",
+      "description": "best epoch 799 / 800",
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal2d-20260908/runs/advreal2d_all_detectors_20260908/sources/yolov2/patches/advreal2d_yolov2/best.pt",
+      "checkpoint_sha256": "c65c20fe55aefbeb4b87e2f5a1eb2b628895ca6221561bb9702573b949f8eee1",
+      "png": "patches/yolov2_advreal2d.png",
+      "png_sha256": "2d52e31ad727d885ac2972b5e51fd6ff7f7582c144646629e91835afe0152f94",
+      "shape": [
+        3,
+        300,
+        300
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "std": 0.24134698510169983,
+      "max_png_quantization_error": 0.0019607742627461566,
+      "whitebox_ap50": 6.299590493296255
+    },
+    {
+      "source": "yolov2",
+      "method": "advreal_r1",
+      "label": "PAC-R1 (AdvReal)",
+      "description": "AdvReal -> Bc1 | 0 extra epochs",
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/patches/yolov2/advreal_r1.pt",
+      "checkpoint_sha256": "fa951c627b8e000cb11c0349cf95834ccfd6d6833b17d6e8204734edfbbb03eb",
+      "png": "patches/yolov2_advreal_r1.png",
+      "png_sha256": "64e8b566d36184ea2faf96ea60ba4a95e47c4de402d4881eb6574d38d08c883a",
+      "shape": [
+        3,
+        300,
+        300
+      ],
+      "min": 0.0,
+      "max": 0.9996992945671082,
+      "std": 0.1995364874601364,
+      "max_png_quantization_error": 0.001960784079981792,
+      "whitebox_ap50": 10.541621241990306
+    },
+    {
+      "source": "yolov2",
+      "method": "advreal_r2",
+      "label": "PAC-R2 (AdvReal)",
+      "description": "AdvReal -> Bc2 | 0 extra epochs",
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/patches/yolov2/advreal_r2.pt",
+      "checkpoint_sha256": "38271fefeb0142a73af8c846640706e0676de14f613688fe21843aac7df95ddd",
+      "png": "patches/yolov2_advreal_r2.png",
+      "png_sha256": "d5fc6e6b8ad4bd25dbe94c4423798d8ed5f0c1cf3c6ce1a02bb176e6dc62cbd7",
+      "shape": [
+        3,
+        300,
+        300
+      ],
+      "min": 0.0,
+      "max": 0.9994178414344788,
+      "std": 0.19995681941509247,
+      "max_png_quantization_error": 0.0019607798725950754,
+      "whitebox_ap50": 8.588450118162408
+    },
+    {
+      "source": "yolov3",
+      "method": "cap",
+      "label": "CAP (best)",
+      "description": "best epoch 917 / 1000",
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov3/patches/cap_yolov3/best.pt",
+      "checkpoint_sha256": "011d84476ab4069477e824f9e154c7cbb5f59a7652bedcf95efa6f2938ad63c5",
+      "png": "patches/yolov3_cap.png",
+      "png_sha256": "c18756af7def936438ff2a55b84d8813f5bccfae759cfa97956800bc7b5b7372",
+      "shape": [
+        3,
+        300,
+        300
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "std": 0.21176199615001678,
+      "max_png_quantization_error": 0.001960770902680417,
+      "whitebox_ap50": 38.15061822912177
+    },
+    {
+      "source": "yolov3",
+      "method": "advreal2d",
+      "label": "AdvReal",
+      "description": "best epoch 795 / 800",
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal2d-20260908/runs/advreal2d_all_detectors_20260908/sources/yolov3/patches/advreal2d_yolov3/best.pt",
+      "checkpoint_sha256": "6b2148935ac2ae14aa6af2d4d2f05c8cd3f2f7ffe8f33f3527cba690af6c5a5f",
+      "png": "patches/yolov3_advreal2d.png",
+      "png_sha256": "7f0ee866b1761e0c726608d6b75d4e6628330714cb763955f96019270003c796",
+      "shape": [
+        3,
+        300,
+        300
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "std": 0.22645708918571472,
+      "max_png_quantization_error": 0.001960783846238101,
+      "whitebox_ap50": 5.544477763304705
+    },
+    {
+      "source": "yolov3",
+      "method": "advreal_r1",
+      "label": "PAC-R1 (AdvReal)",
+      "description": "AdvReal -> Bc1 | 0 extra epochs",
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/patches/yolov3/advreal_r1.pt",
+      "checkpoint_sha256": "4432fe4fc5894532ab849d8bd136c04a3ac0d18ab85a9c5ec604f4315777fc7d",
+      "png": "patches/yolov3_advreal_r1.png",
+      "png_sha256": "01b12cf864b5e2ed05a1651124dd1290a2a77850cfb39f111b89490e7cbc6f8d",
+      "shape": [
+        3,
+        300,
+        300
+      ],
+      "min": 0.0,
+      "max": 0.9984719157218933,
+      "std": 0.17285090684890747,
+      "max_png_quantization_error": 0.00196078215159623,
+      "whitebox_ap50": 10.556851754893481
+    },
+    {
+      "source": "yolov3",
+      "method": "advreal_r2",
+      "label": "PAC-R2 (AdvReal)",
+      "description": "AdvReal -> Bc2 | 0 extra epochs",
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/patches/yolov3/advreal_r2.pt",
+      "checkpoint_sha256": "b23d6bf6ad7f4305e647c8b39511ef9e5dd02d2b6fb5bbfc6ea9b8e99bad55b4",
+      "png": "patches/yolov3_advreal_r2.png",
+      "png_sha256": "6bc9bebfb73f9feb34a0b66104866e5f0a388a0716271ae11b67f5643578c368",
+      "shape": [
+        3,
+        300,
+        300
+      ],
+      "min": 0.0,
+      "max": 0.9953217506408691,
+      "std": 0.1827831268310547,
+      "max_png_quantization_error": 0.001960782911263226,
+      "whitebox_ap50": 7.061893504444424
+    },
+    {
+      "source": "yolov4",
+      "method": "cap",
+      "label": "CAP (best)",
+      "description": "best epoch 932 / 1000",
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov4/patches/cap_yolov4/best.pt",
+      "checkpoint_sha256": "36aa419a7be88002ccb9f1f4d7f06c58c4e1677bbd98117c3db020444d9dd9b5",
+      "png": "patches/yolov4_cap.png",
+      "png_sha256": "62a0b7fd810b412527413de589511993c60c1374a708ed143ab59b7e0c12e019",
+      "shape": [
+        3,
+        300,
+        300
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "std": 0.20867659151554108,
+      "max_png_quantization_error": 0.001960776600183234,
+      "whitebox_ap50": 14.44256402990722
+    },
+    {
+      "source": "yolov4",
+      "method": "advreal2d",
+      "label": "AdvReal",
+      "description": "best epoch 793 / 800",
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal2d-20260908/runs/advreal2d_all_detectors_20260908/sources/yolov4/patches/advreal2d_yolov4/best.pt",
+      "checkpoint_sha256": "51f597b560b5e0d5633014cfaa5b2e81b502bcbf4612712a99765d2328b89668",
+      "png": "patches/yolov4_advreal2d.png",
+      "png_sha256": "8c0e8f7369026b2cacaddb5802d7aa2d7a601b2b47efc87e7940706bdce1a126",
+      "shape": [
+        3,
+        300,
+        300
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "std": 0.21839024126529694,
+      "max_png_quantization_error": 0.0019607843137254832,
+      "whitebox_ap50": 6.228912993629676
+    },
+    {
+      "source": "yolov4",
+      "method": "advreal_r1",
+      "label": "PAC-R1 (AdvReal)",
+      "description": "AdvReal -> Bc1 | 0 extra epochs",
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/patches/yolov4/advreal_r1.pt",
+      "checkpoint_sha256": "1ac07a8fdc5d6925df8306e44be2dd7dccd3818326e4d705db9b6928919dc04e",
+      "png": "patches/yolov4_advreal_r1.png",
+      "png_sha256": "3d0e1e263e126ba58cae322325c4420e863a1904a0268aec71cfaf2366b3c688",
+      "shape": [
+        3,
+        300,
+        300
+      ],
+      "min": 8.353381417691708e-06,
+      "max": 0.9904497861862183,
+      "std": 0.1902369111776352,
+      "max_png_quantization_error": 0.001960781275057333,
+      "whitebox_ap50": 8.422920727501003
+    },
+    {
+      "source": "yolov4",
+      "method": "advreal_r2",
+      "label": "PAC-R2 (AdvReal)",
+      "description": "AdvReal -> Bc2 | 0 extra epochs",
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/patches/yolov4/advreal_r2.pt",
+      "checkpoint_sha256": "06f9e43a3554feabb8c02673e7cc08d243cef471b87ee0f21e6831ba8e44e267",
+      "png": "patches/yolov4_advreal_r2.png",
+      "png_sha256": "06bea1f1fde96b9383572978191fd4d0bf82164a72f47ce54badec17ebd09c23",
+      "shape": [
+        3,
+        300,
+        300
+      ],
+      "min": 3.341352567076683e-05,
+      "max": 0.9834871888160706,
+      "std": 0.18595492839813232,
+      "max_png_quantization_error": 0.0019607826775195347,
+      "whitebox_ap50": 5.1614362187834555
+    },
+    {
+      "source": "yolov5s",
+      "method": "advpatch",
+      "label": "AdvPatch",
+      "description": "Original RGB | 200 epochs",
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advpad-20260908/runs/official_pad3_20260908/patches/ap_s000_advpatch/best.pt",
+      "checkpoint_sha256": "bb27f8379b9b31f5bf7e02de674bdb0cf9a71b28deb795870ff73f42bcf385c3",
+      "png": "patches/yolov5s_advpatch.png",
+      "png_sha256": "af72cb447815b9dcdbccd41093daf62e4f596bb3194866dca4a113fec1470e84",
+      "shape": [
+        3,
+        300,
+        300
+      ],
+      "min": 0.0,
+      "max": 0.9820935130119324,
+      "std": 0.19134582579135895,
+      "max_png_quantization_error": 0.001960781041313586,
+      "whitebox_ap50": 30.402825723050263
+    },
+    {
+      "source": "yolov5s",
+      "method": "p1",
+      "label": "PAC-P1",
+      "description": "AdvPatch -> Bc1 | 0 extra epochs",
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advpad-20260908/runs/official_pad3_20260908/patches/ap_s000_p1/best.pt",
+      "checkpoint_sha256": "f819616dce2aea1d3cb3229e76ed848c77b0f8220d1a0c71bcf9d34d1912c640",
+      "png": "patches/yolov5s_p1.png",
+      "png_sha256": "2c14d1f7aada2605c7786796873cd1255d59a36febba1283bda3e91fa24c41ae",
+      "shape": [
+        3,
+        300,
+        300
+      ],
+      "min": 0.010842090472579002,
+      "max": 0.9312142729759216,
+      "std": 0.16096749901771545,
+      "max_png_quantization_error": 0.0019607787038765645,
+      "whitebox_ap50": 38.1286666925541
+    },
+    {
+      "source": "yolov5s",
+      "method": "p2",
+      "label": "PAC-P2",
+      "description": "AdvPatch -> Bc2 | 0 extra epochs",
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advpad-20260908/runs/official_pad3_20260908/patches/ap_s000_p2/best.pt",
+      "checkpoint_sha256": "1b6e3286cadfdea53a373b04560a031b2bde162119912a4276db984cf0f971f8",
+      "png": "patches/yolov5s_p2.png",
+      "png_sha256": "68cb893b5cde0bfdf845c1951ab6f965741ef395844469e337847e3a996ccfbd",
+      "shape": [
+        3,
+        300,
+        300
+      ],
+      "min": 0.024518391117453575,
+      "max": 0.9322307705879211,
+      "std": 0.14735399186611176,
+      "max_png_quantization_error": 0.0019607826775195347,
+      "whitebox_ap50": 33.91517789756996
+    },
+    {
+      "source": "yolov5s",
+      "method": "cap",
+      "label": "CAP (best)",
+      "description": "best epoch 985 / 1000",
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov5s/patches/cap_yolov5s/best.pt",
+      "checkpoint_sha256": "ccbc9299ff999cb16bb893ea06cc949201399a36cabbc745d2b46ede5bc01149",
+      "png": "patches/yolov5s_cap.png",
+      "png_sha256": "615bc71c3e50a1a92b96cd4ad5f8cac8930e6b6af6c8839ae4b02bbc1ffbff83",
+      "shape": [
+        3,
+        300,
+        300
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "std": 0.1925784796476364,
+      "max_png_quantization_error": 0.0019607810413136417,
+      "whitebox_ap50": 30.083469914652127
+    },
+    {
+      "source": "yolov5s",
+      "method": "advreal2d",
+      "label": "AdvReal",
+      "description": "best epoch 797 / 800",
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal2d-20260908/runs/advreal2d_authorbudget_seed0_20260908/patches/advreal2d_yolov5s/best.pt",
+      "checkpoint_sha256": "2022397a27a1c02f58f5370b16c190386e5fe92bd8fa15d67560762b4c04f480",
+      "png": "patches/yolov5s_advreal2d.png",
+      "png_sha256": "5546e8976434e24a59b71415e9b79fb4658cf620e16b658b9a6c36a70338b3c2",
+      "shape": [
+        3,
+        300,
+        300
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "std": 0.17900626361370087,
+      "max_png_quantization_error": 0.001960784079981792,
+      "whitebox_ap50": 3.585213150681056
+    },
+    {
+      "source": "yolov5s",
+      "method": "advreal_r1",
+      "label": "PAC-R1 (AdvReal)",
+      "description": "AdvReal -> Bc1 | 0 extra epochs",
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/patches/yolov5s/advreal_r1.pt",
+      "checkpoint_sha256": "6e355b3e8981420ddd443937ddae8f2b99b3d9f2b5058490409533767b4f51f9",
+      "png": "patches/yolov5s_advreal_r1.png",
+      "png_sha256": "a0dc36b39f233d51839edc82bbd3d4c6a8bedfe6a39f0e450a5586919cd79cb7",
+      "shape": [
+        3,
+        300,
+        300
+      ],
+      "min": 0.0,
+      "max": 0.8907839059829712,
+      "std": 0.14067402482032776,
+      "max_png_quantization_error": 0.001960761991201654,
+      "whitebox_ap50": 9.964123097370324
+    },
+    {
+      "source": "yolov5s",
+      "method": "advreal_r2",
+      "label": "PAC-R2 (AdvReal)",
+      "description": "AdvReal -> Bc2 | 0 extra epochs",
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/patches/yolov5s/advreal_r2.pt",
+      "checkpoint_sha256": "ae5de2fea291b9c00b0c51b4324a8bb9c46d7241d29ea40156e9cde9f8cb864c",
+      "png": "patches/yolov5s_advreal_r2.png",
+      "png_sha256": "311beda6ca433757385d48b929562d78b1dfa4ecfa4fcbecb1b3b4c29d84a95d",
+      "shape": [
+        3,
+        300,
+        300
+      ],
+      "min": 0.0,
+      "max": 0.9011034965515137,
+      "std": 0.14697906374931335,
+      "max_png_quantization_error": 0.0019607782363891824,
+      "whitebox_ap50": 16.347548080465195
+    },
+    {
+      "source": "yolov5m",
+      "method": "cap",
+      "label": "CAP (best)",
+      "description": "best epoch 985 / 1000",
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/yolov5m/patches/cap_yolov5m/best.pt",
+      "checkpoint_sha256": "887f2f1e73849b4fa80362f9c58c33323270cd90c3102d4e38a3e6d635504aac",
+      "png": "patches/yolov5m_cap.png",
+      "png_sha256": "9e64448c3a845bf3131cf236c03ae4f3cbb0b77ae00e29f9ab088ee1731e8392",
+      "shape": [
+        3,
+        300,
+        300
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "std": 0.19138070940971375,
+      "max_png_quantization_error": 0.0019607817425447704,
+      "whitebox_ap50": 13.928949983418468
+    },
+    {
+      "source": "yolov5m",
+      "method": "advreal2d",
+      "label": "AdvReal",
+      "description": "best epoch 763 / 800",
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal2d-20260908/runs/advreal2d_all_detectors_20260908/sources/yolov5m/patches/advreal2d_yolov5m/best.pt",
+      "checkpoint_sha256": "2c386bcfa6dc83844626a040f1f0824ecdc14a873ea250769c473fcf9f195f2f",
+      "png": "patches/yolov5m_advreal2d.png",
+      "png_sha256": "f9db402a74f1c7ace98bb53d73bcf9f6b8c47eeed40aa3dd312c281fdb221671",
+      "shape": [
+        3,
+        300,
+        300
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "std": 0.175777867436409,
+      "max_png_quantization_error": 0.001960781917852511,
+      "whitebox_ap50": 14.687286604873687
+    },
+    {
+      "source": "yolov5m",
+      "method": "advreal_r1",
+      "label": "PAC-R1 (AdvReal)",
+      "description": "AdvReal -> Bc1 | 0 extra epochs",
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/patches/yolov5m/advreal_r1.pt",
+      "checkpoint_sha256": "9cb756f57af3ad28043c5821c15ad325957369fac2c9fa15618fc3cb50876573",
+      "png": "patches/yolov5m_advreal_r1.png",
+      "png_sha256": "5c647bb653ae07cfb7c5303c0e3b380acfb504fdb57ed7ee39a11d82e21b9030",
+      "shape": [
+        3,
+        300,
+        300
+      ],
+      "min": 8.647440381537308e-07,
+      "max": 0.906304121017456,
+      "std": 0.13937756419181824,
+      "max_png_quantization_error": 0.00196077344464321,
+      "whitebox_ap50": 26.858424024958605
+    },
+    {
+      "source": "yolov5m",
+      "method": "advreal_r2",
+      "label": "PAC-R2 (AdvReal)",
+      "description": "AdvReal -> Bc2 | 0 extra epochs",
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/patches/yolov5m/advreal_r2.pt",
+      "checkpoint_sha256": "bd20536a011b2a23055b8f2e3051390bccb2a60799af43a015ccbd661da17d7d",
+      "png": "patches/yolov5m_advreal_r2.png",
+      "png_sha256": "388c7dbbb1cabcce84ec527635e0c065346bc85908c202479fc955bf006a767c",
+      "shape": [
+        3,
+        300,
+        300
+      ],
+      "min": 3.458976152614923e-06,
+      "max": 0.9384863376617432,
+      "std": 0.1398879587650299,
+      "max_png_quantization_error": 0.0019607784701328734,
+      "whitebox_ap50": 21.41312230477675
+    },
+    {
+      "source": "fasterrcnn",
+      "method": "cap",
+      "label": "CAP (best)",
+      "description": "best epoch 3 / 1000",
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-cap-rfatex-20260909/runs/cap_rfatex_whitebox_20260909/sources/cap/fasterrcnn/patches/cap_fasterrcnn/best.pt",
+      "checkpoint_sha256": "e7567080f657233ffdf0ab2ecd51c46a86bf744ab1200204da9add925bb50f39",
+      "png": "patches/fasterrcnn_cap.png",
+      "png_sha256": "0d884ce28f158443e1c14af3bb32122872066aabc19de7e6f237934baa3c3574",
+      "shape": [
+        3,
+        300,
+        300
+      ],
+      "min": 0.3235274851322174,
+      "max": 0.59939044713974,
+      "std": 0.019197015091776848,
+      "max_png_quantization_error": 0.001960784079981792,
+      "whitebox_ap50": 80.60159663679963
+    },
+    {
+      "source": "fasterrcnn",
+      "method": "advreal2d",
+      "label": "AdvReal",
+      "description": "best epoch 744 / 800",
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal2d-20260908/runs/advreal2d_all_detectors_20260908/sources/fasterrcnn/patches/advreal2d_fasterrcnn/best.pt",
+      "checkpoint_sha256": "2180f35300826106111113b68d1c2ebea5f4efd253eb78c59d555c863ae9a0d0",
+      "png": "patches/fasterrcnn_advreal2d.png",
+      "png_sha256": "60445e3b552b6688c5696542b118efac153311ea159e811e7621ece5cb79f090",
+      "shape": [
+        3,
+        300,
+        300
+      ],
+      "min": 0.0,
+      "max": 0.999472975730896,
+      "std": 0.15930421650409698,
+      "max_png_quantization_error": 0.001960765964844624,
+      "whitebox_ap50": 11.761373052863295
+    },
+    {
+      "source": "fasterrcnn",
+      "method": "advreal_r1",
+      "label": "PAC-R1 (AdvReal)",
+      "description": "AdvReal -> Bc1 | 0 extra epochs",
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/patches/fasterrcnn/advreal_r1.pt",
+      "checkpoint_sha256": "7955941b4f95ede8e49809e94bbef86b6d27100bf0652bdf44ad6d2c12818159",
+      "png": "patches/fasterrcnn_advreal_r1.png",
+      "png_sha256": "9fa32e964688508235d42aeeff75cbf174a1a96e4837a6e0f2b478a71a1e2bb6",
+      "shape": [
+        3,
+        300,
+        300
+      ],
+      "min": 3.877378549077548e-05,
+      "max": 0.8497831225395203,
+      "std": 0.13235917687416077,
+      "max_png_quantization_error": 0.0019607673673068815,
+      "whitebox_ap50": 24.57344173612629
+    },
+    {
+      "source": "fasterrcnn",
+      "method": "advreal_r2",
+      "label": "PAC-R2 (AdvReal)",
+      "description": "AdvReal -> Bc2 | 0 extra epochs",
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/patches/fasterrcnn/advreal_r2.pt",
+      "checkpoint_sha256": "fc3093023343e712a842eedcc153fca22226f9eb085d669c6f3f83b88f88d910",
+      "png": "patches/fasterrcnn_advreal_r2.png",
+      "png_sha256": "d4b0e429a966029e8ea6e1b84e8527a7b7e079dd96290242fd30233ec75f9a3c",
+      "shape": [
+        3,
+        300,
+        300
+      ],
+      "min": 8.349608106072992e-05,
+      "max": 0.8631430864334106,
+      "std": 0.13278302550315857,
+      "max_png_quantization_error": 0.001960775898952105,
+      "whitebox_ap50": 18.361899133217037
+    }
+  ]
+}

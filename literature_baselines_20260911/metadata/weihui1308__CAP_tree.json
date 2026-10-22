@@ -1,0 +1,1348 @@
+{
+  "sha": "72d12fc5af9894121f453ec94469d54523ac9eca",
+  "url": "https://api.github.com/repos/weihui1308/CAP/git/trees/72d12fc5af9894121f453ec94469d54523ac9eca",
+  "tree": [
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0137140d931055f71fca7c3588b095ab56bd49ee",
+      "size": 2232,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/0137140d931055f71fca7c3588b095ab56bd49ee"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "43f8ba8d2b591d60c9bd5daa359a32c539658da9",
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/trees/43f8ba8d2b591d60c9bd5daa359a32c539658da9"
+    },
+    {
+      "path": "assets/checkpoints",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "baa7b14e615bc884181412d38c8e7d29bd2da15b",
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/trees/baa7b14e615bc884181412d38c8e7d29bd2da15b"
+    },
+    {
+      "path": "assets/checkpoints/finetune_yolov5s_onINRIA.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df6cec7d69a4bb98e36a6c2e04d1373aec07ad7d",
+      "size": 14388541,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/df6cec7d69a4bb98e36a6c2e04d1373aec07ad7d"
+    },
+    {
+      "path": "assets/patches",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "09ef61db882d7090146b23fbe53389ca1b7d5400",
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/trees/09ef61db882d7090146b23fbe53389ca1b7d5400"
+    },
+    {
+      "path": "assets/patches/cap.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ac360d999c3a799e0d55493fcfa845e722af631",
+      "size": 173030,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/2ac360d999c3a799e0d55493fcfa845e722af631"
+    },
+    {
+      "path": "assets/patches/cap_without_ISP.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54215435c0d241feafa1ba325d3b0fb5f07b74be",
+      "size": 170310,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/54215435c0d241feafa1ba325d3b0fb5f07b74be"
+    },
+    {
+      "path": "assets/patches/cap_without_adv_optimize.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d06753a510c59e98d67c379dec2d10fd6a26f95",
+      "size": 100144,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/6d06753a510c59e98d67c379dec2d10fd6a26f95"
+    },
+    {
+      "path": "config",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "70e4c241a32332f9f8709eea2597ce2714e6741d",
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/trees/70e4c241a32332f9f8709eea2597ce2714e6741d"
+    },
+    {
+      "path": "config/data_config_one.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e80feac0ed3f7d78b459d33e0b1a601268e18a8d",
+      "size": 141,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/e80feac0ed3f7d78b459d33e0b1a601268e18a8d"
+    },
+    {
+      "path": "helper",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5b2146c96442a63c93392cc8319652fa06efb4b1",
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/trees/5b2146c96442a63c93392cc8319652fa06efb4b1"
+    },
+    {
+      "path": "helper/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "helper/random_param.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed3aded3b24e1a6fec2977e9947eaa28a5f9bc7e",
+      "size": 1453,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/ed3aded3b24e1a6fec2977e9947eaa28a5f9bc7e"
+    },
+    {
+      "path": "ispNet",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c8437f0a17d2001c0d6a9a89ca28ee9ff8e18e60",
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/trees/c8437f0a17d2001c0d6a9a89ca28ee9ff8e18e60"
+    },
+    {
+      "path": "ispNet/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e9b63b67a398e4ce88663e59505447f74065e67",
+      "size": 29,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/2e9b63b67a398e4ce88663e59505447f74065e67"
+    },
+    {
+      "path": "ispNet/ispNet_test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "820d3bbf8478e2cd5e831249ae27771bcbdcbb93",
+      "size": 3705,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/820d3bbf8478e2cd5e831249ae27771bcbdcbb93"
+    },
+    {
+      "path": "ispNet/ispNet_train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45d006d8d5e7dcd752abbbe425382c560ec4f528",
+      "size": 5658,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/45d006d8d5e7dcd752abbbe425382c560ec4f528"
+    },
+    {
+      "path": "ispNet/ispNet_val.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b016c4e5e34b7529048d87013de409a53086704",
+      "size": 941,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/5b016c4e5e34b7529048d87013de409a53086704"
+    },
+    {
+      "path": "ispNet/unet_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43fdf5a2f6f6fc4854b7ce3691753ebd88eeea2f",
+      "size": 2571,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/43fdf5a2f6f6fc4854b7ce3691753ebd88eeea2f"
+    },
+    {
+      "path": "ispNet/unet_parts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74f624881be8affe8c1d363078bbd982ec8a5426",
+      "size": 2193,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/74f624881be8affe8c1d363078bbd982ec8a5426"
+    },
+    {
+      "path": "loss.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "347ec41c4f18d3a7762ba6f437148b60baf8b5d8",
+      "size": 772,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/347ec41c4f18d3a7762ba6f437148b60baf8b5d8"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f342786a6afca61ff121c8484d82b64147f9235",
+      "size": 5742,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/4f342786a6afca61ff121c8484d82b64147f9235"
+    },
+    {
+      "path": "train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0ad4a9a7ece1db9aa989b620b14463ee54651cf",
+      "size": 16503,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/e0ad4a9a7ece1db9aa989b620b14463ee54651cf"
+    },
+    {
+      "path": "utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f82b2e929e6d025dc8602b3ef8268f7205f1eba",
+      "size": 6839,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/6f82b2e929e6d025dc8602b3ef8268f7205f1eba"
+    },
+    {
+      "path": "val.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "885ae3917a289daae62a8658b7c5066488664994",
+      "size": 20192,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/885ae3917a289daae62a8658b7c5066488664994"
+    },
+    {
+      "path": "yolov5",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bd4f38eea61bb8a535155dcacd2ee01493153c3b",
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/trees/bd4f38eea61bb8a535155dcacd2ee01493153c3b"
+    },
+    {
+      "path": "yolov5/CITATION.cff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c277230d922f869978cedaabc214d5236c6cb191",
+      "size": 393,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/c277230d922f869978cedaabc214d5236c6cb191"
+    },
+    {
+      "path": "yolov5/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "yolov5/benchmarks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a25760bd036d65c8158a9d816ff9050e55ac7509",
+      "size": 8010,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/a25760bd036d65c8158a9d816ff9050e55ac7509"
+    },
+    {
+      "path": "yolov5/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1e83052b485a7bf4e11f03d05d61e4b431aca893",
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/trees/1e83052b485a7bf4e11f03d05d61e4b431aca893"
+    },
+    {
+      "path": "yolov5/data/Argoverse.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a65407a633371210feed2779f1476186b9185bc",
+      "size": 2734,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/8a65407a633371210feed2779f1476186b9185bc"
+    },
+    {
+      "path": "yolov5/data/GlobalWheat2020.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b02ac95dd95d1b8fc466b268775f33b5f60ce88",
+      "size": 1886,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/7b02ac95dd95d1b8fc466b268775f33b5f60ce88"
+    },
+    {
+      "path": "yolov5/data/ImageNet.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fdcb63f89a5c4a0e4a579fc0b3bf995e8777e87",
+      "size": 18872,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/5fdcb63f89a5c4a0e4a579fc0b3bf995e8777e87"
+    },
+    {
+      "path": "yolov5/data/Objects365.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "990f5a56b39e11e3b61d161dcf4b5d6465071792",
+      "size": 9203,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/990f5a56b39e11e3b61d161dcf4b5d6465071792"
+    },
+    {
+      "path": "yolov5/data/SKU-110K.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a943eecdeee699c6f85d08311b925b2ededc8836",
+      "size": 2342,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/a943eecdeee699c6f85d08311b925b2ededc8836"
+    },
+    {
+      "path": "yolov5/data/VOC.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "104856f0c9c77dbcccff866d0d0677be5c08c2a0",
+      "size": 3494,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/104856f0c9c77dbcccff866d0d0677be5c08c2a0"
+    },
+    {
+      "path": "yolov5/data/VisDrone.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a13904dc8dd50c3906b18cc414a6975b2c28dd6",
+      "size": 2972,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/2a13904dc8dd50c3906b18cc414a6975b2c28dd6"
+    },
+    {
+      "path": "yolov5/data/coco.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84ce6ea24d8c03c21cb5026071150fd59965b790",
+      "size": 1206,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/84ce6ea24d8c03c21cb5026071150fd59965b790"
+    },
+    {
+      "path": "yolov5/data/coco128-seg.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a2499c00a1aa012b0d1a031714977843874b29d",
+      "size": 1869,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/0a2499c00a1aa012b0d1a031714977843874b29d"
+    },
+    {
+      "path": "yolov5/data/coco128.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cb53120be2c88db1543e9600576d200c4775a41",
+      "size": 1853,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/0cb53120be2c88db1543e9600576d200c4775a41"
+    },
+    {
+      "path": "yolov5/data/hyps",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "91a4d0f79237a3bbfc152da5828b12ff0f096488",
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/trees/91a4d0f79237a3bbfc152da5828b12ff0f096488"
+    },
+    {
+      "path": "yolov5/data/hyps/hyp.Objects365.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4b6e8051d7bafd93155c8e03e1b264b468f68a7",
+      "size": 674,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/c4b6e8051d7bafd93155c8e03e1b264b468f68a7"
+    },
+    {
+      "path": "yolov5/data/hyps/hyp.VOC.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce20dbbddbdbdb7228ca3262fade10b64b798087",
+      "size": 1157,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/ce20dbbddbdbdb7228ca3262fade10b64b798087"
+    },
+    {
+      "path": "yolov5/data/hyps/hyp.no-augmentation.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8da18150538b9918e6140f12ed0740bbc8e95955",
+      "size": 1684,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/8da18150538b9918e6140f12ed0740bbc8e95955"
+    },
+    {
+      "path": "yolov5/data/hyps/hyp.scratch-high.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a0f4ec216219890f93f457ce7bc31036490d96d",
+      "size": 1684,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/0a0f4ec216219890f93f457ce7bc31036490d96d"
+    },
+    {
+      "path": "yolov5/data/hyps/hyp.scratch-low.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d722568f5266f60b6fc4a6cd1d126be6fd0c146",
+      "size": 1692,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/9d722568f5266f60b6fc4a6cd1d126be6fd0c146"
+    },
+    {
+      "path": "yolov5/data/hyps/hyp.scratch-med.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6abb090bb0420a92e571e6d83c12d37f206a8fc",
+      "size": 1686,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/f6abb090bb0420a92e571e6d83c12d37f206a8fc"
+    },
+    {
+      "path": "yolov5/data/xView.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e013ac9056dce031e5537f519b8daf312544e16",
+      "size": 5171,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/5e013ac9056dce031e5537f519b8daf312544e16"
+    },
+    {
+      "path": "yolov5/detect.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "216c9dbd5880ab7d3da94506c9833d4c0473d054",
+      "size": 14320,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/216c9dbd5880ab7d3da94506c9833d4c0473d054"
+    },
+    {
+      "path": "yolov5/export.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5822c9f959da50a04a425de061b03dfb03f1920",
+      "size": 41198,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/a5822c9f959da50a04a425de061b03dfb03f1920"
+    },
+    {
+      "path": "yolov5/hubconf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0192698fbe39f463e21a3092230258565cc7e0f",
+      "size": 7769,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/f0192698fbe39f463e21a3092230258565cc7e0f"
+    },
+    {
+      "path": "yolov5/models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "72c4ba82a4bb04da61974763f0dc0806ad1d5238",
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/trees/72c4ba82a4bb04da61974763f0dc0806ad1d5238"
+    },
+    {
+      "path": "yolov5/models/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "yolov5/models/common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2ba38f1e105d04d293166ea171666078f4606b9",
+      "size": 41740,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/d2ba38f1e105d04d293166ea171666078f4606b9"
+    },
+    {
+      "path": "yolov5/models/experimental.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b554401b133438a7d38a927c6fdd263503e78c35",
+      "size": 4327,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/b554401b133438a7d38a927c6fdd263503e78c35"
+    },
+    {
+      "path": "yolov5/models/hub",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6fa7b75cb88646ace9024bc7f97088253d23d89a",
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/trees/6fa7b75cb88646ace9024bc7f97088253d23d89a"
+    },
+    {
+      "path": "yolov5/models/hub/anchors.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df2f668b022ca363b47e62ef95bdf20d418fe0e3",
+      "size": 3336,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/df2f668b022ca363b47e62ef95bdf20d418fe0e3"
+    },
+    {
+      "path": "yolov5/models/hub/yolov3-spp.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a71ed405277ce10a3c3f386834764ff0a82d53c",
+      "size": 1568,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/4a71ed405277ce10a3c3f386834764ff0a82d53c"
+    },
+    {
+      "path": "yolov5/models/hub/yolov3-tiny.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50b47e282df482b6f4f8dfb485c914ab1cbf6274",
+      "size": 1233,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/50b47e282df482b6f4f8dfb485c914ab1cbf6274"
+    },
+    {
+      "path": "yolov5/models/hub/yolov3.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5e21098f89379487dde6f236b78667fad0ad57f",
+      "size": 1559,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/c5e21098f89379487dde6f236b78667fad0ad57f"
+    },
+    {
+      "path": "yolov5/models/hub/yolov5-bifpn.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dbdd4ee0580c4a5613548607b6970aefda8c03e",
+      "size": 1424,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/9dbdd4ee0580c4a5613548607b6970aefda8c03e"
+    },
+    {
+      "path": "yolov5/models/hub/yolov5-fpn.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2292eb1185a0d4c14985c3039d01fcffa26b32fd",
+      "size": 1215,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/2292eb1185a0d4c14985c3039d01fcffa26b32fd"
+    },
+    {
+      "path": "yolov5/models/hub/yolov5-p2.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c0ae44841cc967bceee310c3b5606c7d191c6f7",
+      "size": 1688,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/2c0ae44841cc967bceee310c3b5606c7d191c6f7"
+    },
+    {
+      "path": "yolov5/models/hub/yolov5-p34.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60ae3b4b6f30d0b1a5ba901d021de77d14953161",
+      "size": 1350,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/60ae3b4b6f30d0b1a5ba901d021de77d14953161"
+    },
+    {
+      "path": "yolov5/models/hub/yolov5-p6.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9e1b5f90c72dbe0c7257001761da7190c7b235b",
+      "size": 1742,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/a9e1b5f90c72dbe0c7257001761da7190c7b235b"
+    },
+    {
+      "path": "yolov5/models/hub/yolov5-p7.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a502412f08877bd233580bf048558758f8d0c1c4",
+      "size": 2123,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/a502412f08877bd233580bf048558758f8d0c1c4"
+    },
+    {
+      "path": "yolov5/models/hub/yolov5-panet.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5595e25738235718d5b4eb8672fc50301f0c043d",
+      "size": 1408,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/5595e25738235718d5b4eb8672fc50301f0c043d"
+    },
+    {
+      "path": "yolov5/models/hub/yolov5l6.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "651dbb0251ae89817e6292e215e57ab7ddc9a92a",
+      "size": 1821,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/651dbb0251ae89817e6292e215e57ab7ddc9a92a"
+    },
+    {
+      "path": "yolov5/models/hub/yolov5m6.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "059b12b46929cc481a014298a5ab5ae2b2bdaf68",
+      "size": 1823,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/059b12b46929cc481a014298a5ab5ae2b2bdaf68"
+    },
+    {
+      "path": "yolov5/models/hub/yolov5n6.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5052e7cbfc8b972a577af8c1668e0d475728268c",
+      "size": 1823,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/5052e7cbfc8b972a577af8c1668e0d475728268c"
+    },
+    {
+      "path": "yolov5/models/hub/yolov5s-LeakyReLU.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0368a78dcbb42c690a2ee81789c248d41009d665",
+      "size": 1498,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/0368a78dcbb42c690a2ee81789c248d41009d665"
+    },
+    {
+      "path": "yolov5/models/hub/yolov5s-ghost.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce5238fa5dfcd629b01d5a4a29388d6a7646d6ec",
+      "size": 1484,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/ce5238fa5dfcd629b01d5a4a29388d6a7646d6ec"
+    },
+    {
+      "path": "yolov5/models/hub/yolov5s-transformer.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5267163453c059a6b948567ec1fe5a9af18f7e5",
+      "size": 1442,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/f5267163453c059a6b948567ec1fe5a9af18f7e5"
+    },
+    {
+      "path": "yolov5/models/hub/yolov5s6.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f39b0379e74dbfdd584896561337572d47ee580",
+      "size": 1823,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/2f39b0379e74dbfdd584896561337572d47ee580"
+    },
+    {
+      "path": "yolov5/models/hub/yolov5x6.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1edbcb8634c7c8abc68fa99bf53a2106700129c",
+      "size": 1823,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/e1edbcb8634c7c8abc68fa99bf53a2106700129c"
+    },
+    {
+      "path": "yolov5/models/segment",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6323632cc78b663eb3447ac9e7bd23aa92ddee6a",
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/trees/6323632cc78b663eb3447ac9e7bd23aa92ddee6a"
+    },
+    {
+      "path": "yolov5/models/segment/yolov5l-seg.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71f80cc0805490c21adbb27bc093a04c4bc7b882",
+      "size": 1412,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/71f80cc0805490c21adbb27bc093a04c4bc7b882"
+    },
+    {
+      "path": "yolov5/models/segment/yolov5m-seg.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b8e1db2818acbbcd6d2b340c2d950fc3108d4d4",
+      "size": 1414,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/2b8e1db2818acbbcd6d2b340c2d950fc3108d4d4"
+    },
+    {
+      "path": "yolov5/models/segment/yolov5n-seg.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f67f8e3dfb05af091943100d7578e5f30770455",
+      "size": 1414,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/1f67f8e3dfb05af091943100d7578e5f30770455"
+    },
+    {
+      "path": "yolov5/models/segment/yolov5s-seg.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ff2524ca9b559fa416854dba8af9d3e16eb8323",
+      "size": 1413,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/2ff2524ca9b559fa416854dba8af9d3e16eb8323"
+    },
+    {
+      "path": "yolov5/models/segment/yolov5x-seg.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "589f65c76f954c4db6bc88e4fb0a6d26be70556e",
+      "size": 1414,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/589f65c76f954c4db6bc88e4fb0a6d26be70556e"
+    },
+    {
+      "path": "yolov5/models/tf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3436166eb7f27d4c2b5cf34ca1c9b153621e4d48",
+      "size": 27054,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/3436166eb7f27d4c2b5cf34ca1c9b153621e4d48"
+    },
+    {
+      "path": "yolov5/models/yolo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf4ac8c8da0ad90df26413852c519b031559f8c6",
+      "size": 17809,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/cf4ac8c8da0ad90df26413852c519b031559f8c6"
+    },
+    {
+      "path": "yolov5/models/yolov5l.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31362f8769327bad3afdb65d39a3b940397ecfae",
+      "size": 1402,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/31362f8769327bad3afdb65d39a3b940397ecfae"
+    },
+    {
+      "path": "yolov5/models/yolov5m.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a76900c5a2e2602d59ece8645bbd67e0dc454311",
+      "size": 1404,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/a76900c5a2e2602d59ece8645bbd67e0dc454311"
+    },
+    {
+      "path": "yolov5/models/yolov5n.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aba96cfc54f48c2cb2fe16aae2b0b94e38826c9d",
+      "size": 1404,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/aba96cfc54f48c2cb2fe16aae2b0b94e38826c9d"
+    },
+    {
+      "path": "yolov5/models/yolov5s.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d05364c49363adb2b863ecf163e45516679dc03",
+      "size": 1404,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/5d05364c49363adb2b863ecf163e45516679dc03"
+    },
+    {
+      "path": "yolov5/models/yolov5x.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bdd93915da550d62c4ada3684c5660ff5034404",
+      "size": 1404,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/4bdd93915da550d62c4ada3684c5660ff5034404"
+    },
+    {
+      "path": "yolov5/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "yolov5/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5044deb9b5c2a4b721e996b4c11848ef57d4671",
+      "size": 33881,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/b5044deb9b5c2a4b721e996b4c11848ef57d4671"
+    },
+    {
+      "path": "yolov5/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "17016cd92b9f7104818924ea27dab83861f45209",
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/trees/17016cd92b9f7104818924ea27dab83861f45209"
+    },
+    {
+      "path": "yolov5/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a7652b52c1bd79cae9d413cf130912bae11a984",
+      "size": 2645,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/2a7652b52c1bd79cae9d413cf130912bae11a984"
+    },
+    {
+      "path": "yolov5/utils/activations.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4d4bbde5ec8610a5ff13fe2ef2281721c14ca1a",
+      "size": 3450,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/e4d4bbde5ec8610a5ff13fe2ef2281721c14ca1a"
+    },
+    {
+      "path": "yolov5/utils/augmentations.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cbbc990501d8aa902117369aa6f5c4ee0a244be",
+      "size": 17045,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/6cbbc990501d8aa902117369aa6f5c4ee0a244be"
+    },
+    {
+      "path": "yolov5/utils/autoanchor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8347a9106a6eff61f2a1b88cca2cd7fdc17f48db",
+      "size": 7368,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/8347a9106a6eff61f2a1b88cca2cd7fdc17f48db"
+    },
+    {
+      "path": "yolov5/utils/autobatch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31f6094fdf2150d8c20d16628b159c95e075c53f",
+      "size": 2947,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/31f6094fdf2150d8c20d16628b159c95e075c53f"
+    },
+    {
+      "path": "yolov5/utils/aws",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4ed2184621ce449a96579905f2b00168482c7c7b",
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/trees/4ed2184621ce449a96579905f2b00168482c7c7b"
+    },
+    {
+      "path": "yolov5/utils/aws/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "yolov5/utils/aws/mime.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c319a83cfbdf09bea634c3bd9fca737c0b1dd505",
+      "size": 780,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/c319a83cfbdf09bea634c3bd9fca737c0b1dd505"
+    },
+    {
+      "path": "yolov5/utils/aws/resume.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b21731c979a121ab8227280351b70d6062efd983",
+      "size": 1198,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/b21731c979a121ab8227280351b70d6062efd983"
+    },
+    {
+      "path": "yolov5/utils/aws/userdata.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fc1332ac1b0d1794cf8f8c5f6918059ae5dc381",
+      "size": 1247,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/5fc1332ac1b0d1794cf8f8c5f6918059ae5dc381"
+    },
+    {
+      "path": "yolov5/utils/callbacks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccebba02bcaa9d27e3f74e18014f3c9fa0385685",
+      "size": 2662,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/ccebba02bcaa9d27e3f74e18014f3c9fa0385685"
+    },
+    {
+      "path": "yolov5/utils/dataloaders.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c2bb32c5217fe248559901bf87d0971059ced79",
+      "size": 55971,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/6c2bb32c5217fe248559901bf87d0971059ced79"
+    },
+    {
+      "path": "yolov5/utils/docker",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "31184baf521a230d321c4918bd5c30200c5536c4",
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/trees/31184baf521a230d321c4918bd5c30200c5536c4"
+    },
+    {
+      "path": "yolov5/utils/docker/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff657dea2bf23ae4221f31a2c52453c4ee966f34",
+      "size": 2670,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/ff657dea2bf23ae4221f31a2c52453c4ee966f34"
+    },
+    {
+      "path": "yolov5/utils/docker/Dockerfile-arm64",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b5c610e5071b2aa712b7e521c39145c11016773",
+      "size": 1681,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/7b5c610e5071b2aa712b7e521c39145c11016773"
+    },
+    {
+      "path": "yolov5/utils/docker/Dockerfile-cpu",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "613bdffa47685c19428f92fe33c1c9958ff917aa",
+      "size": 1706,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/613bdffa47685c19428f92fe33c1c9958ff917aa"
+    },
+    {
+      "path": "yolov5/utils/downloads.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3139d66e4f4371b9185429d56d237d7190ba51a",
+      "size": 4925,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/a3139d66e4f4371b9185429d56d237d7190ba51a"
+    },
+    {
+      "path": "yolov5/utils/flask_rest_api",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2a90f8930596321154075042670bd2a69f01f425",
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/trees/2a90f8930596321154075042670bd2a69f01f425"
+    },
+    {
+      "path": "yolov5/utils/flask_rest_api/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a726acbd92043458311dd949cc09c0195cd35400",
+      "size": 1710,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/a726acbd92043458311dd949cc09c0195cd35400"
+    },
+    {
+      "path": "yolov5/utils/flask_rest_api/example_request.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "256ad1319c82abf941a50f2d690a4ec1244616bd",
+      "size": 369,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/256ad1319c82abf941a50f2d690a4ec1244616bd"
+    },
+    {
+      "path": "yolov5/utils/flask_rest_api/restapi.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae4756b276e4b5d4215d29ee1761e520adc05f54",
+      "size": 1440,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/ae4756b276e4b5d4215d29ee1761e520adc05f54"
+    },
+    {
+      "path": "yolov5/utils/general.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1041e28642d7b36d483d92cf929c50e57d39444f",
+      "size": 47944,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/1041e28642d7b36d483d92cf929c50e57d39444f"
+    },
+    {
+      "path": "yolov5/utils/general1.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90880c44672317dba3f1141a2213f8789f8be3dd",
+      "size": 45463,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/90880c44672317dba3f1141a2213f8789f8be3dd"
+    },
+    {
+      "path": "yolov5/utils/google_app_engine",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "890dbb607f547461ab282ce678ded2caf90f77b5",
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/trees/890dbb607f547461ab282ce678ded2caf90f77b5"
+    },
+    {
+      "path": "yolov5/utils/google_app_engine/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0155618f475104e9858b81470339558156c94e13",
+      "size": 821,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/0155618f475104e9858b81470339558156c94e13"
+    },
+    {
+      "path": "yolov5/utils/google_app_engine/additional_requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fce1511588e3f09711e4b2d8f0490a5effc7dc0f",
+      "size": 187,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/fce1511588e3f09711e4b2d8f0490a5effc7dc0f"
+    },
+    {
+      "path": "yolov5/utils/google_app_engine/app.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5056b7c1186d6ad278957bbd6e976c3a0f169a30",
+      "size": 174,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/5056b7c1186d6ad278957bbd6e976c3a0f169a30"
+    },
+    {
+      "path": "yolov5/utils/loggers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ba89187fd3c98f1598b40db4948680baecdf98b6",
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/trees/ba89187fd3c98f1598b40db4948680baecdf98b6"
+    },
+    {
+      "path": "yolov5/utils/loggers/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c32e7b41ea24aa0f892195bfb2445578a1b6f0e",
+      "size": 16471,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/0c32e7b41ea24aa0f892195bfb2445578a1b6f0e"
+    },
+    {
+      "path": "yolov5/utils/loggers/__pycache__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e0cf345645027d623c8ee34446ea23fdb1019c19",
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/trees/e0cf345645027d623c8ee34446ea23fdb1019c19"
+    },
+    {
+      "path": "yolov5/utils/loggers/__pycache__/__init__.cpython-312.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8891f1aebbeba6e7f5e3301f299c2f30ae45f0bc",
+      "size": 24822,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/8891f1aebbeba6e7f5e3301f299c2f30ae45f0bc"
+    },
+    {
+      "path": "yolov5/utils/loggers/__pycache__/__init__.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33afde3ccd641aaf0f89fd71bcb747c321a66f44",
+      "size": 13695,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/33afde3ccd641aaf0f89fd71bcb747c321a66f44"
+    },
+    {
+      "path": "yolov5/utils/loggers/clearml",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cd2b88d4b762586c3b0b09500d220333149736e2",
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/trees/cd2b88d4b762586c3b0b09500d220333149736e2"
+    },
+    {
+      "path": "yolov5/utils/loggers/clearml/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca41c040193c1d8817a870404af09871b511f7ed",
+      "size": 10862,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/ca41c040193c1d8817a870404af09871b511f7ed"
+    },
+    {
+      "path": "yolov5/utils/loggers/clearml/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "yolov5/utils/loggers/clearml/__pycache__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ea385e72522635e3e3fe2a5d01461aeef16f771f",
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/trees/ea385e72522635e3e3fe2a5d01461aeef16f771f"
+    },
+    {
+      "path": "yolov5/utils/loggers/clearml/__pycache__/__init__.cpython-312.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d1bb3621e774640a0c380783c890e445a0298f6",
+      "size": 176,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/7d1bb3621e774640a0c380783c890e445a0298f6"
+    },
+    {
+      "path": "yolov5/utils/loggers/clearml/__pycache__/__init__.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4879378123b10e9693ddd9b717e8f4936d2591bb",
+      "size": 170,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/4879378123b10e9693ddd9b717e8f4936d2591bb"
+    },
+    {
+      "path": "yolov5/utils/loggers/clearml/__pycache__/clearml_utils.cpython-312.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adabe58dcc5745e0b7ee5e6687fa64da9a703db0",
+      "size": 9347,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/adabe58dcc5745e0b7ee5e6687fa64da9a703db0"
+    },
+    {
+      "path": "yolov5/utils/loggers/clearml/__pycache__/clearml_utils.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e5a711862d618f6850ba4aa073da0a0be140a51",
+      "size": 5864,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/8e5a711862d618f6850ba4aa073da0a0be140a51"
+    },
+    {
+      "path": "yolov5/utils/loggers/clearml/clearml_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a518f2e9c0653456faa72844155308ff45f56885",
+      "size": 8041,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/a518f2e9c0653456faa72844155308ff45f56885"
+    },
+    {
+      "path": "yolov5/utils/loggers/clearml/hpo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee518b0fbfc89ee811b51bbf85341eee4f685be1",
+      "size": 5271,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/ee518b0fbfc89ee811b51bbf85341eee4f685be1"
+    },
+    {
+      "path": "yolov5/utils/loggers/comet",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "23139a5b539d8ab696a0262535d10fe87327342e",
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/trees/23139a5b539d8ab696a0262535d10fe87327342e"
+    },
+    {
+      "path": "yolov5/utils/loggers/comet/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aee8d16a336c1bff89bfc0c1679dcb6ee8751a48",
+      "size": 10752,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/aee8d16a336c1bff89bfc0c1679dcb6ee8751a48"
+    },
+    {
+      "path": "yolov5/utils/loggers/comet/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4dc7202af466e763c7713d6996a14014ba4287a6",
+      "size": 18748,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/4dc7202af466e763c7713d6996a14014ba4287a6"
+    },
+    {
+      "path": "yolov5/utils/loggers/comet/__pycache__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "13b7016f917bf4f84092d633cf963a362cc216e6",
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/trees/13b7016f917bf4f84092d633cf963a362cc216e6"
+    },
+    {
+      "path": "yolov5/utils/loggers/comet/__pycache__/__init__.cpython-312.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9e29877aaaa8deafa6e907a1cefc2b88c5795ad",
+      "size": 26234,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/f9e29877aaaa8deafa6e907a1cefc2b88c5795ad"
+    },
+    {
+      "path": "yolov5/utils/loggers/comet/__pycache__/__init__.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ffac13b333630c858c96065f3df5eec083af696",
+      "size": 14836,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/1ffac13b333630c858c96065f3df5eec083af696"
+    },
+    {
+      "path": "yolov5/utils/loggers/comet/__pycache__/comet_utils.cpython-312.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d463c39f18335e1eaaa1f5529371e577f9c2f85",
+      "size": 6485,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/7d463c39f18335e1eaaa1f5529371e577f9c2f85"
+    },
+    {
+      "path": "yolov5/utils/loggers/comet/__pycache__/comet_utils.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63c7bf6e8eda0a404af06d5c3d44e65544bce2e4",
+      "size": 4197,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/63c7bf6e8eda0a404af06d5c3d44e65544bce2e4"
+    },
+    {
+      "path": "yolov5/utils/loggers/comet/comet_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27600761ad2843a6ab66aa22ad06782bb4b7eea7",
+      "size": 4751,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/27600761ad2843a6ab66aa22ad06782bb4b7eea7"
+    },
+    {
+      "path": "yolov5/utils/loggers/comet/hpo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc49115c13581554bebe1ddddaf3d5e10caaae07",
+      "size": 6653,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/fc49115c13581554bebe1ddddaf3d5e10caaae07"
+    },
+    {
+      "path": "yolov5/utils/loggers/comet/optimizer_config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83ddddab6f2084b4bdf84dca1e61696de200d1b8",
+      "size": 3020,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/83ddddab6f2084b4bdf84dca1e61696de200d1b8"
+    },
+    {
+      "path": "yolov5/utils/loggers/wandb",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2c537be55ded4f7aecc95f0366d014b010e38e8f",
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/trees/2c537be55ded4f7aecc95f0366d014b010e38e8f"
+    },
+    {
+      "path": "yolov5/utils/loggers/wandb/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "yolov5/utils/loggers/wandb/__pycache__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9671c2a9ad32f46e72b39deb8ca93195c15b7f01",
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/trees/9671c2a9ad32f46e72b39deb8ca93195c15b7f01"
+    },
+    {
+      "path": "yolov5/utils/loggers/wandb/__pycache__/__init__.cpython-312.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10416c27cb84d0d354698c4e9e5fd04f1f3b5488",
+      "size": 174,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/10416c27cb84d0d354698c4e9e5fd04f1f3b5488"
+    },
+    {
+      "path": "yolov5/utils/loggers/wandb/__pycache__/__init__.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35ace8641d27d3cbe3af3051f872aa80f32d2495",
+      "size": 168,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/35ace8641d27d3cbe3af3051f872aa80f32d2495"
+    },
+    {
+      "path": "yolov5/utils/loggers/wandb/__pycache__/wandb_utils.cpython-312.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2c248af11587b8e2c7c966a5c5d4cadade28597",
+      "size": 10419,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/d2c248af11587b8e2c7c966a5c5d4cadade28597"
+    },
+    {
+      "path": "yolov5/utils/loggers/wandb/__pycache__/wandb_utils.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63620ab819622b58a5fad72837a8dec0d2e22922",
+      "size": 6871,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/63620ab819622b58a5fad72837a8dec0d2e22922"
+    },
+    {
+      "path": "yolov5/utils/loggers/wandb/wandb_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6add958d1968ba8a97d2e9a568aad766bb7586cc",
+      "size": 8260,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/6add958d1968ba8a97d2e9a568aad766bb7586cc"
+    },
+    {
+      "path": "yolov5/utils/loss.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a0745d23ec703f33d39800740680548ec3bd0ff",
+      "size": 9888,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/1a0745d23ec703f33d39800740680548ec3bd0ff"
+    },
+    {
+      "path": "yolov5/utils/metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6305ed384443282352eb44600344f9397d793e1",
+      "size": 14576,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/d6305ed384443282352eb44600344f9397d793e1"
+    },
+    {
+      "path": "yolov5/utils/plots.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b305e67c9eaae14d5b65ddda5485acae3a24afb8",
+      "size": 24653,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/b305e67c9eaae14d5b65ddda5485acae3a24afb8"
+    },
+    {
+      "path": "yolov5/utils/segment",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a761f808d6745b08cdae9ce13e3306d3af87204d",
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/trees/a761f808d6745b08cdae9ce13e3306d3af87204d"
+    },
+    {
+      "path": "yolov5/utils/segment/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "yolov5/utils/segment/__pycache__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d2aea0358e5847dbdf57e8d5285a1686e6d1f9c3",
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/trees/d2aea0358e5847dbdf57e8d5285a1686e6d1f9c3"
+    },
+    {
+      "path": "yolov5/utils/segment/__pycache__/__init__.cpython-312.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8341bdb4e0b760afaef95a35aaaae857fef422f8",
+      "size": 168,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/8341bdb4e0b760afaef95a35aaaae857fef422f8"
+    },
+    {
+      "path": "yolov5/utils/segment/__pycache__/__init__.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7895486fa45fb405f91d1a38e95d7be2c35e8dd",
+      "size": 162,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/b7895486fa45fb405f91d1a38e95d7be2c35e8dd"
+    },
+    {
+      "path": "yolov5/utils/segment/__pycache__/general.cpython-312.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48d0f4299b83d9a67fba13740cd3cc279e2d73a2",
+      "size": 8436,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/48d0f4299b83d9a67fba13740cd3cc279e2d73a2"
+    },
+    {
+      "path": "yolov5/utils/segment/__pycache__/general.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e872b7612d7a18ddea0d0139ddffbb5e4e12d5e",
+      "size": 5127,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/7e872b7612d7a18ddea0d0139ddffbb5e4e12d5e"
+    },
+    {
+      "path": "yolov5/utils/segment/augmentations.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8154b834869acd87f80c0152c870b7631a918ba",
+      "size": 3757,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/f8154b834869acd87f80c0152c870b7631a918ba"
+    },
+    {
+      "path": "yolov5/utils/segment/dataloaders.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ee826dba69cb0cda00c48b82710784cd39c5a81",
+      "size": 13836,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/3ee826dba69cb0cda00c48b82710784cd39c5a81"
+    },
+    {
+      "path": "yolov5/utils/segment/general.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1b2f1dd120ff47eec618e0c25239c28c4d88475",
+      "size": 5813,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/f1b2f1dd120ff47eec618e0c25239c28c4d88475"
+    },
+    {
+      "path": "yolov5/utils/segment/loss.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "caeff3cad586b4367990aa4626ed6c326b04baf3",
+      "size": 8591,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/caeff3cad586b4367990aa4626ed6c326b04baf3"
+    },
+    {
+      "path": "yolov5/utils/segment/metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6020fa062ba562c770a3a6dd17daf7fa30e1dfc2",
+      "size": 5458,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/6020fa062ba562c770a3a6dd17daf7fa30e1dfc2"
+    },
+    {
+      "path": "yolov5/utils/segment/plots.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b22ec838ac93220187b60f5bdaf50eae19d7397",
+      "size": 6386,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/1b22ec838ac93220187b60f5bdaf50eae19d7397"
+    },
+    {
+      "path": "yolov5/utils/torch_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd41458fd9f60ac94bb02ab8c7d19bc893a7ca04",
+      "size": 19602,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/bd41458fd9f60ac94bb02ab8c7d19bc893a7ca04"
+    },
+    {
+      "path": "yolov5/utils/triton.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5153dad940ddeceda4d8e39ac3d90e3efa66448",
+      "size": 3635,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/b5153dad940ddeceda4d8e39ac3d90e3efa66448"
+    },
+    {
+      "path": "yolov5/val.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20a2d27cb288b739aa6d2663395d445b12dba887",
+      "size": 20501,
+      "url": "https://api.github.com/repos/weihui1308/CAP/git/blobs/20a2d27cb288b739aa6d2663395d445b12dba887"
+    }
+  ],
+  "truncated": false
+}

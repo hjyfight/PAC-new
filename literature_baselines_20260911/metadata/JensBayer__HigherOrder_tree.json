@@ -1,0 +1,84 @@
+{
+  "sha": "efd0778134f3ce54b90cc7ccf29ddf12e56abb1a",
+  "url": "https://api.github.com/repos/JensBayer/HigherOrder/git/trees/efd0778134f3ce54b90cc7ccf29ddf12e56abb1a",
+  "tree": [
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "size": 35149,
+      "url": "https://api.github.com/repos/JensBayer/HigherOrder/git/blobs/f288702d2fa16d3cdf0035b15a9fcbc552cd88e7"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efd52cc40acbd0cb2175c49ff4a2d3cd490760ca",
+      "size": 1055,
+      "url": "https://api.github.com/repos/JensBayer/HigherOrder/git/blobs/efd52cc40acbd0cb2175c49ff4a2d3cd490760ca"
+    },
+    {
+      "path": "adv_ultralytics.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d12999fa4d4e23c5818629c1137f81db6cd4cea",
+      "size": 5555,
+      "url": "https://api.github.com/repos/JensBayer/HigherOrder/git/blobs/4d12999fa4d4e23c5818629c1137f81db6cd4cea"
+    },
+    {
+      "path": "default.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12acc62554917baed8bf22b416e47fbe60bada85",
+      "size": 8610,
+      "url": "https://api.github.com/repos/JensBayer/HigherOrder/git/blobs/12acc62554917baed8bf22b416e47fbe60bada85"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ec95c140c51f7877f5cb6da851008d3e4022938",
+      "size": 251,
+      "url": "https://api.github.com/repos/JensBayer/HigherOrder/git/blobs/2ec95c140c51f7877f5cb6da851008d3e4022938"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "41368803974148ddbc3f42acc36b0d2b17429844",
+      "url": "https://api.github.com/repos/JensBayer/HigherOrder/git/trees/41368803974148ddbc3f42acc36b0d2b17429844"
+    },
+    {
+      "path": "scripts/evaluate",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "34200e5e0d99cb89bb129a4553de50a6b0319260",
+      "url": "https://api.github.com/repos/JensBayer/HigherOrder/git/trees/34200e5e0d99cb89bb129a4553de50a6b0319260"
+    },
+    {
+      "path": "scripts/evaluate/evaluate_patch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "158f8c3d102f4fd5879672022ad235b5a983238e",
+      "size": 4542,
+      "url": "https://api.github.com/repos/JensBayer/HigherOrder/git/blobs/158f8c3d102f4fd5879672022ad235b5a983238e"
+    },
+    {
+      "path": "scripts/train",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9bc0d2fc0176f9363b39e195a7be09c73cf25aa9",
+      "url": "https://api.github.com/repos/JensBayer/HigherOrder/git/trees/9bc0d2fc0176f9363b39e195a7be09c73cf25aa9"
+    },
+    {
+      "path": "scripts/train/trainYolov10Patch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3af113da417d7ff95a1eb8b04db966071b0381c2",
+      "size": 7153,
+      "url": "https://api.github.com/repos/JensBayer/HigherOrder/git/blobs/3af113da417d7ff95a1eb8b04db966071b0381c2"
+    }
+  ],
+  "truncated": false
+}

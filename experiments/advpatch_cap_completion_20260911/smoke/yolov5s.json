@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "detector": "yolov5s",
+  "batch_size": 8,
+  "images": 614,
+  "batches_per_epoch": 77,
+  "train_images_only": true,
+  "detector_frozen": true,
+  "finite_nonzero_detection_gradient": true,
+  "steps": [
+    {
+      "step": 1,
+      "loss": 0.955366313457489,
+      "detection": 0.854982316493988,
+      "nps": 0.0003839540877379477,
+      "tv": 0.10000000149011612,
+      "detection_gradient_abs_sum": 15.156484603881836,
+      "patch_update_max": 0.029999852180480957,
+      "per_image_scores": [
+        0.8501325845718384,
+        0.9236196875572205,
+        0.8802710175514221,
+        0.7856124639511108,
+        0.8612135052680969,
+        0.7065228223800659,
+        0.9324307441711426,
+        0.9000557065010071
+      ]
+    },
+    {
+      "step": 2,
+      "loss": 0.9816629886627197,
+      "detection": 0.870090663433075,
+      "nps": 0.00041034689638763666,
+      "tv": 0.11116203665733337,
+      "detection_gradient_abs_sum": 11.557145118713379,
+      "patch_update_max": 0.030038058757781982,
+      "per_image_scores": [
+        0.8654276728630066,
+        0.9235660433769226,
+        0.8794071674346924,
+        0.7725114226341248,
+        0.864052414894104,
+        0.8093014359474182,
+        0.9338531494140625,
+        0.912605881690979
+      ]
+    }
+  ],
+  "reserved_mib": 5840.0,
+  "allocated_mib": 5288.60400390625,
+  "selected_yolov5s_equivalence": {
+    "loss_max_absolute_error": 0.0,
+    "gradient_max_absolute_error": 4.656612873077393e-10
+  },
+  "seconds": 1.6605405550217256
+}
