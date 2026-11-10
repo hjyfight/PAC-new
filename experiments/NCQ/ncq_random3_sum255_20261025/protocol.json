@@ -1,0 +1,175 @@
+{
+  "seed": 1788272031,
+  "data_yaml": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/yolov5-advreal2d-20260908/data/inria.yaml",
+  "train_images": 614,
+  "test_images": 288,
+  "test_targets": 589,
+  "batch_size": 8,
+  "patch_size": 300,
+  "patch_area_fraction": 0.25,
+  "placement": "center of each ground-truth person box, same integer rounding/clamping as selected PAC run",
+  "imgsz": 640,
+  "preprocess": "advpatch",
+  "pixel_pipeline": "PIL RGB -> center pad original size to square with RGB 127 -> PIL bilinear 640x640",
+  "conf_thres": 0.001,
+  "nms_iou": 0.6,
+  "max_det": 300,
+  "asr_conf": 0.5,
+  "asr_iou": 0.5,
+  "asr_definition": "GT detected clean at confidence>=.5 and IoU>=.5 but missed with patch, divided by clean-detected GT; one-to-one matching",
+  "detectors": {
+    "yolov5s": {
+      "weights": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advpad-20260908/yolov5s.pt",
+      "sha256": "8b3b748c1e592ddd8868022e8732fde20025197328490623cc16c6f24d0782ee",
+      "implementation": "PAC-yolo pinned YOLOv5 loader, official COCO v6.2 checkpoint",
+      "parameters": 7235389
+    },
+    "yolov2": {
+      "weights": "/datacc05/huotianlin/code-hu/PAC/third_party/weights/yolov2.weights",
+      "sha256": "d9945162ed6f54ce1a901e3ec537bdba4d572ecae7873087bd730e5a7942df3f",
+      "implementation": "/datacc05/huotianlin/code-hu/PAC/third_party/T-SEA-pac/detlib/HHDet/yolov2/yolov2/darknet.py",
+      "parameters": 50962889
+    },
+    "yolov3": {
+      "weights": "/datacc05/huotianlin/code-hu/PAC/third_party/weights/yolov3.weights",
+      "sha256": "523e4e69e1d015393a1b0a441cef1d9c7659e3eb2d7e15f793f060a21b32f297",
+      "implementation": "/datacc05/huotianlin/code-hu/PAC/third_party/T-SEA-pac/detlib/HHDet/yolov3/PyTorch_YOLOv3/pytorchyolo/models.py",
+      "parameters": 61949149
+    },
+    "yolov4": {
+      "weights": "/datacc05/huotianlin/code-hu/PAC/third_party/weights/yolov4.weights",
+      "sha256": "e8a4f6c62188738d86dc6898d82724ec0964d0eb9d2ae0f0a9d53d65d108d562",
+      "implementation": "/datacc05/huotianlin/code-hu/PAC/third_party/T-SEA-pac/detlib/HHDet/yolov4/Pytorch_YOLOv4/tool/darknet2pytorch.py",
+      "parameters": 64363101
+    },
+    "yolov5m": {
+      "weights": "/datacc05/huotianlin/code-hu/PAC/third_party/weights/yolov5m-v6.2.pt",
+      "sha256": "61d933360ba5a7733a36764996c800287d973889d875227f5beedd2473a97a56",
+      "implementation": "PAC-yolo pinned YOLOv5 loader, official COCO v6.2 checkpoint",
+      "parameters": 21190557
+    },
+    "fasterrcnn": {
+      "weights": "/datacc05/huotianlin/code-hu/PAC/third_party/weights/fasterrcnn_resnet50_fpn_coco-258fb6c6.pth",
+      "sha256": "258fb6c638b15964ddcdd1ae0748c5eef1be9e732750120cc857feed3faac384",
+      "implementation": "torchvision 0.20.1 fasterrcnn_resnet50_fpn COCO_V1 (FrozenBatchNorm eps=0)",
+      "parameters": 41755286
+    }
+  },
+  "source_code_sha256": {
+    "eval_transfer.py": "5a2c49defff7440fd6ad498b4730d19919c07770a8d2a536df2072cc264c6864",
+    "detector_backends.py": "53ec277fa317b45f0fc4c60e1d8c7ac3d69ae3f9522121a0536651a75fd364c3",
+    "utils/patch.py": "fd7d91e0360235ad2b275905817ee82e5442d6ebc2534932f1cec92931897f51",
+    "utils/dataloaders.py": "d7497b7ebc3879ea90c59134ff0cc1232d592ca8ce838e6b28f05e2268cfcd7c",
+    "utils/general.py": "121caf73bd4d8d6597ded4157335a650dc181cb2fa31c32ff7ab9ced271150fb",
+    "utils/metrics.py": "085d17cbd1a002938be928301b9afe272295ab8031965f3e57533f21241033f4",
+    "models/experimental.py": "8423b61af8c4e2535583e0c5125e9cdeeea50a1e066950af2d0f3a9013a92d72"
+  },
+  "created_utc": "2026-10-25T10:01:55.120177+00:00",
+  "models": [
+    "yolov2",
+    "yolov3",
+    "yolov4",
+    "yolov5s",
+    "yolov5m",
+    "fasterrcnn"
+  ],
+  "palette_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "source_items": {
+    "yolov2": {
+      "id": "advpatch",
+      "label": "AdvPatch (yolov2)",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/yolov2/patches/advpatch/best.pt",
+      "optimization_source": "yolov2",
+      "variant": "advpatch",
+      "sha256": "28216de97ba9c5c37aa6e624b8cd34fbbe74afa55d34759bdfe4a7740c10f57c",
+      "min": 0.0,
+      "max": 1.0,
+      "std": 0.26013270020484924,
+      "source_best_epoch": 162
+    },
+    "yolov3": {
+      "id": "advpatch",
+      "label": "AdvPatch (yolov3)",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/yolov3/patches/advpatch/best.pt",
+      "optimization_source": "yolov3",
+      "variant": "advpatch",
+      "sha256": "f6d8a98dbf53c0ad6814a0d56c05eebeb51d8a030675e35f326d52a981308af1",
+      "min": 0.0,
+      "max": 1.0,
+      "std": 0.1696280837059021,
+      "source_best_epoch": 183
+    },
+    "yolov4": {
+      "id": "advpatch",
+      "label": "AdvPatch (yolov4)",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/yolov4/patches/advpatch/best.pt",
+      "optimization_source": "yolov4",
+      "variant": "advpatch",
+      "sha256": "4bb446769e8c82b585672a011497d40a3c9a4c8c4cfcae16eb95de331b7c8335",
+      "min": 0.0,
+      "max": 0.954801082611084,
+      "std": 0.15539155900478363,
+      "source_best_epoch": 200
+    },
+    "yolov5s": {
+      "id": "advpatch",
+      "label": "AdvPatch",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advpad-20260908/runs/official_pad3_20260908/patches/ap_s000_advpatch/best.pt",
+      "sha256": "bb27f8379b9b31f5bf7e02de674bdb0cf9a71b28deb795870ff73f42bcf385c3",
+      "optimization_source": "yolov5s",
+      "selected_group": "s000",
+      "seed": 1788272031,
+      "variant": "reference_advpatch",
+      "original_metrics_root": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/yolov5-advreal2d-20260908/runs/advreal2d_authorbudget_seed0_20260908/eval",
+      "original_patch_id": "advpatch"
+    },
+    "yolov5m": {
+      "id": "advpatch",
+      "label": "AdvPatch (yolov5m)",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/yolov5m/patches/advpatch/best.pt",
+      "optimization_source": "yolov5m",
+      "variant": "advpatch",
+      "sha256": "5356549f42f9d0ffd924db3a56b854f7ca6dd2b74d69bffa396962b06a41676c",
+      "min": 0.0,
+      "max": 0.9945716261863708,
+      "std": 0.206282839179039,
+      "source_best_epoch": 200
+    },
+    "fasterrcnn": {
+      "id": "advpatch",
+      "label": "AdvPatch (fasterrcnn)",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/fasterrcnn/patches/advpatch/best.pt",
+      "optimization_source": "fasterrcnn",
+      "variant": "advpatch",
+      "sha256": "26b7f1956f869e7f945c1d5ae4d82f052676e6164478cbcd2081ff7234ec6872",
+      "min": 0.0,
+      "max": 1.0,
+      "std": 0.19399113953113556,
+      "source_best_epoch": 200
+    }
+  },
+  "random_palette_sampling": "Per seed 0..4, independently per RGB output channel: sort default_rng(seed).choice(257,2,replace=False) as a,b; parts=(a,b-a-1,256-b). Uniform over all ordered nonnegative integer triples summing to 255.",
+  "structure_control": "Same original donor and full RGB-vector permutation seeds 10000..10004 as parent.",
+  "ncq": "Each original donor pixel mapped to nearest of the same three base colors in RGB; no optimization",
+  "pac": "Unnormalized original RGB channels used as weights; same existing recolor() including clamp",
+  "variance": "Sample SD across five palette/permutation draws, NOT five independent training runs",
+  "scope": "Six white-box detectors, existing single donor training seed; Bc1/Bc2 are fixed synthetic palettes",
+  "expected_evaluations": 66,
+  "script_sha256_at_prepare": "47e5c76642d81a868cd28281359c625a49b04282b5b9f798d434614f83f9da44",
+  "dataset_audit_sha256": "18fb49e9b3130d3f55dc857b9489644a2d2b5c8258e3bce9f125948830d8278e",
+  "parent_protocol": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_20261025/protocol.json",
+  "parent_protocol_sha256": "6cc2a05565aa07ac77265a9f2ae19b1b05f9a9f363e665826474a9136a11da6d",
+  "constraint_axis": "Sum over the THREE BASE COLORS for EACH output R/G/B channel; NOT each color RGB sum.",
+  "clipping_proof": "0<=donor_k<=1 and sum_k colors[k,c]=255 imply 0<=sum_k donor_k*colors[k,c]/255<=1.",
+  "new_attack_evaluations": 60,
+  "clean_replays": 6,
+  "baseline_use": "Prior metrics are referenced, not counted as new evaluations; SHA256 frozen in baseline_audit.json.",
+  "baseline_audit_sha256": "3861e7c446c0a94c5f78df119570489b65fa23bdd44270085c919ea044aba1a7",
+  "shared_runner_sha256": "7ac0f060954ec42cb8566290aa5b5c85523a9042b68b496be80723344ddb33df"
+}

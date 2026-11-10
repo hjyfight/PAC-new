@@ -1,0 +1,29 @@
+[
+  {
+    "run": "ap_s000_advpatch",
+    "seed": 1788272031,
+    "epochs": 200,
+    "best_epoch": 199,
+    "best_training_loss": 0.7870259368458478,
+    "final_training_loss": 0.787873597991583,
+    "opt_yaml": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advpad-20260908/runs/official_pad3_20260908/patches/ap_s000_advpatch/opt.yaml"
+  },
+  {
+    "run": "ap_s001_advpatch",
+    "seed": 1788272032,
+    "epochs": 200,
+    "best_epoch": 200,
+    "best_training_loss": 0.7659030989637592,
+    "final_training_loss": 0.7659030989637592,
+    "opt_yaml": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advpad-20260908/runs/official_pad3_20260908/patches/ap_s001_advpatch/opt.yaml"
+  },
+  {
+    "run": "ap_s002_advpatch",
+    "seed": 1788272033,
+    "epochs": 200,
+    "best_epoch": 200,
+    "best_training_loss": 0.8136409486155557,
+    "final_training_loss": 0.8136409486155557,
+    "opt_yaml": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advpad-20260908/runs/official_pad3_20260908/patches/ap_s002_advpatch/opt.yaml"
+  }
+]

@@ -1,0 +1,7 @@
+target,map50_pct,conditional_asr,metrics_path
+yolov2,72.98325279003043,0.09911504424778761,/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/controls/gray/eval/yolov2/gray/metrics.json
+yolov3,73.68632236649873,0.08448275862068966,/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/controls/gray/eval/yolov3/gray/metrics.json
+yolov4,64.78187813808432,0.19827586206896552,/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/controls/gray/eval/yolov4/gray/metrics.json
+yolov5s,42.78009785634614,0.31141868512110726,/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/controls/gray/eval/yolov5s/gray/metrics.json
+yolov5m,51.079610106665875,0.22279792746113988,/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/controls/gray/eval/yolov5m/gray/metrics.json
+fasterrcnn,82.73685129706718,0.029159519725557463,/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/controls/gray/eval/fasterrcnn/gray/metrics.json

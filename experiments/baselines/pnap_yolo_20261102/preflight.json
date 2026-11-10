@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "versions": {
+    "torch": "2.5.1+cu124",
+    "torchvision": "0.20.1+cu124",
+    "diffusers": "0.28.2",
+    "transformers": "4.41.2",
+    "accelerate": "0.32.1",
+    "safetensors": "0.4.3",
+    "huggingface-hub": "0.23.3",
+    "numpy": "1.26.4",
+    "opencv-python": "4.11.0.86"
+  },
+  "errors": [],
+  "formal_results": false
+}

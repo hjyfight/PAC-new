@@ -1,0 +1,7 @@
+{
+  "detector_saved_tensors": "cpu_pinned",
+  "wrapper_sha256": "caa555b46a743332a8279d79027a8109ebf85ab94a21b13495ea89037cda1e42",
+  "protocol_sha256": "1957152f312405172af03f56800b97c69f3837165a96aa0d9f6991d2226b2cc7",
+  "torch_version": "2.5.1+cu124",
+  "equivalence_sha256": "9703332b94ffaa3ccbd9e9dae7bcba4edc7e9a397c00314dd022d05a86747701"
+}

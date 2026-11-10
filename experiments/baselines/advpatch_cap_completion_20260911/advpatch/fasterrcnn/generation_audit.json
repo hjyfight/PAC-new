@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "count": 2,
+  "patches": [
+    {
+      "source": "fasterrcnn",
+      "family": "AdvPatch",
+      "base_colors": "bc1",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/fasterrcnn/patches/p1.pt",
+      "source_sha256": "26b7f1956f869e7f945c1d5ae4d82f052676e6164478cbcd2081ff7234ec6872",
+      "sha256": "890ad02eb923ce3ee7c5c1faeb7958ee71ec47e37d1095c1b8f2f84ae8171918",
+      "shape": [
+        3,
+        300,
+        300
+      ],
+      "max_absolute_formula_error": 8.47320931196549e-08,
+      "roundtrip_max_error": 0.0,
+      "unclipped_min": 0.0,
+      "unclipped_max": 0.9551947303846772,
+      "clipped_values": 0,
+      "softmax": false,
+      "weight_normalization": false
+    },
+    {
+      "source": "fasterrcnn",
+      "family": "AdvPatch",
+      "base_colors": "bc2",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/fasterrcnn/patches/p2.pt",
+      "source_sha256": "26b7f1956f869e7f945c1d5ae4d82f052676e6164478cbcd2081ff7234ec6872",
+      "sha256": "360dd61a9971fd601407834074a84da2a38e2e36f173b70335ebf0a6b9a21c9b",
+      "shape": [
+        3,
+        300,
+        300
+      ],
+      "max_absolute_formula_error": 9.957481827971293e-08,
+      "roundtrip_max_error": 0.0,
+      "unclipped_min": 0.0,
+      "unclipped_max": 0.9551954250709683,
+      "clipped_values": 0,
+      "softmax": false,
+      "weight_normalization": false
+    }
+  ]
+}

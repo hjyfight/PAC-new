@@ -1,0 +1,58 @@
+[
+  {
+    "objective": "obj_cls",
+    "selection": "best",
+    "variant": "p1",
+    "map50_change_vs_raw_pp": 7.725840969503835,
+    "ap_drop_retention_pct": 88.16861318182544
+  },
+  {
+    "objective": "obj_cls",
+    "selection": "best",
+    "variant": "p2",
+    "map50_change_vs_raw_pp": 3.512352174519698,
+    "ap_drop_retention_pct": 94.62116844205919
+  },
+  {
+    "objective": "obj_cls",
+    "selection": "last",
+    "variant": "p1",
+    "map50_change_vs_raw_pp": 7.223370262607904,
+    "ap_drop_retention_pct": 88.80204855676816
+  },
+  {
+    "objective": "obj_cls",
+    "selection": "last",
+    "variant": "p2",
+    "map50_change_vs_raw_pp": 3.0878565998170266,
+    "ap_drop_retention_pct": 95.21308378065474
+  },
+  {
+    "objective": "obj",
+    "selection": "best",
+    "variant": "p1",
+    "map50_change_vs_raw_pp": 2.5910546524104063,
+    "ap_drop_retention_pct": 94.92003447056169
+  },
+  {
+    "objective": "obj",
+    "selection": "best",
+    "variant": "p2",
+    "map50_change_vs_raw_pp": 2.6964252122662984,
+    "ap_drop_retention_pct": 94.71344723729449
+  },
+  {
+    "objective": "obj",
+    "selection": "last",
+    "variant": "p1",
+    "map50_change_vs_raw_pp": 2.6012653727263384,
+    "ap_drop_retention_pct": 94.82731768049781
+  },
+  {
+    "objective": "obj",
+    "selection": "last",
+    "variant": "p2",
+    "map50_change_vs_raw_pp": 2.785478516881817,
+    "ap_drop_retention_pct": 94.46100516052826
+  }
+]

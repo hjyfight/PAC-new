@@ -1,0 +1,659 @@
+{
+  "passed": true,
+  "sources": [
+    "yolov2",
+    "yolov5s",
+    "fasterrcnn"
+  ],
+  "protocol_checks": "test set counts, image processing, patch budget, thresholds, batch size, detector weights, clean metrics",
+  "checked": [
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/yolov2/eval/yolov2/advpatch/metrics.json",
+      "sha256": "95d9a850bc5fb878c74a2a68899a6e2a92d34ea77c82eca3b11ab32a418c668a"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/yolov2/eval/yolov3/advpatch/metrics.json",
+      "sha256": "6f488e02f74c492fffaf4b0e9c827c8b50ac87c46ee01f688f4c8ef53b2de35f"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/yolov2/eval/yolov4/advpatch/metrics.json",
+      "sha256": "c094c95ff923a31d89dd134c3d8beaa96f854133b7a27924073a7ba49cd84958"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/yolov2/eval/yolov5s/advpatch/metrics.json",
+      "sha256": "3297ae83f4ba514e7a3a29da5f7f4397bd1271382573bda65f5cdd0c29a842d4"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/yolov2/eval/yolov5m/advpatch/metrics.json",
+      "sha256": "a650ced68b4ab0dfabe771b75fbcedce86b70071c77ca49350390988836d7443"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/yolov2/eval/fasterrcnn/advpatch/metrics.json",
+      "sha256": "1572b5366097ddf59d0b6fcb9a98956f3c73869ad29a72dbbdd51f3b4f7460a4"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov2/advpatch/metrics.json",
+      "sha256": "61c2e6dfd5703fde3f1ba56ec618a784531b7cdfa715ced84d851564c3f7d4f6"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov3/advpatch/metrics.json",
+      "sha256": "a871de708c6a672004290b7fbe6139a50d06602e85240499ff3e477c63efd7d8"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov4/advpatch/metrics.json",
+      "sha256": "7fdbb81891ad78b6e768f0d0212a78545fe420e76a0ddd194c7cab9924780ab4"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov5s/advpatch/metrics.json",
+      "sha256": "6311414ea9305364ca95b328db5cbe319b3d0ddc03f951119bfd4c6b91172700"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov5m/advpatch/metrics.json",
+      "sha256": "bc4d8ff6dc01031cd23434cb5b126cba45e58381fcecc69dae6b52cfe0965e55"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/fasterrcnn/advpatch/metrics.json",
+      "sha256": "5c08c85115240251c422d561b91c8402ba822524f5fd609ea01b970b95d0dfbf"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/yolov2/advpatch/metrics.json",
+      "sha256": "1e5fb2e9954d1a1706bee80d3d4ebc8728726194c8bf842f8a59fdef67290157"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/yolov3/advpatch/metrics.json",
+      "sha256": "300995f5f39fcda46aa4d589534e42eb1ec6934a0f7adc5347e267afe671d422"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/yolov4/advpatch/metrics.json",
+      "sha256": "7319d400b31044cef926528a7f79ab52e3b9a9f212de4117d7b756c6b9ec9d0c"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/yolov5s/advpatch/metrics.json",
+      "sha256": "89bc09cbb2a2a3e1a989d66832db4175e39908416cc9bd03b96ac07c3b69fdb9"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/yolov5m/advpatch/metrics.json",
+      "sha256": "bd719f81ce5894b8f3f495c037f9437d74d61c2c671cb626ef9896c4e2d3e55d"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/fasterrcnn/advpatch/metrics.json",
+      "sha256": "2bba86cc98429b9dc6bfdd8b5e0726e9f6576daf71a5d6a3eb7ddbdc5af8b4b5"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/yolov2/eval/yolov2/p1/metrics.json",
+      "sha256": "9b480ca30fd6b77e8245fb4d5ee55ed6637e6a819a16a62152de019c5de733da"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/yolov2/eval/yolov3/p1/metrics.json",
+      "sha256": "20986953be73632db4c1ff5f890827f37c858442e0e7dedc35afafbc6b51cc80"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/yolov2/eval/yolov4/p1/metrics.json",
+      "sha256": "eaaf8bd8973b64ebf7bea08cad86dc0913320b4edc119ac829832cea1ed491a2"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/yolov2/eval/yolov5s/p1/metrics.json",
+      "sha256": "bb4d2c51b4b31847092408683cec98755b337e1c5bcc25ca36d61cc164e36060"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/yolov2/eval/yolov5m/p1/metrics.json",
+      "sha256": "4f5a86d0f5f253048ce471cd1a99638fd84c177475bc5e7e90253cbed2768746"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/yolov2/eval/fasterrcnn/p1/metrics.json",
+      "sha256": "03aa3e3a6b3efe62309fc647000c50599e04516947618ea82d0147c190cb17fc"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov2/p1/metrics.json",
+      "sha256": "177f33e5fdb04d98afc5a0a02899bd93b98a4d6723c320fe88126506d84b5b44"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov3/p1/metrics.json",
+      "sha256": "1461ae991fbf8dc12d9e7f6f5956c71a9d85d2db941aa2c688d4a20eadbf1c1b"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov4/p1/metrics.json",
+      "sha256": "759d2a0bbd1c38718fcf1b154181c8c944a33e5202d738a8d7f1447410ce4889"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov5s/p1/metrics.json",
+      "sha256": "59a793a6d1c8d76adbd3de1c2a050f75e8982fbaba3f8714e3313eef805c7c42"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov5m/p1/metrics.json",
+      "sha256": "e100479aabf8e547fa1265aff140ea1a411734da0626a9e5455c707d56345dc8"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/fasterrcnn/p1/metrics.json",
+      "sha256": "d556f04f21585a46ab3d5d81293ca1286992eac277ad5107c3b8fe0ba6ee11cd"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/yolov2/p1/metrics.json",
+      "sha256": "4d5aa7f70e1ee1ab5ba6afa4b97ed01d1165b0e7b5004259a1d0854b1cb67152"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/yolov3/p1/metrics.json",
+      "sha256": "0a587d8fcaf86645d330061872630f03c8918b03fd73c01eaccb81e24b3b8014"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/yolov4/p1/metrics.json",
+      "sha256": "1a7f66bdc7d0e0e308700616bdfae5a4e21bb3da4cedd0d3fff8ee1aab8b0ff0"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/yolov5s/p1/metrics.json",
+      "sha256": "8b77631b870328d7a41a798a3bb5207c1d3169c488631ee507bffc164b0b6257"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/yolov5m/p1/metrics.json",
+      "sha256": "5ede39de939e91125a77b557cb88cbd29dd17760975523acad326bfcadd42758"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/fasterrcnn/p1/metrics.json",
+      "sha256": "95ed253f8c2493130034b55c51239feb7c2859f03157104153e8420d7ce57bd0"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/yolov2/eval/yolov2/p2/metrics.json",
+      "sha256": "cf0c04b4d3c9a90179969092ef5c6e4da61a7943f085fef2e82bd77086982243"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/yolov2/eval/yolov3/p2/metrics.json",
+      "sha256": "31b82a9f81748dc1455abb0e77946fc0ddc0c029605b17e6ec00ffc0bce33509"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/yolov2/eval/yolov4/p2/metrics.json",
+      "sha256": "3584e3f306654ba8b83863b932e7ecb1831963f0d4b1b3b585acdb5ef862fe3f"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/yolov2/eval/yolov5s/p2/metrics.json",
+      "sha256": "b66940fafc36f3407f52dc8e6d2c7e458cb28e28e492431bcf3d27723cfcc80f"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/yolov2/eval/yolov5m/p2/metrics.json",
+      "sha256": "6b68a4acea29fc5ec3cbd94d8bf7d4d6fad4f34fe88aebd33d981ed463880448"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/yolov2/eval/fasterrcnn/p2/metrics.json",
+      "sha256": "db1b2ad00d7ca21481286cfc3af690960caf35faa297c1e793555d72cedd0a29"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov2/p2/metrics.json",
+      "sha256": "581f9b138539e4df9091debeee0677a5e7a2e72b7edf47efc17bbb84b58d1aec"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov3/p2/metrics.json",
+      "sha256": "53eacb5f5116a3017f360bf7c29df70b9dc39516e0fbd181fb847f09476ba2f3"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov4/p2/metrics.json",
+      "sha256": "c9c5a05be7f64b1c3bc0b7f73164a2b0304fbd12b0ad464150b3dd60ca145e65"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov5s/p2/metrics.json",
+      "sha256": "6f3c3ccbe2408574943950785b1aafac04b529d4bb8eb990a184e430337f0f6a"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov5m/p2/metrics.json",
+      "sha256": "613b4c9756bad5039d7834bfbdd32b4e3014c5266e8872518cd62f09a6c481ec"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/fasterrcnn/p2/metrics.json",
+      "sha256": "e5047a594d4c8a384413ec9690030fc6f22f2d8559ccda80ccad70720d230857"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/yolov2/p2/metrics.json",
+      "sha256": "d43e93eb748cac44a6457a590a20d2a6c797163e58304ef2644a52f0896dc4a3"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/yolov3/p2/metrics.json",
+      "sha256": "a0015fe5783424fc89317ceacfbd2afd705949eb74a7addb33b7772e8c3571eb"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/yolov4/p2/metrics.json",
+      "sha256": "aeda16b6d9e92b193880adcbccd2eaac3b48a426cc6843c7c568f70c54961acf"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/yolov5s/p2/metrics.json",
+      "sha256": "87ed277d5a2738501d2b4fb48f4f6c4644217d057df4e59a8de9c1ff9293f6d8"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/yolov5m/p2/metrics.json",
+      "sha256": "f63b08fe6a978ee66cb4c8e7f05ceeba558090709b12f9808e9db996a5e59876"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/fasterrcnn/eval/fasterrcnn/p2/metrics.json",
+      "sha256": "18b1dd0526c648868fd118fc0ba2af7d14a01a4289a38a9f8fbc991d9af3dbf5"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov2/eval/yolov2/best_raw/metrics.json",
+      "sha256": "476e421357eeebe70ddd5b2cb7ab3bc1bcf8d95266e8a394317b2f273660534c"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov2/eval/yolov3/best_raw/metrics.json",
+      "sha256": "8c33c44bbc5f117ee7de2038cb0b93ad06e6a04f437db50f02bf4bfcef8987c5"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov2/eval/yolov4/best_raw/metrics.json",
+      "sha256": "9bdf87768c319558d79d4d56f007a35fbea97d9131c20c83db7ec80ab5b23a36"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov2/eval/yolov5s/best_raw/metrics.json",
+      "sha256": "6ebcc3708e756a6ea17ec4b95fb0dce83c368c628b8975f11f82a6a0ec627ea1"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov2/eval/yolov5m/best_raw/metrics.json",
+      "sha256": "ac848306e4c892170ddcfe42933cf6cacdeac2b7f1ff7a04f0dedabdf0373294"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov2/eval/fasterrcnn/best_raw/metrics.json",
+      "sha256": "53b14e8f2d328ae5c0492be55d40931852596522333029755b174953a9e97600"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov5s/eval/yolov2/best_raw/metrics.json",
+      "sha256": "8553b2de2ad928103cd392bf869f5a62a18762962b55581e26ad37b03e5ed806"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov5s/eval/yolov3/best_raw/metrics.json",
+      "sha256": "40ee1c05fc68b29a34f645efb7ae8d5d3aef2eb9344b6d7e91527a1202816945"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov5s/eval/yolov4/best_raw/metrics.json",
+      "sha256": "b3644f5cf3da529d2fdff25e5a675c5ac0c5088249f4fa517e765dee203bd7d2"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov5s/eval/yolov5s/best_raw/metrics.json",
+      "sha256": "6fc5e9848e84f4e56b2d0a4cc206c552c1241cb7b756989945962ab9e22080d5"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov5s/eval/yolov5m/best_raw/metrics.json",
+      "sha256": "4dfdee4dfd6d25f0507a21647d9d5ba424c4bf38c20415fefd5a10813499610d"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov5s/eval/fasterrcnn/best_raw/metrics.json",
+      "sha256": "f7793a7153d062f0bae3fe13f45d2bc8e2267b4c030193427c09d0abf110d3e3"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/fasterrcnn/eval/yolov2/best_raw/metrics.json",
+      "sha256": "5c1afb57b1a0ce6b0a0309c49368cb6303ca6412d8f00e2c548c1b0246a12065"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/fasterrcnn/eval/yolov3/best_raw/metrics.json",
+      "sha256": "ec3f8b8ed59bdc5bb8c821fcc4438eb8f5bf80779dccb37050931323e8025421"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/fasterrcnn/eval/yolov4/best_raw/metrics.json",
+      "sha256": "cdf595bdfb732020b9686a2667ece1d2b31e993d1af39dbc68c1a0b96a52cf5f"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/fasterrcnn/eval/yolov5s/best_raw/metrics.json",
+      "sha256": "ccc0ba3da49bc5af63340d68f0965023c7a7a713c0be1097850bd0460df70844"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/fasterrcnn/eval/yolov5m/best_raw/metrics.json",
+      "sha256": "666c387bcd1fea5114bf5cee4aaba601b81f0edc506d41891d577d434a7c7532"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/fasterrcnn/eval/fasterrcnn/best_raw/metrics.json",
+      "sha256": "073610c1adc4fbe3ea129e540c943afd2e2612f4e8e9151a272d300353a73655"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov2/eval/yolov2/best_bc1/metrics.json",
+      "sha256": "d165b758ed5c9532f1c93cd2819ef73bdb14a22fabe5cfcd3d45ca5410cf64a0"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov2/eval/yolov3/best_bc1/metrics.json",
+      "sha256": "941b8de09f002b8775e4214a348b630e8c4876a889edcff1d01c407b327e40cb"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov2/eval/yolov4/best_bc1/metrics.json",
+      "sha256": "354aac8662b3a67c93134e0ddc12585cbb54e71cfdc872daa89cefa48818a143"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov2/eval/yolov5s/best_bc1/metrics.json",
+      "sha256": "0e2284ddc1a8d405528e34c692ffba81ba5ef97021c7f55e74f67a7cb48cd58f"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov2/eval/yolov5m/best_bc1/metrics.json",
+      "sha256": "ec80b2c4e81fbd3da8e3f2fb5d8dc04d3cb2765a21709c952d03d2c64bd222dc"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov2/eval/fasterrcnn/best_bc1/metrics.json",
+      "sha256": "9f759848756de373cb15e083feb512722b906052c3575520455c8e5832002290"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov5s/eval/yolov2/best_bc1/metrics.json",
+      "sha256": "9206bdf66a201fba2730e3b78390d96b6a9687df57d9fb40b42d31a6716e017e"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov5s/eval/yolov3/best_bc1/metrics.json",
+      "sha256": "df12c53edc62c1608172dc791e65a5da8ae697d48be12adea64d92fc7f2a592d"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov5s/eval/yolov4/best_bc1/metrics.json",
+      "sha256": "a1b49bb7b2526fa75e402e18b1e0d538e918964096134b625913daba8842a7bf"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov5s/eval/yolov5s/best_bc1/metrics.json",
+      "sha256": "a6493998dcee6320700fc3420ccbbc3f48739539efe1c4d087bee0853d3734a6"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov5s/eval/yolov5m/best_bc1/metrics.json",
+      "sha256": "2c79c3e72b7c176aec01b65b45cac468aa78add04926f2a25a4e0d51970f1a54"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov5s/eval/fasterrcnn/best_bc1/metrics.json",
+      "sha256": "1fc8361828c282aa92e240377863f7af5aa690c9c9cee599ee743ed3d4cb234d"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/fasterrcnn/eval/yolov2/best_bc1/metrics.json",
+      "sha256": "c49814bde8294eb91e690f33246400ac17e8cf2998b974ec8b1ec8c068e9b305"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/fasterrcnn/eval/yolov3/best_bc1/metrics.json",
+      "sha256": "c0408c716ab8ce357653bbbb2fcced97ee0334e8e88855ba7fad97a4703b6290"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/fasterrcnn/eval/yolov4/best_bc1/metrics.json",
+      "sha256": "01c514d90b2f9901af369f5fbd6f6446c0befbac4d5eae29f55bbf40194b9cb3"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/fasterrcnn/eval/yolov5s/best_bc1/metrics.json",
+      "sha256": "9385a927f2cad4e29ce754c8cdd2ea53ad2d025eb207720e14b93b56947558ee"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/fasterrcnn/eval/yolov5m/best_bc1/metrics.json",
+      "sha256": "5e97002bade6a0d681dd407ce5cbbe3424658537a07a65467b7d8716cdfb74f7"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/fasterrcnn/eval/fasterrcnn/best_bc1/metrics.json",
+      "sha256": "6fc04b0bc13ba2620fb4cb87091c5f64f398273c4998c9024b7c3e7d2b533398"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov2/eval/yolov2/best_bc2/metrics.json",
+      "sha256": "03494622bf5ea6eb738c94781dd0e54da04b8c3c28f07c413404106bf61902db"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov2/eval/yolov3/best_bc2/metrics.json",
+      "sha256": "19a26cd325c0ee7b83de7923e839469ddf000a45b10bcf8036cd87294c52a090"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov2/eval/yolov4/best_bc2/metrics.json",
+      "sha256": "68c04441a539b20826fd807d1a8ff50848e442bb97d8b0f1698b513b344862cc"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov2/eval/yolov5s/best_bc2/metrics.json",
+      "sha256": "130b7618710e10cac6032d36a06680acd78430cab3cc5790e577cec52d4fbe43"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov2/eval/yolov5m/best_bc2/metrics.json",
+      "sha256": "7b6cad898cf2ba42a00b19930b0e2256a786013f9d5bdd2c0aa2041ea685660d"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov2/eval/fasterrcnn/best_bc2/metrics.json",
+      "sha256": "0c5d938fa27d52debece5aa1e4cf556b2328e0f80d0605914cc217b9b4a9f5cd"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov5s/eval/yolov2/best_bc2/metrics.json",
+      "sha256": "06c896ec39d9305da174d5d73d00205cecedb2e33cf9f5f97e538d3d972c0839"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov5s/eval/yolov3/best_bc2/metrics.json",
+      "sha256": "e2a6095861aa1b64840af5b1531d8f93ea6c15d93d37eac82c9ce8c41b8c66c1"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov5s/eval/yolov4/best_bc2/metrics.json",
+      "sha256": "def15162f0d37e38e13f092116daaf87affb5667b884dce1ae0f0313123ac1eb"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov5s/eval/yolov5s/best_bc2/metrics.json",
+      "sha256": "b2babb8d3995b0f29591a7891b7d44b32993a2a1994649a9a1b68c1e66692b35"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov5s/eval/yolov5m/best_bc2/metrics.json",
+      "sha256": "1724f946ffa52fd7d79f8fe94156376afd6579e3cbf8f4bf6a2a411c95fd2b1f"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov5s/eval/fasterrcnn/best_bc2/metrics.json",
+      "sha256": "de2df17eb404d3e201d6e256aa0f9a47c0856b930d9c363472238d18d980e21a"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/fasterrcnn/eval/yolov2/best_bc2/metrics.json",
+      "sha256": "d39b694a47560242c5ba2b4b69e6bfb374194986961d2a82388dd8719fa60ccc"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/fasterrcnn/eval/yolov3/best_bc2/metrics.json",
+      "sha256": "58ffdbfc131efa8feb38ad9e27e8d4021fd7408235586789e2f48f6917f49feb"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/fasterrcnn/eval/yolov4/best_bc2/metrics.json",
+      "sha256": "49b3eb57caf67e8b44dc843286d04a686525861ca2dc47f57f2bba214ad58b8f"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/fasterrcnn/eval/yolov5s/best_bc2/metrics.json",
+      "sha256": "8cfe4cd0e1ecac5f46b7c1daff05778eceaed8d5c0019c885840a09767e01430"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/fasterrcnn/eval/yolov5m/best_bc2/metrics.json",
+      "sha256": "a755034be8eca9cbeb691f2adc4d22c24851cffe946416d3efd22b008ff056a8"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/fasterrcnn/eval/fasterrcnn/best_bc2/metrics.json",
+      "sha256": "6b724a25e7dc15d2c7c673357fb400bec54644991bb8049c5d8963f3f4061d98"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/nap/yolov2/eval/yolov2/best_raw/metrics.json",
+      "sha256": "06a465105389c962ca24ceaa6e53b9b9541ce2050547a178f3cdec9d890935b3"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/nap/yolov2/eval/yolov3/best_raw/metrics.json",
+      "sha256": "cfc22bd7cde85941a2b3cf637372d3145c642c5b1e8e7be78ab74538c189aaa8"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/nap/yolov2/eval/yolov4/best_raw/metrics.json",
+      "sha256": "8bb8227439003e857bf2c5598e25a659ab6771098f875524b257406742050173"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/nap/yolov2/eval/yolov5s/best_raw/metrics.json",
+      "sha256": "c332c8318711e7f882d317934cedd18c12a962e2aa988d96a4f51021171028d5"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/nap/yolov2/eval/yolov5m/best_raw/metrics.json",
+      "sha256": "03eb1c76fc611c07873a6a065732b7b2a3b572536ec3edf2938435460b9832e3"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/nap/yolov2/eval/fasterrcnn/best_raw/metrics.json",
+      "sha256": "9d08e50ce50397375613ade0b0afab4681eb451d80a7d7e154096c16d4001c3e"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/nap/yolov5s/eval/yolov2/best_raw/metrics.json",
+      "sha256": "1396f59508a34be3be1401e75a1316c2029b212298cda96e8a005ed1b28174c7"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/nap/yolov5s/eval/yolov3/best_raw/metrics.json",
+      "sha256": "188f309660924d3fe74bd7a6b39cb62f040a7af5f25260b018edcefef528eeed"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/nap/yolov5s/eval/yolov4/best_raw/metrics.json",
+      "sha256": "1b26acd4adc0e8d4ac8784c7297bb2c61a4890ecc02edaaee3f9b5bcafac297a"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/nap/yolov5s/eval/yolov5s/best_raw/metrics.json",
+      "sha256": "ae55023fb29442c53b01399208580160c543eda3b9c35238b41875dec8a01405"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/nap/yolov5s/eval/yolov5m/best_raw/metrics.json",
+      "sha256": "153e58c4f4a919ae4442f57d52c96acb3f7cc0ba2a358552ea2cc2040f4d1d74"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/nap/yolov5s/eval/fasterrcnn/best_raw/metrics.json",
+      "sha256": "2621f4b22309fcaa4e05722b0d56a8db0c6502179130d2b349801f0c9db00bec"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/nap/fasterrcnn/eval/yolov2/best_raw/metrics.json",
+      "sha256": "25e87d23ef72e824081a2eb67fa630b227110ee533d8ec7aaa416cb52af12894"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/nap/fasterrcnn/eval/yolov3/best_raw/metrics.json",
+      "sha256": "9ca0f611e83350a181b9ef148f87fad1ec6d24a7b5a88cd7cd12125e970e6372"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/nap/fasterrcnn/eval/yolov4/best_raw/metrics.json",
+      "sha256": "2349f284fe09fd43390e45a459ad7f4b9dd59e5d1738fc02763cc23a5d21f7f2"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/nap/fasterrcnn/eval/yolov5s/best_raw/metrics.json",
+      "sha256": "d6cee502c73fddbd773670ad2c275fba519719370d2adb78098a2b6a5368daaa"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/nap/fasterrcnn/eval/yolov5m/best_raw/metrics.json",
+      "sha256": "4324219f323ba7e20e31ad2104829077a3099bc5ef43f96075492e322f7b7ec0"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/nap/fasterrcnn/eval/fasterrcnn/best_raw/metrics.json",
+      "sha256": "767dbd42479672426487784f1314a514cf2580ebf60aa6f328c0d4f5623d9859"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov2/eval/yolov2/pnap_best/metrics.json",
+      "sha256": "8d0a0b279dd154d16029558cc6c6dbeaec086043bd16faeb2a211ab60ed74335"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov2/eval/yolov2/pnap_final/metrics.json",
+      "sha256": "336688a13be8920132d33a057fc581f306e3278318326f5a95f7edfb4ee3fe00"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov2/eval/yolov3/pnap_best/metrics.json",
+      "sha256": "df8048a19ffc624abfc820c648458b8ec651492cc4b9c0251d08c140e5c39066"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov2/eval/yolov3/pnap_final/metrics.json",
+      "sha256": "2adefd96aefcb940c1e361fd8441360a60998e799d09cf55b714d1e5721ca3bd"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov2/eval/yolov4/pnap_best/metrics.json",
+      "sha256": "ca417188f6577c9a8edb23ba9577dc0cd70a94607f995ec43e12b935170a6a1e"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov2/eval/yolov4/pnap_final/metrics.json",
+      "sha256": "e94dfd1518aff725dedc0b2229090af30af48f3b66527438a6577318eda2158f"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov2/eval/yolov5s/pnap_best/metrics.json",
+      "sha256": "bbb08771c46bca1b99e1a85bbab2e9459984156e32a92e984ea4185da81486dc"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov2/eval/yolov5s/pnap_final/metrics.json",
+      "sha256": "a83e6f176979a77a90f300534a1132ec7ed7af8abba458e5d0442eaa684dcee2"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov2/eval/yolov5m/pnap_best/metrics.json",
+      "sha256": "cdee5277f8ab2c02fb2a0c4327ed923e333fd8481a160d49834e59a70851fc84"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov2/eval/yolov5m/pnap_final/metrics.json",
+      "sha256": "fa90ad8f91dab1255b76301a59acdcde26c8baeeb1355efa320ab670a1f0605c"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov2/eval/fasterrcnn/pnap_best/metrics.json",
+      "sha256": "2077d9a3937fd2d2a149d78bc7d734661962d44d1dd33c9cca1b827bc733714d"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov2/eval/fasterrcnn/pnap_final/metrics.json",
+      "sha256": "280d38656d886fc5706d161560a193f87d15ec4ef29da259061a266ffc26dd15"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5s/eval/yolov2/pnap_best/metrics.json",
+      "sha256": "069a5a7bf8182a2e14bbf97481a96ab7cf0ed8d580052cf87bbcceb17517f14e"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5s/eval/yolov2/pnap_final/metrics.json",
+      "sha256": "3bde57d27ceeeebb67829458e04c584542b66d754071b3839a523c940cf0a433"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5s/eval/yolov3/pnap_best/metrics.json",
+      "sha256": "d6c34f8140450c69cd1580c8f12f87528161a4784af909d7d52250d281ea5d35"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5s/eval/yolov3/pnap_final/metrics.json",
+      "sha256": "24f8f08fc0ea9dec567fa2fa9e01ad093acc1ca78d705c5c47a0ab5b48fcd192"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5s/eval/yolov4/pnap_best/metrics.json",
+      "sha256": "a353015e2527d50c335d3aa54c895486d4b63da9c7b37db40023c0821a538949"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5s/eval/yolov4/pnap_final/metrics.json",
+      "sha256": "1f2a37695906d183260e08950cf5446d9e11b4ec86c2c474e930d4bd24b40bd9"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5s/eval/yolov5s/pnap_best/metrics.json",
+      "sha256": "24661e8dc1f7872474550578ccf68e6457bbc4f5697247a8fa399f0dd2371f8a"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5s/eval/yolov5s/pnap_final/metrics.json",
+      "sha256": "be9e061f4efc378f96e2be9fff8d3d379ce22d6e2e5e6208e78a96feecba2f81"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5s/eval/yolov5m/pnap_best/metrics.json",
+      "sha256": "3addde74bc8ff7c7338d8623f9bee6cf6933d2273a28e4e6cc38c9ed9f83eaf2"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5s/eval/yolov5m/pnap_final/metrics.json",
+      "sha256": "9f8cd6ddddde1f63b6ad3ba333eda5f4b566f0fc963e0e8a452fc3c5b1803064"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5s/eval/fasterrcnn/pnap_best/metrics.json",
+      "sha256": "47aeaa726651039d99672ab5d8988dc81d5de14ddab0227c445c855dd0c1faf0"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5s/eval/fasterrcnn/pnap_final/metrics.json",
+      "sha256": "a7e7549d322be673c76a2cf8c6cfbc377bbc8a6772a1d1a189d465fb7299ad54"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/fasterrcnn/eval/yolov2/pnap_best/metrics.json",
+      "sha256": "968bed67ad6d32e18a8b9e2e89a0962a65f70cd54715b17a0fa207d518918a99"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/fasterrcnn/eval/yolov2/pnap_final/metrics.json",
+      "sha256": "4e03277dc24545febedf7d8d44ca50737620bdc0495e1b36c56e9f60483b7a39"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/fasterrcnn/eval/yolov3/pnap_best/metrics.json",
+      "sha256": "76dbd7354fb4b541672adc86f2d1d6a113e179dcd4c906f65655c065a2165954"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/fasterrcnn/eval/yolov3/pnap_final/metrics.json",
+      "sha256": "6730be9d64c8c4f26ed37acc6fa3d76efcfdf6260295623a8887391c406f9037"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/fasterrcnn/eval/yolov4/pnap_best/metrics.json",
+      "sha256": "70bf0c187aa0739a22dfe5aa7f0e7b8e9ec4e82ed5da61bfb25fac4fcc6486a4"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/fasterrcnn/eval/yolov4/pnap_final/metrics.json",
+      "sha256": "e3e53eab0c542e42a866411d3c605368a873a320da660d0c7c0c63ee1143cb20"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/fasterrcnn/eval/yolov5s/pnap_best/metrics.json",
+      "sha256": "37b9060d866518b342b701f361cfcb82a675a153a18c04872b4679a5cc582b6f"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/fasterrcnn/eval/yolov5s/pnap_final/metrics.json",
+      "sha256": "b1c604570b769ee44f3392ab5b407b0bccb28146388b78a385b8a38b1bbb15d3"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/fasterrcnn/eval/yolov5m/pnap_best/metrics.json",
+      "sha256": "b590f64b52e002471eb29d287b55d51757595954a4403712e81df619c37a8455"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/fasterrcnn/eval/yolov5m/pnap_final/metrics.json",
+      "sha256": "c60a8fdfe1aa76707aec01924ed907292efce81d715ed29d5da5465df2e354ea"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/fasterrcnn/eval/fasterrcnn/pnap_best/metrics.json",
+      "sha256": "20d1965b83a1b2e43ebb840592dbf02722188e1ba40b2d4a73f29b48aaa1720b"
+    },
+    {
+      "metrics_file": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/fasterrcnn/eval/fasterrcnn/pnap_final/metrics.json",
+      "sha256": "6bd975bf24d951ee1a1355e23dc54a827ad78a6e40a040f4db6b374ea3622e02"
+    }
+  ]
+}

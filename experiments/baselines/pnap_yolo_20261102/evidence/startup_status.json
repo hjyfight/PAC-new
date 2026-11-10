@@ -1,0 +1,208 @@
+{
+  "passed": true,
+  "observed_at": "2026-11-02T20:39:16.364192+08:00",
+  "tmux_session": "pnap_20261102",
+  "formal_training_complete": false,
+  "nominal_batch_size": 8,
+  "train_images": 614,
+  "full_batches_per_epoch": 76,
+  "final_batch_images": 6,
+  "steps_per_epoch": 77,
+  "gradient_accumulation": false,
+  "protocol_sha256": "1957152f312405172af03f56800b97c69f3837165a96aa0d9f6991d2226b2cc7",
+  "core_sha256": {
+    "pnap.py": "b4ce2ef89d953b1d6b65f8aa60650877d0184d04e0f4615eff722ccf96fd2206",
+    "run_experiments.py": "4dfd9a5161a4ca7e11c62ad75bf8298dd77b47465018d95fdce13bce96aa01c0",
+    "common.py": "fdd4534c1180bfcd252713046703edb9c9b9e36de009ff201dbf61ec6796949a"
+  },
+  "sources": [
+    {
+      "source": "yolov5s",
+      "gpu": 0,
+      "process": {
+        "pid": 682186,
+        "cuda_visible_devices": "0",
+        "argv": [
+          "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/.venv/bin/python",
+          "-B",
+          "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/run_experiments.py",
+          "train",
+          "--model",
+          "yolov5s"
+        ]
+      },
+      "nominal_training_batch_size": 8,
+      "evaluation_batch_size": 8,
+      "epochs": 500,
+      "latest_training_log": {
+        "epoch": 24,
+        "batch": 30,
+        "step": 1801,
+        "loss": 0.7368039488792419,
+        "detection": 0.6363007426261902,
+        "latent_grad_norm": 0.012397444806993008,
+        "seconds": 2876.73
+      },
+      "smoke_peak_memory_gib": 12.013814449310303,
+      "smoke_passed": true,
+      "frozen_training_code_matches_smoke_checkpoint": true
+    },
+    {
+      "source": "yolov2",
+      "gpu": 3,
+      "process": {
+        "pid": 728213,
+        "cuda_visible_devices": "3",
+        "argv": [
+          "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/.venv/bin/python",
+          "-B",
+          "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/run_offloaded.py",
+          "train",
+          "--model",
+          "yolov2"
+        ]
+      },
+      "nominal_training_batch_size": 8,
+      "evaluation_batch_size": 8,
+      "epochs": 500,
+      "latest_training_log": {
+        "epoch": 1,
+        "batch": 60,
+        "step": 60,
+        "loss": 0.7197816967964172,
+        "detection": 0.6193108558654785,
+        "latent_grad_norm": 0.017222702503204346,
+        "seconds": 121.92
+      },
+      "smoke_peak_memory_gib": 9.828067302703857,
+      "smoke_passed": true,
+      "frozen_training_code_matches_smoke_checkpoint": true
+    },
+    {
+      "source": "yolov3",
+      "gpu": 4,
+      "process": {
+        "pid": 728229,
+        "cuda_visible_devices": "4",
+        "argv": [
+          "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/.venv/bin/python",
+          "-B",
+          "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/run_offloaded.py",
+          "train",
+          "--model",
+          "yolov3"
+        ]
+      },
+      "nominal_training_batch_size": 8,
+      "evaluation_batch_size": 8,
+      "epochs": 500,
+      "latest_training_log": {
+        "epoch": 1,
+        "batch": 50,
+        "step": 50,
+        "loss": 0.8298180103302002,
+        "detection": 0.7293617725372314,
+        "latent_grad_norm": 6.62514939904213e-05,
+        "seconds": 127.48
+      },
+      "smoke_peak_memory_gib": 9.869204998016357,
+      "smoke_passed": true,
+      "frozen_training_code_matches_smoke_checkpoint": true
+    },
+    {
+      "source": "yolov5m",
+      "gpu": 5,
+      "process": {
+        "pid": 728217,
+        "cuda_visible_devices": "5",
+        "argv": [
+          "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/.venv/bin/python",
+          "-B",
+          "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/run_offloaded.py",
+          "train",
+          "--model",
+          "yolov5m"
+        ]
+      },
+      "nominal_training_batch_size": 8,
+      "evaluation_batch_size": 8,
+      "epochs": 500,
+      "latest_training_log": {
+        "epoch": 1,
+        "batch": 60,
+        "step": 60,
+        "loss": 0.7846868634223938,
+        "detection": 0.6842290759086609,
+        "latent_grad_norm": 0.005028612446039915,
+        "seconds": 130.48
+      },
+      "smoke_peak_memory_gib": 9.71747636795044,
+      "smoke_passed": true,
+      "frozen_training_code_matches_smoke_checkpoint": true
+    },
+    {
+      "source": "fasterrcnn",
+      "gpu": 6,
+      "process": {
+        "pid": 722166,
+        "cuda_visible_devices": "6",
+        "argv": [
+          "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/.venv/bin/python",
+          "-B",
+          "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/run_experiments.py",
+          "train",
+          "--model",
+          "fasterrcnn"
+        ]
+      },
+      "nominal_training_batch_size": 8,
+      "evaluation_batch_size": 8,
+      "epochs": 500,
+      "latest_training_log": {
+        "epoch": 5,
+        "batch": 1,
+        "step": 309,
+        "loss": 0.9846712946891785,
+        "detection": 0.8842076659202576,
+        "latent_grad_norm": 0.0074526104144752026,
+        "seconds": 468.44
+      },
+      "smoke_peak_memory_gib": 12.638326644897461,
+      "smoke_passed": true,
+      "frozen_training_code_matches_smoke_checkpoint": true
+    },
+    {
+      "source": "yolov4",
+      "gpu": 7,
+      "process": {
+        "pid": 728519,
+        "cuda_visible_devices": "7",
+        "argv": [
+          "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/.venv/bin/python",
+          "-B",
+          "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/run_offloaded.py",
+          "train",
+          "--model",
+          "yolov4"
+        ]
+      },
+      "nominal_training_batch_size": 8,
+      "evaluation_batch_size": 8,
+      "epochs": 500,
+      "latest_training_log": {
+        "epoch": 1,
+        "batch": 30,
+        "step": 30,
+        "loss": 0.787910521030426,
+        "detection": 0.6874440908432007,
+        "latent_grad_norm": 0.018661074340343475,
+        "seconds": 112.74
+      },
+      "smoke_peak_memory_gib": 9.87820816040039,
+      "smoke_passed": true,
+      "frozen_training_code_matches_smoke_checkpoint": true
+    }
+  ],
+  "gpu_snapshot_csv": "index, memory.used [MiB], memory.free [MiB], utilization.gpu [%]\n0, 23002 MiB, 1082 MiB, 100 %\n1, 10941 MiB, 13143 MiB, 46 %\n2, 10943 MiB, 13141 MiB, 41 %\n3, 21710 MiB, 2374 MiB, 100 %\n4, 21754 MiB, 2330 MiB, 99 %\n5, 21610 MiB, 2474 MiB, 100 %\n6, 18869 MiB, 5215 MiB, 100 %\n7, 16039 MiB, 8045 MiB, 100 %\n",
+  "tmux_panes": "monitor:0:720885\noffload_validation:1:726128\nyolov2:0:727429\nyolov3:0:727438\nfasterrcnn:0:720919\nyolov5m:0:727446\nyolov4:0:727454\n"
+}

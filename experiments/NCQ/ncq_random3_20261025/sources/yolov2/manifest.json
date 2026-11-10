@@ -1,0 +1,304 @@
+{
+  "seed": 1788272031,
+  "data_yaml": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/yolov5-advreal2d-20260908/data/inria.yaml",
+  "train_images": 614,
+  "test_images": 288,
+  "test_targets": 589,
+  "batch_size": 8,
+  "patch_size": 300,
+  "patch_area_fraction": 0.25,
+  "placement": "center of each ground-truth person box, same integer rounding/clamping as selected PAC run",
+  "imgsz": 640,
+  "preprocess": "advpatch",
+  "pixel_pipeline": "PIL RGB -> center pad original size to square with RGB 127 -> PIL bilinear 640x640",
+  "conf_thres": 0.001,
+  "nms_iou": 0.6,
+  "max_det": 300,
+  "asr_conf": 0.5,
+  "asr_iou": 0.5,
+  "asr_definition": "GT detected clean at confidence>=.5 and IoU>=.5 but missed with patch, divided by clean-detected GT; one-to-one matching",
+  "detectors": {
+    "yolov5s": {
+      "weights": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advpad-20260908/yolov5s.pt",
+      "sha256": "8b3b748c1e592ddd8868022e8732fde20025197328490623cc16c6f24d0782ee",
+      "implementation": "PAC-yolo pinned YOLOv5 loader, official COCO v6.2 checkpoint",
+      "parameters": 7235389
+    },
+    "yolov2": {
+      "weights": "/datacc05/huotianlin/code-hu/PAC/third_party/weights/yolov2.weights",
+      "sha256": "d9945162ed6f54ce1a901e3ec537bdba4d572ecae7873087bd730e5a7942df3f",
+      "implementation": "/datacc05/huotianlin/code-hu/PAC/third_party/T-SEA-pac/detlib/HHDet/yolov2/yolov2/darknet.py",
+      "parameters": 50962889
+    },
+    "yolov3": {
+      "weights": "/datacc05/huotianlin/code-hu/PAC/third_party/weights/yolov3.weights",
+      "sha256": "523e4e69e1d015393a1b0a441cef1d9c7659e3eb2d7e15f793f060a21b32f297",
+      "implementation": "/datacc05/huotianlin/code-hu/PAC/third_party/T-SEA-pac/detlib/HHDet/yolov3/PyTorch_YOLOv3/pytorchyolo/models.py",
+      "parameters": 61949149
+    },
+    "yolov4": {
+      "weights": "/datacc05/huotianlin/code-hu/PAC/third_party/weights/yolov4.weights",
+      "sha256": "e8a4f6c62188738d86dc6898d82724ec0964d0eb9d2ae0f0a9d53d65d108d562",
+      "implementation": "/datacc05/huotianlin/code-hu/PAC/third_party/T-SEA-pac/detlib/HHDet/yolov4/Pytorch_YOLOv4/tool/darknet2pytorch.py",
+      "parameters": 64363101
+    },
+    "yolov5m": {
+      "weights": "/datacc05/huotianlin/code-hu/PAC/third_party/weights/yolov5m-v6.2.pt",
+      "sha256": "61d933360ba5a7733a36764996c800287d973889d875227f5beedd2473a97a56",
+      "implementation": "PAC-yolo pinned YOLOv5 loader, official COCO v6.2 checkpoint",
+      "parameters": 21190557
+    },
+    "fasterrcnn": {
+      "weights": "/datacc05/huotianlin/code-hu/PAC/third_party/weights/fasterrcnn_resnet50_fpn_coco-258fb6c6.pth",
+      "sha256": "258fb6c638b15964ddcdd1ae0748c5eef1be9e732750120cc857feed3faac384",
+      "implementation": "torchvision 0.20.1 fasterrcnn_resnet50_fpn COCO_V1 (FrozenBatchNorm eps=0)",
+      "parameters": 41755286
+    }
+  },
+  "source_code_sha256": {
+    "eval_transfer.py": "5a2c49defff7440fd6ad498b4730d19919c07770a8d2a536df2072cc264c6864",
+    "detector_backends.py": "53ec277fa317b45f0fc4c60e1d8c7ac3d69ae3f9522121a0536651a75fd364c3",
+    "utils/patch.py": "fd7d91e0360235ad2b275905817ee82e5442d6ebc2534932f1cec92931897f51",
+    "utils/dataloaders.py": "d7497b7ebc3879ea90c59134ff0cc1232d592ca8ce838e6b28f05e2268cfcd7c",
+    "utils/general.py": "121caf73bd4d8d6597ded4157335a650dc181cb2fa31c32ff7ab9ced271150fb",
+    "utils/metrics.py": "085d17cbd1a002938be928301b9afe272295ab8031965f3e57533f21241033f4",
+    "models/experimental.py": "8423b61af8c4e2535583e0c5125e9cdeeea50a1e066950af2d0f3a9013a92d72"
+  },
+  "optimization_source": "yolov2",
+  "patches": [
+    {
+      "id": "clean",
+      "label": "Clean",
+      "path": null,
+      "optimization_source": null
+    },
+    {
+      "id": "gray",
+      "label": "Gray",
+      "path": "gray",
+      "optimization_source": null
+    },
+    {
+      "id": "advpatch",
+      "label": "AdvPatch",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/yolov2/patches/advpatch/best.pt",
+      "optimization_source": "yolov2",
+      "variant": "advpatch",
+      "sha256": "28216de97ba9c5c37aa6e624b8cd34fbbe74afa55d34759bdfe4a7740c10f57c",
+      "min": 0.0,
+      "max": 1.0,
+      "std": 0.26013270020484924,
+      "source_best_epoch": 162
+    },
+    {
+      "id": "p1",
+      "label": "p1",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_20261025/sources/yolov2/patches/p1.pt",
+      "sha256": "ad3f34b7424bd0675b36e480d8f572ef92c0720a03108f1d55918ae76a01dd21",
+      "optimization_source": "yolov2",
+      "operation": "PAC linear RGB weights, then clamp [0,1]"
+    },
+    {
+      "id": "ncq1",
+      "label": "ncq1",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_20261025/sources/yolov2/patches/ncq1.pt",
+      "sha256": "24604a761a3878af388185a8d99ec60f644ba87cb64e722ebd8d91b7fa3024fe",
+      "optimization_source": "yolov2",
+      "operation": "nearest RGB squared Euclidean distance",
+      "palette_counts": [
+        51904,
+        17843,
+        20253
+      ]
+    },
+    {
+      "id": "p2",
+      "label": "p2",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_20261025/sources/yolov2/patches/p2.pt",
+      "sha256": "badd99083faddd8e6a45ef986c2f44fbc9ee99ec84f880d845961df7af7d60c6",
+      "optimization_source": "yolov2",
+      "operation": "PAC linear RGB weights, then clamp [0,1]"
+    },
+    {
+      "id": "ncq2",
+      "label": "ncq2",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_20261025/sources/yolov2/patches/ncq2.pt",
+      "sha256": "7a8be3d09a302f7ae4d58ab90426362cf3b1724900158ba4f7fa8a8284085532",
+      "optimization_source": "yolov2",
+      "operation": "nearest RGB squared Euclidean distance",
+      "palette_counts": [
+        33092,
+        35154,
+        21754
+      ]
+    },
+    {
+      "id": "random_s0",
+      "label": "random_s0",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_20261025/sources/yolov2/patches/random_s0.pt",
+      "sha256": "42d9d3de56bbead1e6391d8e651eaece9e51757594deaf1d105ead50ba780812",
+      "optimization_source": "yolov2",
+      "operation": "PAC linear RGB weights, then clamp [0,1]",
+      "palette_seed": 0,
+      "structure": "retained"
+    },
+    {
+      "id": "shuffle_bc1_s0",
+      "label": "shuffle_bc1_s0",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_20261025/sources/yolov2/patches/shuffle_bc1_s0.pt",
+      "sha256": "498296467d685b390fb48615b1a2c82326ce9bfee62a9807395589f319cfc79e",
+      "optimization_source": "yolov2",
+      "operation": "PAC linear RGB weights, then clamp [0,1]",
+      "structure": "pixel-vector permutation",
+      "permutation_seed": 10000,
+      "palette_seed": null
+    },
+    {
+      "id": "shuffle_random_s0",
+      "label": "shuffle_random_s0",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_20261025/sources/yolov2/patches/shuffle_random_s0.pt",
+      "sha256": "50327ee7d167fa7d0a0cddace4c0d43a49841376486a11fd603d6157ea870b3a",
+      "optimization_source": "yolov2",
+      "operation": "PAC linear RGB weights, then clamp [0,1]",
+      "structure": "pixel-vector permutation",
+      "permutation_seed": 10000,
+      "palette_seed": 0
+    },
+    {
+      "id": "random_s1",
+      "label": "random_s1",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_20261025/sources/yolov2/patches/random_s1.pt",
+      "sha256": "6301003f1f2a972ad942a831e0025adbdb31ca60e12ff032e18d6c7b5d0d4f2c",
+      "optimization_source": "yolov2",
+      "operation": "PAC linear RGB weights, then clamp [0,1]",
+      "palette_seed": 1,
+      "structure": "retained"
+    },
+    {
+      "id": "shuffle_bc1_s1",
+      "label": "shuffle_bc1_s1",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_20261025/sources/yolov2/patches/shuffle_bc1_s1.pt",
+      "sha256": "1afbe476d0c4b9e716601e2678d8ab3e44fcb59d06e6a4ba34ed96c8810b7ebf",
+      "optimization_source": "yolov2",
+      "operation": "PAC linear RGB weights, then clamp [0,1]",
+      "structure": "pixel-vector permutation",
+      "permutation_seed": 10001,
+      "palette_seed": null
+    },
+    {
+      "id": "shuffle_random_s1",
+      "label": "shuffle_random_s1",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_20261025/sources/yolov2/patches/shuffle_random_s1.pt",
+      "sha256": "e1bd02b5ea36eb5049ce2634f957c52365cd676bbb08d7ea57b541a8cc456d07",
+      "optimization_source": "yolov2",
+      "operation": "PAC linear RGB weights, then clamp [0,1]",
+      "structure": "pixel-vector permutation",
+      "permutation_seed": 10001,
+      "palette_seed": 1
+    },
+    {
+      "id": "random_s2",
+      "label": "random_s2",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_20261025/sources/yolov2/patches/random_s2.pt",
+      "sha256": "a6ef3d683ee3b1036fea20577529bf9279499d68553e961a71356d3df0f15d42",
+      "optimization_source": "yolov2",
+      "operation": "PAC linear RGB weights, then clamp [0,1]",
+      "palette_seed": 2,
+      "structure": "retained"
+    },
+    {
+      "id": "shuffle_bc1_s2",
+      "label": "shuffle_bc1_s2",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_20261025/sources/yolov2/patches/shuffle_bc1_s2.pt",
+      "sha256": "56d86a14b72218a0518b62368577051fce7dbf2d83d88a9b60713ad976658f96",
+      "optimization_source": "yolov2",
+      "operation": "PAC linear RGB weights, then clamp [0,1]",
+      "structure": "pixel-vector permutation",
+      "permutation_seed": 10002,
+      "palette_seed": null
+    },
+    {
+      "id": "shuffle_random_s2",
+      "label": "shuffle_random_s2",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_20261025/sources/yolov2/patches/shuffle_random_s2.pt",
+      "sha256": "d6937b1ab63b861599c351d1631c326abb7137f82552b4234c69ce47e5d01bf4",
+      "optimization_source": "yolov2",
+      "operation": "PAC linear RGB weights, then clamp [0,1]",
+      "structure": "pixel-vector permutation",
+      "permutation_seed": 10002,
+      "palette_seed": 2
+    },
+    {
+      "id": "random_s3",
+      "label": "random_s3",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_20261025/sources/yolov2/patches/random_s3.pt",
+      "sha256": "d9030229be2975a59e9cfbd294717ca6d2e02e6e3cac222161ad437e5e5f99db",
+      "optimization_source": "yolov2",
+      "operation": "PAC linear RGB weights, then clamp [0,1]",
+      "palette_seed": 3,
+      "structure": "retained"
+    },
+    {
+      "id": "shuffle_bc1_s3",
+      "label": "shuffle_bc1_s3",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_20261025/sources/yolov2/patches/shuffle_bc1_s3.pt",
+      "sha256": "1276ff3106563ffb9bb839f4e20464535b08c5c358982c760134b389c7e17f2b",
+      "optimization_source": "yolov2",
+      "operation": "PAC linear RGB weights, then clamp [0,1]",
+      "structure": "pixel-vector permutation",
+      "permutation_seed": 10003,
+      "palette_seed": null
+    },
+    {
+      "id": "shuffle_random_s3",
+      "label": "shuffle_random_s3",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_20261025/sources/yolov2/patches/shuffle_random_s3.pt",
+      "sha256": "23a5713d49c8729280fe732db2817c6b0b7bdde93b6dd5281f1420d86d6c9a79",
+      "optimization_source": "yolov2",
+      "operation": "PAC linear RGB weights, then clamp [0,1]",
+      "structure": "pixel-vector permutation",
+      "permutation_seed": 10003,
+      "palette_seed": 3
+    },
+    {
+      "id": "random_s4",
+      "label": "random_s4",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_20261025/sources/yolov2/patches/random_s4.pt",
+      "sha256": "0cb2c392452a3f17aed9b355a3eb68b2bee2bcc2ee3f549544196bfb4c473a59",
+      "optimization_source": "yolov2",
+      "operation": "PAC linear RGB weights, then clamp [0,1]",
+      "palette_seed": 4,
+      "structure": "retained"
+    },
+    {
+      "id": "shuffle_bc1_s4",
+      "label": "shuffle_bc1_s4",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_20261025/sources/yolov2/patches/shuffle_bc1_s4.pt",
+      "sha256": "1d20a7252a8bc598c46bf18245f4f968dd6a5d9e0f122a730e52fa88e91c8723",
+      "optimization_source": "yolov2",
+      "operation": "PAC linear RGB weights, then clamp [0,1]",
+      "structure": "pixel-vector permutation",
+      "permutation_seed": 10004,
+      "palette_seed": null
+    },
+    {
+      "id": "shuffle_random_s4",
+      "label": "shuffle_random_s4",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_20261025/sources/yolov2/patches/shuffle_random_s4.pt",
+      "sha256": "4d89041755973505fac12b10f2c03bcb77ba4349a00420dcb16cb843d040a47c",
+      "optimization_source": "yolov2",
+      "operation": "PAC linear RGB weights, then clamp [0,1]",
+      "structure": "pixel-vector permutation",
+      "permutation_seed": 10004,
+      "palette_seed": 4
+    }
+  ],
+  "evaluation_batch_size": 8,
+  "palette_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ]
+}

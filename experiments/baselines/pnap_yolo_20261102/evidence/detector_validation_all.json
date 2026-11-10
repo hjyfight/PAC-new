@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "regularizers_match_independent_formulas": true,
+  "detectors": [
+    {
+      "model": "yolov2",
+      "loss": 0.634147047996521,
+      "patch_grad_norm": 0.12067978829145432,
+      "passed": true
+    },
+    {
+      "model": "yolov3",
+      "loss": 0.730912446975708,
+      "patch_grad_norm": 4.07718907808885e-05,
+      "passed": true
+    },
+    {
+      "model": "yolov4",
+      "loss": 0.667046070098877,
+      "patch_grad_norm": 0.375557005405426,
+      "passed": true
+    },
+    {
+      "model": "yolov5s",
+      "loss": 0.652920663356781,
+      "patch_grad_norm": 0.07589312642812729,
+      "passed": true
+    },
+    {
+      "model": "yolov5m",
+      "loss": 0.6864446401596069,
+      "patch_grad_norm": 0.05074995383620262,
+      "passed": true
+    },
+    {
+      "model": "fasterrcnn",
+      "loss": 0.8209904432296753,
+      "patch_grad_norm": 0.06698352843523026,
+      "passed": true
+    }
+  ]
+}

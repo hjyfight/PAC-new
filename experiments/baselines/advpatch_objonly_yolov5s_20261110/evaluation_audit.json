@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "evaluations": 14,
+  "images": 288,
+  "targets": 589,
+  "asr_denominator": 578,
+  "existing_obj_cls_replay": {
+    "raw": {
+      "map50_absolute_difference_pp": 0.0,
+      "asr_count_matches": true
+    },
+    "p1": {
+      "map50_absolute_difference_pp": 0.0,
+      "asr_count_matches": true
+    },
+    "p2": {
+      "map50_absolute_difference_pp": 0.0,
+      "asr_count_matches": true
+    }
+  },
+  "dataset_hashes_match_previous_audit": true,
+  "evaluator_and_training_code_hashes_match_manifest": true
+}

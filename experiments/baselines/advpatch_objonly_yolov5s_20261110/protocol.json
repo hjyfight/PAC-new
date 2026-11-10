@@ -1,0 +1,144 @@
+{
+  "seed": 1788272031,
+  "data_yaml": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/yolov5-advreal2d-20260908/data/inria.yaml",
+  "train_images": 614,
+  "test_images": 288,
+  "test_targets": 589,
+  "batch_size": 8,
+  "patch_size": 300,
+  "patch_area_fraction": 0.25,
+  "placement": "center of each ground-truth person box, same integer rounding/clamping as selected PAC run",
+  "imgsz": 640,
+  "preprocess": "advpatch",
+  "pixel_pipeline": "PIL RGB -> center pad original size to square with RGB 127 -> PIL bilinear 640x640",
+  "conf_thres": 0.001,
+  "nms_iou": 0.6,
+  "max_det": 300,
+  "asr_conf": 0.5,
+  "asr_iou": 0.5,
+  "asr_definition": "GT detected clean at confidence>=.5 and IoU>=.5 but missed with patch, divided by clean-detected GT; one-to-one matching",
+  "train_eot": {
+    "median_kernel": 7,
+    "contrast": [
+      0.8,
+      1.2
+    ],
+    "brightness": [
+      -0.1,
+      0.1
+    ],
+    "noise": [
+      -0.1,
+      0.1
+    ],
+    "rotation_degrees": [
+      -20,
+      20
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "rgb_clamp": [
+      1e-06,
+      0.99999
+    ]
+  },
+  "experiment": "YOLOv5s AdvPatch OBJ-only matched comparison",
+  "physical_gpu": 7,
+  "optimization_source": "yolov5s",
+  "advpatch_objective": "obj",
+  "epochs": 200,
+  "initial_lr": 0.03,
+  "tv_weight": 2.5,
+  "tv_floor": 0.1,
+  "nps_weight": 0.01,
+  "early_stopping": false,
+  "checkpoint_selection": "minimum epoch-mean training total loss",
+  "detectors": {
+    "yolov5s": {
+      "weights": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advpad-20260908/yolov5s.pt",
+      "sha256": "8b3b748c1e592ddd8868022e8732fde20025197328490623cc16c6f24d0782ee",
+      "implementation": "PAC-yolo pinned YOLOv5 loader, official COCO v6.2 checkpoint",
+      "parameters": 7235389
+    }
+  },
+  "source_code_sha256": {
+    "train_patch.py": "3d4a6409fdd906e1a335c3736f8e6a1b628f8568274691cf0db73f3827278838",
+    "utils/patch.py": "fd7d91e0360235ad2b275905817ee82e5442d6ebc2534932f1cec92931897f51",
+    "eval_transfer.py": "5a2c49defff7440fd6ad498b4730d19919c07770a8d2a536df2072cc264c6864",
+    "detector_backends.py": "53ec277fa317b45f0fc4c60e1d8c7ac3d69ae3f9522121a0536651a75fd364c3",
+    "utils/dataloaders.py": "d7497b7ebc3879ea90c59134ff0cc1232d592ca8ce838e6b28f05e2268cfcd7c",
+    "utils/metrics.py": "085d17cbd1a002938be928301b9afe272295ab8031965f3e57533f21241033f4",
+    "models/experimental.py": "8423b61af8c4e2535583e0c5125e9cdeeea50a1e066950af2d0f3a9013a92d72"
+  },
+  "scope": "Change only the YOLOv5s AdvPatch detection objective; preserve existing PAC geometry/EOT/evaluation. Published official figures are YOLOv2 examples.",
+  "reference_patches": {
+    "advpatch": {
+      "source": "yolov5s",
+      "method": "advpatch",
+      "label": "AdvPatch",
+      "tile_label": "AdvPatch",
+      "selection": "training-loss-selected best",
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advpad-20260908/runs/official_pad3_20260908/patches/ap_s000_advpatch/best.pt",
+      "checkpoint_sha256": "bb27f8379b9b31f5bf7e02de674bdb0cf9a71b28deb795870ff73f42bcf385c3",
+      "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov5s/advpatch/metrics.json",
+      "metrics_sha256": "6311414ea9305364ca95b328db5cbe319b3d0ddc03f951119bfd4c6b91172700",
+      "png": "patches/yolov5s_advpatch.png",
+      "png_sha256": "af72cb447815b9dcdbccd41093daf62e4f596bb3194866dca4a113fec1470e84",
+      "ap50": 30.402825723050263,
+      "asr_pct": 85.81314878892734,
+      "max_png_quantization_error": 0.001960781041313586
+    },
+    "p1": {
+      "source": "yolov5s",
+      "method": "p1",
+      "label": "PAC-P1",
+      "tile_label": "PAC-P1",
+      "selection": "training-loss-selected best",
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advpad-20260908/runs/official_pad3_20260908/patches/ap_s000_p1/best.pt",
+      "checkpoint_sha256": "f819616dce2aea1d3cb3229e76ed848c77b0f8220d1a0c71bcf9d34d1912c640",
+      "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov5s/p1/metrics.json",
+      "metrics_sha256": "59a793a6d1c8d76adbd3de1c2a050f75e8982fbaba3f8714e3313eef805c7c42",
+      "png": "patches/yolov5s_p1.png",
+      "png_sha256": "2c14d1f7aada2605c7786796873cd1255d59a36febba1283bda3e91fa24c41ae",
+      "ap50": 38.1286666925541,
+      "asr_pct": 77.33564013840831,
+      "max_png_quantization_error": 0.0019607787038765645
+    },
+    "p2": {
+      "source": "yolov5s",
+      "method": "p2",
+      "label": "PAC-P2",
+      "tile_label": "PAC-P2",
+      "selection": "training-loss-selected best",
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advpad-20260908/runs/official_pad3_20260908/patches/ap_s000_p2/best.pt",
+      "checkpoint_sha256": "1b6e3286cadfdea53a373b04560a031b2bde162119912a4276db984cf0f971f8",
+      "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov5s/p2/metrics.json",
+      "metrics_sha256": "6f3c3ccbe2408574943950785b1aafac04b529d4bb8eb990a184e430337f0f6a",
+      "png": "patches/yolov5s_p2.png",
+      "png_sha256": "68cb893b5cde0bfdf845c1951ab6f965741ef395844469e337847e3a996ccfbd",
+      "ap50": 33.91517789756996,
+      "asr_pct": 84.42906574394463,
+      "max_png_quantization_error": 0.0019607826775195347
+    },
+    "gray": {
+      "source": "yolov5s",
+      "method": "gray",
+      "label": "Gray",
+      "tile_label": "Gray",
+      "selection": "control",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "metrics_path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/controls/gray/eval/yolov5s/gray/metrics.json",
+      "metrics_sha256": "ebb28549a3625ee132c983e7c7ebef44553af08e999d057a20b020a42d2316dd",
+      "png": "patches/yolov5s_gray.png",
+      "png_sha256": "73d947a0d1abb2d57b033b0a144a2627e745ebbc8a7b56dcc67eb156314308c8",
+      "ap50": 42.78009785634614,
+      "asr_pct": 31.141868512110726,
+      "max_png_quantization_error": 1.1687184553466068e-10
+    }
+  },
+  "reference_clean_metrics": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/eval/yolov5s/clean/metrics.json",
+  "source_dataset_audit": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/dataset_audit.json"
+}

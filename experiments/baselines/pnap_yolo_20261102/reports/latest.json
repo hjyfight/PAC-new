@@ -1,0 +1,13 @@
+{
+  "report": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/reports/20261108_141900/report.md",
+  "audit": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/reports/20261108_141900/audit.json",
+  "timestamp": "2026-11-08T14:19:00.146946+08:00",
+  "completed_sources": [
+    "yolov2",
+    "yolov3",
+    "yolov4",
+    "yolov5s",
+    "yolov5m",
+    "fasterrcnn"
+  ]
+}

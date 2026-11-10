@@ -1,0 +1,7 @@
+{
+  "state": "failed",
+  "physical_gpu": 7,
+  "controller_pid": 431433,
+  "updated_utc": "2026-11-10T07:22:20.596737+00:00",
+  "error": "Existing patch tests failed; see logs/unit_tests.log"
+}

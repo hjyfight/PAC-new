@@ -1,0 +1,905 @@
+{
+  "passed": true,
+  "patches": [
+    {
+      "model": "yolov2",
+      "id": "retained_sum255_s0",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.0,
+      "unbounded_max": 0.9996906719955744,
+      "paired_permutation_exact": false
+    },
+    {
+      "model": "yolov2",
+      "id": "shuffled_sum255_s0",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.0,
+      "unbounded_max": 0.9996906719955744,
+      "paired_permutation_exact": true
+    },
+    {
+      "model": "yolov2",
+      "id": "retained_sum255_s1",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.0,
+      "unbounded_max": 0.9994358873834797,
+      "paired_permutation_exact": false
+    },
+    {
+      "model": "yolov2",
+      "id": "shuffled_sum255_s1",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.0,
+      "unbounded_max": 0.9994358873834797,
+      "paired_permutation_exact": true
+    },
+    {
+      "model": "yolov2",
+      "id": "retained_sum255_s2",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.0,
+      "unbounded_max": 0.9982213639745525,
+      "paired_permutation_exact": false
+    },
+    {
+      "model": "yolov2",
+      "id": "shuffled_sum255_s2",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.0,
+      "unbounded_max": 0.9982213639745525,
+      "paired_permutation_exact": true
+    },
+    {
+      "model": "yolov2",
+      "id": "retained_sum255_s3",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.0,
+      "unbounded_max": 0.9982986959756589,
+      "paired_permutation_exact": false
+    },
+    {
+      "model": "yolov2",
+      "id": "shuffled_sum255_s3",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.0,
+      "unbounded_max": 0.9982986959756589,
+      "paired_permutation_exact": true
+    },
+    {
+      "model": "yolov2",
+      "id": "retained_sum255_s4",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.0,
+      "unbounded_max": 0.9991285857032327,
+      "paired_permutation_exact": false
+    },
+    {
+      "model": "yolov2",
+      "id": "shuffled_sum255_s4",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.0,
+      "unbounded_max": 0.9991285857032327,
+      "paired_permutation_exact": true
+    },
+    {
+      "model": "yolov3",
+      "id": "retained_sum255_s0",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.0022205484557786146,
+      "unbounded_max": 0.9545007551417631,
+      "paired_permutation_exact": false
+    },
+    {
+      "model": "yolov3",
+      "id": "shuffled_sum255_s0",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.0022205484557786146,
+      "unbounded_max": 0.9545007551417631,
+      "paired_permutation_exact": true
+    },
+    {
+      "model": "yolov3",
+      "id": "retained_sum255_s1",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.001168738043976619,
+      "unbounded_max": 0.9516542909192103,
+      "paired_permutation_exact": false
+    },
+    {
+      "model": "yolov3",
+      "id": "shuffled_sum255_s1",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.001168738043976619,
+      "unbounded_max": 0.9516542909192103,
+      "paired_permutation_exact": true
+    },
+    {
+      "model": "yolov3",
+      "id": "retained_sum255_s2",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.004296251506471605,
+      "unbounded_max": 0.9381761221324696,
+      "paired_permutation_exact": false
+    },
+    {
+      "model": "yolov3",
+      "id": "shuffled_sum255_s2",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.004296251506471605,
+      "unbounded_max": 0.9381761221324696,
+      "paired_permutation_exact": true
+    },
+    {
+      "model": "yolov3",
+      "id": "retained_sum255_s3",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.0026797440688253616,
+      "unbounded_max": 0.9496788410579458,
+      "paired_permutation_exact": false
+    },
+    {
+      "model": "yolov3",
+      "id": "shuffled_sum255_s3",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.0026797440688253616,
+      "unbounded_max": 0.9496788410579458,
+      "paired_permutation_exact": true
+    },
+    {
+      "model": "yolov3",
+      "id": "retained_sum255_s4",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.0015170703397826381,
+      "unbounded_max": 0.9524795174598695,
+      "paired_permutation_exact": false
+    },
+    {
+      "model": "yolov3",
+      "id": "shuffled_sum255_s4",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.0015170703397826381,
+      "unbounded_max": 0.9524795174598695,
+      "paired_permutation_exact": true
+    },
+    {
+      "model": "yolov4",
+      "id": "retained_sum255_s0",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.020499123253074347,
+      "unbounded_max": 0.9207993353114409,
+      "paired_permutation_exact": false
+    },
+    {
+      "model": "yolov4",
+      "id": "shuffled_sum255_s0",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.020499123253074347,
+      "unbounded_max": 0.9207993353114409,
+      "paired_permutation_exact": true
+    },
+    {
+      "model": "yolov4",
+      "id": "retained_sum255_s1",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.006107805173515397,
+      "unbounded_max": 0.9044059648233301,
+      "paired_permutation_exact": false
+    },
+    {
+      "model": "yolov4",
+      "id": "shuffled_sum255_s1",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.006107805173515397,
+      "unbounded_max": 0.9044059648233301,
+      "paired_permutation_exact": true
+    },
+    {
+      "model": "yolov4",
+      "id": "retained_sum255_s2",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.022159558666103026,
+      "unbounded_max": 0.8841789084322312,
+      "paired_permutation_exact": false
+    },
+    {
+      "model": "yolov4",
+      "id": "shuffled_sum255_s2",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.022159558666103026,
+      "unbounded_max": 0.8841789084322312,
+      "paired_permutation_exact": true
+    },
+    {
+      "model": "yolov4",
+      "id": "retained_sum255_s3",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.015369954091661118,
+      "unbounded_max": 0.8839584611210168,
+      "paired_permutation_exact": false
+    },
+    {
+      "model": "yolov4",
+      "id": "shuffled_sum255_s3",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.015369954091661118,
+      "unbounded_max": 0.8839584611210168,
+      "paired_permutation_exact": true
+    },
+    {
+      "model": "yolov4",
+      "id": "retained_sum255_s4",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.006930522090645835,
+      "unbounded_max": 0.8872826784264808,
+      "paired_permutation_exact": false
+    },
+    {
+      "model": "yolov4",
+      "id": "shuffled_sum255_s4",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.006930522090645835,
+      "unbounded_max": 0.8872826784264808,
+      "paired_permutation_exact": true
+    },
+    {
+      "model": "yolov5s",
+      "id": "retained_sum255_s0",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.023053964782579275,
+      "unbounded_max": 0.9544433558688444,
+      "paired_permutation_exact": false
+    },
+    {
+      "model": "yolov5s",
+      "id": "shuffled_sum255_s0",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.023053964782579275,
+      "unbounded_max": 0.9544433558688444,
+      "paired_permutation_exact": true
+    },
+    {
+      "model": "yolov5s",
+      "id": "retained_sum255_s1",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.009365898133346848,
+      "unbounded_max": 0.9370174167202967,
+      "paired_permutation_exact": false
+    },
+    {
+      "model": "yolov5s",
+      "id": "shuffled_sum255_s1",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.009365898133346848,
+      "unbounded_max": 0.9370174167202967,
+      "paired_permutation_exact": true
+    },
+    {
+      "model": "yolov5s",
+      "id": "retained_sum255_s2",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.029041753344091713,
+      "unbounded_max": 0.9283546447753906,
+      "paired_permutation_exact": false
+    },
+    {
+      "model": "yolov5s",
+      "id": "shuffled_sum255_s2",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.029041753344091713,
+      "unbounded_max": 0.9283546447753906,
+      "paired_permutation_exact": true
+    },
+    {
+      "model": "yolov5s",
+      "id": "retained_sum255_s3",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.02148935372630755,
+      "unbounded_max": 0.9330665838484671,
+      "paired_permutation_exact": false
+    },
+    {
+      "model": "yolov5s",
+      "id": "shuffled_sum255_s3",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.02148935372630755,
+      "unbounded_max": 0.9330665838484671,
+      "paired_permutation_exact": true
+    },
+    {
+      "model": "yolov5s",
+      "id": "retained_sum255_s4",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.012484036942980453,
+      "unbounded_max": 0.9354071289885277,
+      "paired_permutation_exact": false
+    },
+    {
+      "model": "yolov5s",
+      "id": "shuffled_sum255_s4",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.012484036942980453,
+      "unbounded_max": 0.9354071289885277,
+      "paired_permutation_exact": true
+    },
+    {
+      "model": "yolov5m",
+      "id": "retained_sum255_s0",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.0014222289659265503,
+      "unbounded_max": 0.956777714514265,
+      "paired_permutation_exact": false
+    },
+    {
+      "model": "yolov5m",
+      "id": "shuffled_sum255_s0",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.0014222289659265503,
+      "unbounded_max": 0.956777714514265,
+      "paired_permutation_exact": true
+    },
+    {
+      "model": "yolov5m",
+      "id": "retained_sum255_s1",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.0034335694458408677,
+      "unbounded_max": 0.9721327419374503,
+      "paired_permutation_exact": false
+    },
+    {
+      "model": "yolov5m",
+      "id": "shuffled_sum255_s1",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.0034335694458408677,
+      "unbounded_max": 0.9721327419374503,
+      "paired_permutation_exact": true
+    },
+    {
+      "model": "yolov5m",
+      "id": "retained_sum255_s2",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.006233201079600143,
+      "unbounded_max": 0.9434186902700686,
+      "paired_permutation_exact": false
+    },
+    {
+      "model": "yolov5m",
+      "id": "shuffled_sum255_s2",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.006233201079600143,
+      "unbounded_max": 0.9434186902700686,
+      "paired_permutation_exact": true
+    },
+    {
+      "model": "yolov5m",
+      "id": "retained_sum255_s3",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.00668791584378364,
+      "unbounded_max": 0.9547013782987408,
+      "paired_permutation_exact": false
+    },
+    {
+      "model": "yolov5m",
+      "id": "shuffled_sum255_s3",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.00668791584378364,
+      "unbounded_max": 0.9547013782987408,
+      "paired_permutation_exact": true
+    },
+    {
+      "model": "yolov5m",
+      "id": "retained_sum255_s4",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.003953425777053424,
+      "unbounded_max": 0.9667859168613657,
+      "paired_permutation_exact": false
+    },
+    {
+      "model": "yolov5m",
+      "id": "shuffled_sum255_s4",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.003953425777053424,
+      "unbounded_max": 0.9667859168613657,
+      "paired_permutation_exact": true
+    },
+    {
+      "model": "fasterrcnn",
+      "id": "retained_sum255_s0",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.0,
+      "unbounded_max": 0.9912057434811311,
+      "paired_permutation_exact": false
+    },
+    {
+      "model": "fasterrcnn",
+      "id": "shuffled_sum255_s0",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.0,
+      "unbounded_max": 0.9912057434811311,
+      "paired_permutation_exact": true
+    },
+    {
+      "model": "fasterrcnn",
+      "id": "retained_sum255_s1",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.0,
+      "unbounded_max": 0.9829764237590864,
+      "paired_permutation_exact": false
+    },
+    {
+      "model": "fasterrcnn",
+      "id": "shuffled_sum255_s1",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.0,
+      "unbounded_max": 0.9829764237590864,
+      "paired_permutation_exact": true
+    },
+    {
+      "model": "fasterrcnn",
+      "id": "retained_sum255_s2",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.0,
+      "unbounded_max": 0.9602559026549844,
+      "paired_permutation_exact": false
+    },
+    {
+      "model": "fasterrcnn",
+      "id": "shuffled_sum255_s2",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.0,
+      "unbounded_max": 0.9602559026549844,
+      "paired_permutation_exact": true
+    },
+    {
+      "model": "fasterrcnn",
+      "id": "retained_sum255_s3",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.0,
+      "unbounded_max": 0.9512285594846689,
+      "paired_permutation_exact": false
+    },
+    {
+      "model": "fasterrcnn",
+      "id": "shuffled_sum255_s3",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.0,
+      "unbounded_max": 0.9512285594846689,
+      "paired_permutation_exact": true
+    },
+    {
+      "model": "fasterrcnn",
+      "id": "retained_sum255_s4",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.0,
+      "unbounded_max": 0.97527956682093,
+      "paired_permutation_exact": false
+    },
+    {
+      "model": "fasterrcnn",
+      "id": "shuffled_sum255_s4",
+      "column_sums": [
+        255,
+        255,
+        255
+      ],
+      "clipped_fraction_float64": 0.0,
+      "clipped_fraction_float32": 0.0,
+      "clamp_changed_components": 0,
+      "unbounded_min": 0.0,
+      "unbounded_max": 0.97527956682093,
+      "paired_permutation_exact": true
+    }
+  ]
+}

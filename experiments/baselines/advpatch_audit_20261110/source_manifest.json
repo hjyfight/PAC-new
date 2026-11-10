@@ -1,0 +1,47 @@
+[
+  {
+    "name": "train_patch.py",
+    "url": "https://gitlab.com/EAVISE/adversarial-yolo/-/raw/master/train_patch.py",
+    "resolved_url": "https://gitlab.com/EAVISE/adversarial-yolo/-/raw/master/train_patch.py",
+    "error": null,
+    "bytes": 8146,
+    "sha256": "8abfe221d73718998487b14ae37c3c374edd79b00dba6f5eb0b9de131cc4bf8a",
+    "local_copy_matches": true
+  },
+  {
+    "name": "patch_config.py",
+    "url": "https://gitlab.com/EAVISE/adversarial-yolo/-/raw/master/patch_config.py",
+    "resolved_url": "https://gitlab.com/EAVISE/adversarial-yolo/-/raw/master/patch_config.py",
+    "error": null,
+    "bytes": 2729,
+    "sha256": "38baaffdec7293baeff689c2c7b831e3029367004c3e1449a8d70624a2aa6040",
+    "local_copy_matches": true
+  },
+  {
+    "name": "load_data.py",
+    "url": "https://gitlab.com/EAVISE/adversarial-yolo/-/raw/master/load_data.py",
+    "resolved_url": "https://gitlab.com/EAVISE/adversarial-yolo/-/raw/master/load_data.py",
+    "error": null,
+    "bytes": 21200,
+    "sha256": "a7d6ea4914674e033408ef4dfbd4a738f3abfee178f5da698dc1394502727584",
+    "local_copy_matches": true
+  },
+  {
+    "name": "README.md",
+    "url": "https://gitlab.com/EAVISE/adversarial-yolo/-/raw/master/README.md",
+    "resolved_url": "https://gitlab.com/EAVISE/adversarial-yolo/-/raw/master/README.md",
+    "error": null,
+    "bytes": 1715,
+    "sha256": "da016d63d37beb749473dae226ffae82d6792f27ac766e00829bdbec0fc00467",
+    "local_copy_matches": true
+  },
+  {
+    "name": "paper.html",
+    "url": "https://ar5iv.labs.arxiv.org/html/1904.08653",
+    "resolved_url": "https://ar5iv.labs.arxiv.org/html/1904.08653",
+    "error": null,
+    "bytes": 90064,
+    "sha256": "7fe94eca7c7a59c5780caebfce63bd52a161d217e7d9a6be21c9a7405a1255f6",
+    "local_copy_matches": false
+  }
+]

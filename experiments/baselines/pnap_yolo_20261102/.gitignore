@@ -1,0 +1,7 @@
+.venv/
+runtime/
+weights/
+evidence/*.tar.gz
+*.tmp
+sources/*/training_state.pt
+smoke/

@@ -1,0 +1,8 @@
+{
+  "state": "complete",
+  "physical_gpu": 7,
+  "controller_pid": 437070,
+  "updated_utc": "2026-11-10T07:46:26.046196+00:00",
+  "completed_epochs": 200,
+  "completed_evaluations": 14
+}

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "target": "yolov5s",
+  "clean_max_difference": 0.0,
+  "reused_from": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/audits/tsea_frcnn_previous_backend",
+  "validation": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/audits/tsea_frcnn_previous_backend/validation.json",
+  "completed_utc": "2026-09-12T12:50:29.171918+00:00"
+}

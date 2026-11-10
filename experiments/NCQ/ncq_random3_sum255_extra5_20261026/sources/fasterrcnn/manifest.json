@@ -1,0 +1,234 @@
+{
+  "seed": 1788272031,
+  "data_yaml": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/yolov5-advreal2d-20260908/data/inria.yaml",
+  "train_images": 614,
+  "test_images": 288,
+  "test_targets": 589,
+  "batch_size": 8,
+  "patch_size": 300,
+  "patch_area_fraction": 0.25,
+  "placement": "center of each ground-truth person box, same integer rounding/clamping as selected PAC run",
+  "imgsz": 640,
+  "preprocess": "advpatch",
+  "pixel_pipeline": "PIL RGB -> center pad original size to square with RGB 127 -> PIL bilinear 640x640",
+  "conf_thres": 0.001,
+  "nms_iou": 0.6,
+  "max_det": 300,
+  "asr_conf": 0.5,
+  "asr_iou": 0.5,
+  "asr_definition": "GT detected clean at confidence>=.5 and IoU>=.5 but missed with patch, divided by clean-detected GT; one-to-one matching",
+  "detectors": {
+    "yolov5s": {
+      "weights": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advpad-20260908/yolov5s.pt",
+      "sha256": "8b3b748c1e592ddd8868022e8732fde20025197328490623cc16c6f24d0782ee",
+      "implementation": "PAC-yolo pinned YOLOv5 loader, official COCO v6.2 checkpoint",
+      "parameters": 7235389
+    },
+    "yolov2": {
+      "weights": "/datacc05/huotianlin/code-hu/PAC/third_party/weights/yolov2.weights",
+      "sha256": "d9945162ed6f54ce1a901e3ec537bdba4d572ecae7873087bd730e5a7942df3f",
+      "implementation": "/datacc05/huotianlin/code-hu/PAC/third_party/T-SEA-pac/detlib/HHDet/yolov2/yolov2/darknet.py",
+      "parameters": 50962889
+    },
+    "yolov3": {
+      "weights": "/datacc05/huotianlin/code-hu/PAC/third_party/weights/yolov3.weights",
+      "sha256": "523e4e69e1d015393a1b0a441cef1d9c7659e3eb2d7e15f793f060a21b32f297",
+      "implementation": "/datacc05/huotianlin/code-hu/PAC/third_party/T-SEA-pac/detlib/HHDet/yolov3/PyTorch_YOLOv3/pytorchyolo/models.py",
+      "parameters": 61949149
+    },
+    "yolov4": {
+      "weights": "/datacc05/huotianlin/code-hu/PAC/third_party/weights/yolov4.weights",
+      "sha256": "e8a4f6c62188738d86dc6898d82724ec0964d0eb9d2ae0f0a9d53d65d108d562",
+      "implementation": "/datacc05/huotianlin/code-hu/PAC/third_party/T-SEA-pac/detlib/HHDet/yolov4/Pytorch_YOLOv4/tool/darknet2pytorch.py",
+      "parameters": 64363101
+    },
+    "yolov5m": {
+      "weights": "/datacc05/huotianlin/code-hu/PAC/third_party/weights/yolov5m-v6.2.pt",
+      "sha256": "61d933360ba5a7733a36764996c800287d973889d875227f5beedd2473a97a56",
+      "implementation": "PAC-yolo pinned YOLOv5 loader, official COCO v6.2 checkpoint",
+      "parameters": 21190557
+    },
+    "fasterrcnn": {
+      "weights": "/datacc05/huotianlin/code-hu/PAC/third_party/weights/fasterrcnn_resnet50_fpn_coco-258fb6c6.pth",
+      "sha256": "258fb6c638b15964ddcdd1ae0748c5eef1be9e732750120cc857feed3faac384",
+      "implementation": "torchvision 0.20.1 fasterrcnn_resnet50_fpn COCO_V1 (FrozenBatchNorm eps=0)",
+      "parameters": 41755286
+    }
+  },
+  "source_code_sha256": {
+    "eval_transfer.py": "5a2c49defff7440fd6ad498b4730d19919c07770a8d2a536df2072cc264c6864",
+    "detector_backends.py": "53ec277fa317b45f0fc4c60e1d8c7ac3d69ae3f9522121a0536651a75fd364c3",
+    "utils/patch.py": "fd7d91e0360235ad2b275905817ee82e5442d6ebc2534932f1cec92931897f51",
+    "utils/dataloaders.py": "d7497b7ebc3879ea90c59134ff0cc1232d592ca8ce838e6b28f05e2268cfcd7c",
+    "utils/general.py": "121caf73bd4d8d6597ded4157335a650dc181cb2fa31c32ff7ab9ced271150fb",
+    "utils/metrics.py": "085d17cbd1a002938be928301b9afe272295ab8031965f3e57533f21241033f4",
+    "models/experimental.py": "8423b61af8c4e2535583e0c5125e9cdeeea50a1e066950af2d0f3a9013a92d72"
+  },
+  "optimization_source": "fasterrcnn",
+  "patches": [
+    {
+      "id": "clean",
+      "label": "Clean",
+      "path": null,
+      "optimization_source": null
+    },
+    {
+      "id": "retained_sum255_s5",
+      "label": "retained_sum255_s5",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_sum255_extra5_20261026/sources/fasterrcnn/patches/retained_sum255_s5.pt",
+      "sha256": "dc5484277bbb70c9c51deed98acdf2ef98b723d7a6f4dc614bf843c1f75e46f9",
+      "optimization_source": "fasterrcnn",
+      "palette_seed": 5,
+      "structure": "retained",
+      "permutation_seed": null
+    },
+    {
+      "id": "shuffled_sum255_s5",
+      "label": "shuffled_sum255_s5",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_sum255_extra5_20261026/sources/fasterrcnn/patches/shuffled_sum255_s5.pt",
+      "sha256": "7cf25c6c5280509abd2e149584d775b946acd1e47101cd309a09e540112a3340",
+      "optimization_source": "fasterrcnn",
+      "palette_seed": 5,
+      "structure": "shuffled",
+      "permutation_seed": 10005
+    },
+    {
+      "id": "shuffle_bc1_s5",
+      "label": "shuffle_bc1_s5",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_sum255_extra5_20261026/sources/fasterrcnn/patches/shuffle_bc1_s5.pt",
+      "sha256": "d05adbec5ed1611c89459d01f1a85423f697e4a0322602f69095839562a6ef06",
+      "optimization_source": "fasterrcnn",
+      "palette_seed": null,
+      "structure": "shuffled",
+      "permutation_seed": 10005
+    },
+    {
+      "id": "retained_sum255_s6",
+      "label": "retained_sum255_s6",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_sum255_extra5_20261026/sources/fasterrcnn/patches/retained_sum255_s6.pt",
+      "sha256": "7ec93903f03077d8c51d81ef05c21829edfcdaf2193a1d14fdbc2a98e40e6343",
+      "optimization_source": "fasterrcnn",
+      "palette_seed": 6,
+      "structure": "retained",
+      "permutation_seed": null
+    },
+    {
+      "id": "shuffled_sum255_s6",
+      "label": "shuffled_sum255_s6",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_sum255_extra5_20261026/sources/fasterrcnn/patches/shuffled_sum255_s6.pt",
+      "sha256": "a211b462624faca38f06f19513e4e58c813b5e55adfe934b9a9d04ab06542d75",
+      "optimization_source": "fasterrcnn",
+      "palette_seed": 6,
+      "structure": "shuffled",
+      "permutation_seed": 10006
+    },
+    {
+      "id": "shuffle_bc1_s6",
+      "label": "shuffle_bc1_s6",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_sum255_extra5_20261026/sources/fasterrcnn/patches/shuffle_bc1_s6.pt",
+      "sha256": "dfe1e2102f6b3174422cf32ff23102cdabae0f5545079360d388e280c8d24274",
+      "optimization_source": "fasterrcnn",
+      "palette_seed": null,
+      "structure": "shuffled",
+      "permutation_seed": 10006
+    },
+    {
+      "id": "retained_sum255_s7",
+      "label": "retained_sum255_s7",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_sum255_extra5_20261026/sources/fasterrcnn/patches/retained_sum255_s7.pt",
+      "sha256": "9eeedf0fb3f5b93a995d459bff88de5585203920adcb7781472db5eba04e90ae",
+      "optimization_source": "fasterrcnn",
+      "palette_seed": 7,
+      "structure": "retained",
+      "permutation_seed": null
+    },
+    {
+      "id": "shuffled_sum255_s7",
+      "label": "shuffled_sum255_s7",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_sum255_extra5_20261026/sources/fasterrcnn/patches/shuffled_sum255_s7.pt",
+      "sha256": "6a6c1149ba71489059d8f46691f99ca374acf456dbcf69d83b8a0f732dc97c89",
+      "optimization_source": "fasterrcnn",
+      "palette_seed": 7,
+      "structure": "shuffled",
+      "permutation_seed": 10007
+    },
+    {
+      "id": "shuffle_bc1_s7",
+      "label": "shuffle_bc1_s7",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_sum255_extra5_20261026/sources/fasterrcnn/patches/shuffle_bc1_s7.pt",
+      "sha256": "fdd70ebf10090899b34db6358d400efa6acd0c1d838c5ea5d16766d231fc94ad",
+      "optimization_source": "fasterrcnn",
+      "palette_seed": null,
+      "structure": "shuffled",
+      "permutation_seed": 10007
+    },
+    {
+      "id": "retained_sum255_s8",
+      "label": "retained_sum255_s8",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_sum255_extra5_20261026/sources/fasterrcnn/patches/retained_sum255_s8.pt",
+      "sha256": "10258f3d86e6921dc68a4fdae81ac64adc4d23f261f516bb106712d5e9662b6b",
+      "optimization_source": "fasterrcnn",
+      "palette_seed": 8,
+      "structure": "retained",
+      "permutation_seed": null
+    },
+    {
+      "id": "shuffled_sum255_s8",
+      "label": "shuffled_sum255_s8",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_sum255_extra5_20261026/sources/fasterrcnn/patches/shuffled_sum255_s8.pt",
+      "sha256": "affb3579faaed3cb05871170a7497f61b668643ed999570ffd7f8da9089bc471",
+      "optimization_source": "fasterrcnn",
+      "palette_seed": 8,
+      "structure": "shuffled",
+      "permutation_seed": 10008
+    },
+    {
+      "id": "shuffle_bc1_s8",
+      "label": "shuffle_bc1_s8",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_sum255_extra5_20261026/sources/fasterrcnn/patches/shuffle_bc1_s8.pt",
+      "sha256": "f0f81f0c90cec2dfb728c4fedb78a2cbd6832b592d8cec5cd32f72f9291e5d69",
+      "optimization_source": "fasterrcnn",
+      "palette_seed": null,
+      "structure": "shuffled",
+      "permutation_seed": 10008
+    },
+    {
+      "id": "retained_sum255_s9",
+      "label": "retained_sum255_s9",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_sum255_extra5_20261026/sources/fasterrcnn/patches/retained_sum255_s9.pt",
+      "sha256": "f3f84ef38883ea2e1c6ed01ad1c5ae4619e8f45c492b4fe8e8de8b2e9267eda3",
+      "optimization_source": "fasterrcnn",
+      "palette_seed": 9,
+      "structure": "retained",
+      "permutation_seed": null
+    },
+    {
+      "id": "shuffled_sum255_s9",
+      "label": "shuffled_sum255_s9",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_sum255_extra5_20261026/sources/fasterrcnn/patches/shuffled_sum255_s9.pt",
+      "sha256": "15071f829b608e794f63ebca754524ff9851a4584126cecd4918216ee28a63da",
+      "optimization_source": "fasterrcnn",
+      "palette_seed": 9,
+      "structure": "shuffled",
+      "permutation_seed": 10009
+    },
+    {
+      "id": "shuffle_bc1_s9",
+      "label": "shuffle_bc1_s9",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_sum255_extra5_20261026/sources/fasterrcnn/patches/shuffle_bc1_s9.pt",
+      "sha256": "4b6c08540d6cbcf0339ae122296c4709d33aaeedcc328baa5e6013d4ef7249d8",
+      "optimization_source": "fasterrcnn",
+      "palette_seed": null,
+      "structure": "shuffled",
+      "permutation_seed": 10009
+    }
+  ],
+  "evaluation_batch_size": 8,
+  "palette_seeds": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ]
+}

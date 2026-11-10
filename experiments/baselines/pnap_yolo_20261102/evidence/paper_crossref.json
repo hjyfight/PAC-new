@@ -1,0 +1,699 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          4
+        ]
+      ],
+      "date-time": "2026-06-04T17:29:01Z",
+      "timestamp": 1780594141459,
+      "version": "3.54.1"
+    },
+    "reference-count": 50,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              2
+            ]
+          ],
+          "date-time": "2025-05-02T00:00:00Z",
+          "timestamp": 1746144000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              2
+            ]
+          ],
+          "date-time": "2025-05-02T00:00:00Z",
+          "timestamp": 1746144000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Basic Research Project of the National Defence Science and Industry Bureau",
+        "award": [
+          "JCKY2022405C010"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "JCKY2022405C010"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Ann. Data. Sci."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1007/s40745-025-00604-0",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          2
+        ]
+      ],
+      "date-time": "2025-05-02T12:09:04Z",
+      "timestamp": 1746187744000
+    },
+    "page": "1055-1072",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "PNAP-YOLO: An Improved Prompts-Based Naturalistic Adversarial Patch Model for Object Detectors"
+    ],
+    "prefix": "10.1007",
+    "volume": "12",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-8937-3991",
+        "authenticated-orcid": false,
+        "given": "Jun",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chenwu",
+        "family": "Shan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Liyan",
+        "family": "Shen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yawei",
+        "family": "Ren",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiajie",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          2
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "604_CR1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shi Y (2022) Advances in big data analytics. Adv Big Data Anal 10:978–981",
+        "DOI": "10.1007/978-981-16-3607-3"
+      },
+      {
+        "key": "604_CR2",
+        "volume-title": "Introduction to business data mining",
+        "author": "DL Olson",
+        "year": "2007",
+        "unstructured": "Olson DL, Shi Y, Shi Y (2007) Introduction to business data mining. McGraw-Hill/Irwin, New York"
+      },
+      {
+        "key": "604_CR3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-0-85729-504-0",
+        "volume-title": "Optimization based data mining: theory and applications",
+        "author": "Y Shi",
+        "year": "2011",
+        "unstructured": "Shi Y, Tian Y, Kou G et al (2011) Optimization based data mining: theory and applications. Springer, Berlin"
+      },
+      {
+        "key": "604_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "149",
+        "DOI": "10.1007/s40745-017-0112-5",
+        "volume": "4",
+        "author": "JM Tien",
+        "year": "2017",
+        "unstructured": "Tien JM (2017) Internet of things, real-time decision making, and artificial intelligence. Ann Data Sci 4:149–178",
+        "journal-title": "Ann Data Sci"
+      },
+      {
+        "key": "604_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "215",
+        "DOI": "10.1016/j.neucom.2020.10.081",
+        "volume": "429",
+        "author": "M Wang",
+        "year": "2021",
+        "unstructured": "Wang M, Deng W (2021) Deep face recognition: a survey. Neurocomputing 429:215–244. https://doi.org/10.1016/j.neucom.2020.10.081",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "604_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "3212",
+        "DOI": "10.1109/TNNLS.2018.2876865",
+        "volume": "30",
+        "author": "Z-Q Zhao",
+        "year": "2019",
+        "unstructured": "Zhao Z-Q, Zheng P, Xu S-T, Wu X (2019) Object detection with deep learning: a review. IEEE Trans Neural Netw Learn Syst 30:3212–3232. https://doi.org/10.1109/TNNLS.2018.2876865",
+        "journal-title": "IEEE Trans Neural Netw Learn Syst"
+      },
+      {
+        "key": "604_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "1341",
+        "DOI": "10.1109/TITS.2020.2972974",
+        "volume": "22",
+        "author": "D Feng",
+        "year": "2021",
+        "unstructured": "Feng D, Haase-Schütz C, Rosenbaum L et al (2021) Deep multi-modal object detection and semantic segmentation for autonomous driving: datasets, methods, and challenges. IEEE Trans Intell Transp Syst 22:1341–1360. https://doi.org/10.1109/TITS.2020.2972974",
+        "journal-title": "IEEE Trans Intell Transp Syst"
+      },
+      {
+        "key": "604_CR8",
+        "unstructured": "Szegedy C, Zaremba W, Sutskever I et al (2013) Intriguing properties of neural networks. arXiv preprint arXiv:13126199"
+      },
+      {
+        "key": "604_CR9",
+        "unstructured": "Goodfellow IJ, Shlens J, Szegedy C (2014) Explaining and harnessing adversarial examples. arXiv preprint arXiv:14126572"
+      },
+      {
+        "key": "604_CR10",
+        "unstructured": "Krizhevsky A, Sutskever I, Hinton GE (2012) ImageNet classification with deep convolutional neural networks. In: Advances in neural information processing systems. Curran Associates, Inc"
+      },
+      {
+        "key": "604_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "3523",
+        "DOI": "10.1109/TPAMI.2021.3059968",
+        "volume": "44",
+        "author": "S Minaee",
+        "year": "2022",
+        "unstructured": "Minaee S, Boykov Y, Porikli F et al (2022) Image segmentation using deep learning: a survey. IEEE Trans Pattern Anal Mach Intell 44:3523–3542. https://doi.org/10.1109/TPAMI.2021.3059968",
+        "journal-title": "IEEE Trans Pattern Anal Mach Intell"
+      },
+      {
+        "key": "604_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "329",
+        "DOI": "10.1080/00031305.2021.2006781",
+        "volume": "76",
+        "author": "Y Li",
+        "year": "2022",
+        "unstructured": "Li Y, Cheng M, Hsieh C-J, Lee TCM (2022) A review of adversarial attack and defense for classification methods. Am Stat 76:329–345. https://doi.org/10.1080/00031305.2021.2006781",
+        "journal-title": "Am Stat"
+      },
+      {
+        "issue": "66",
+        "key": "604_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1145/3398394",
+        "volume": "53",
+        "author": "A Serban",
+        "year": "2020",
+        "unstructured": "Serban A, Poll E, Visser J (2020) Adversarial examples on object recognition: a comprehensive survey. ACM Comput Surv 53(66):1-66:38. https://doi.org/10.1145/3398394",
+        "journal-title": "ACM Comput Surv"
+      },
+      {
+        "key": "604_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1145/3374217",
+        "volume": "11",
+        "author": "WE Zhang",
+        "year": "2020",
+        "unstructured": "Zhang WE, Sheng QZ, Alhazmi A, Li C (2020) Adversarial attacks on deep-learning models in natural language processing: a survey. ACM Trans Intell Syst Technol 11:1–41. https://doi.org/10.1145/3374217",
+        "journal-title": "ACM Trans Intell Syst Technol"
+      },
+      {
+        "key": "604_CR15",
+        "unstructured": "Brown TB, Man´e D, Roy A et al (2017) Adversarial patch. arXiv preprint arXiv:171209665"
+      },
+      {
+        "key": "604_CR16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rombach R, Blattmann A, Lorenz D et al (2022) High-resolution image synthesis with latent diffusion models. In: Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pp 10684–10695",
+        "DOI": "10.1109/CVPR52688.2022.01042"
+      },
+      {
+        "key": "604_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "25",
+        "DOI": "10.1049/cit2.12028",
+        "volume": "6",
+        "author": "A Chakraborty",
+        "year": "2021",
+        "unstructured": "Chakraborty A, Alam M, Dey V et al (2021) A survey on adversarial attacks and defences. CAAI Trans Intell Technol 6:25–45. https://doi.org/10.1049/cit2.12028",
+        "journal-title": "CAAI Trans Intell Technol"
+      },
+      {
+        "key": "604_CR18",
+        "unstructured": "Kurakin A, Goodfellow I, Bengio S (2016) Adversarial machine learning at scale. arXiv preprint arXiv:161101236"
+      },
+      {
+        "key": "604_CR19",
+        "unstructured": "Madry A, Makelov A, Schmidt L et al (2017) Towards deep learning models resistant to adversarial attacks. arXiv preprint arXiv:170606083"
+      },
+      {
+        "key": "604_CR20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Moosavi-Dezfooli S-M, Fawzi A, Frossard P (2016) DeepFool: a simple and accurate method to fool deep neural networks. In: 2016 IEEE conference on computer vision and pattern recognition (CVPR). IEEE, Las Vegas, pp 2574–2582",
+        "DOI": "10.1109/CVPR.2016.282"
+      },
+      {
+        "key": "604_CR21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Papernot N, McDaniel P, Jha S et al (2016) The limitations of deep learning in adversarial settings. In: 2016 IEEE European symposium on security and privacy (EuroS&P), pp 372–387",
+        "DOI": "10.1109/EuroSP.2016.36"
+      },
+      {
+        "key": "604_CR22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hendrik Metzen J, Chaithanya Kumar M, Brox T et al (2017) Universal adver- sarial perturbations against semantic image segmentation. In: Proceedings of the IEEE international conference on computer vision, pp 2755–2764",
+        "DOI": "10.1109/ICCV.2017.300"
+      },
+      {
+        "key": "604_CR23",
+        "unstructured": "Brendel W, Rauber J, Bethge M (2017) Decision-based adversarial attacks: Reliable attacks against black-box machine learning models. arXiv preprint arXiv:171204248"
+      },
+      {
+        "key": "604_CR24",
+        "unstructured": "Papernot N, McDaniel P, Goodfellow I (2016) Transferability in machine learning: from phenomena to black-box attacks using adversarial samples. arXiv preprint arXiv:160507277"
+      },
+      {
+        "key": "604_CR25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mahendran A, Vedaldi A (2015) Understanding deep image representations by inverting them. In: 2015 IEEE conference on computer vision and pattern recognition (CVPR). IEEE, Boston, pp 5188–5196",
+        "DOI": "10.1109/CVPR.2015.7299155"
+      },
+      {
+        "key": "604_CR26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sharif M, Bhagavatula S, Bauer L, Reiter MK (2016) Accessorize to a crime: real and stealthy attacks on state-of-the-art face recognition. In: Proceedings of the 2016 ACM SIGSAC conference on computer and communications security. ACM, Vienna, pp 1528–1540",
+        "DOI": "10.1145/2976749.2978392"
+      },
+      {
+        "key": "604_CR27",
+        "unstructured": "Athalye A, Engstrom L, Ilyas A, Kwok K (2018) Synthesizing robust adversarial examples. In: Proceedings of the 35th international conference on machine learning. PMLR, pp 284–293"
+      },
+      {
+        "key": "604_CR28",
+        "unstructured": "Lu J, Sibai H, Fabry E (2017) Adversarial examples that fool detectors. arXiv preprint arXiv:171202494"
+      },
+      {
+        "key": "604_CR29",
+        "doi-asserted-by": "publisher",
+        "first-page": "52",
+        "DOI": "10.1007/978-3-030-10925-7_4",
+        "volume-title": "Machine learning and knowledge discovery in databases",
+        "author": "S-T Chen",
+        "year": "2019",
+        "unstructured": "Chen S-T, Cornelius C, Martin J, Chau DH (2019) ShapeShifter: robust physical adversarial attack on faster R-CNN object detector. In: Berlingerio M, Bonchi F, Gärtner T et al (eds) Machine learning and knowledge discovery in databases. Springer, Cham, pp 52–68"
+      },
+      {
+        "key": "604_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "1088",
+        "DOI": "10.1609/aaai.v34i01.5459",
+        "volume": "34",
+        "author": "K Yang",
+        "year": "2020",
+        "unstructured": "Yang K, Tsai T, Yu H et al (2020) Beyond digital domain: fooling deep learning based recognition system in physical world. AAAI 34:1088–1095. https://doi.org/10.1609/aaai.v34i01.5459",
+        "journal-title": "AAAI"
+      },
+      {
+        "key": "604_CR31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Thys S, Ranst WV, Goedemé T (2019) Fooling automated surveillance cameras: adversarial patches to attack person detection. In: 2019 IEEE/CVF conference on computer vision and pattern recognition workshops (CVPRW), pp 49–55",
+        "DOI": "10.1109/CVPRW.2019.00012"
+      },
+      {
+        "key": "604_CR32",
+        "unstructured": "Lee M, Kolter Z (2019) On physical adversarial patches for object detection. arXiv preprint arXiv:190611897"
+      },
+      {
+        "key": "604_CR33",
+        "unstructured": "Song D, Eykholt K, Evtimov I et al (2018) Physical adversarial examples for object detectors. In: 12th USENIX workshop on offensive technologies (WOOT 18)"
+      },
+      {
+        "key": "604_CR34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhao Y, Zhu H, Liang R et al (2019) Seeing isn’t believing: Towards more robust adversarial attack against real world object detectors. In: Proceedings of the 2019 ACM SIGSAC conference on computer and communications security, pp 1989–2004",
+        "DOI": "10.1145/3319535.3354259"
+      },
+      {
+        "key": "604_CR35",
+        "doi-asserted-by": "publisher",
+        "first-page": "885",
+        "DOI": "10.3390/rs15040885",
+        "volume": "15",
+        "author": "B Deng",
+        "year": "2023",
+        "unstructured": "Deng B, Zhang D, Dong F et al (2023) Rust-style patch: a physical and naturalistic camouflage attacks on object detector for remote sensing images. Remote Sens 15:885. https://doi.org/10.3390/rs15040885",
+        "journal-title": "Remote Sens"
+      },
+      {
+        "key": "604_CR36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hu Y-C-T, Chen J-C, Kung B-H et al (2021) Naturalistic physical adversarial patch for object detectors. In: 2021 IEEE/CVF international conference on computer vision (ICCV), pp 7828–7837",
+        "DOI": "10.1109/ICCV48922.2021.00775"
+      },
+      {
+        "key": "604_CR37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang L, Gao C, Zhou Y et al (2020) Universal physical camouflage attacks on object detectors. In: 2020 IEEE/CVF conference on computer vision and pattern recognition (CVPR). IEEE, Seattle, pp 717–726",
+        "DOI": "10.1109/CVPR42600.2020.00080"
+      },
+      {
+        "key": "604_CR38",
+        "doi-asserted-by": "publisher",
+        "first-page": "665",
+        "DOI": "10.1007/978-3-030-58558-7_39",
+        "volume-title": "Computer vision—ECCV 2020",
+        "author": "K Xu",
+        "year": "2020",
+        "unstructured": "Xu K, Zhang G, Liu S et al (2020) Adversarial T-shirt! evading person detectors in a physical world. In: Vedaldi A, Bischof H, Brox T, Frahm J-M (eds) Computer vision—ECCV 2020. Springer, Cham, pp 665–681"
+      },
+      {
+        "key": "604_CR39",
+        "first-page": "1",
+        "volume-title": "Computer vision—ECCV 2020",
+        "author": "Z Wu",
+        "year": "2020",
+        "unstructured": "Wu Z, Lim S-N, Davis LS, Goldstein T (2020) Making an invisibility cloak: real world adversarial attacks on object detectors. In: Vedaldi A, Bischof H, Brox T, Frahm J-M (eds) Computer vision—ECCV 2020. Springer, Cham, pp 1–17"
+      },
+      {
+        "key": "604_CR40",
+        "doi-asserted-by": "publisher",
+        "first-page": "3816",
+        "DOI": "10.1109/TIFS.2022.3198857",
+        "volume": "17",
+        "author": "BG Doan",
+        "year": "2022",
+        "unstructured": "Doan BG, Xue M, Ma S et al (2022) TnT attacks! universal naturalistic adversarial patches against deep neural network systems. IEEE Trans Inf Forens Secur 17:3816–3830. https://doi.org/10.1109/TIFS.2022.3198857",
+        "journal-title": "IEEE Trans Inf Forens Secur"
+      },
+      {
+        "key": "604_CR41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hu Z, Huang S, Zhu X et al (2022) Adversarial texture for fooling person detectors in the physical world. In: 2022 IEEE/CVF conference on computer vision and pattern recognition (CVPR). IEEE, New Orleans, pp 13297–13306",
+        "DOI": "10.1109/CVPR52688.2022.01295"
+      },
+      {
+        "key": "604_CR42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang J, Liu A, Yin Z et al (2021) Dual attention suppression attack: generate adversarial camouflage in physical world. In: 2021 IEEE/CVF conference on computer vision and pattern recognition (CVPR). IEEE, Nashville, pp 8561–8570",
+        "DOI": "10.1109/CVPR46437.2021.00846"
+      },
+      {
+        "key": "604_CR43",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1109/TGRS.2022.3225306",
+        "volume": "60",
+        "author": "J Lian",
+        "year": "2022",
+        "unstructured": "Lian J, Mei S, Zhang S, Ma M (2022) Benchmarking adversarial patch against aerial detection. IEEE Trans Geosci Remote Sens 60:1–16. https://doi.org/10.1109/TGRS.2022.3225306",
+        "journal-title": "IEEE Trans Geosci Remote Sens"
+      },
+      {
+        "key": "604_CR44",
+        "doi-asserted-by": "publisher",
+        "first-page": "5298",
+        "DOI": "10.3390/rs14215298",
+        "volume": "14",
+        "author": "Y Zhang",
+        "year": "2022",
+        "unstructured": "Zhang Y, Zhang Y, Qi J et al (2022) Adversarial patch attack on multi-scale object detection for UAV remote sensing images. Remote Sens 14:5298. https://doi.org/10.3390/rs14215298",
+        "journal-title": "Remote Sens"
+      },
+      {
+        "key": "604_CR45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Du A, Chen B, Chin T-J et al (2022) Physical adversarial attacks on an aerial imagery object detector. In: 2022 IEEE/CVF winter conference on applications of computer vision (WACV). IEEE, Waikoloa, pp 3798–3808",
+        "DOI": "10.1109/WACV51458.2022.00385"
+      },
+      {
+        "key": "604_CR46",
+        "unstructured": "Shapira A, Bitton R, Avraham D et al (2022) Attacking object detector using a universal targeted label-switch patch. arXiv preprint arXiv:221108859"
+      },
+      {
+        "key": "604_CR47",
+        "unstructured": "Goodfellow IJ, Pouget-Abadie J, Mirza M et al (2014) Generative adversarial nets. Advances in neural information processing systems 27"
+      },
+      {
+        "key": "604_CR48",
+        "unstructured": "Kingma DP, Welling M et al (2013) Auto-encoding variational bayes"
+      },
+      {
+        "key": "604_CR49",
+        "unstructured": "Sohl-Dickstein J, Weiss E, Maheswaranathan N, Ganguli S (2015) Deep unsupervised learning using nonequilibrium thermodynamics. In: Proceedings of the 32nd international conference on machine learning. PMLR, pp 2256–2265"
+      },
+      {
+        "key": "604_CR50",
+        "unstructured": "Dhariwal P, Nichol A (2021) Diffusion models beat gans on image synthesis. Advances in neural information processing systems 34:8780–8794"
+      }
+    ],
+    "container-title": [
+      "Annals of Data Science"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s40745-025-00604-0.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/article/10.1007/s40745-025-00604-0/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s40745-025-00604-0.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          30
+        ]
+      ],
+      "date-time": "2025-05-30T11:36:26Z",
+      "timestamp": 1748604986000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/s40745-025-00604-0"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          2
+        ]
+      ]
+    },
+    "references-count": 50,
+    "journal-issue": {
+      "issue": "3",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            6
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "604"
+    ],
+    "URL": "https://doi.org/10.1007/s40745-025-00604-0",
+    "relation": {},
+    "ISSN": [
+      "2198-5804",
+      "2198-5812"
+    ],
+    "issn-type": [
+      {
+        "value": "2198-5804",
+        "type": "print"
+      },
+      {
+        "value": "2198-5812",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          2
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "11 March 2024",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "23 August 2024",
+        "order": 2,
+        "name": "revised",
+        "label": "Revised",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "20 September 2024",
+        "order": 3,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "2 May 2025",
+        "order": 4,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Declarations"
+        }
+      },
+      {
+        "value": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.",
+        "order": 2,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Conflict of interest"
+        }
+      },
+      {
+        "value": "The authors have obtained consent from all human participants.",
+        "order": 3,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Ethical Approval"
+        }
+      }
+    ]
+  }
+}

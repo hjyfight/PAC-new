@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "wrapper_sha256": "caa555b46a743332a8279d79027a8109ebf85ab94a21b13495ea89037cda1e42",
+  "batch_size": 2,
+  "gradient_max_abs_tolerance": 1e-08,
+  "gradient_relative_l2_tolerance": 1e-05,
+  "results": [
+    {
+      "model": "yolov2",
+      "loss": 0.634147047996521,
+      "loss_abs_error": 0.0,
+      "gradient_max_abs_error": 0.0,
+      "gradient_relative_l2_error": 0.0,
+      "exact_loss_match": true,
+      "exact_gradient_match": true,
+      "passed": true
+    },
+    {
+      "model": "yolov3",
+      "loss": 0.730912446975708,
+      "loss_abs_error": 0.0,
+      "gradient_max_abs_error": 3.410605131648481e-13,
+      "gradient_relative_l2_error": 6.261357299308656e-08,
+      "exact_loss_match": true,
+      "exact_gradient_match": false,
+      "passed": true
+    },
+    {
+      "model": "yolov5m",
+      "loss": 0.6864446401596069,
+      "loss_abs_error": 0.0,
+      "gradient_max_abs_error": 9.313225746154785e-10,
+      "gradient_relative_l2_error": 5.5860237324623085e-08,
+      "exact_loss_match": true,
+      "exact_gradient_match": false,
+      "passed": true
+    },
+    {
+      "model": "yolov4",
+      "loss": 0.667046070098877,
+      "loss_abs_error": 0.0,
+      "gradient_max_abs_error": 1.862645149230957e-09,
+      "gradient_relative_l2_error": 5.984097128930443e-08,
+      "exact_loss_match": true,
+      "exact_gradient_match": false,
+      "passed": true
+    }
+  ]
+}

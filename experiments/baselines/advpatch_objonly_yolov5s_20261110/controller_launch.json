@@ -1,0 +1,7 @@
+{
+  "controller_pid": 437070,
+  "physical_gpu": 7,
+  "run": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_objonly_yolov5s_20261110",
+  "worktree": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/yolov5-advpatch-objonly-20261110",
+  "test_runner": "Python unittest (existing suite)"
+}

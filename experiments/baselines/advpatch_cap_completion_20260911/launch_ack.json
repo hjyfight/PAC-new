@@ -1,0 +1,8 @@
+{
+  "controller_pid": 2968501,
+  "run": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911",
+  "log": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/logs/controller.log",
+  "started_utc": "2026-09-11T13:12:59.570119+00:00",
+  "background_session": true,
+  "initial_existing_attack_cells": 54
+}

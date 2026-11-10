@@ -1,0 +1,16 @@
+{
+  "gpus": [
+    3,
+    6,
+    7
+  ],
+  "pid": 320477,
+  "command": [
+    "experiments/NCQ/ncq_random3_sum255_20261025/run_experiments.py",
+    "run",
+    "--gpus",
+    "3,6,7"
+  ],
+  "started_utc": "2026-10-25T11:02:58.209099+00:00",
+  "script_sha256": "458271faee5c1848465085d3148cb07efaf0e893f81418f72cc0b836d9ebf09c"
+}

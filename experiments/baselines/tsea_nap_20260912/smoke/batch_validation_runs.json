@@ -1,0 +1,98 @@
+[
+  {
+    "method": "tsea",
+    "detector": "yolov5m",
+    "gpu": 5,
+    "returncode": 0,
+    "seconds": 11.80661498196423,
+    "log": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/smoke/tsea_yolov5m.log"
+  },
+  {
+    "method": "nap",
+    "detector": "yolov5m",
+    "gpu": 5,
+    "returncode": 0,
+    "seconds": 6.676269104995299,
+    "log": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/smoke/nap_yolov5m.log"
+  },
+  {
+    "method": "tsea",
+    "detector": "yolov5s",
+    "gpu": 4,
+    "returncode": 0,
+    "seconds": 11.716144401987549,
+    "log": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/smoke/tsea_yolov5s.log"
+  },
+  {
+    "method": "nap",
+    "detector": "yolov5s",
+    "gpu": 4,
+    "returncode": 0,
+    "seconds": 6.847923229972366,
+    "log": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/smoke/nap_yolov5s.log"
+  },
+  {
+    "method": "tsea",
+    "detector": "yolov2",
+    "gpu": 1,
+    "returncode": 0,
+    "seconds": 11.892478931054939,
+    "log": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/smoke/tsea_yolov2.log"
+  },
+  {
+    "method": "nap",
+    "detector": "yolov2",
+    "gpu": 1,
+    "returncode": 0,
+    "seconds": 6.754253043967765,
+    "log": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/smoke/nap_yolov2.log"
+  },
+  {
+    "method": "tsea",
+    "detector": "yolov3",
+    "gpu": 2,
+    "returncode": 0,
+    "seconds": 12.538764577999245,
+    "log": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/smoke/tsea_yolov3.log"
+  },
+  {
+    "method": "nap",
+    "detector": "yolov3",
+    "gpu": 2,
+    "returncode": 0,
+    "seconds": 6.927142500993796,
+    "log": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/smoke/nap_yolov3.log"
+  },
+  {
+    "method": "tsea",
+    "detector": "fasterrcnn",
+    "gpu": 6,
+    "returncode": 0,
+    "seconds": 13.362565654038917,
+    "log": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/smoke/tsea_fasterrcnn.log"
+  },
+  {
+    "method": "nap",
+    "detector": "fasterrcnn",
+    "gpu": 6,
+    "returncode": 0,
+    "seconds": 7.279840632050764,
+    "log": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/smoke/nap_fasterrcnn.log"
+  },
+  {
+    "method": "tsea",
+    "detector": "yolov4",
+    "gpu": 3,
+    "returncode": 0,
+    "seconds": 12.925189036992379,
+    "log": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/smoke/tsea_yolov4.log"
+  },
+  {
+    "method": "nap",
+    "detector": "yolov4",
+    "gpu": 3,
+    "returncode": 0,
+    "seconds": 7.807454261987004,
+    "log": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/smoke/nap_yolov4.log"
+  }
+]

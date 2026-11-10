@@ -1,0 +1,56 @@
+diff --git a/train_patch.py b/train_patch.py
+index f624980..9dd6ff2 100644
+--- a/train_patch.py
++++ b/train_patch.py
+@@ -105,6 +105,7 @@ def run(
+     weights=ROOT / "yolov5s.pt",
+     method="advpatch",
+     detector=None,
++    advpatch_objective="obj-cls",
+     base_colors="bc1",
+     source=None,
+     patch_size=300,
+@@ -130,6 +131,10 @@ def run(
+     exist_ok=False,
+ ):
+     """Builds or trains one adversarial patch and saves it under `project/name`."""
++    if advpatch_objective not in ("obj-cls", "obj"):
++        raise ValueError("AdvPatch objective must be obj-cls or obj")
++    if advpatch_objective == "obj" and (method != "advpatch" or detector is not None):
++        raise ValueError("OBJ-only uses --method advpatch with the default YOLOv5 loader; omit --detector")
+     if epochs is None:
+         epochs = 1000 if method == "cap" else 200
+     if lr is None:
+@@ -269,7 +274,10 @@ def run(
+                     det = model.advpatch_loss(attacked) if method == "advpatch" else model.advreal_loss(attacked)
+                 else:
+                     pred = model(attacked)[0]
+-                    det = advreal_2d_loss(pred) if method == "advreal" else attack_loss(pred)
++                    if method == "advpatch" and advpatch_objective == "obj":
++                        det = pred[..., 4].amax(dim=1).mean()
++                    else:
++                        det = advreal_2d_loss(pred) if method == "advreal" else attack_loss(pred)
+                 tv = torch.clamp(tv_weight * total_variation(patch), min=0.1) if tv_weight else zero
+                 nps = nps_weight * non_printability(patch) if nps_weight else zero
+                 loss = det + nps + tv
+@@ -355,8 +363,10 @@ def run(
+     if method == "advpatch":
+         summary.update(
+             method="AdvPatch (shared PAC protocol)",
++            advpatch_objective=advpatch_objective,
+             detector_confidence=("mean per-image peak pre-NMS ROI softmax person probability"
+-                                 if detector == "fasterrcnn" else "mean per-image peak objectness * person probability"),
++                                 if detector == "fasterrcnn" else "mean per-image peak objectness"
++                                 if advpatch_objective == "obj" else "mean per-image peak objectness * person probability"),
+             tv_weight=tv_weight, tv_floor=0.1 if tv_weight else None, nps_weight=nps_weight,
+             optimizer="Adam AMSGrad", lr_schedule="ReduceLROnPlateau(mode=min, patience=50)",
+         )
+@@ -389,6 +399,8 @@ def parse_opt():
+                         choices=("yolov2", "yolov3", "yolov4", "yolov5s", "yolov5m", "fasterrcnn"),
+                         help="native source for AdvPatch, AdvReal-2D or CAP; omitted keeps the existing YOLOv5 loader")
+     parser.add_argument("--base-colors", default="bc1", choices=list(BASE_COLORS), help="paper base color set")
++    parser.add_argument("--advpatch-objective", default="obj-cls", choices=("obj-cls", "obj"),
++                        help="YOLOv5 AdvPatch detection loss; obj selects the Thys paper_obj target")
+     parser.add_argument("--source", type=str, default=None, help="trained AdvPatch to recolor (capgen-p)")
+     parser.add_argument("--patch-size", type=int, default=300, help="patch generation resolution (pixels)")
+     parser.add_argument("--imgsz", "--img", "--img-size", type=int, default=640, help="train image size (pixels)")

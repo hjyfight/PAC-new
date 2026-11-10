@@ -1,0 +1,46 @@
+{
+  "date": "2026-09-11",
+  "source": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/tables/summary_map50.csv",
+  "paired_advreal_metrics": [
+    {
+      "method": "advreal2d",
+      "whitebox_mean_6": 8.01780900977478,
+      "blackbox_mean_30": 26.68159727457836,
+      "delta_whitebox_vs_raw_pp": 0.0,
+      "delta_blackbox_vs_raw_pp": 0.0
+    },
+    {
+      "method": "advreal_r1",
+      "whitebox_mean_6": 15.152897097140002,
+      "blackbox_mean_30": 32.18195614753119,
+      "delta_whitebox_vs_raw_pp": 7.135088087365222,
+      "delta_blackbox_vs_raw_pp": 5.50035887295283
+    },
+    {
+      "method": "advreal_r2",
+      "whitebox_mean_6": 12.822391559974879,
+      "blackbox_mean_30": 28.059333572969113,
+      "delta_whitebox_vs_raw_pp": 4.804582550200099,
+      "delta_blackbox_vs_raw_pp": 1.3777362983907544
+    }
+  ],
+  "cap_original": {
+    "cap_best": {
+      "whitebox_mean_6": 30.454500782219082,
+      "blackbox_mean_30": 44.411947252217296
+    },
+    "cap_final": {
+      "whitebox_mean_6": 19.968609890971248,
+      "blackbox_mean_30": 36.069665768814794
+    }
+  },
+  "proposed_cap_recolor": {
+    "new_training_runs": 0,
+    "new_patches": 12,
+    "whitebox_evaluations": 12,
+    "blackbox_evaluations": 60,
+    "executed": false
+  },
+  "paper_modified": false,
+  "new_experiments_started": false
+}

@@ -1,0 +1,16 @@
+{
+  "gpus": [
+    3,
+    6,
+    7
+  ],
+  "pid": 1084785,
+  "command": [
+    "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/NCQ/ncq_random3_sum255_extra5_20261026/run_experiments.py",
+    "run",
+    "--gpus",
+    "3,6,7"
+  ],
+  "started_utc": "2026-10-26T01:22:37.414840+00:00",
+  "script_sha256": "70970325a58365431d8f38186d8110211dd081b6a23b2ccbd0e8e4fc025e0d8c"
+}

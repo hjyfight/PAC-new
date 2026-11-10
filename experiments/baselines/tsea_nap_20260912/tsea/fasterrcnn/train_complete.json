@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "method": "tsea",
+  "source": "fasterrcnn",
+  "epochs": 1000,
+  "optimizer_steps": 77000,
+  "best_training_loss_epoch": 960,
+  "best_training_loss": 1.0705029964447021,
+  "checkpoints": {
+    "best": {
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/fasterrcnn/patches/tsea/best.pt",
+      "sha256": "79744d920df84fea9053b0856ec999d4adbfb58b8f1c5e1523d76fbe4e75531c",
+      "min": 0.0,
+      "max": 0.9655898809432983,
+      "std": 0.17210692167282104
+    },
+    "last": {
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/fasterrcnn/patches/tsea/last.pt",
+      "sha256": "5b3db4b23541d7ad680d2102813d0e470ec5dc2f2147b55a47684ea09cdbeb4e",
+      "min": 0.0,
+      "max": 1.0,
+      "std": 0.17254911363124847
+    }
+  },
+  "training_summary": {
+    "requested_epochs": 1000,
+    "completed_epochs": 1000,
+    "optimizer_steps": 77000,
+    "stop_reason": "epoch_limit",
+    "checkpoint_selection": "minimum epoch-mean training total loss",
+    "best_training_loss_epoch": 960,
+    "best_training_loss": 1.0705029964447021,
+    "early_stopping": false,
+    "detector": "fasterrcnn",
+    "peak_cuda_reserved_mib": 5704.0,
+    "test_used_during_training": false,
+    "training_seconds": 13232.477884089982,
+    "method": "T-SEA (shared PAC protocol)",
+    "model_ensemble": [
+      "backbone.body.layer3.1.bn3",
+      "backbone.body.layer3.2.bn3",
+      "backbone.body.layer3.3.bn3",
+      "backbone.body.layer3.4.bn3",
+      "backbone.body.layer3.5.bn3"
+    ],
+    "tv_weight": 2.5,
+    "tv_floor": 0.1,
+    "nps_weight": 0,
+    "optimizer": "Adam AMSGrad",
+    "lr_schedule": "author ALRS (patience=10, decay=.97)",
+    "data_ensemble": "gate .5; flip .5; color jitter .1; rotation +/-5; transformed GT",
+    "patch_ensemble": "median7; jitter; clamp; batch-gated .9 cutout (side=.4, fill=.5); rotation +/-20"
+  },
+  "physical_gpu": 5,
+  "early_stopping": false,
+  "test_used_during_training": false,
+  "completed_utc": "2026-09-12T12:00:55.376982+00:00"
+}

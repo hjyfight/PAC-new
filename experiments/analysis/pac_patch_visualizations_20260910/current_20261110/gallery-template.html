@@ -1,0 +1,102 @@
+<div id="pac-current-patches">
+  <style>
+    #pac-current-patches { color: var(--foreground); }
+    #pac-current-patches .patch-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px 16px; }
+    #pac-current-patches figure { margin: 0; min-width: 0; }
+    #pac-current-patches .patch-image { display: block; width: 100%; aspect-ratio: 1; object-fit: contain; }
+    #pac-current-patches figcaption { display: flex; flex-wrap: wrap; gap: 4px 12px; justify-content: space-between; margin: 7px 0 4px; }
+    #pac-current-patches .patch-meta { color: var(--muted-foreground); }
+    #pac-current-patches .selected-patch { display: flex; gap: 20px; align-items: center; flex-wrap: wrap; margin: 20px 0; }
+    #pac-current-patches .selected-patch[hidden] { display: none; }
+    #pac-current-patches .selected-patch img { display: block; width: 300px; max-width: 100%; aspect-ratio: 1; object-fit: contain; }
+    @media (max-width: 500px) { #pac-current-patches .patch-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  </style>
+  <div class="viz-controls">
+    <label class="form-label" for="pac-patch-source">训练源模型
+      <select class="form-select" id="pac-patch-source">
+        <option value="yolov5s">YOLOv5s</option>
+        <option value="yolov2">YOLOv2</option>
+        <option value="yolov3">YOLOv3</option>
+        <option value="yolov4">YOLOv4</option>
+        <option value="yolov5m">YOLOv5m</option>
+        <option value="fasterrcnn">Faster R-CNN</option>
+      </select>
+    </label>
+    <span class="text-small">best · 白盒 AP50（%）↓</span>
+  </div>
+  <div class="selected-patch" id="pac-selected" hidden>
+    <img id="pac-selected-image" alt="选中补丁的放大预览">
+    <div><div id="pac-selected-caption" aria-live="polite"></div><button type="button" class="btn btn-ghost" id="pac-close-preview">收起放大</button></div>
+  </div>
+  <div id="pac-patch-grid" class="patch-grid" aria-label="当前训练源各方法补丁"></div>
+  <script type="application/json" id="pac-patch-data">__PATCH_PAYLOAD__</script>
+  <script>
+    (() => {
+      const root = document.getElementById('pac-current-patches');
+      const data = JSON.parse(root.querySelector('#pac-patch-data').textContent);
+      const source = root.querySelector('#pac-patch-source');
+      const grid = root.querySelector('#pac-patch-grid');
+      const selected = root.querySelector('#pac-selected');
+      const selectedImage = root.querySelector('#pac-selected-image');
+      const selectedCaption = root.querySelector('#pac-selected-caption');
+      let selectedMethod = null;
+      function save() {
+        if (window.openai && window.openai.setWidgetState) {
+          window.openai.setWidgetState({
+            modelContent: { trainingSource: source.value, selectedMethod, selection: 'best' },
+            privateContent: null
+          }).catch(() => {});
+        }
+      }
+      function selectPatch(patch) {
+        selectedMethod = patch.method;
+        selected.hidden = false;
+        selectedImage.src = patch.image;
+        selectedImage.alt = patch.label + '，训练源 ' + data.sources[patch.source];
+        selectedCaption.textContent = patch.label + ' · ' + data.sources[patch.source] + ' · AP50 ' + patch.ap50.toFixed(2) + '%';
+      }
+      function render() {
+        grid.replaceChildren();
+        selected.hidden = true;
+        for (const patch of data.patches.filter(p => p.source === source.value)) {
+          const figure = document.createElement('figure');
+          const image = document.createElement('img');
+          image.className = 'patch-image';
+          image.src = patch.image;
+          image.alt = patch.label + '，训练源 ' + data.sources[patch.source] + '，白盒 AP50 ' + patch.ap50.toFixed(2) + '%';
+          image.width = data.preview_size;
+          image.height = data.preview_size;
+          const caption = document.createElement('figcaption');
+          const name = document.createElement('span');
+          name.textContent = patch.label;
+          const score = document.createElement('span');
+          score.className = 'tabular-nums patch-meta';
+          score.textContent = patch.ap50.toFixed(2);
+          caption.append(name, score);
+          const zoom = document.createElement('button');
+          zoom.type = 'button';
+          zoom.className = 'btn btn-ghost';
+          zoom.textContent = '放大';
+          zoom.setAttribute('aria-label', '放大 ' + patch.label);
+          zoom.addEventListener('click', () => { selectPatch(patch); save(); selected.scrollIntoView({ block: 'nearest' }); });
+          figure.append(image, caption, zoom);
+          grid.appendChild(figure);
+          if (patch.method === selectedMethod) selectPatch(patch);
+        }
+      }
+      function restore(state) {
+        const content = state && state.modelContent;
+        if (content && Object.hasOwn(data.sources, content.trainingSource)) source.value = content.trainingSource;
+        selectedMethod = content && typeof content.selectedMethod === 'string' ? content.selectedMethod : null;
+        render();
+      }
+      source.addEventListener('change', () => { selectedMethod = null; render(); save(); });
+      root.querySelector('#pac-close-preview').addEventListener('click', () => { selectedMethod = null; selected.hidden = true; save(); });
+      window.addEventListener('openai:set_globals', event => {
+        const state = event.detail && event.detail.globals && event.detail.globals.widgetState;
+        if (state) restore(state);
+      });
+      restore(window.openai && window.openai.widgetState);
+    })();
+  </script>
+</div>

@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "count": 2,
+  "patches": [
+    {
+      "source": "yolov4",
+      "family": "AdvPatch",
+      "base_colors": "bc1",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/yolov4/patches/p1.pt",
+      "source_sha256": "4bb446769e8c82b585672a011497d40a3c9a4c8c4cfcae16eb95de331b7c8335",
+      "sha256": "088242b34e60549e7667d9f01ec898a9b1d36a4e592811157929d1502dab5994",
+      "shape": [
+        3,
+        300,
+        300
+      ],
+      "max_absolute_formula_error": 8.08753218839442e-08,
+      "roundtrip_max_error": 0.0,
+      "unclipped_min": 0.00774055145242635,
+      "unclipped_max": 0.9033866189274133,
+      "clipped_values": 0,
+      "softmax": false,
+      "weight_normalization": false
+    },
+    {
+      "source": "yolov4",
+      "family": "AdvPatch",
+      "base_colors": "bc2",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/yolov4/patches/p2.pt",
+      "source_sha256": "4bb446769e8c82b585672a011497d40a3c9a4c8c4cfcae16eb95de331b7c8335",
+      "sha256": "adc663502d1921ea661777e5620d9b7094d6e542d55ae4a519874f998f0399aa",
+      "shape": [
+        3,
+        300,
+        300
+      ],
+      "max_absolute_formula_error": 1.0167851161035912e-07,
+      "roundtrip_max_error": 0.0,
+      "unclipped_min": 0.018016967199304526,
+      "unclipped_max": 0.8960617995729634,
+      "clipped_values": 0,
+      "softmax": false,
+      "weight_normalization": false
+    }
+  ]
+}

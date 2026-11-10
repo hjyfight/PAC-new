@@ -1,0 +1,6 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "origin"]
+	url = /datacc05/huotianlin/code-hu/PAC-yolo/.git-worktrees/pac-source.git

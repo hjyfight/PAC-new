@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "recolors": [
+    {
+      "id": "obj_cls_best_p1",
+      "maximum_float64_formula_error": 8.321275890565971e-08
+    },
+    {
+      "id": "obj_cls_best_p2",
+      "maximum_float64_formula_error": 1.0004230577287387e-07
+    },
+    {
+      "id": "obj_cls_last_p1",
+      "maximum_float64_formula_error": 8.08753219949665e-08
+    },
+    {
+      "id": "obj_cls_last_p2",
+      "maximum_float64_formula_error": 1.0237974279458939e-07
+    },
+    {
+      "id": "obj_best_p1",
+      "maximum_float64_formula_error": 7.807039748009004e-08
+    },
+    {
+      "id": "obj_best_p2",
+      "maximum_float64_formula_error": 9.957481827971293e-08
+    },
+    {
+      "id": "obj_last_p1",
+      "maximum_float64_formula_error": 8.017409081073623e-08
+    },
+    {
+      "id": "obj_last_p2",
+      "maximum_float64_formula_error": 1.0284723017672803e-07
+    }
+  ],
+  "count": 8
+}

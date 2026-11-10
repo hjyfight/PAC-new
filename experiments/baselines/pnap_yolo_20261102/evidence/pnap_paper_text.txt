@@ -1,0 +1,1661 @@
+ 
+ 
+     
+         
+         
+         
+         
+        
+        
+        
+             
+             
+
+        
+         
+
+         PNAP-YOLO: An Improved Prompts-Based Naturalistic Adversarial Patch Model for Object Detectors | Annals of Data Science | Springer Nature Link 
+
+        
+            
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    
+
+            
+    
+     
+     
+     
+     
+     
+     
+    
+
+        
+
+         
+
+        
+    
+        
+    
+    
+    
+
+    
+
+
+         
+ 
+ 
+ 
+ 
+
+ 
+
+
+        
+
+
+ 
+
+
+
+    
+        
+            
+      html{line-height:1.15;text-size-adjust:100%}body{margin:0;font-family:Merriweather Sans,Helvetica Neue,Helvetica,Arial,sans-serif;line-height:1.8}details,main{display:block}h1{font-size:2em;margin:.67em 0}a{background-color:transparent;color:#025e8d;text-decoration:underline .0625rem;text-decoration-skip-ink:auto;text-underline-offset:.25rem}sub{font-size:75%;line-height:0;position:relative;vertical-align:baseline;bottom:-.25em}img{border:0;max-width:100%;height:auto;vertical-align:middle}button,input{font-family:inherit;font-size:100%;line-height:1.15;margin:0;overflow:visible}button{text-transform:none}[type=submit],button{appearance:button}[type=search]{appearance:textfield;outline-offset:-2px}summary{display:list-item}[hidden]{display:none}button{cursor:pointer}svg{width:1rem;height:1rem}.eds-c-header__brand img{max-width:100%}@media only screen and (min-width:768px){.eds-c-header__brand img{max-width:340px}}  
+     @media only print, only all and (prefers-color-scheme: no-preference), only all and (prefers-color-scheme: light), only all and (prefers-color-scheme: dark) {  body{line-height:1.8;min-height:100%;color:#222;background:#fff}button{cursor:pointer}img{border:0;max-width:100%;height:auto;vertical-align:middle}html{height:100%;overflow-y:scroll;font-size:100%;box-sizing:border-box}h1{font-size:clamp(1.75rem,4vw,2.25rem)}h2{font-size:clamp(1.5rem,4vw,1.75rem)}body,h1,h2,h3{font-family:Merriweather Sans,Helvetica Neue,Helvetica,Arial,sans-serif}h1,h2,h3{font-weight:700;line-height:1.2}h3{font-size:clamp(1.25rem,4vw,1.5rem)}body{font-size:1.125rem}*{box-sizing:inherit}p{margin-top:0;margin-bottom:2rem;overflow-wrap:break-word;word-break:break-word}p:last-of-type{margin-bottom:0}a{color:#025e8d;text-decoration:underline .0625rem;text-decoration-skip-ink:auto;padding:initial;text-underline-offset:.25rem}.eds-c-badge{font-family:Merriweather Sans,Helvetica Neue,Helvetica,Arial,sans-serif;display:inline-flex;align-items:center;gap:.25rem;margin:0;border:1px solid #c5e0f4;border-radius:4px;padding:.25rem .5rem;text-decoration:none;font-size:.875rem;font-weight:400;line-height:1.5;color:#222;background-color:#fff}.eds-c-badge span{white-space:nowrap}.eds-c-badge svg{width:1rem;height:1rem;min-width:1rem;min-height:1rem}.eds-c-button{cursor:pointer;display:inline-block;margin:0;position:relative;text-decoration:none;text-align:center;width:100%;font-family:Merriweather Sans,Helvetica Neue,Helvetica,Arial,sans-serif;font-size:1rem;line-height:1.5;padding:.5rem 1.5rem;transition:.2s;border-radius:32px;font-weight:700}.eds-c-button span,.eds-c-button svg{vertical-align:middle}.eds-c-button svg{width:1.5rem;height:1.5rem}.eds-c-button svg:first-child{margin-right:8px}@media only screen and (min-width:480px){.eds-c-button{width:auto}}.eds-c-button--primary{color:#fff;background-color:#025e8d;background-image:none;border:2px solid transparent;box-shadow:none;text-decoration:none}.eds-c-button--primary svg{fill:currentcolor}.eds-c-header{font-family:Merriweather Sans,Helvetica Neue,Helvetica,Arial,sans-serif;background-color:#fff;padding:8px 0 0;border-bottom:2px solid #01324b;font-size:1rem;line-height:1.5}.eds-c-header__container{max-width:1280px;margin:0 auto 8px;padding:0 8px;justify-content:space-between;position:relative;display:flex;align-items:center;flex-wrap:nowrap;gap:8px 16px}.eds-c-header__nav{border-top:2px solid #c5e0f4;padding-top:4px;position:relative}.eds-c-header__nav-container{max-width:1280px;padding:0 8px;margin:0 auto 4px;display:flex;align-items:center;flex-wrap:wrap;position:relative}.eds-c-header__nav-container>:not(:last-child){margin-right:32px}.eds-c-header__link-container{display:flex;align-items:center;flex:1 0 auto;gap:8px 16px;justify-content:space-between}.eds-c-header__list{list-style:none;margin:0;padding:0}.eds-c-header__list-item{margin:0 auto;max-width:1280px;font-weight:700;padding:8px}.eds-c-header__list-item:not(:last-child){border-bottom:2px solid #c5e0f4}.eds-c-header__item{color:inherit}@media only screen and (min-width:768px){.eds-c-header__item--menu{display:none;visibility:hidden}.eds-c-header__item--menu:first-child+*{margin-block-start:0}}.eds-c-header__item--inline-links{display:none;visibility:hidden}@media only screen and (min-width:768px){.eds-c-header__item--inline-links{display:flex;gap:16px;visibility:visible}}.eds-c-header__item--divider:before{content:"";position:absolute;border-left:2px solid #c5e0f4;height:calc(100% - 16px);top:8px;margin-left:-15px}.eds-c-header__brand{padding:16px 8px}.eds-c-header__brand a{display:block;line-height:1;text-decoration:none}.eds-c-header__brand img{height:1.5rem;width:auto}.eds-c-header__link{display:inline-block;padding:16px 8px;color:inherit;font-weight:700;text-decoration-color:transparent;position:relative;word-break:normal;white-space:nowrap}.eds-c-header__link:visited{color:inherit}.eds-c-header__link:hover{color:inherit;text-decoration-color:inherit}.eds-c-header__link:not(.eds-c-header__expander .eds-c-header__link):hover{text-decoration-color:transparent}.eds-c-header__link:not(.eds-c-header__expander .eds-c-header__link):hover:after{content:"";background-color:#025e8d;width:100%;height:6px;border-radius:4px;position:absolute;bottom:-4px;left:0}.eds-c-header__link--static{flex:0 0 auto}.eds-c-header__link.is-open{color:#025e8d}.eds-c-header__link.is-open:after{content:"";background-color:#025e8d;width:100%;height:6px;border-radius:4px;position:absolute;bottom:-4px;left:0}.eds-c-header__icon{fill:currentcolor;transform:translate(0);display:inline-block;width:1em;height:1em;vertical-align:bottom;font-size:1.5rem}.eds-c-header__icon+*{margin-left:8px}.eds-c-header__expander{background-color:#f0f7fc}.eds-c-header__search{display:block;padding:24px 0}@media only screen and (min-width:768px){.eds-c-header__search{max-width:70%}}.eds-c-header__search-container{position:relative}.eds-c-header__search-label{display:inline-block;color:inherit;font-weight:700;margin-bottom:8px}.eds-c-header__search-input{border:1px solid #000;width:100%;padding:8px 48px 8px 8px;background-color:#fff}.eds-c-header__search-button{background-color:transparent;border:0;color:inherit;position:absolute;height:100%;padding:0 8px;right:0}.has-tethered.eds-c-header__expander{margin-top:-2px;width:100%;top:100%;z-index:10;left:0;border-bottom:2px solid #01324b}@media only screen and (min-width:768px){.has-tethered.eds-c-header__expander--menu{display:none;visibility:hidden}}.has-tethered .eds-c-header__heading{display:none;visibility:hidden}.has-tethered .eds-c-header__heading:first-child+*{margin-block-start:0}.has-tethered .eds-c-header__search{margin:auto}.eds-c-header__heading{margin:0 auto;max-width:1280px;padding:16px 16px 0}.eds-c-footer__button-text.hover,.eds-c-footer__button-text.visited,.eds-c-footer__button-text:hover,.eds-c-footer__button-text:visited,.eds-c-status-message__message a{color:inherit}.eds-c-pagination,.js .eds-c-modal[open]{display:flex;justify-content:center;align-items:center}.eds-c-pagination{list-style:none;margin:0;flex-wrap:wrap;font-family:Merriweather Sans,Helvetica Neue,Helvetica,Arial,sans-serif;font-size:.875rem;padding:32px 0;line-height:1.4;gap:16px 0}@media only screen and (min-width:480px){.eds-c-pagination{padding:32px 16px}}.eds-c-pagination__item{margin-right:8px}.eds-c-pagination__item--prev{margin-right:16px}.eds-c-pagination__item--next .eds-c-pagination__link,.eds-c-pagination__item--prev .eds-c-pagination__link{padding:16px 8px}.eds-c-pagination__item--next{margin-left:8px}.eds-c-pagination__item:last-child{margin-right:0}.eds-c-pagination__link{align-items:center;cursor:pointer;display:inline-block;font-size:1rem;margin:0;position:relative;padding:16px 24px;text-align:center;transition:.2s;color:#222}.eds-c-pagination__link:visited{color:#222}.eds-c-pagination__link--disabled{color:#555;border-color:#555;cursor:default}.eds-c-pagination__link--active{color:#fff;background-color:#01324b;background-image:none;border-radius:8px}.eds-c-pagination__link--active:focus-visible,.eds-c-pagination__link--active:hover,.eds-c-pagination__link--active:visited{color:#fff}.eds-c-pagination__link-container{display:flex;align-items:center}.eds-c-pagination__icon{fill:#222;width:1.5rem;height:1.5rem}.eds-c-pagination__icon--disabled{fill:#555}.eds-c-pagination__visually-hidden{border:0;clip:rect(0,0,0,0);clip-path:inset(50%);height:1px;overflow:hidden;padding:0;white-space:nowrap;width:1px;position:absolute!important}.eds-c-status-message{display:flex;gap:.5rem;font-family:Merriweather Sans,Helvetica Neue,Helvetica,Arial,sans-serif;font-size:1rem;position:relative;box-sizing:border-box;border-radius:8px;background-color:#fff;border:1px solid #999;line-height:1.4;padding:16px 16px 12px}.eds-c-status-message :last-child{margin-bottom:0}.eds-c-status-message__text{padding-right:12px;margin-top:2px}.eds-c-status-message__text h5{margin-top:0}.eds-c-status-message__icon{fill:currentcolor;transform:translate(0);display:inline-block;vertical-align:text-top;width:24px;height:24px;flex:0 0 auto;margin-right:8px}.eds-c-status-message__icon--top{align-self:flex-start}.eds-c-status-message__dismiss-button{position:absolute;border:0;background:0 0;right:8px;cursor:pointer}.eds-c-status-message__dismiss-icon{fill:currentcolor;transform:translate(0);display:inline-block;vertical-align:text-top;width:24px;height:24px;color:#555}.eds-c-status-message__title{font-weight:700;margin-bottom:8px}.eds-c-status-message--info .eds-c-status-message__icon{color:#17758c}.eds-c-status-message--info{border-bottom:4px solid #17758c}.eds-c-status-message--error .eds-c-status-message__icon{color:#be1818}.eds-c-status-message--error{border-bottom:4px solid #be1818}.eds-c-status-message--success .eds-c-status-message__icon{color:#007a4b}.eds-c-status-message--success{border-bottom:4px solid #007a4b}.eds-c-status-message--warning .eds-c-status-message__icon{color:#daa520}.eds-c-status-message--warning{border-bottom:4px solid #daa520}.c-breadcrumbs{list-style:none;margin:0;padding:0;font-size:min(max(.875rem,2vw),1rem);font-family:Merriweather Sans,Helvetica Neue,Helvetica,Arial,sans-serif;color:#333}.c-breadcrumbs>li{display:inline}svg.c-breadcrumbs__chevron{margin:0 .25rem;fill:#333;width:10px;height:10px}.c-breadcrumbs--contrast,.c-breadcrumbs--contrast .c-breadcrumbs__link,.c-breadcrumbs--contrast .c-breadcrumbs__link.hover,.c-breadcrumbs--contrast .c-breadcrumbs__link.visited,.c-breadcrumbs--contrast .c-breadcrumbs__link:hover,.c-breadcrumbs--contrast .c-breadcrumbs__link:visited{color:#fff}.c-breadcrumbs--contrast svg.c-breadcrumbs__chevron{fill:#fff}@media only screen and (max-width:479px){.c-breadcrumbs .c-breadcrumbs__item{display:none}.c-breadcrumbs .c-breadcrumbs__item:last-child,.c-breadcrumbs .c-breadcrumbs__item:nth-last-child(2){display:inline}}.eds-c-header__flex-group{display:flex}.eds-c-header__item--show-on-desktop{display:none;visibility:hidden}@media only screen and (min-width:900px){.eds-c-header__item--show-on-desktop{display:block;visibility:visible}}.c-header__link{display:inline-block;padding:16px 8px;color:inherit;font-weight:700;text-decoration-color:transparent;position:relative;word-break:normal;white-space:nowrap}.eds-l-with-sidebar{display:flex;flex-wrap:wrap}.eds-l-with-sidebar>*{margin:0}.eds-l-with-sidebar__sidebar{flex-grow:1;min-width:var(--eds-l-with-sidebar--min-width,400px);flex-basis:var(--eds-l-with-sidebar--basis,400px)}.eds-l-with-sidebar>:not(.eds-l-with-sidebar__sidebar){flex-basis:0px;flex-grow:999;min-width:var(--eds-l-with-sidebar--min,50%)}.eds-l-with-sidebar>:first-child{padding-right:4rem}@supports (gap:1em){.eds-l-with-sidebar>:first-child{padding-right:0}.eds-l-with-sidebar{gap:var(--eds-l-with-sidebar--gap,4rem)}}.c-meta__link:visited,.c-status-message a{color:#000}.c-skip-link,.js .c-popup{font-family:Merriweather Sans,Helvetica Neue,Helvetica,Arial,sans-serif;position:absolute}.c-skip-link{background:#01324b;color:#fff;font-size:1rem;text-align:center;padding:8px;width:100%;inset:0 0 auto;z-index:9999;transform:translateY(-100%)}@media (prefers-reduced-motion:reduce){.c-skip-link{transition:top .3s ease-in-out}}@media print{.c-skip-link{display:none}}.c-skip-link:active,.c-skip-link:hover,.c-skip-link:link,.c-skip-link:visited{color:#fff}.c-skip-link:focus{transform:translateY(0)}.c-status-message{display:block;font-size:clamp(.875rem,4vw,1rem);font-weight:400}.c-status-message--flex{display:flex}.c-status-message--bold{font-weight:700}.c-status-message--boxed{box-shadow:0 0 5px 0 rgba(51,51,51,.1);overflow:hidden}.c-status-message--banner{background-color:#fff;line-height:1.4;padding:16px 0;justify-content:center}.c-status-message--banner .c-status-message__container{justify-content:center;padding:0 16px}.c-status-message--sticky{position:sticky;top:0;z-index:999}.c-status-message__container{display:flex;justify-content:flex-start;align-items:center}.c-status-message__container--centered{width:100%}.c-status-message__icon{flex-shrink:0;align-self:flex-start}.c-status-message__message :first-child,.c-status-message__message :last-child{margin-top:0}.c-status-message--info .c-status-message__icon{fill:currentcolor}.c-status-message--banner.c-status-message--info{border-bottom:4px solid #17758c}.c-status-message--boxed.c-status-message--info .c-status-message__bottom-border{content:"";position:absolute;bottom:0;left:0;background:#17758c;height:4px;width:100%}.c-status-message--error .c-status-message__icon{fill:currentcolor}.c-status-message--banner.c-status-message--error{border-bottom:4px solid #be1818}.c-status-message--boxed.c-status-message--error .c-status-message__bottom-border{content:"";position:absolute;bottom:0;left:0;background:#be1818;height:4px;width:100%}.c-status-message--success .c-status-message__icon{fill:currentcolor}.c-status-message--banner.c-status-message--success{border-bottom:4px solid #007a4b}.c-status-message--boxed.c-status-message--success .c-status-message__bottom-border{content:"";position:absolute;bottom:0;left:0;background:#007a4b;height:4px;width:100%}.c-status-message--warning .c-status-message__icon{fill:currentcolor}.c-status-message--banner.c-status-message--warning{border-bottom:4px solid #daa520}.c-status-message--boxed.c-status-message--warning .c-status-message__bottom-border{content:"";position:absolute;bottom:0;left:0;background:#daa520;height:4px;width:100%}:root{--header-height:58px}.c-ad{text-align:center}@media only screen and (min-width:480px){.c-ad{padding:8px}}.c-ad--728x90{display:none}.c-ad--728x90 .c-ad__inner{min-height:calc(1.5em + 94px)}@media only screen and (min-width:876px){.js .c-ad--728x90{display:none}}.c-ad--300x250{display:none;padding:0}.c-ad--300x250 .c-ad__inner{min-height:calc(1.5em + 254px)}@media only screen and (min-width:480px){.js .c-ad--300x250{display:block}}.c-ad__label{line-height:1.5;font-size:.875rem;font-weight:400;margin-bottom:4px;color:#333}.c-ad__label,.c-article-header{font-family:Merriweather Sans,Helvetica Neue,Helvetica,Arial,sans-serif}.c-article-identifiers{list-style:none;font-size:1rem;line-height:1.3;display:flex;flex-wrap:wrap;color:#6f6f6f;padding:0;margin:0 0 8px}.c-article-identifiers__item{border-right:1px solid #6f6f6f;margin-right:8px;padding-right:8px;list-style:none}.c-article-identifiers__item:last-child{margin-right:0;padding-right:0;border-right:0}.c-article-title{font-size:min(max(1.75rem,4vw),2.25rem)}.c-article-author-list{width:100%;margin:0 8px 0 0;padding:0;display:inline;list-style:none;font-size:1rem}.c-article-author-list__item{display:inline;padding-right:0}.c-article-author-list__show-more{display:none;margin-right:4px}.c-article-author-list__button,.js .c-article-author-list__item--hide,.js .c-article-author-list__show-more{display:none}.js .c-article-author-list--long .c-article-author-list__show-more,.js .c-article-author-list--long+.c-article-author-list__button{display:inline}@media only screen and (max-width:767px){.js .c-article-author-list__item--hide-small-screen{display:none}.js .c-article-author-list--short .c-article-author-list__show-more,.js .c-article-author-list--short+.c-article-author-list__button{display:inline}}#uptodate-client,.js .c-article-author-list--expanded .c-article-author-list__show-more{display:none!important}.js .c-article-author-list--expanded .c-article-author-list__item--hide-small-screen{display:inline!important}.c-article-author-list__button,.c-button-author-list{background:#ebf1f5;border:4px solid #ebf1f5;border-radius:20px;color:#666;font-size:.875rem;line-height:1.4;padding:2px 11px 2px 8px;text-decoration:none}.c-article-author-list__button svg,.c-button-author-list svg{margin:1px 4px 0 0}.c-article-author-list__button:hover,.c-button-author-list:hover{background:#025e8d;border-color:transparent;color:#fff}.c-article-body .c-article-access-provider{padding:8px 16px}.c-article-body .c-article-access-provider,.c-notes{border-width:1px medium;border-style:solid none;border-color:#d5d5d5 currentcolor;border-image:none;margin:24px 0}.c-article-body .c-article-access-provider__text{color:#555}.c-article-body .c-article-access-provider__text,.c-notes__text{padding-top:2px;padding-bottom:2px;margin-bottom:0;font-size:1rem;text-align:center}.c-article-body .c-article-author-affiliation__address{color:inherit;font-weight:700;margin:0}.c-article-body .c-article-author-affiliation__authors-list{list-style:none;padding:0;margin:0}.c-article-body .c-article-author-affiliation__authors-item{display:inline;margin-left:0}.c-article-authors-search{margin-top:0;margin-bottom:24px}.c-article-authors-search__item,.c-article-authors-search__title{font-family:Merriweather Sans,Helvetica Neue,Helvetica,Arial,sans-serif}.c-article-authors-search__title{color:#626262;font-weight:700;margin:0;padding:0;font-size:1.05rem}.c-article-authors-search__item{font-size:1rem}.c-article-authors-search__text{margin:0}.c-article-body .c-article-subject-list--no-mb{margin-bottom:0}.c-code-block{padding:20px;margin:0 0 24px;border:1px solid #fff;font-family:monospace}.c-code-block__heading{margin-bottom:16px;font-weight:400}.c-code-block__line{overflow-wrap:break-word;white-space:pre-wrap;display:block}.c-article-share-box__no-sharelink-info{font-size:.813rem;font-weight:700;padding-top:4px;margin-bottom:24px}.c-article-share-box__only-read-input{border:1px solid #d5d5d5;display:inline-block;box-sizing:content-box;height:24px;margin-bottom:8px;font-size:.875rem;font-weight:700;padding:8px 10px}.c-article-share-box__button--link-like{background-color:transparent;border:0;color:#025e8d;cursor:pointer;font-size:.875rem;margin-bottom:8px;margin-left:10px}.c-article-associated-content__container .c-article-associated-content__collection-label{font-size:.875rem;line-height:1.4}.c-article-associated-content__container .c-article-associated-content__collection-title{line-height:1.5;font-size:1.125rem}.c-reading-companion{clear:both;min-height:389px}.c-reading-companion .u-lazy-ad-wrapper{background-color:transparent!important;min-height:250px}.c-reading-companion .u-lazy-ad-wrapper .div-gpt-ad{height:100%}.c-reading-companion__scroll-pane{overflow:hidden auto;margin:0 -4px;min-height:200px;padding-left:4px;padding-right:4px}.c-reading-companion__tabs{font-size:1rem;list-style:none;display:flex;flex-flow:row;margin:0 0 8px;padding:0}.c-reading-companion__tabs>li{flex-grow:1}.c-reading-companion__tab{border-style:solid;border-color:#d5d5d5;border-image:none;border-width:1px 1px 1px 0;padding:8px 8px 8px 15px;text-align:left;font-size:1rem;width:100%}.c-reading-companion__tabs li:first-child .c-reading-companion__tab{border-left-width:1px}.c-reading-companion__tab--active{background-color:#fff;border-bottom:1px solid #fff;font-weight:700}.c-reading-companion__sections-list{list-style:none;padding:0}.c-reading-companion__figures-list,.c-reading-companion__references-list{list-style:none;padding:0;min-height:389px}.c-reading-companion__references-list--numeric{list-style:decimal inside}.c-reading-companion__sections-list{margin:0 0 8px;min-height:50px}.c-reading-companion__section-item{font-size:1rem;padding:0}.c-reading-companion__section-item a{display:block;padding:8px 0 8px 16px;line-height:1.5;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;outline-offset:-4px}.c-reading-companion__figure-item{padding:16px 8px 16px 0;border-top:1px solid #d5d5d5;font-size:1rem}.c-reading-companion__figure-item:first-child{border-top:none;padding-top:8px}.c-reading-companion__reference-item{font-size:1rem}.c-reading-companion__reference-item:first-child{border-top:none}.c-reading-companion__reference-item a{word-break:break-word}.c-reading-companion__reference-citation{display:inline}.c-reading-companion__reference-links{list-style:none;text-align:right;margin:8px 0 0;padding:0;font-weight:700;font-size:.813rem}.c-reading-companion__reference-links>a{display:inline-block;margin-left:8px}.c-reading-companion__reference-links>a:first-child{display:inline-block}.c-reading-companion__figure-title{font-family:Merriweather Sans,Helvetica Neue,Helvetica,Arial,sans-serif;font-weight:700;line-height:1.2;-webkit-font-smoothing:antialiased;font-size:1.25rem;display:block;margin:0 0 8px}.c-reading-companion__figure-links{margin:8px 0 0;display:flex;justify-content:space-between}.c-reading-companion__figure-links>a{display:flex;align-items:center}.c-reading-companion__figure-full-link svg{height:.8em;margin-left:2px}.c-reading-companion__panel{display:none;border-top:none;margin-top:0;padding-top:0}.c-reading-companion__panel--active{display:block}.c-article-section__figure .video,p.app-article-masthead__access--above-download{margin:0 0 16px}.c-cod{font-size:1rem;display:block;width:100%}.c-cod__form{background:#ebf0f3}.c-cod__prompt{margin:0 0 24px;font-size:1.125rem;line-height:1.3}.c-cod__label{display:block;margin:0 0 4px}.c-cod__row{display:flex;margin:0 0 16px}.c-cod__row:last-child{margin:0}.c-cod__input{padding:13px;margin:0;border:1px solid #d5d5d5;border-radius:2px;flex:1 1 auto}.c-cod__input--submit{margin-left:8px;flex-shrink:1;background-color:#025e8d;color:#fff;border:1px solid #025e8d;transition:background-color .2s ease-out,color .2s ease-out}.c-cod__input--submit-single{margin:0;flex-shrink:0;flex-basis:100%}.c-cod__input--submit:focus,.c-cod__input--submit:hover{color:#025e8d;background-color:#fff}.save-data .c-article-author-institutional-author__sub-division,.save-data .c-article-equation__number,.save-data .c-article-figure-description,.save-data .c-article-fullwidth-content,.save-data .c-article-main-column,.save-data .c-article-satellite-article-link,.save-data .c-article-satellite-subtitle,.save-data .c-article-table-container,.save-data .c-blockquote__body,.save-data .c-code-block__heading,.save-data .c-reading-companion__figure-title,.save-data .c-reading-companion__reference-citation,.save-data .c-site-messages--nature-briefing-email-variant .serif,.save-data .c-site-messages--nature-briefing-email-variant.serif,.save-data .serif,.save-data .u-serif,.save-data h1,.save-data h2,.save-data h3{font-family:Merriweather Sans,Helvetica Neue,Helvetica,Arial,sans-serif}.c-pdf-download{display:flex}@media only screen and (min-width:768px){.c-pdf-download{max-height:none}}@media only screen and (min-width:1024px){.c-pdf-download{max-height:48px}}.c-pdf-download__link{display:flex;flex:1 1 0%;padding:13px 24px}.c-pdf-download__link:hover{text-decoration:none}.c-pdf-download__text{padding-right:4px}@media only screen and (max-width:767px){.c-pdf-download__text{text-transform:capitalize}}@media only screen and (min-width:768px){.c-pdf-download__text{padding-right:8px}}.c-pdf-container{display:flex;justify-content:flex-end}@media only screen and (max-width:767px){.c-pdf-container .c-pdf-download{display:flex;flex-basis:100%}}.c-pdf-container--flex-start{justify-content:flex-start}.c-pdf-container .c-pdf-download+.c-pdf-download{margin-left:16px}.c-article-extras .c-pdf-container{width:100%;flex-wrap:wrap}.c-article-extras .c-pdf-container .c-pdf-download{width:100%}.c-article-extras .c-pdf-container .c-pdf-download+.c-pdf-download{margin-left:0}@media only screen and (min-width:768px){.c-context-bar--sticky .c-pdf-download__link{flex:1 1 183px;align-items:center}}@media only screen and (max-width:320px){.c-context-bar--sticky .c-pdf-download__link{padding:16px}}.article-page--commercial .c-pdf-container{display:block}.c-article-body .c-article-recommendations-list,.c-book-body .c-article-recommendations-list{display:flex;flex-direction:row;gap:16px;max-width:100%;margin:0;padding:16px 0 0}.c-article-body .c-article-recommendations-list__item,.c-book-body .c-article-recommendations-list__item{flex:1 1 0%}@media only screen and (max-width:767px){.c-article-body .c-article-recommendations-list,.c-book-body .c-article-recommendations-list{flex-direction:column}}.c-article-body .c-article-recommendations-card__authors{display:none;font-family:Merriweather Sans,Helvetica Neue,Helvetica,Arial,sans-serif;font-size:.875rem;line-height:1.5;margin:0 0 8px}@media only screen and (max-width:767px){.c-article-body .c-article-recommendations-card__authors{display:block;margin:0}}.c-article-body .c-article-history{margin-top:24px}.app-chat{line-height:1.5;max-height:min(850px,80vh);position:relative;display:flex;flex-direction:column}@media only screen and (max-width:1024px){.app-chat{max-height:100%}}.app-chat__header{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;width:100%;align-items:center;margin-bottom:-1px;padding-bottom:8px;z-index:2;background-color:#fff}.app-chat__heading{font-family:Merriweather Sans,Helvetica Neue,Helvetica,Arial,sans-serif;font-weight:700;line-height:1.2;-webkit-font-smoothing:antialiased;font-size:1.25rem;margin:0}.app-chat__divider{width:100%;position:sticky;top:0;border-bottom:1px solid #c5e0f4;z-index:1}.app-chat__description{font-size:14px;padding-bottom:8px;width:100%}.app-chat__consent{font-size:14px;color:#555;margin-bottom:16px}.app-chat__window{display:flex;overflow-y:auto;flex-direction:column;align-items:flex-start;flex:1 1 auto;min-height:280px}@media only screen and (max-width:1024px){.app-chat__window{min-height:0;flex:0 0 auto;overflow-y:unset}}.app-chat__message{white-space:pre-line;padding:6px 16px;word-break:break-word;overflow-wrap:anywhere}.app-chat__message--loading{align-self:flex-start;background:#f0f7fc;border-radius:12px 12px 12px 2px;white-space:normal}.app-chat__loading{display:flex;align-items:center;gap:8px;margin-bottom:8px;margin-top:8px}.app-chat__loading-icon{fill:currentcolor;transform:translate(0);display:inline-block;width:1em;height:1em;vertical-align:middle;color:#0070a8;line-height:1}.app-chat__loading-icon--static{display:none}.app-chat__loading-icon--animated{display:inline}@media (prefers-reduced-motion:reduce){.app-chat__loading-icon--static{display:inline}.app-chat__loading-icon--animated{display:none}}.app-feedback .app-feedback__message--success .eds-c-status-message__icon{color:#007a4b}.app-article-masthead{display:flex;flex-direction:column;gap:16px;padding:16px 0 24px}.app-article-masthead .c-pdf-download .c-pdf-download__link:focus:focus-visible,.app-article-masthead a:focus{outline:4px solid #fff}.app-article-masthead .c-pdf-download .c-pdf-download__link:focus{border:2px solid #fff}.app-article-masthead__info{display:flex;flex-direction:column;flex-grow:1}.app-article-masthead__brand{display:flex;flex-direction:column;gap:8px;flex-basis:fit-content;flex-shrink:0;border-top:1px solid hsla(0,0%,100%,.8);padding:16px 0 0;min-height:96px}.app-article-masthead__brand img{position:absolute;left:0;width:72px;height:auto;border:1px solid #fff;box-shadow:0 4px 15px 0 hsla(0,0%,50%,.25);border-radius:8px}.app-article-masthead__journal-link{max-width:400px;position:relative;display:block;padding:0 0 0 88px;margin:0 0 8px;font-size:min(max(1.125rem,2vw),1.25rem);font-weight:700}.app-article-masthead__journal-title{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:3}.app-article-masthead__submission-link{display:flex;align-items:center;gap:4px;margin:0 0 0 88px;font-size:min(max(.875rem,2vw),1rem)}.app-article-masthead__access{display:flex;gap:4px;align-items:center;margin:0;font-size:.875rem;font-weight:400;flex-wrap:wrap;line-height:1.4}.app-article-masthead__buttons{display:flex;flex-flow:column wrap;gap:16px}.app-article-masthead__access svg{fill:currentcolor}.app-article-masthead a{color:#fff}.app-article-masthead a.c-pdf-download__link,.app-masthead--pastel .app-article-masthead .app-article-masthead__action-button,.app-masthead--pastel .app-article-masthead a,.app-masthead--pastel .app-article-masthead a:visited,.app-masthead--pastel .app-article-masthead button,.app-masthead--pastel .app-article-masthead button:hover,.app-masthead--white .app-article-masthead a,.app-masthead--white .app-article-masthead a:visited{color:#000}.app-masthead--white .app-article-masthead a.app-masthead-save-research__action-link,.app-masthead--white .app-article-masthead button,.app-masthead--white .app-masthead-save-research__action-link{color:#025e8d}.app-masthead--white .app-article-masthead a.app-masthead-save-research__action-link:hover,.app-masthead--white .app-article-masthead a.app-masthead-save-research__action-link:visited,.app-masthead--white .app-article-masthead button:hover,.app-masthead--white .app-article-masthead button:visited{color:#01324b}.app-masthead--pastel .app-article-masthead .c-pdf-download .c-pdf-download__link:focus,.app-masthead--pastel .app-article-masthead .c-pdf-download .c-pdf-download__link:focus:focus-visible,.app-masthead--pastel .app-article-masthead a:focus,.app-masthead--pastel .app-article-masthead a:focus:focus-visible,.app-masthead--white .app-article-masthead .c-pdf-download .c-pdf-download__link:focus,.app-masthead--white .app-article-masthead .c-pdf-download .c-pdf-download__link:focus:focus-visible,.app-masthead--white .app-article-masthead a:focus,.app-masthead--white .app-article-masthead a:focus:focus-visible{outline-color:#08c}.app-article-masthead__syndicated-card a,.app-article-masthead__syndicated-card a:visited,.app-masthead--pastel .app-article-masthead .c-article-identifiers *,.app-masthead--pastel .app-article-masthead .c-article-identifiers a:hover{color:#000}.app-masthead--white .app-article-masthead .app-article-masthead__access,.app-masthead--white .app-article-masthead .c-article-identifiers *,.app-masthead--white .app-article-masthead .c-article-identifiers a:hover,.app-masthead--white .app-article-masthead .c-article-title{color:#222}.app-masthead--pastel .app-article-masthead .c-article-identifiers__item{border-left:1px solid #000}.app-masthead--pastel .c-pdf-download a.u-button--primary,.app-masthead--white .c-pdf-download a.u-button--primary,.c-context-bar--sticky .c-context-bar__container .c-pdf-download a.u-button--primary{border:2px solid transparent;background-color:#025e8d;box-shadow:none;color:#fff;font-weight:700}.app-masthead--pastel .c-pdf-download a.u-button--primary:hover,.app-masthead--white .c-pdf-download a.u-button--primary:hover,.c-context-bar--sticky .c-context-bar__container .c-pdf-download a.u-button--primary:hover{background:0 0;border:2px solid #025e8d;box-shadow:none;color:#025e8d}.app-masthead--pastel .c-pdf-download a.u-button--secondary,.app-masthead--white .c-pdf-download a.u-button--secondary,.c-context-bar--sticky .c-context-bar__container .c-pdf-download a.u-button--secondary{border:2px solid #025e8d;background:0 0;color:#025e8d}.app-masthead--pastel .c-pdf-download a.u-button--secondary:hover,.app-masthead--white .c-pdf-download a.u-button--secondary:hover,.c-context-bar--sticky .c-context-bar__container .c-pdf-download a.u-button--secondary:hover{border:2px solid transparent;background-color:#025e8d;color:#fff}.app-article-metrics-bar p{margin:0}@media only screen and (min-width:768px){.app-article-masthead{flex-direction:row;gap:64px;padding:24px 0}.app-article-masthead__brand{border:0;padding:0}.app-article-masthead__brand img{position:static;width:auto;height:auto}.app-article-masthead__buttons{margin-top:auto;align-items:normal}.app-article-masthead__journal-link{display:flex;flex-direction:column;gap:24px;padding:0;margin:0 0 8px}.app-article-masthead__submission-link{margin:0}.app-article-masthead .c-pdf-container{flex-grow:0}}@media only screen and (min-width:1024px){.app-article-masthead__brand{flex-basis:400px}}.app-article-masthead__buttons .c-pdf-container{justify-content:flex-start}.app-article-masthead .c-article-identifiers{line-height:1;padding-top:8px;font-size:.875rem;font-weight:400;overflow:hidden}.app-article-masthead .c-article-identifiers--cite-list{margin:0 0 16px}.app-article-masthead .c-article-identifiers *,.app-article-masthead button{color:#fff}.app-article-masthead .c-cod{display:none}.app-article-masthead .c-article-identifiers__item{margin:0 17px 8px -9px;padding:0 0 0 8px;border-right:0;border-left:1px solid #fff}.app-article-masthead .c-article-identifiers__item--cite{border-left:0}.app-article-metrics-bar{list-style:none;padding:0;display:flex;flex-wrap:wrap;font-size:1rem;margin:24px 0 0;row-gap:8px}.app-article-metrics-bar__item{padding:0 16px 0 0}.app-article-metrics-bar__count{font-weight:700}.app-article-metrics-bar__label{font-weight:400;padding-left:4px}.app-article-metrics-bar__icon{width:auto;height:auto;margin-right:4px;margin-top:-4px}.app-article-metrics-bar__arrow-icon{margin:4px 0 0 4px}.app-article-metrics-bar a{color:#000}.app-article-metrics-bar .app-article-metrics-bar__item--metrics{padding-right:0}.app-article-metrics-bar .app-article-metrics-bar__icon{width:auto;height:auto}.app-overview-section .c-article-author-list,.app-overview-section__authors{line-height:2}.app-article-metrics-bar{margin-top:16px}.c-book-toc-pagination+.c-book-section__back-to-top{margin-top:0}.c-article-body .c-article-access-provider__text--chapter{color:#222;font-family:Merriweather Sans,Helvetica Neue,Helvetica,Arial,sans-serif;padding:20px 0}.c-article-body .c-article-access-provider__text--chapter svg.c-status-message__icon{fill:#17758c;vertical-align:middle}.c-article-body-section__content--separator{padding-top:40px}.c-pdf-download__link{max-height:44px}@media only screen and (max-width:767px){.app-article-masthead--book__info .c-pdf-container,.app-article-masthead__info .c-pdf-container{flex-direction:column;gap:12px}.app-article-masthead--book__info .c-pdf-container .c-pdf-download+.c-pdf-download,.app-article-masthead__info .c-pdf-container .c-pdf-download+.c-pdf-download{margin:0}}.c-book-buy-box:has(.u-button){display:block!important}.app-article-access .u-button--primary,.app-article-access .u-button--primary:visited{color:#fff}.c-context-bar{position:relative;width:100%;box-shadow:0 0 10px 0 rgba(51,51,51,.2)}.c-context-bar__container{margin:0 auto;max-width:1280px;padding:0 16px}.c-context-bar__title{display:none}.c-article-authors-search__list{display:flex;gap:16px;align-items:center;flex-wrap:wrap;justify-content:center}@media only screen and (min-width:480px){.c-article-authors-search__list{justify-content:normal}}.c-article-authors-search__text{display:flex;align-items:center;flex-flow:column wrap;justify-content:center;font-size:14px}@media only screen and (min-width:480px){.c-article-authors-search__text{font-size:16px;flex-direction:row}}.c-article-authors-search__links-text{font-weight:700;margin-right:8px;text-align:center}@media only screen and (min-width:480px){.c-article-authors-search__links-text{text-align:left}}.c-article-authors-search__list-item--left{flex:1 1 100%}@media only screen and (min-width:480px){.c-article-authors-search__list-item--left{flex-basis:auto}}.c-article-authors-search__list-item--right{flex:1 1 auto}.c-article-authors-search__list .c-article-identifiers{margin:0}.c-article-authors-search__list .c-article-identifiers__item{color:#222;border-right:2px solid #c5e0f4;font-size:14px}@media only screen and (min-width:480px){.c-article-authors-search__list .c-article-identifiers__item{font-size:16px}}.c-article-authors-search__list .c-article-identifiers__item:last-child{border-right:none}.c-article-authors-search__cta-link{font-size:14px}@media only screen and (min-width:480px){.c-article-authors-search__cta-link{font-size:16px}}.app-sidebar-tabs{display:none;position:relative;height:100%}.js .app-sidebar-tabs{display:block}.app-sidebar-tabs__panel{position:relative}.app-sidebar-tabs--sticky,.app-sidebar-tabs__panel--sticky{position:sticky;top:90px;height:auto}.app-sidebar-tabs__list{display:none}@media only screen and (min-width:1024px){.js .app-sidebar-tabs__list{list-style:none;display:flex;gap:8px;background-color:#f0f7fc;border-radius:16px;margin:0 0 24px;padding:4px}}.app-sidebar-tabs__tab{flex:1 1 0px}.app-sidebar-tabs__heading{display:flex;gap:8px;justify-content:left;align-items:center;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid #c5e0f4}@media screen and (min-width:1024px){.app-sidebar-tabs__heading{display:none}}.app-sidebar-tabs__link{padding:8px;border-radius:16px;text-decoration:none;display:flex;align-items:center;justify-content:center;gap:8px;font-size:1rem;background-color:transparent;white-space:nowrap;border:1px solid transparent;width:100%;color:#025e8d}.app-sidebar-tabs__link:hover{text-decoration-line:underline;text-decoration-style:solid;text-decoration-color:inherit;text-decoration-thickness:.25rem;text-underline-offset:.25rem}.active .app-sidebar-tabs__link{color:#222;text-shadow:currentcolor .3px 0 0,currentcolor -.3px 0 0;border:1px solid #c5e0f4;background-color:#fff}.app-sidebar-tabs__icon{fill:currentcolor;transform:translate(0);display:inline-block;vertical-align:text-top;width:24px;height:24px;color:#025e8d}.active .app-sidebar-tabs__icon,.app-sidebar-tabs__icon--dark{color:#222}.c-article-body .app-explore-related-subjects__list--no-mb{margin-bottom:0}.c-status-message{display:flex;align-items:center;font-family:Merriweather Sans,Helvetica Neue,Helvetica,Arial,sans-serif;position:relative;width:100%;box-sizing:border-box}.c-status-message :last-child{margin-bottom:0}.c-status-message--boxed{background-color:#fff;border:1px solid #eee;line-height:1.5;padding:16px}.c-status-message__heading{font-family:Merriweather Sans,Helvetica Neue,Helvetica,Arial,sans-serif;font-size:1rem;font-weight:700}.c-status-message__icon{fill:currentcolor;transform:translate(0);display:inline-block;vertical-align:text-top;width:1.5em;height:1.5em;flex:0 0 auto;margin-right:8px}.c-status-message__icon--top{align-self:flex-start}.c-status-message--info .c-status-message__icon{color:#17758c}.c-status-message--boxed.c-status-message--info{border-bottom:4px solid #17758c}.c-status-message--error .c-status-message__icon{color:#be1818}.c-status-message--boxed.c-status-message--error{border-bottom:4px solid #be1818}.c-status-message--success .c-status-message__icon{color:#007a4b}.c-status-message--boxed.c-status-message--success{border-bottom:4px solid #007a4b}.c-status-message--warning .c-status-message__icon{color:#daa520}.c-status-message--boxed.c-status-message--warning{border-bottom:4px solid #daa520}.app-masthead__colour-4{--background-color:#ff9500;--gradient-light:rgba(0,0,0,.5);--gradient-dark:rgba(0,0,0,.8)}.app-masthead--pastel{--gradient-light:hsla(0,0%,100%,.9);--gradient-dark:hsla(0,0%,100%,.75);--masthead-color:#000}.app-masthead{position:relative;background:var(--background-color,#0070a8)}.app-masthead:after{content:"";position:absolute;inset:0;background:radial-gradient(circle at top right,var(--gradient-light,rgba(0,0,0,.4)),var(--gradient-dark,rgba(0,0,0,.7)))}.app-masthead--pastel .app-masthead{background:var(--background-color,#6ac)}@media only screen and (max-width:479px){.app-masthead:after{background:linear-gradient(225deg,var(--gradient-light,rgba(0,0,0,.4)),var(--gradient-dark,rgba(0,0,0,.7)))}}.app-masthead__container{margin:0 auto;max-width:1280px;padding:0 16px;position:relative;z-index:4;color:var(--masthead-color,#fff)}.app-masthead-save-research{display:flex;gap:4px 16px;align-items:flex-start;flex-direction:column;text-wrap:balance}@media only screen and (min-width:480px){.app-masthead-save-research{align-items:center;flex-direction:row;text-align:start}}.app-masthead__access-container{display:flex;gap:16px 36px;flex-wrap:wrap;align-items:center;justify-content:center}@media only screen and (min-width:480px){.app-masthead__access-container{justify-content:normal}}@media only screen and (min-width:1024px){.app-masthead__access-container{flex-direction:row}}.app-masthead__access-container>*{flex:1 0 100%}@media only screen and (min-width:480px){.app-masthead__access-container>*{flex:0 1 auto}}.app-masthead-save-research__hide-on-lg{display:block;visibility:visible}@media only screen and (min-width:900px){.app-masthead-save-research__hide-on-lg{display:none;visibility:hidden}.app-masthead-save-research__hide-on-lg:first-child+*{margin-block-start:0}}.app-masthead-save-research__action-button{cursor:pointer;border:0;background-color:transparent;font-weight:inherit;margin:0;padding:0;text-decoration:underline .0625rem;text-decoration-skip-ink:auto;text-underline-offset:.25rem;color:#fff;display:inline-block;font-size:clamp(.875rem,.625rem + 1.25vw,1rem);line-height:2;text-align:left}.app-masthead-save-research__action-button.visited,.app-masthead-save-research__action-button:visited{color:#01324b}.app-masthead-save-research__action-button.hover,.app-masthead-save-research__action-button:hover{color:#01324b;text-decoration-thickness:.25rem;text-underline-offset:.25rem}.app-masthead-save-research__action-button.active,.app-masthead-save-research__action-button:active{color:#025e8d}.app-masthead-save-research__action-button.focus,.app-masthead-save-research__action-button:focus-visible{outline:4px solid #08c}.app-masthead-save-research__action-button:focus,.app-masthead-save-research__action-button:hover{color:#fff}@media only screen and (min-width:1024px){.app-masthead-save-research__action-button{text-align:center}}.app-masthead-save-research__action-link{display:inline-block;font-size:clamp(.875rem,.625rem + 1.25vw,1rem);line-height:2;color:#fff}.app-masthead-save-research__action-link:visited{color:#fff}.app-masthead-save-research__icon{fill:currentcolor;transform:translate(0);display:inline-block;width:24px;height:24px;flex:0 0 auto;vertical-align:middle;margin-left:-3px}*+.app-masthead-save-research__icon{margin-left:4px}@media only screen and (min-width:480px){*+.app-masthead-save-research__icon{margin-left:8px}}.app-masthead-save-research__icon--small{fill:currentcolor;transform:translate(0);display:inline-block;width:16px;height:16px}.app-journal-saved-research-status-container{background-color:#f0f7fc;border-bottom:1px solid #c5e0f4}.app-journal-saved-research-status-container .eds-c-status-message{background-color:inherit;border:0;border-radius:0;padding:16px 0}.app-journal-saved-research-status-container .eds-c-status-message--success{border-bottom:none}.app-journal-saved-research-status-container .eds-c-status-message__dismiss-button{right:0;padding:0}.app-journal-saved-research-status-container .eds-c-status-message__icon{margin-right:0}.app-journal-saved-research-status-container .eds-c-status-message__message span{font-weight:700;border-right:2px solid #c5e0f4;margin-right:8px;padding-right:8px}.no-js .app-funding-institution .eds-c-status-message{width:85%}.c-spp-access-message .c-status-message__icon{margin-top:8px;color:#00a69d}.u-clear-both{clear:both}.u-container{margin:0 auto;max-width:1280px;padding:0 16px}.u-justify-content-space-between{justify-content:space-between}.u-display-none{display:none}.js .u-js-hide,.u-hide{display:none;visibility:hidden}.u-hide:first-child+*{margin-block-start:0}.u-show{display:block;visibility:visible}.u-visually-hidden{border:0;clip:rect(0,0,0,0);clip-path:inset(50%);height:1px;overflow:hidden;padding:0;white-space:nowrap;width:1px;position:absolute!important}.u-icon{fill:currentcolor;transform:translate(0);display:inline-block;vertical-align:text-top;width:1em;height:1em}.u-list-reset{list-style:none;margin:0;padding:0}.u-mt-0{margin-top:0}.u-mt-16{margin-top:16px}.u-mt-24{margin-top:24px}.u-mt-32{margin-top:32px}.c-article-body .app-article-access p,.u-mb-0{margin-bottom:0}.c-article-body ol p,.c-article-body ul p,.u-mb-16{margin-bottom:16px}.u-mb-32{margin-bottom:32px}.u-sans-serif{font-family:Merriweather Sans,Helvetica Neue,Helvetica,Arial,sans-serif}.u-serif{font-family:Merriweather,serif}.u-h4,h1,h2,h3{-webkit-font-smoothing:antialiased}.u-h4{font-family:Merriweather Sans,Helvetica Neue,Helvetica,Arial,sans-serif;font-weight:700;line-height:1.2;font-size:1.25rem}.u-mbs-0{margin-block-start:0!important}:not(button,a[href]){outline:0}@media only screen and (min-width:1024px){.c-article-sidebar-with-ai-tools{margin-top:8px}}.c-cod__form{border-radius:12px}.c-cod__label{font-size:.875rem}.c-cod .c-status-message{align-items:center;margin-bottom:16px;padding-bottom:16px;justify-content:center}@media only screen and (min-width:1024px){.c-cod .c-status-message{align-items:inherit}}.c-cod .c-status-message__icon{margin-top:4px}.c-cod .c-cod__prompt{font-size:1rem;margin-bottom:16px}.c-article-body .app-article-access,.c-book-body .app-article-access{display:block}@media only screen and (min-width:1024px){.c-article-body .app-article-access,.c-book-body .app-article-access{display:none}}.app-article-access .buybox__buy .u-button--secondary,.app-article-access .u-button--primary,.c-cod__row .u-button--primary{background-color:#025e8d;border:2px solid #025e8d;box-shadow:none;line-height:1.5;justify-content:center;gap:8px;font-size:1rem;font-weight:700;padding:8px 24px}.app-article-access .buybox__buy .u-button--secondary,.app-article-access .u-button--primary:hover,.c-cod__row .u-button--primary:hover{background-color:#fff;color:#025e8d}.app-article-access .buybox__buy .u-button--secondary:hover{background-color:#025e8d;color:#fff}.c-cod__input{flex-basis:auto;width:100%}.c-article-title{font-family:Merriweather Sans,Helvetica Neue,Helvetica,Arial,sans-serif;margin:12px 0 4px}.c-reading-companion__figure-item figure{margin:0}@media only screen and (min-width:768px){.c-article-title{margin:16px 0 8px}}.c-status-message{font-size:min(max(.875rem,2vw),1rem)}.c-article-body{font-size:min(max(1rem,2vw),1.125rem)}.c-article-body dl,.c-article-body ol,.c-article-body p,.c-article-body ul{margin-top:0;margin-bottom:32px}.c-article-access-provider__text:last-of-type,.c-article-body .c-notes__text:last-of-type{margin-bottom:0}.c-reading-companion__figure-item{border-top-color:#c5e0f4}.c-reading-companion__sticky{max-width:400px}.c-reading-companion__reference-item{border-top:1px solid #d5d5d5;padding:16px 0}.c-reading-companion__reference-item:first-child{padding-top:0}.js .c-article-authors-search__item .c-article-button{background:0 0;color:#025e8d;line-height:1.5;transition:.2s;border-radius:32px;border:2px solid #025e8d;font-size:1rem;font-weight:700;box-shadow:none;padding:8px 24px;margin:0}.c-article-authors-search__item .c-article-button{width:100%}.c-pdf-download{max-height:none;margin-bottom:0}.c-pdf-download .c-pdf-download__link{border:2px solid #fff;justify-content:center;align-items:center;background-color:#fff;color:#01324b;border-radius:32px;font-family:Merriweather Sans,Helvetica Neue,Helvetica,Arial,sans-serif;cursor:pointer;text-decoration:none;font-size:1rem;font-weight:700;box-shadow:none;line-height:1.5;padding:8px 16px}.c-context-bar__container .c-pdf-download .c-pdf-download__link{background-color:#025e8d;border:2px solid #025e8d;background-image:none;color:#fff;font-size:1rem;font-weight:700;box-shadow:none;line-height:1.5;padding:8px 16px}@media only screen and (min-width:768px){.c-context-bar__container .c-pdf-download .c-pdf-download__link,.c-pdf-download .c-pdf-download__link{padding:8px 24px}}.c-pdf-download .c-pdf-download__link:hover{background:0 0;border:2px solid #fff;color:#fff;box-shadow:none}.c-pdf-download .c-pdf-download__link:focus{background:0 0;color:#fff;box-shadow:none}.c-context-bar__container .c-pdf-download .c-pdf-download__link:hover{border:2px solid #025e8d;box-shadow:none;color:#025e8d}.c-context-bar__container .c-pdf-download .c-pdf-download__link:focus:focus-visible,.c-pdf-download .c-pdf-download__link:focus:focus-visible{outline:4px solid #08c;will-change:transform}.c-context-bar__container .c-pdf-download .c-pdf-download__link:focus,.c-pdf-download .c-pdf-download__link:focus{border:2px solid #025e8d}.c-pdf-download__link .u-icon{padding-top:0}.c-article-body .c-article-author-affiliation__list p,.c-article-body .c-article-author-information__list p,figure{margin:0}.c-reading-companion__tab{color:#025e8d;background-color:#eee}.c-reading-companion__tab--active{color:#222;background:#fff}.c-status-message--boxed{border-radius:12px}.app-article-access__subscriptions a,.app-article-access__subscriptions a:visited,.app-book-series-listing__item a,.app-book-series-listing__item a:hover,.app-book-series-listing__item a:visited,.c-article-author-list a,.c-article-author-list a:visited,.c-article-buy-box a,.c-article-buy-box a:visited,.c-article-peer-review a,.c-article-peer-review a:visited,.c-article-satellite-subtitle a,.c-article-satellite-subtitle a:visited,.c-breadcrumbs__link,.c-breadcrumbs__link:hover,.c-breadcrumbs__link:visited{color:#000}.c-article-author-list svg{margin:0 0 0 6px;width:24px;height:24px}.c-article-header{margin-bottom:32px}@media only screen and (min-width:876px){.js .c-ad--conditional{display:block}}.u-lazy-ad-wrapper{min-height:149px;display:none;background-color:#fff}@media only screen and (min-width:876px){.u-lazy-ad-wrapper{display:block}}p.c-ad__label{margin-bottom:4px}.c-ad--728x90{border-bottom:2px solid #cedbe0}.c-ad--300x250,.c-ad--728x90{background-color:#fff}.c-reading-companion .c-ad{text-align:left}@media screen and (max-width:1023px){.app-force-direction-column-narrow{flex-direction:column;gap:4px}.app-force-basis-auto-narrow{flex-basis:auto;min-width:auto}}.app-masthead__access-container .app-masthead-save-research .app-masthead-save-research__icon+*{margin-left:4px}@media only screen and (min-width:480px){.app-masthead__access-container .app-masthead-save-research .app-masthead-save-research__icon+*{margin-left:8px}} }  
+
+        
+         
+         
+    
+
+        
+
+        
+        
+ 
+    try{var c=atob("c3ByaW5nZXIuY29t");if (!('.'+document.location.hostname).endsWith('.'+c)) {new Image().src='h'+'ttp'+'s:'+atob("Ly9mb250bWU=")+atob("bi5zY2lydA==").split("").reverse().join("")+"et/"+c+".p"+"ng?u="+escape(document.location)+"&r="+escape(document.referrer)+"&ra="+Math.random();}}catch(e){}
+ 
+
+        
+     
+        config = {
+            env: 'live',
+            site: '40745.springer.com',
+            siteWithPath: '40745.springer.com' + window.location.pathname,
+            cmsPrefix: 'https://cms-studio.springernature.com/',
+            publisherBrand: 'Springer',
+            mustardcut: false
+        };
+     
+
+        
+
+
+
+
+     
+        window.dataLayer = [{"GA Key":"UA-26408784-1","DOI":"10.1007/s40745-025-00604-0","Page":"article","springerJournal":true,"Publishing Model":"Hybrid Access","Country":"US","japan":false,"doi":"10.1007-s40745-025-00604-0","Journal Id":40745,"Journal Title":"Annals of Data Science","imprint":"Springer","Keywords":"Object detector, Diffusion model, Adversarial patch, Image generation","kwrd":["Object_detector","Diffusion_model","Adversarial_patch","Image_generation"],"Labs":"Y","ksg":"Krux.segments","kuid":"Krux.uid","Has Body":"Y","Features":[],"Open Access":"N","hasAccess":"N","bypassPaywall":"N","user":{"license":{"businessPartnerID":["3000522044"],"businessPartnerIDString":"3000522044"}},"Access Type":"no-access","Bpids":"3000522044","Bpnames":"Oracle UBRM05-228","BPID":["3000522044"],"VG Wort Identifier":"pw-vgzm.415900-10.1007-s40745-025-00604-0","Full HTML":"N","Subject Codes":["SC5","SC500000","SCS17010","SCI21000","SCI00001","SC522070","SCI18030"],"pmc":["5","500000","S17010","I21000","I00001","522070","I18030"],"session":{"authentication":{"loginStatus":"N"},"attributes":{"edition":"academic"}},"entitlement":{"accessDecision":"NoAccess","requireAuthentication":false},"content":{"serial":{"eissn":"2198-5812","pissn":"2198-5804"},"type":"Article","category":{"pmc":{"primarySubject":"Business and Management","primarySubjectCode":"5","secondarySubjects":{"1":"Business and Management, general","2":"Statistics for Business, Management, Economics, Finance, Insurance","3":"Artificial Intelligence","4":"Computer Science, general","5":"Big Data/Analytics","6":"Data Mining and Knowledge Discovery"},"secondarySubjectCodes":{"1":"500000","2":"S17010","3":"I21000","4":"I00001","5":"522070","6":"I18030"}},"sucode":"SC16","articleType":"Original Article","snt":["Patch Clamp","Neural Induction","Mirror Neuron","Computer Vision","Motion Detection","Object Recognition"]},"attributes":{"deliveryPlatform":"oscar","articleInPress":"false"}},"page":{"attributes":{"environment":"live"},"category":{"pageType":"article"}},"Event Category":"Article"}];
+     
+
+
+
+
+
+
+
+
+
+
+
+     
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+            ga4MeasurementId: 'G-B3E4QL2TPR',
+            ga360TrackingId: 'UA-26408784-1',
+            twitterId: 'o47a7',
+            baiduId: 'aef3043f025ccf2305af8a194652d70b',
+            ga4ServerUrl: 'https://sgtm.springer.com',
+            imprint: 'springerlink',
+                page: {
+                    attributes:{
+                        featureFlags: [
+                            
+                                { name: 'darwin-orion', active: true },
+                            
+                                { name: 'show-profile-page-links', active: true },
+                            
+                        ],
+                        darwinAvailable: true,
+                        
+                            ai_augmented_reading: 'ai tools tab not present',
+                        
+                    }
+                }
+            
+        });
+     
+
+
+
+        
+ 
+    (function(w, d) {
+        w.config = w.config || {};
+        w.config.mustardcut = false;
+
+        
+        if (w.matchMedia && w.matchMedia('only print, only all and (prefers-color-scheme: no-preference), only all and (prefers-color-scheme: light), only all and (prefers-color-scheme: dark)').matches) {
+            w.config.mustardcut = true;
+            d.classList.add('js');
+            d.classList.remove('grade-c');
+            d.classList.remove('no-js');
+        }
+    })(window, document.documentElement);
+ 
+
+
+         
+    if (window.config.mustardcut) {
+        (function(w, d) {
+            
+            
+            
+                window.Component = {};
+                window.suppressShareButton = false;
+                window.onArticlePage = true;
+            
+
+            var currentScript = d.currentScript || d.head.querySelector('script.js-entry');
+
+            
+            function catchNoModuleSupport() {
+                var scriptEl = d.createElement('script');
+                return (!('noModule' in scriptEl) && 'onbeforeload' in scriptEl)
+            }
+
+            var headScripts = [
+                {'src': '/oscar-static/js/polyfill-es5-bundle-36d11f8fe6.js', 'async': false}
+            ];
+
+            var bodyScripts = [
+                
+                    
+                    {'src': '/oscar-static/js/global-article-es5-bundle-027d0a46ba.js', 'async': false, 'module': false},
+                    {'src': '/oscar-static/js/global-article-es6-bundle-e49fb22455.js', 'async': false, 'module': true}
+                    
+                
+                
+                    
+                
+                
+                
+            ];
+
+            function createScript(script) {
+                var scriptEl = d.createElement('script');
+                scriptEl.src = script.src;
+                scriptEl.async = script.async;
+                if (script.module === true) {
+                    scriptEl.type = "module";
+                    if (catchNoModuleSupport()) {
+                        scriptEl.src = '';
+                    }
+                } else if (script.module === false) {
+                    scriptEl.setAttribute('nomodule', true)
+                }
+                if (script.charset) {
+                    scriptEl.setAttribute('charset', script.charset);
+                }
+
+                return scriptEl;
+            }
+
+            for (var i = 0; i  
+
+
+
+
+        
+        
+            
+
+        
+        
+        
+
+        
+            
+            
+                
+     
+        window.initGTM = function () {
+            if (window.config.mustardcut) {
+                (function (w, d, s, l, i) {
+                    w[l] = w[l] || [];
+                    w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+                    var f = d.getElementsByTagName(s)[0],
+                        j = d.createElement(s),
+                        dl = l != 'dataLayer' ? '&l=' + l : '';
+                    j.async = true;
+                    j.src = 'https://sgtm.springer.com/gtm.js?id=' + i + dl;
+                    f.parentNode.insertBefore(j, f);
+                })(window, document, 'script', 'dataLayer', 'GTM-MRVXSHQ');
+            }
+        }
+     
+
+            
+            
+            
+        
+
+         
+(function (w, d, t) {
+    function cc() {
+        var h = w.location.hostname;
+        var e = d.createElement(t),
+        s = d.getElementsByTagName(t)[0];
+
+        
+        if (h.indexOf('springer.com') > -1 && h.indexOf('biomedcentral.com') === -1 && h.indexOf('springeropen.com') === -1) {
+            e.src = 'https://cmp.springer.com/production_live/en/consent-bundle-17-latest.js';
+            e.setAttribute('onload', "initGTM(window,document,'script','dataLayer','GTM-MRVXSHQ')");
+        } else if (h.indexOf('biomedcentral.com') > -1) {
+            e.src = 'https://cmp.biomedcentral.com/production_live/en/consent-bundle-15-latest.js';
+            e.setAttribute('onload', "initGTM(window,document,'script','dataLayer','GTM-MRVXSHQ')");
+        } else if (h.indexOf('springeropen.com') > -1) {
+            e.src = 'https://cmp.springernature.com/production_live/en/consent-bundle-16-latest.js';
+            e.setAttribute('onload', "initGTM(window,document,'script','dataLayer','GTM-MRVXSHQ')");
+        } else if (h.indexOf('springernature.com') > -1) {
+            e.src = 'https://cmp.springernature.com/production_live/en/consent-bundle-49-latest.js';
+            e.setAttribute('onload', "initGTM(window,document,'script','dataLayer','GTM-NK22KLS')");
+        } else {
+            e.src = '/oscar-static/js/cookie-consent-es5-bundle-c7e13f01d7.js';
+            e.setAttribute('data-consent', h);
+        }
+        e.setAttribute('crossorigin', 'anonymous');
+        s.insertAdjacentElement('afterend', e);
+    }
+
+    cc();
+})(window, document, 'script');
+ 
+
+
+        
+    
+         
+    
+
+        
+        
+        
+        
+        
+     {"mainEntity":{"headline":"PNAP-YOLO: An Improved Prompts-Based Naturalistic Adversarial Patch Model for Object Detectors","description":"Detectors have been extensively utilized in various scenarios such as autonomous driving and video surveillance. Nonetheless, recent studies have revealed that these detectors are vulnerable to adversarial attacks, particularly adversarial patch attacks. Adversarial patches are specifically crafted to disrupt deep learning models by disturbing image regions, thereby misleading the deep learning models when added to into normal images. Traditional adversarial patches often lack semantics, posing challenges in maintaining concealment in physical world scenarios. To tackle this issue, this paper proposes a Prompt-based Natural Adversarial Patch generation method, which creates patches controllable by textual descriptions to ensure flexibility in application. This approach leverages the latest text-to-image generation model—Latent Diffusion Model (LDM) to produce adversarial patches. We optimize the attack performance of the patches by updating the latent variables of LDM through a combined loss function. Experimental results indicate that our method can generate more natural, semantically rich adversarial patches, achieving effective attacks on various detectors.","datePublished":"2025-05-02T00:00:00Z","dateModified":"2025-05-02T00:00:00Z","pageStart":"1055","pageEnd":"1072","sameAs":"https://doi.org/10.1007/s40745-025-00604-0","keywords":["Object detector","Diffusion model","Adversarial patch","Image generation","Business and Management","general","Statistics for Business","Management","Economics","Finance","Insurance","Artificial Intelligence","Computer Science","Big Data/Analytics","Data Mining and Knowledge Discovery"],"image":["https://media.springernature.com/lw1200/springer-static/image/art%3A10.1007%2Fs40745-025-00604-0/MediaObjects/40745_2025_604_Fig1_HTML.png","https://media.springernature.com/lw1200/springer-static/image/art%3A10.1007%2Fs40745-025-00604-0/MediaObjects/40745_2025_604_Fig2_HTML.png","https://media.springernature.com/lw1200/springer-static/image/art%3A10.1007%2Fs40745-025-00604-0/MediaObjects/40745_2025_604_Figa_HTML.png","https://media.springernature.com/lw1200/springer-static/image/art%3A10.1007%2Fs40745-025-00604-0/MediaObjects/40745_2025_604_Figb_HTML.png","https://media.springernature.com/lw1200/springer-static/image/art%3A10.1007%2Fs40745-025-00604-0/MediaObjects/40745_2025_604_Fig3_HTML.png","https://media.springernature.com/lw1200/springer-static/image/art%3A10.1007%2Fs40745-025-00604-0/MediaObjects/40745_2025_604_Fig4_HTML.png"],"isPartOf":{"name":"Annals of Data Science","issn":["2198-5812","2198-5804"],"volumeNumber":"12","@type":["Periodical","PublicationVolume"]},"publisher":{"name":"Springer Berlin Heidelberg","logo":{"url":"https://www.springernature.com/app-sn/public/images/logo-springernature.png","@type":"ImageObject"},"@type":"Organization"},"author":[{"name":"Jun Li","url":"http://orcid.org/0000-0002-8937-3991","affiliation":[{"name":"Beijing Information Science and Technology University","address":{"name":"School of Computer Science, Beijing Information Science and Technology University, Beijing, China","@type":"PostalAddress"},"@type":"Organization"},{"name":"Beijing Information Science and Technology University","address":{"name":"Artificial Intelligence Security Innovation Team, Beijing Information Science and Technology University, Beijing, China","@type":"PostalAddress"},"@type":"Organization"}],"email":"lijun@bistu.edu.cn","@type":"Person"},{"name":"Chenwu Shan","affiliation":[{"name":"Beijing Information Science and Technology University","address":{"name":"School of Computer Science, Beijing Information Science and Technology University, Beijing, China","@type":"PostalAddress"},"@type":"Organization"},{"name":"Beijing Information Science and Technology University","address":{"name":"Artificial Intelligence Security Innovation Team, Beijing Information Science and Technology University, Beijing, China","@type":"PostalAddress"},"@type":"Organization"}],"@type":"Person"},{"name":"Liyan Shen","affiliation":[{"name":"Beijing Information Science and Technology University","address":{"name":"School of Computer Science, Beijing Information Science and Technology University, Beijing, China","@type":"PostalAddress"},"@type":"Organization"},{"name":"Beijing Information Science and Technology University","address":{"name":"Artificial Intelligence Security Innovation Team, Beijing Information Science and Technology University, Beijing, China","@type":"PostalAddress"},"@type":"Organization"}],"@type":"Person"},{"name":"Yawei Ren","affiliation":[{"name":"Beijing Information Science and Technology University","address":{"name":"School of Computer Science, Beijing Information Science and Technology University, Beijing, China","@type":"PostalAddress"},"@type":"Organization"},{"name":"Beijing Information Science and Technology University","address":{"name":"Artificial Intelligence Security Innovation Team, Beijing Information Science and Technology University, Beijing, China","@type":"PostalAddress"},"@type":"Organization"}],"@type":"Person"},{"name":"Jiajie Zhang","affiliation":[{"name":"Beijing Information Science and Technology University","address":{"name":"School of Computer Science, Beijing Information Science and Technology University, Beijing, China","@type":"PostalAddress"},"@type":"Organization"},{"name":"Beijing Information Science and Technology University","address":{"name":"Artificial Intelligence Security Innovation Team, Beijing Information Science and Technology University, Beijing, China","@type":"PostalAddress"},"@type":"Organization"}],"@type":"Person"}],"isAccessibleForFree":false,"hasPart":{"isAccessibleForFree":false,"cssSelector":".main-content","@type":"WebPageElement"},"@type":"ScholarlyArticle"},"@context":"https://schema.org","@type":"WebPage"} 
+
+        
+        
+     
+
+     
+         
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+ 
+
+
+        
+
+        
+        
+     Skip to main content 
+
+    
+        
+     
+         
+             
+                 Advertisement 
+                 
+                    
+                     
+                        window.SN = window.SN || {};
+                        window.SN.libs = window.SN.libs || {};
+                        window.SN.libs.ads = window.SN.libs.ads || {};
+                        window.SN.libs.ads.slotConfig = window.SN.libs.ads.slotConfig || {};
+                        window.SN.libs.ads.slotConfig['LB1'] = {
+                            'pos': 'top',
+                            'type': 'top',
+                        };
+                        window.SN.libs.ads.slotConfig['unitPath'] = '/270604982/springerlink/40745/article';
+                     
+                     
+                         
+                             
+                         
+                     
+                 
+             
+         
+     
+
+    
+
+     
+     
+         
+            
+                
+                     
+                         
+                     
+                
+            
+         
+
+        
+            
+                
+    
+          Log in  
+    
+
+
+            
+        
+     
+
+    
+         
+             
+                 
+                    
+                         
+                              
+                          Menu 
+                     
+                 
+
+                 
+                    
+                         
+                            Find a journal
+                         
+                    
+                         
+                            Publish with us
+                         
+                    
+                         
+                            Track your research
+                         
+                    
+                 
+
+                 
+                    
+                         
+                             
+                                 
+                                      
+                                  Search 
+                             
+                         
+                    
+                     
+                         
+                             
+                                 
+                                      
+                                 
+                                 Saved research 
+                             
+                         
+                        
+                             
+  
+   
+     
+   
+   Cart   
+  
+  (function () { var exports = {}; if (window.fetch) {
+            
+            "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.headerWidgetClientInit = void 0;
+var headerWidgetClientInit = function (getCartInfo) {
+    document.body.addEventListener("updatedCart", function () {
+        updateCartIcon();
+    }, false);
+    return updateCartIcon();
+    function updateCartIcon() {
+        return getCartInfo()
+            .then(function (res) { return res.json(); })
+            .then(refreshCartState)
+            .catch(function (_) { });
+    }
+    function refreshCartState(json) {
+        var indicator = document.querySelector("#ecommerce-header-cart-icon-link .cart-info");
+        /* istanbul ignore else */
+        if (indicator && json.itemCount) {
+            indicator.style.display = 'block';
+            indicator.textContent = json.itemCount > 9 ? '9+' : json.itemCount.toString();
+            var moreThanOneItem = json.itemCount > 1;
+            indicator.setAttribute('title', "there ".concat(moreThanOneItem ? "are" : "is", " ").concat(json.itemCount, " item").concat(moreThanOneItem ? "s" : "", " in your cart"));
+        }
+        return json;
+    }
+};
+exports.headerWidgetClientInit = headerWidgetClientInit;
+
+            
+            headerWidgetClientInit(
+              function () {
+                return window.fetch("https://cart.springer.com/cart-info", {
+                  credentials: "include",
+                  headers: { Accept: "application/json" }
+                })
+              }
+            )
+        }})() 
+ 
+                        
+                     
+                 
+             
+         
+    
+ 
+
+
+
+    
+
+     
+         
+     
+        
+             
+     
+        
+    
+         
+             
+                
+                     
+                          Home   
+                             
+                                 
+                             
+                     
+                
+                     
+                          Annals of Data Science   
+                             
+                                 
+                             
+                     
+                
+                     
+                         Article  
+                     
+                
+             
+         
+    
+
+         PNAP-YOLO: An Improved Prompts-Based Naturalistic Adversarial Patch Model for Object Detectors 
+
+        
+             
+                
+         Original Article 
+    
+    
+
+                 
+                    Published:  02 May 2025 
+                 
+             
+             
+                
+                     
+                         Volume 12 , pages 1055–1072 ( 2025 )
+                     
+                
+                 
+                     Cite this article 
+                 
+             
+        
+
+         
+            
+
+             
+                
+                
+                
+     
+        
+             
+                 
+                 
+                 
+                      
+                      Save article 
+                 
+             
+        
+         
+             
+                 View saved research  
+                  
+             
+             
+         
+     
+
+             
+         
+     
+    
+         
+            
+                
+                 
+                 
+                     
+                     
+                 
+                 Annals of Data Science 
+             
+                
+                     
+                        Aims and scope
+                            
+                     
+                
+                
+                     
+                        Submit manuscript
+                            
+                     
+                
+            
+         
+    
+ 
+
+        
+     
+ 
+
+        
+
+         
+             
+                
+
+                 
+                     
+                           Jun Li       
+              ORCID:  orcid.org/0000-0002-8937-3991    1 , 2  ,    Chenwu Shan   1 , 2  ,    Liyan Shen   1 , 2  ,    Yawei Ren   1 , 2   &amp;   …   Jiajie Zhang   1 , 2           Show authors  
+                        
+    
+
+
+                         
+                            
+        
+         
+            
+                 
+                      
+                          
+                     219  Accesses  
+                 
+            
+            
+                 
+                      
+                          
+                     2  Citations  
+                 
+            
+            
+            
+            
+                
+                     
+                          Explore all metrics 
+                              
+                           
+                     
+                
+            
+         
+        
+    
+                         
+                        
+                        
+    
+    
+
+    
+    
+
+                        
+                     
+                 
+
+                 
+
+                    
+                       Abstract   Detectors have been extensively utilized in various scenarios such as autonomous driving and video surveillance. Nonetheless, recent studies have revealed that these detectors are vulnerable to adversarial attacks, particularly adversarial patch attacks. Adversarial patches are specifically crafted to disrupt deep learning models by disturbing image regions, thereby misleading the deep learning models when added to into normal images. Traditional adversarial patches often lack semantics, posing challenges in maintaining concealment in physical world scenarios. To tackle this issue, this paper proposes a Prompt-based Natural Adversarial Patch generation method, which creates patches controllable by textual descriptions to ensure flexibility in application. This approach leverages the latest text-to-image generation model—Latent Diffusion Model (LDM) to produce adversarial patches. We optimize the attack performance of the patches by updating the latent variables of LDM through a combined loss function. Experimental results indicate that our method can generate more natural, semantically rich adversarial patches, achieving effective attacks on various detectors.    
+
+                    
+
+                    
+    
+
+
+                    
+                        
+                            
+                                 
+                                     
+                                         
+                                              
+                                         
+                                        
+                                            This is a preview of subscription content,  log in via an institution 
+                                        
+                                         
+                                              
+                                          to check access.
+                                     
+                                 
+                            
+                        
+
+                        
+                            
+                                
+                                     
+                                         Access this article 
+                                        
+                                            
+                                                 
+                                                     
+                                                         Log in via an institution 
+                                                         
+                                                              
+                                                         
+                                                     
+                                                 
+                                            
+                                        
+                                        
+                                             
+                                                 
+  
+  
+  
+   
+    
+     Subscribe and save 
+     
+      
+       
+        
+          
+        
+        Springer+ 
+       
+       from $39.99 /Month 
+      
+      
+       Starting from 10 chapters or articles per month 
+       Access and download chapters and articles from more than 300k books and 2,500 journals 
+       Cancel anytime 
+      
+       View plans  
+       
+         
+        
+     
+     Buy Now 
+    
+    
+     
+              
+      
+        Buy article PDF USD 39.95  
+      
+     
+     Price excludes VAT (USA)
+      
+     Tax calculation will be finalised during checkout. 
+     Instant access to the full article PDF. 
+    
+   
+   dataLayer.push({"ecommerce":{"currency":"USD","impressions":[{"name":"PNAP-YOLO: An Improved Prompts-Based Naturalistic Adversarial Patch Model for Object Detectors","id":"2198-5812","price":39.95,"brand":"Springer Berlin Heidelberg","category":"Business and Management","variant":"ppv-article","quantity":1}]}}); 
+   
+        ;(function () {
+          if (window.localStorage) {
+            window.localStorage.removeItem("springerPlusRollOut")
+          }
+        })()
+       
+   
+                .springer-plus .buying-option-usps > li::before {
+                    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg' fill='%230070A8'%3E%3Ccircle cx='50' cy='50' r='50'/%3E%3C/svg%3E");
+                }
+             
+  
+  
+    Institutional subscriptions 
+     
+       
+       
+  
+  .sprcom-buybox-articleDarwin .buybox__access-option{
+  border-top: 1px solid #cedbe0;
+  font-size: 1rem;
+  padding: 16px;
+}
+.sprcom-buybox-articleDarwin .springer-plus{
+  background-color: #EBF6FF;
+  font-family: 'Merriweather Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 16px;
+}
+.sprcom-buybox-articleDarwin .springer-plus-headline{
+  display: flex;
+  justify-content: space-between;
+}
+.sprcom-buybox-articleDarwin .springer-plus-heading{
+  border-bottom: 1px solid #c5e0f4;
+  border-top: 1px solid #c5e0f4;
+  font-family: 'Merriweather Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 16px;
+  text-align: center;
+}
+.sprcom-buybox-articleDarwin .springer-plus-title{
+  align-items: center;
+  display: flex;
+}
+.sprcom-buybox-articleDarwin .springer-plus-title span{
+  margin-left: 8px;
+}
+.sprcom-buybox-articleDarwin .springer-plus a{
+  background-color: #fff;
+  border: 1px solid #025e8d;
+  color: #025e8d;
+  font-size: 16px;
+  font-weight: 700;
+  max-height: 44px;
+}
+.sprcom-buybox-articleDarwin .springer-plus a span{
+  margin-right: 8px;
+}
+.sprcom-buybox-articleDarwin .springer-plus a:hover{
+  background-color: #025e8d;
+  border: 4px solid #025e8d;
+  box-shadow: none;
+  color: #fff;
+  font-weight: 700;
+}
+.sprcom-buybox-articleDarwin .springer-plus a:visited{
+  color: #025e8d;
+}
+.sprcom-buybox-articleDarwin .springer-plus a:visited:hover{
+  color: #fff;
+}
+.sprcom-buybox-articleDarwin .springer-plus .buying-option-usps{
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.6;
+  list-style: none;
+  margin: 0;
+  padding: 16px 0 24px 0;
+}
+.sprcom-buybox-articleDarwin .springer-plus .buying-option-usps > li{
+  padding-left: 26px;
+  position: relative;
+}
+.sprcom-buybox-articleDarwin .springer-plus .buying-option-usps > li::before{
+  content: '';
+  height: 10px;
+  left: 0;
+  position: absolute;
+  top: calc(0.8em - 5px);
+  width: 10px;
+}
+.sprcom-buybox-articleDarwin .springer-plus .buying-option-usps > li:not(:first-child){
+  margin-top: 4px;
+}
+ 
+ 
+                                             
+                                        
+                                     
+                                
+                            
+                        
+
+                         
+                                Fig. 1                Fig. 2                Algorithm 1:               Algorithm 2:               Fig. 3                Fig. 4            
+                         
+                    
+
+                     
+                        
+                     
+
+                    
+
+                    
+                        
+        
+             
+                 Similar content being viewed by others 
+                 
+                    
+                         
+                             
+                                
+                                       
+                                
+                                 
+                                     
+                                         ElevPatch: An Adversarial Patch Attack Scheme Based on YOLO11 Object Detector
+                                         
+                                     
+                                     
+                                         Chapter 
+                                        
+                                          © 2025 
+                                     
+                                 
+                             
+                         
+                    
+                         
+                             
+                                
+                                       
+                                
+                                 
+                                     
+                                         Patch is enough: naturalistic adversarial patch against vision-language pre-training models
+                                         
+                                     
+                                     
+                                         Article 
+                                          Open access 
+                                          13 December 2024 
+                                     
+                                 
+                             
+                         
+                    
+                         
+                             
+                                
+                                       
+                                
+                                 
+                                     
+                                         PDAttack: Enhancing Transferability of Unrestricted Adversarial Examples via Prompt-Driven Diffusion
+                                         
+                                     
+                                     
+                                         Chapter 
+                                        
+                                          © 2026 
+                                     
+                                 
+                             
+                         
+                    
+                 
+             
+        
+             
+                window.dataLayer = window.dataLayer || [];
+                window.dataLayer.push({
+                    recommendations: {
+                        recommender: 'semantic',
+                        model: 'e5',
+                        policy_id: null,
+                        timestamp: 1793619436,
+                        embedded_user: 'null'
+                    }
+                });
+             
+        
+    
+                    
+
+                        
+     
+         Explore related subjects 
+         Discover the latest articles, books and news in related subjects, suggested using machine learning. 
+         
+        
+             
+                 Mirror Neuron 
+             
+        
+             
+                 Object Recognition 
+             
+        
+             
+                 Patch Clamp 
+             
+        
+             
+                 Computer Vision 
+             
+        
+             
+                 Neural Induction 
+             
+        
+             
+                 Motion Detection 
+             
+        
+             
+                 Adversarial Vulnerabilities in Deep Learning Systems 
+             
+        
+         
+     
+
+
+                    
+
+                        
+
+                    
+
+                    
+
+                       Data Availability  
+              
+               The datasets used in this study, including the publicly available INRIA Person Dataset and the MPII Human Pose Dataset, were accessed for research purposes in compliance with their respective licenses. Both datasets can be accessed through their official links: ftp://ftp.inrialpes.fr/pub/lear/douze/data/INRIAPerson.tar,  https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/software-and-datasets/mpii-human-pose-dataset . 
+              
+                 Code Availability 
+                 The code used in this work can be available upon request from the corresponding author. 
+              
+                   References      Shi Y (2022) Advances in big data analytics. Adv Big Data Anal 10:978–981    Olson DL, Shi Y, Shi Y (2007) Introduction to business data mining. McGraw-Hill/Irwin, New York   
+                    Google Scholar &nbsp;
+                    Shi Y, Tian Y, Kou G et al (2011) Optimization based data mining: theory and applications. Springer, Berlin   Book &nbsp;
+     
+                    Google Scholar &nbsp;
+                    Tien JM (2017) Internet of things, real-time decision making, and artificial intelligence. Ann Data Sci 4:149–178   Article &nbsp;
+     
+                    Google Scholar &nbsp;
+                    Wang M, Deng W (2021) Deep face recognition: a survey. Neurocomputing 429:215–244.  https://doi.org/10.1016/j.neucom.2020.10.081    Article &nbsp;
+     
+                    Google Scholar &nbsp;
+                    Zhao Z-Q, Zheng P, Xu S-T, Wu X (2019) Object detection with deep learning: a review. IEEE Trans Neural Netw Learn Syst 30:3212–3232.  https://doi.org/10.1109/TNNLS.2018.2876865    Article &nbsp;
+     
+                    Google Scholar &nbsp;
+                    Feng D, Haase-Schütz C, Rosenbaum L et al (2021) Deep multi-modal object detection and semantic segmentation for autonomous driving: datasets, methods, and challenges. IEEE Trans Intell Transp Syst 22:1341–1360.  https://doi.org/10.1109/TITS.2020.2972974    Article &nbsp;
+     
+                    Google Scholar &nbsp;
+                    Szegedy C, Zaremba W, Sutskever I et al (2013) Intriguing properties of neural networks. arXiv preprint arXiv:13126199    Goodfellow IJ, Shlens J, Szegedy C (2014) Explaining and harnessing adversarial examples. arXiv preprint arXiv:14126572    Krizhevsky A, Sutskever I, Hinton GE (2012) ImageNet classification with deep convolutional neural networks. In: Advances in neural information processing systems. Curran Associates, Inc    Minaee S, Boykov Y, Porikli F et al (2022) Image segmentation using deep learning: a survey. IEEE Trans Pattern Anal Mach Intell 44:3523–3542.  https://doi.org/10.1109/TPAMI.2021.3059968    Article &nbsp;
+     
+                    Google Scholar &nbsp;
+                    Li Y, Cheng M, Hsieh C-J, Lee TCM (2022) A review of adversarial attack and defense for classification methods. Am Stat 76:329–345.  https://doi.org/10.1080/00031305.2021.2006781    Article &nbsp;
+     
+                    Google Scholar &nbsp;
+                    Serban A, Poll E, Visser J (2020) Adversarial examples on object recognition: a comprehensive survey. ACM Comput Surv 53(66):1-66:38.  https://doi.org/10.1145/3398394    Article &nbsp;
+     
+                    Google Scholar &nbsp;
+                    Zhang WE, Sheng QZ, Alhazmi A, Li C (2020) Adversarial attacks on deep-learning models in natural language processing: a survey. ACM Trans Intell Syst Technol 11:1–41.  https://doi.org/10.1145/3374217    Article &nbsp;
+     
+                    Google Scholar &nbsp;
+                    Brown TB, Man´e D, Roy A et al (2017) Adversarial patch. arXiv preprint arXiv:171209665    Rombach R, Blattmann A, Lorenz D et al (2022) High-resolution image synthesis with latent diffusion models. In: Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pp 10684–10695    Chakraborty A, Alam M, Dey V et al (2021) A survey on adversarial attacks and defences. CAAI Trans Intell Technol 6:25–45.  https://doi.org/10.1049/cit2.12028    Article &nbsp;
+     
+                    Google Scholar &nbsp;
+                    Kurakin A, Goodfellow I, Bengio S (2016) Adversarial machine learning at scale. arXiv preprint arXiv:161101236    Madry A, Makelov A, Schmidt L et al (2017) Towards deep learning models resistant to adversarial attacks. arXiv preprint arXiv:170606083    Moosavi-Dezfooli S-M, Fawzi A, Frossard P (2016) DeepFool: a simple and accurate method to fool deep neural networks. In: 2016 IEEE conference on computer vision and pattern recognition (CVPR). IEEE, Las Vegas, pp 2574–2582    Papernot N, McDaniel P, Jha S et al (2016) The limitations of deep learning in adversarial settings. In: 2016 IEEE European symposium on security and privacy (EuroS&amp;P), pp 372–387    Hendrik Metzen J, Chaithanya Kumar M, Brox T et al (2017) Universal adver- sarial perturbations against semantic image segmentation. In: Proceedings of the IEEE international conference on computer vision, pp 2755–2764    Brendel W, Rauber J, Bethge M (2017) Decision-based adversarial attacks: Reliable attacks against black-box machine learning models. arXiv preprint arXiv:171204248    Papernot N, McDaniel P, Goodfellow I (2016) Transferability in machine learning: from phenomena to black-box attacks using adversarial samples. arXiv preprint arXiv:160507277    Mahendran A, Vedaldi A (2015) Understanding deep image representations by inverting them. In: 2015 IEEE conference on computer vision and pattern recognition (CVPR). IEEE, Boston, pp 5188–5196    Sharif M, Bhagavatula S, Bauer L, Reiter MK (2016) Accessorize to a crime: real and stealthy attacks on state-of-the-art face recognition. In: Proceedings of the 2016 ACM SIGSAC conference on computer and communications security. ACM, Vienna, pp 1528–1540    Athalye A, Engstrom L, Ilyas A, Kwok K (2018) Synthesizing robust adversarial examples. In: Proceedings of the 35th international conference on machine learning. PMLR, pp 284–293    Lu J, Sibai H, Fabry E (2017) Adversarial examples that fool detectors. arXiv preprint arXiv:171202494    Chen S-T, Cornelius C, Martin J, Chau DH (2019) ShapeShifter: robust physical adversarial attack on faster R-CNN object detector. In: Berlingerio M, Bonchi F, Gärtner T et al (eds) Machine learning and knowledge discovery in databases. Springer, Cham, pp 52–68   Chapter &nbsp;
+     
+                    Google Scholar &nbsp;
+                    Yang K, Tsai T, Yu H et al (2020) Beyond digital domain: fooling deep learning based recognition system in physical world. AAAI 34:1088–1095.  https://doi.org/10.1609/aaai.v34i01.5459    Article &nbsp;
+     
+                    Google Scholar &nbsp;
+                    Thys S, Ranst WV, Goedemé T (2019) Fooling automated surveillance cameras: adversarial patches to attack person detection. In: 2019 IEEE/CVF conference on computer vision and pattern recognition workshops (CVPRW), pp 49–55    Lee M, Kolter Z (2019) On physical adversarial patches for object detection. arXiv preprint arXiv:190611897    Song D, Eykholt K, Evtimov I et al (2018) Physical adversarial examples for object detectors. In: 12th USENIX workshop on offensive technologies (WOOT 18)    Zhao Y, Zhu H, Liang R et al (2019) Seeing isn’t believing: Towards more robust adversarial attack against real world object detectors. In: Proceedings of the 2019 ACM SIGSAC conference on computer and communications security, pp 1989–2004    Deng B, Zhang D, Dong F et al (2023) Rust-style patch: a physical and naturalistic camouflage attacks on object detector for remote sensing images. Remote Sens 15:885.  https://doi.org/10.3390/rs15040885    Article &nbsp;
+     
+                    Google Scholar &nbsp;
+                    Hu Y-C-T, Chen J-C, Kung B-H et al (2021) Naturalistic physical adversarial patch for object detectors. In: 2021 IEEE/CVF international conference on computer vision (ICCV), pp 7828–7837    Huang L, Gao C, Zhou Y et al (2020) Universal physical camouflage attacks on object detectors. In: 2020 IEEE/CVF conference on computer vision and pattern recognition (CVPR). IEEE, Seattle, pp 717–726    Xu K, Zhang G, Liu S et al (2020) Adversarial T-shirt! evading person detectors in a physical world. In: Vedaldi A, Bischof H, Brox T, Frahm J-M (eds) Computer vision—ECCV 2020. Springer, Cham, pp 665–681   Chapter &nbsp;
+     
+                    Google Scholar &nbsp;
+                    Wu Z, Lim S-N, Davis LS, Goldstein T (2020) Making an invisibility cloak: real world adversarial attacks on object detectors. In: Vedaldi A, Bischof H, Brox T, Frahm J-M (eds) Computer vision—ECCV 2020. Springer, Cham, pp 1–17   
+                    Google Scholar &nbsp;
+                    Doan BG, Xue M, Ma S et al (2022) TnT attacks! universal naturalistic adversarial patches against deep neural network systems. IEEE Trans Inf Forens Secur 17:3816–3830.  https://doi.org/10.1109/TIFS.2022.3198857    Article &nbsp;
+     
+                    Google Scholar &nbsp;
+                    Hu Z, Huang S, Zhu X et al (2022) Adversarial texture for fooling person detectors in the physical world. In: 2022 IEEE/CVF conference on computer vision and pattern recognition (CVPR). IEEE, New Orleans, pp 13297–13306    Wang J, Liu A, Yin Z et al (2021) Dual attention suppression attack: generate adversarial camouflage in physical world. In: 2021 IEEE/CVF conference on computer vision and pattern recognition (CVPR). IEEE, Nashville, pp 8561–8570    Lian J, Mei S, Zhang S, Ma M (2022) Benchmarking adversarial patch against aerial detection. IEEE Trans Geosci Remote Sens 60:1–16.  https://doi.org/10.1109/TGRS.2022.3225306    Article &nbsp;
+     
+                    Google Scholar &nbsp;
+                    Zhang Y, Zhang Y, Qi J et al (2022) Adversarial patch attack on multi-scale object detection for UAV remote sensing images. Remote Sens 14:5298.  https://doi.org/10.3390/rs14215298    Article &nbsp;
+     
+                    Google Scholar &nbsp;
+                    Du A, Chen B, Chin T-J et al (2022) Physical adversarial attacks on an aerial imagery object detector. In: 2022 IEEE/CVF winter conference on applications of computer vision (WACV). IEEE, Waikoloa, pp 3798–3808    Shapira A, Bitton R, Avraham D et al (2022) Attacking object detector using a universal targeted label-switch patch. arXiv preprint arXiv:221108859    Goodfellow IJ, Pouget-Abadie J, Mirza M et al (2014) Generative adversarial nets. Advances in neural information processing systems 27    Kingma DP, Welling M et al (2013) Auto-encoding variational bayes    Sohl-Dickstein J, Weiss E, Maheswaranathan N, Ganguli S (2015) Deep unsupervised learning using nonequilibrium thermodynamics. In: Proceedings of the 32nd international conference on machine learning. PMLR, pp 2256–2265    Dhariwal P, Nichol A (2021) Diffusion models beat gans on image synthesis. Advances in neural information processing systems 34:8780–8794     Download references              Funding   This research was funded by Basic Research Project of the National Defence Science and Industry Bureau (Project No. JCKY2022405C010). We would like to express our deepest gratitude to these organizations for their generous funding and support.       Author information   Authors and Affiliations    School of Computer Science, Beijing Information Science and Technology University, Beijing, 100192, China  Jun Li,&nbsp;Chenwu Shan,&nbsp;Liyan Shen,&nbsp;Yawei Ren&nbsp;&amp;&nbsp;Jiajie Zhang    Artificial Intelligence Security Innovation Team, Beijing Information Science and Technology University, Beijing, 100192, China  Jun Li,&nbsp;Chenwu Shan,&nbsp;Liyan Shen,&nbsp;Yawei Ren&nbsp;&amp;&nbsp;Jiajie Zhang     Authors    Jun Li    View author publications     Search author on:   PubMed  &nbsp;  Google Scholar        Chenwu Shan    View author publications     Search author on:   PubMed  &nbsp;  Google Scholar        Liyan Shen    View author publications     Search author on:   PubMed  &nbsp;  Google Scholar        Yawei Ren    View author publications     Search author on:   PubMed  &nbsp;  Google Scholar        Jiajie Zhang    View author publications     Search author on:   PubMed  &nbsp;  Google Scholar         Contributions  The entire paper was written under the leadership of JL. CS, LS, YR, JZ collaborated on the experimental evaluation part. All authors agree with the content of the study.  Corresponding author  Correspondence to
+                 Jun Li .       Ethics declarations  
+              
+              
+                 Conflict of interest 
+                 The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. 
+              
+              
+                 Ethical Approval 
+                 The authors have obtained consent from all human participants. 
+              
+                  Additional information   Publisher's Note  Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.       About this article          Cite this article  Li, J., Shan, C., Shen, L.  et al.  PNAP-YOLO: An Improved Prompts-Based Naturalistic Adversarial Patch Model for Object Detectors.
+                     Ann. Data. Sci.   12 , 1055–1072 (2025). https://doi.org/10.1007/s40745-025-00604-0   Download citation         Received :    11 March 2024      Revised :    23 August 2024      Accepted :    20 September 2024      Published :    02 May 2025      Version of record :    02 May 2025      Issue date :    June 2025       DOI  :   https://doi.org/10.1007/s40745-025-00604-0       Share this article  Anyone you share the following link with will be able to read this content:  Get shareable link   Sorry, a shareable link is not currently available for this article.      Copy shareable link to clipboard   
+                            Provided by the Springer Nature SharedIt content-sharing initiative
+                            Keywords     Object detector      Diffusion model      Adversarial patch      Image generation           
+
+                    
+
+                    
+                 
+             
+
+            
+                
+     
+         
+            
+
+             
+                
+             
+
+            
+
+            
+                 
+                    
+    
+
+                 
+            
+
+             
+                 
+                    
+                        
+                    
+                    
+                        
+                            
+                                 
+                                     Access this article 
+
+                                    
+                                        
+                                             
+                                                 
+                                                     Log in via an institution 
+                                                     
+                                                          
+                                                     
+                                                 
+                                             
+                                        
+                                    
+                                     
+                                         
+  
+  
+  
+   
+    
+     Subscribe and save 
+     
+      
+       
+        
+          
+        
+        Springer+ 
+       
+       from $39.99 /Month 
+      
+      
+       Starting from 10 chapters or articles per month 
+       Access and download chapters and articles from more than 300k books and 2,500 journals 
+       Cancel anytime 
+      
+       View plans  
+       
+         
+        
+     
+     Buy Now 
+    
+    
+     
+              
+      
+        Buy article PDF USD 39.95  
+      
+     
+     Price excludes VAT (USA)
+      
+     Tax calculation will be finalised during checkout. 
+     Instant access to the full article PDF. 
+    
+   
+   dataLayer.push({"ecommerce":{"currency":"USD","impressions":[{"name":"PNAP-YOLO: An Improved Prompts-Based Naturalistic Adversarial Patch Model for Object Detectors","id":"2198-5812","price":39.95,"brand":"Springer Berlin Heidelberg","category":"Business and Management","variant":"ppv-article","quantity":1}]}}); 
+   
+        ;(function () {
+          if (window.localStorage) {
+            window.localStorage.removeItem("springerPlusRollOut")
+          }
+        })()
+       
+   
+                .springer-plus .buying-option-usps > li::before {
+                    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg' fill='%230070A8'%3E%3Ccircle cx='50' cy='50' r='50'/%3E%3C/svg%3E");
+                }
+             
+  
+  
+    Institutional subscriptions 
+     
+       
+       
+  
+  .sprcom-buybox-articleDarwin .buybox__access-option{
+  border-top: 1px solid #cedbe0;
+  font-size: 1rem;
+  padding: 16px;
+}
+.sprcom-buybox-articleDarwin .springer-plus{
+  background-color: #EBF6FF;
+  font-family: 'Merriweather Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 16px;
+}
+.sprcom-buybox-articleDarwin .springer-plus-headline{
+  display: flex;
+  justify-content: space-between;
+}
+.sprcom-buybox-articleDarwin .springer-plus-heading{
+  border-bottom: 1px solid #c5e0f4;
+  border-top: 1px solid #c5e0f4;
+  font-family: 'Merriweather Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 16px;
+  text-align: center;
+}
+.sprcom-buybox-articleDarwin .springer-plus-title{
+  align-items: center;
+  display: flex;
+}
+.sprcom-buybox-articleDarwin .springer-plus-title span{
+  margin-left: 8px;
+}
+.sprcom-buybox-articleDarwin .springer-plus a{
+  background-color: #fff;
+  border: 1px solid #025e8d;
+  color: #025e8d;
+  font-size: 16px;
+  font-weight: 700;
+  max-height: 44px;
+}
+.sprcom-buybox-articleDarwin .springer-plus a span{
+  margin-right: 8px;
+}
+.sprcom-buybox-articleDarwin .springer-plus a:hover{
+  background-color: #025e8d;
+  border: 4px solid #025e8d;
+  box-shadow: none;
+  color: #fff;
+  font-weight: 700;
+}
+.sprcom-buybox-articleDarwin .springer-plus a:visited{
+  color: #025e8d;
+}
+.sprcom-buybox-articleDarwin .springer-plus a:visited:hover{
+  color: #fff;
+}
+.sprcom-buybox-articleDarwin .springer-plus .buying-option-usps{
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.6;
+  list-style: none;
+  margin: 0;
+  padding: 16px 0 24px 0;
+}
+.sprcom-buybox-articleDarwin .springer-plus .buying-option-usps > li{
+  padding-left: 26px;
+  position: relative;
+}
+.sprcom-buybox-articleDarwin .springer-plus .buying-option-usps > li::before{
+  content: '';
+  height: 10px;
+  left: 0;
+  position: absolute;
+  top: calc(0.8em - 5px);
+  width: 10px;
+}
+.sprcom-buybox-articleDarwin .springer-plus .buying-option-usps > li:not(:first-child){
+  margin-top: 4px;
+}
+ 
+ 
+                                     
+                                 
+                            
+                        
+                    
+                     
+                          
+     
+         Advertisement 
+         
+         
+     
+ 
+
+ 
+    window.SN = window.SN || {};
+    window.SN.libs = window.SN.libs || {};
+    window.SN.libs.ads = window.SN.libs.ads || {};
+    window.SN.libs.ads.slotConfig = window.SN.libs.ads.slotConfig || {};
+    window.SN.libs.ads.slotConfig['MPU1'] = {
+        'pos': 'MPU1',
+        'type': 'MPU1',
+    };
+    window.SN.libs.ads.slotConfig['unitPath'] = '/270604982/springerlink/40745/article';
+ 
+
+ 
+                     
+                      
+                      
+                 
+             
+         
+     
+
+            
+         
+     
+    
+     
+     
+
+
+
+    
+         
+             Search 
+             
+                 
+                     
+                         Search by keyword or author 
+                         
+                             
+                             
+                                 
+                                      
+                                 
+                                 Search 
+                             
+                         
+                     
+                 
+             
+         
+    
+
+
+ 
+    
+         Navigation 
+         
+            
+                 
+                    
+                        Find a journal
+                     
+                 
+            
+                 
+                    
+                        Publish with us
+                     
+                 
+            
+                 
+                    
+                        Track your research
+                     
+                 
+            
+         
+    
+ 
+ 
+     
+	 
+		 Footer Navigation 
+		 
+			
+				 
+	 
+		
+		 
+			 Discover content 
+			 
+				
+					  Journals A-Z  
+				
+					  Books A-Z  
+				
+					  Subjects A-Z  
+				
+			 
+		 
+		
+		 
+			 Publish with us 
+			 
+				
+					  Journal finder  
+				
+					  Publish your research  
+				
+					  Language editing  
+				
+					  Open access publishing  
+				
+			 
+		 
+		
+		 
+			 Products and services 
+			 
+				
+					  Our products  
+				
+					  Librarians  
+				
+					  Societies  
+				
+					  Partners and advertisers  
+				
+			 
+		 
+		
+		 
+			 Our brands 
+			 
+				
+					  Springer  
+				
+					  Nature Portfolio  
+				
+					  BMC  
+				
+					  Palgrave Macmillan  
+				
+					  Apress  
+				
+					  Discover  
+				
+			 
+		 
+		
+	 
+ 
+
+			
+			 
+	
+		 Corporate Navigation 
+		 
+			
+				 
+					
+					
+						  Your privacy choices/Manage cookies  
+					
+				 
+			
+				 
+					
+						 Your US state privacy rights 
+					
+					
+				 
+			
+				 
+					
+						 Accessibility statement 
+					
+					
+				 
+			
+				 
+					
+						 Terms and conditions 
+					
+					
+				 
+			
+				 
+					
+						 Privacy policy 
+					
+					
+				 
+			
+				 
+					
+						 Help and support 
+					
+					
+				 
+			
+				 
+					
+						 Legal notice 
+					
+					
+				 
+			
+				 
+					
+						 Cancel contracts here 
+					
+					
+				 
+			
+		 
+	
+ 
+
+		 
+		 
+			
+				
+					 
+						 
+							
+							 192.18.133.116 
+						 
+						 Oracle UBRM05-228 (3000522044)  
+					 
+				
+			
+			
+				 
+					 
+				 
+			
+			 &copy; 2026 Springer Nature 
+		 
+	 
+ 
+
+ 
+
+
+     
+ 
+
+
+
+
+

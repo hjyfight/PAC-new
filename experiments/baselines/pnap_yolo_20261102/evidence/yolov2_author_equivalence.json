@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "value_abs_error": 0.0,
+  "gradient_max_abs_error": 0.0,
+  "empty_image_exclusion_tested": true
+}

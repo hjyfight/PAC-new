@@ -1,0 +1,51 @@
+{
+  "pid": 480386,
+  "command": [
+    "/datacc05/huotianlin/miniconda3/envs/pac/bin/python",
+    "-B",
+    "eval_transfer.py",
+    "--manifest",
+    "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_seed_audit_20261110/manifest.json",
+    "--detector",
+    "yolov5s",
+    "--device",
+    "cuda:0",
+    "--batch-size",
+    "8",
+    "--workers",
+    "4",
+    "--patches",
+    "clean,gray,s000_advpatch,s000_p1,s000_p2,s001_advpatch,s001_p1,s001_p2,s002_advpatch,s002_p1,s002_p2"
+  ],
+  "physical_gpu": 7,
+  "expected_evaluations": 11,
+  "training_runs": [
+    {
+      "run": "ap_s000_advpatch",
+      "seed": 1788272031,
+      "epochs": 200,
+      "best_epoch": 199,
+      "best_training_loss": 0.7870259368458478,
+      "final_training_loss": 0.787873597991583,
+      "opt_yaml": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advpad-20260908/runs/official_pad3_20260908/patches/ap_s000_advpatch/opt.yaml"
+    },
+    {
+      "run": "ap_s001_advpatch",
+      "seed": 1788272032,
+      "epochs": 200,
+      "best_epoch": 200,
+      "best_training_loss": 0.7659030989637592,
+      "final_training_loss": 0.7659030989637592,
+      "opt_yaml": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advpad-20260908/runs/official_pad3_20260908/patches/ap_s001_advpatch/opt.yaml"
+    },
+    {
+      "run": "ap_s002_advpatch",
+      "seed": 1788272033,
+      "epochs": 200,
+      "best_epoch": 200,
+      "best_training_loss": 0.8136409486155557,
+      "final_training_loss": 0.8136409486155557,
+      "opt_yaml": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advpad-20260908/runs/official_pad3_20260908/patches/ap_s002_advpatch/opt.yaml"
+    }
+  ]
+}

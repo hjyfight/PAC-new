@@ -1,0 +1,330 @@
+{
+  "timestamp": "2026-11-08T14:19:00.146946+08:00",
+  "passed": true,
+  "protocol_sha256": "1957152f312405172af03f56800b97c69f3837165a96aa0d9f6991d2226b2cc7",
+  "completed_sources": [
+    "yolov2",
+    "yolov3",
+    "yolov4",
+    "yolov5s",
+    "yolov5m",
+    "fasterrcnn"
+  ],
+  "attack_evaluations": 72,
+  "expected_attack_evaluations": 72,
+  "formal_results_complete": true,
+  "checks": [
+    "dataset, detector and frozen source hashes",
+    "500 epochs / 38500 steps",
+    "best selected by minimum training loss",
+    "checkpoint identity and finite patch tensor",
+    "all evaluation protocol fields",
+    "clean baseline metrics and per-image detections",
+    "ASR recounted from per-image GT detections"
+  ],
+  "inference_rerun": false,
+  "progress": [
+    {
+      "source": "yolov2",
+      "epochs": 500,
+      "total_epochs": 500,
+      "steps": 38500,
+      "gpu": "3",
+      "job": {
+        "state": "complete",
+        "gpu": "3"
+      },
+      "train_complete": true,
+      "evaluation_complete": true,
+      "training_processes": [],
+      "median_epoch_seconds": 152.69288305996452,
+      "estimated_training_finish": null
+    },
+    {
+      "source": "yolov3",
+      "epochs": 500,
+      "total_epochs": 500,
+      "steps": 38500,
+      "gpu": "4",
+      "job": {
+        "state": "complete",
+        "gpu": "4"
+      },
+      "train_complete": true,
+      "evaluation_complete": true,
+      "training_processes": [],
+      "median_epoch_seconds": 181.25871723645832,
+      "estimated_training_finish": null
+    },
+    {
+      "source": "yolov4",
+      "epochs": 500,
+      "total_epochs": 500,
+      "steps": 38500,
+      "gpu": "7",
+      "job": {
+        "state": "complete",
+        "gpu": "7"
+      },
+      "train_complete": true,
+      "evaluation_complete": true,
+      "training_processes": [],
+      "median_epoch_seconds": 260.77624693501275,
+      "estimated_training_finish": null
+    },
+    {
+      "source": "yolov5s",
+      "epochs": 500,
+      "total_epochs": 500,
+      "steps": 38500,
+      "gpu": "0",
+      "job": {
+        "state": "complete",
+        "gpu": "0"
+      },
+      "train_complete": true,
+      "evaluation_complete": true,
+      "training_processes": [],
+      "median_epoch_seconds": 121.78646776045207,
+      "estimated_training_finish": null
+    },
+    {
+      "source": "yolov5m",
+      "epochs": 500,
+      "total_epochs": 500,
+      "steps": 38500,
+      "gpu": "5",
+      "job": {
+        "state": "complete",
+        "gpu": "5"
+      },
+      "train_complete": true,
+      "evaluation_complete": true,
+      "training_processes": [],
+      "median_epoch_seconds": 162.81088049244136,
+      "estimated_training_finish": null
+    },
+    {
+      "source": "fasterrcnn",
+      "epochs": 500,
+      "total_epochs": 500,
+      "steps": 38500,
+      "gpu": "6",
+      "job": {
+        "state": "complete",
+        "gpu": "6"
+      },
+      "train_complete": true,
+      "evaluation_complete": true,
+      "training_processes": [],
+      "median_epoch_seconds": 115.94633532245643,
+      "estimated_training_finish": null
+    }
+  ],
+  "sources": {
+    "yolov2": {
+      "passed": true,
+      "training_epochs": 500,
+      "patches": {
+        "best": {
+          "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov2/patches/best.pt",
+          "sha256": "027224e2d281495cc9fa7b2b41da8c855285b050c65778b22aeea10429caf038",
+          "epoch": 44,
+          "steps": 3388
+        },
+        "final": {
+          "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov2/patches/final.pt",
+          "sha256": "eaa2287a885ed0fbb5b6971fc170842e546327c1454cb3ab742fa11b677c5ed5",
+          "epoch": 500,
+          "steps": 38500
+        }
+      },
+      "checked_metric_files": 18,
+      "attack_evaluations": 12,
+      "metrics_sha256": {
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov2/eval/yolov2/pnap_best/metrics.json": "8d0a0b279dd154d16029558cc6c6dbeaec086043bd16faeb2a211ab60ed74335",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov2/eval/yolov2/pnap_final/metrics.json": "336688a13be8920132d33a057fc581f306e3278318326f5a95f7edfb4ee3fe00",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov2/eval/yolov3/pnap_best/metrics.json": "df8048a19ffc624abfc820c648458b8ec651492cc4b9c0251d08c140e5c39066",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov2/eval/yolov3/pnap_final/metrics.json": "2adefd96aefcb940c1e361fd8441360a60998e799d09cf55b714d1e5721ca3bd",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov2/eval/yolov4/pnap_best/metrics.json": "ca417188f6577c9a8edb23ba9577dc0cd70a94607f995ec43e12b935170a6a1e",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov2/eval/yolov4/pnap_final/metrics.json": "e94dfd1518aff725dedc0b2229090af30af48f3b66527438a6577318eda2158f",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov2/eval/yolov5s/pnap_best/metrics.json": "bbb08771c46bca1b99e1a85bbab2e9459984156e32a92e984ea4185da81486dc",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov2/eval/yolov5s/pnap_final/metrics.json": "a83e6f176979a77a90f300534a1132ec7ed7af8abba458e5d0442eaa684dcee2",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov2/eval/yolov5m/pnap_best/metrics.json": "cdee5277f8ab2c02fb2a0c4327ed923e333fd8481a160d49834e59a70851fc84",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov2/eval/yolov5m/pnap_final/metrics.json": "fa90ad8f91dab1255b76301a59acdcde26c8baeeb1355efa320ab670a1f0605c",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov2/eval/fasterrcnn/pnap_best/metrics.json": "2077d9a3937fd2d2a149d78bc7d734661962d44d1dd33c9cca1b827bc733714d",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov2/eval/fasterrcnn/pnap_final/metrics.json": "280d38656d886fc5706d161560a193f87d15ec4ef29da259061a266ffc26dd15"
+      }
+    },
+    "yolov3": {
+      "passed": true,
+      "training_epochs": 500,
+      "patches": {
+        "best": {
+          "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov3/patches/best.pt",
+          "sha256": "eb13eb55aa26e604a6421ed84d05c1918133525faa4344011b3b35ba0e358767",
+          "epoch": 497,
+          "steps": 38269
+        },
+        "final": {
+          "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov3/patches/final.pt",
+          "sha256": "110498d6d0e76189d367135a925fb84f319c98b8579dedc99f69b7fad5451276",
+          "epoch": 500,
+          "steps": 38500
+        }
+      },
+      "checked_metric_files": 18,
+      "attack_evaluations": 12,
+      "metrics_sha256": {
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov3/eval/yolov2/pnap_best/metrics.json": "6083e0b2084484d1f217693e18c3fcb33cc0bfda20078797e34592a38d32de53",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov3/eval/yolov2/pnap_final/metrics.json": "976755b6dad1ace46bc09ab04584a4148f51ffba7d1da6b134c8ff5eb25cd225",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov3/eval/yolov3/pnap_best/metrics.json": "c79dcd0dedf552d381f1e3ba0a72fb3c81bba3f6bad23b5c3f18a273f77b4708",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov3/eval/yolov3/pnap_final/metrics.json": "4f3530a9cfcb3ddd63be30d116b22df3ad58da8931ef75ce03b7b07cdf93e3ad",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov3/eval/yolov4/pnap_best/metrics.json": "0324cdc61c39ae31bf351250fadefa3316dae5c4085b239a1c683b144fe71f37",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov3/eval/yolov4/pnap_final/metrics.json": "7cf163434fb6d55dc539a052b794a10ed8cd8388cc4e37b13d68ce4c267d7a38",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov3/eval/yolov5s/pnap_best/metrics.json": "20d8fc83d4b2b01021fd1cf13a02b5ae0ba000e8a82fffa80cf72b8a62902ceb",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov3/eval/yolov5s/pnap_final/metrics.json": "32dcbc63a13d70d466315611f5fa0fbfe9eacfc5f6378bb0bbbc72f7df707911",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov3/eval/yolov5m/pnap_best/metrics.json": "ba50b3b9db63fa8bc4ceb7ad1f937cfc9671cb5c5f54b4316831c8d7d25c6cce",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov3/eval/yolov5m/pnap_final/metrics.json": "fea63d578319a1ffa6977c832c5aa2c0fe562a2671010a95aed2fdf456d543cd",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov3/eval/fasterrcnn/pnap_best/metrics.json": "99e75750189db7a009c633226815eef84984ad52ed52122d12560090a1a3bd7b",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov3/eval/fasterrcnn/pnap_final/metrics.json": "40c2c120eb76c6afd2f625210edd8663b5b718eeadea454db30f5351c305b396"
+      }
+    },
+    "yolov4": {
+      "passed": true,
+      "training_epochs": 500,
+      "patches": {
+        "best": {
+          "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov4/patches/best.pt",
+          "sha256": "2058ceea4633c6eabc35b0615c6b8b791ac0181e846278358e830a30891266d2",
+          "epoch": 450,
+          "steps": 34650
+        },
+        "final": {
+          "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov4/patches/final.pt",
+          "sha256": "4b61f1d3ffbefbc9a7a9069a5b5af786ad5fde79fa54575d463e3aa13a579eae",
+          "epoch": 500,
+          "steps": 38500
+        }
+      },
+      "checked_metric_files": 18,
+      "attack_evaluations": 12,
+      "metrics_sha256": {
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov4/eval/yolov2/pnap_best/metrics.json": "2ad086930ce8ca0afb1c3837852caa56961ae5c9fe349027b0283d5142f6f9f3",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov4/eval/yolov2/pnap_final/metrics.json": "99ea1e4baee018bf7f31b2190b04339ad04abe1475d6961aa8077b78ffa7548f",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov4/eval/yolov3/pnap_best/metrics.json": "99d20acc9b1c2b02c2172d93bded7ab0af986dc64cb31f47104229305cb6ba4b",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov4/eval/yolov3/pnap_final/metrics.json": "69e9fa0cb3e1b8ee3229b64df0e8ef33f6786d4fb94c91a0e0718f35fabf6bff",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov4/eval/yolov4/pnap_best/metrics.json": "e4458d9ee2a9d0ca6bf8aaf1628c0b37178179408b292353cbec32ff1be029c9",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov4/eval/yolov4/pnap_final/metrics.json": "391d782019514671d4393a55d2ac3e1faf320c583a2dfb0c94dc86b445383f56",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov4/eval/yolov5s/pnap_best/metrics.json": "037d09f3087373768aa596b988bce2adf9978fcb51ad5663094baeef0fc0b875",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov4/eval/yolov5s/pnap_final/metrics.json": "11365ba89822c27289bf742c1288eb47274c76436187ab3568120da4b3f06db4",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov4/eval/yolov5m/pnap_best/metrics.json": "887287306aa37e46912220718b1642b71979773df133b2b8c022e78e54c397ef",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov4/eval/yolov5m/pnap_final/metrics.json": "a667e39262a3de7368e4e7ee90b22f5200bbbcfe065adddc782658a43d031dcc",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov4/eval/fasterrcnn/pnap_best/metrics.json": "bdd6c6d3566907c9861bd06bc0b5c7300a6972f28a3b9e808027f052df5cac65",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov4/eval/fasterrcnn/pnap_final/metrics.json": "8f1334c9a706be51bc859c07b47798aeedaed01836d559384c60460105a37a0d"
+      }
+    },
+    "yolov5s": {
+      "passed": true,
+      "training_epochs": 500,
+      "patches": {
+        "best": {
+          "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5s/patches/best.pt",
+          "sha256": "8380b7b1119c757bc339e6495d7c7aa9540e82f61804312addd44dd26672211a",
+          "epoch": 68,
+          "steps": 5236
+        },
+        "final": {
+          "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5s/patches/final.pt",
+          "sha256": "f988a7831a82d11716cc4a0eb5304bbe67284ab5af434b70a027bff75453f86d",
+          "epoch": 500,
+          "steps": 38500
+        }
+      },
+      "checked_metric_files": 18,
+      "attack_evaluations": 12,
+      "metrics_sha256": {
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5s/eval/yolov2/pnap_best/metrics.json": "069a5a7bf8182a2e14bbf97481a96ab7cf0ed8d580052cf87bbcceb17517f14e",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5s/eval/yolov2/pnap_final/metrics.json": "3bde57d27ceeeebb67829458e04c584542b66d754071b3839a523c940cf0a433",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5s/eval/yolov3/pnap_best/metrics.json": "d6c34f8140450c69cd1580c8f12f87528161a4784af909d7d52250d281ea5d35",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5s/eval/yolov3/pnap_final/metrics.json": "24f8f08fc0ea9dec567fa2fa9e01ad093acc1ca78d705c5c47a0ab5b48fcd192",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5s/eval/yolov4/pnap_best/metrics.json": "a353015e2527d50c335d3aa54c895486d4b63da9c7b37db40023c0821a538949",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5s/eval/yolov4/pnap_final/metrics.json": "1f2a37695906d183260e08950cf5446d9e11b4ec86c2c474e930d4bd24b40bd9",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5s/eval/yolov5s/pnap_best/metrics.json": "24661e8dc1f7872474550578ccf68e6457bbc4f5697247a8fa399f0dd2371f8a",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5s/eval/yolov5s/pnap_final/metrics.json": "be9e061f4efc378f96e2be9fff8d3d379ce22d6e2e5e6208e78a96feecba2f81",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5s/eval/yolov5m/pnap_best/metrics.json": "3addde74bc8ff7c7338d8623f9bee6cf6933d2273a28e4e6cc38c9ed9f83eaf2",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5s/eval/yolov5m/pnap_final/metrics.json": "9f8cd6ddddde1f63b6ad3ba333eda5f4b566f0fc963e0e8a452fc3c5b1803064",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5s/eval/fasterrcnn/pnap_best/metrics.json": "47aeaa726651039d99672ab5d8988dc81d5de14ddab0227c445c855dd0c1faf0",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5s/eval/fasterrcnn/pnap_final/metrics.json": "a7e7549d322be673c76a2cf8c6cfbc377bbc8a6772a1d1a189d465fb7299ad54"
+      }
+    },
+    "yolov5m": {
+      "passed": true,
+      "training_epochs": 500,
+      "patches": {
+        "best": {
+          "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5m/patches/best.pt",
+          "sha256": "3632a5dffb7b5827cb264646ca171b75330a47a7ce4fe918de3aa66c679bd889",
+          "epoch": 246,
+          "steps": 18942
+        },
+        "final": {
+          "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5m/patches/final.pt",
+          "sha256": "b5fa6fbd8280ea20a471e2b968957d848830bc5e578672027688c8b635d36012",
+          "epoch": 500,
+          "steps": 38500
+        }
+      },
+      "checked_metric_files": 18,
+      "attack_evaluations": 12,
+      "metrics_sha256": {
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5m/eval/yolov2/pnap_best/metrics.json": "1becf4f2d88a1d156bb9ca382beaa2acd0dae5a9045143f5f7c105b5cc268bd7",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5m/eval/yolov2/pnap_final/metrics.json": "079ab2d8f13a0709bfa6182fdf71ccaf3c47ce89af8a188d86091d3bdb473ea9",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5m/eval/yolov3/pnap_best/metrics.json": "e3f8e8e493f534b1595540878addb7a47f6fc0c7c6b7c8e0107ef187aa8d8eb1",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5m/eval/yolov3/pnap_final/metrics.json": "22a99d8fb7402428465611da709951600021673aedb334a4819e5d8ebfeb7ac1",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5m/eval/yolov4/pnap_best/metrics.json": "06267701968f7e55765eb18e052a9082efbfbcec238f55014a7d991f62f993b6",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5m/eval/yolov4/pnap_final/metrics.json": "6747c78114b032a555b2ad1581dbfd675b871884fcaf9923ccada988278046bd",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5m/eval/yolov5s/pnap_best/metrics.json": "c02253b5b7bb94ad676a32da1af736d3e14dac74b888e6e1615675354697054c",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5m/eval/yolov5s/pnap_final/metrics.json": "5e7da08e3442ef2343d794fc24567fa9959ccf3cf89a7c63a75538e5147d52cb",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5m/eval/yolov5m/pnap_best/metrics.json": "7d761eb850829e1124fd908ac9376ccb2e2a38a36a2703d7fc9747634b780445",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5m/eval/yolov5m/pnap_final/metrics.json": "5292046620c752301b84528f42508b26dbbd264c03362290ef438a83ad382bd7",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5m/eval/fasterrcnn/pnap_best/metrics.json": "f99cea4ab52fe31a66f94080130310956ff898e4a34b4c1bd13f0874e8094948",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/yolov5m/eval/fasterrcnn/pnap_final/metrics.json": "d827c182547c706fefad4958374387b20ebab1ec3778ae886e986d4579977c54"
+      }
+    },
+    "fasterrcnn": {
+      "passed": true,
+      "training_epochs": 500,
+      "patches": {
+        "best": {
+          "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/fasterrcnn/patches/best.pt",
+          "sha256": "a9c4cb194a1a096f0e07e90cf072a07fa1cc1f37c00b79ced5593bdfa0607a6a",
+          "epoch": 386,
+          "steps": 29722
+        },
+        "final": {
+          "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/fasterrcnn/patches/final.pt",
+          "sha256": "15958265fb734581488adb135afc0d87bed3a98a1c3659775d35a7b5d8017bf4",
+          "epoch": 500,
+          "steps": 38500
+        }
+      },
+      "checked_metric_files": 18,
+      "attack_evaluations": 12,
+      "metrics_sha256": {
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/fasterrcnn/eval/yolov2/pnap_best/metrics.json": "968bed67ad6d32e18a8b9e2e89a0962a65f70cd54715b17a0fa207d518918a99",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/fasterrcnn/eval/yolov2/pnap_final/metrics.json": "4e03277dc24545febedf7d8d44ca50737620bdc0495e1b36c56e9f60483b7a39",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/fasterrcnn/eval/yolov3/pnap_best/metrics.json": "76dbd7354fb4b541672adc86f2d1d6a113e179dcd4c906f65655c065a2165954",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/fasterrcnn/eval/yolov3/pnap_final/metrics.json": "6730be9d64c8c4f26ed37acc6fa3d76efcfdf6260295623a8887391c406f9037",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/fasterrcnn/eval/yolov4/pnap_best/metrics.json": "70bf0c187aa0739a22dfe5aa7f0e7b8e9ec4e82ed5da61bfb25fac4fcc6486a4",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/fasterrcnn/eval/yolov4/pnap_final/metrics.json": "e3e53eab0c542e42a866411d3c605368a873a320da660d0c7c0c63ee1143cb20",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/fasterrcnn/eval/yolov5s/pnap_best/metrics.json": "37b9060d866518b342b701f361cfcb82a675a153a18c04872b4679a5cc582b6f",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/fasterrcnn/eval/yolov5s/pnap_final/metrics.json": "b1c604570b769ee44f3392ab5b407b0bccb28146388b78a385b8a38b1bbb15d3",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/fasterrcnn/eval/yolov5m/pnap_best/metrics.json": "b590f64b52e002471eb29d287b55d51757595954a4403712e81df619c37a8455",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/fasterrcnn/eval/yolov5m/pnap_final/metrics.json": "c60a8fdfe1aa76707aec01924ed907292efce81d715ed29d5da5465df2e354ea",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/fasterrcnn/eval/fasterrcnn/pnap_best/metrics.json": "20d1965b83a1b2e43ebb840592dbf02722188e1ba40b2d4a73f29b48aaa1720b",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/sources/fasterrcnn/eval/fasterrcnn/pnap_final/metrics.json": "6bd975bf24d951ee1a1355e23dc54a827ad78a6e40a040f4db6b374ea3622e02"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "gpus": [
+    1,
+    6,
+    7
+  ],
+  "pid": 77637,
+  "command": [
+    "experiments/NCQ/ncq_random3_20261025/run_experiments.py",
+    "run",
+    "--gpus",
+    "1,6,7"
+  ],
+  "script_sha256": "7ac0f060954ec42cb8566290aa5b5c85523a9042b68b496be80723344ddb33df",
+  "temporary_directory": "/datacc05/huotianlin/code-hu/PAC-yolo/.tmp_ncq25",
+  "started_utc": "2026-10-25T05:55:41.509899+00:00"
+}

@@ -1,0 +1,29 @@
+{
+  "pid": 727447,
+  "command": [
+    "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/.venv/bin/python",
+    "-B",
+    "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/controller.py",
+    "--sources",
+    "yolov5m",
+    "--gpus",
+    "5",
+    "--run-id",
+    "yolov5m_gpu5",
+    "--smoke-steps",
+    "2",
+    "--record-launch",
+    "--offload-detector"
+  ],
+  "sources": [
+    "yolov5m"
+  ],
+  "gpus": [
+    "5"
+  ],
+  "smoke_steps": 2,
+  "tmux_pane": "%9",
+  "cuda_allocator": "expandable_segments:True",
+  "offload_detector": true,
+  "started_utc": "2026-11-02T12:36:04.310495+00:00"
+}

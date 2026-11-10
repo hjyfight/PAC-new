@@ -1,0 +1,9 @@
+# Author versions; PyTorch/torchvision are inherited from the PAC environment.
+accelerate==0.32.1
+diffusers==0.28.2
+huggingface-hub==0.23.3
+safetensors==0.4.3
+transformers==4.41.2
+# accelerate 0.32 requires NumPy <2; isolate a compatible OpenCV as well.
+numpy==1.26.4
+opencv-python==4.11.0.86

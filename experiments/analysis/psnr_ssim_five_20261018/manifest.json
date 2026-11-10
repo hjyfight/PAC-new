@@ -1,0 +1,291 @@
+{
+  "status": "complete_five_image_pilot",
+  "seed": 20261018,
+  "source": "yolov5s",
+  "test_population": 288,
+  "selected_images": 5,
+  "methods": {
+    "advpatch": {
+      "donor": "AdvPatch",
+      "variant": "Original",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advpad-20260908/runs/official_pad3_20260908/patches/ap_s000_advpatch/best.pt",
+      "sha256": "bb27f8379b9b31f5bf7e02de674bdb0cf9a71b28deb795870ff73f42bcf385c3"
+    },
+    "p1": {
+      "donor": "AdvPatch",
+      "variant": "Bc1",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advpad-20260908/runs/official_pad3_20260908/patches/ap_s000_p1/best.pt",
+      "sha256": "f819616dce2aea1d3cb3229e76ed848c77b0f8220d1a0c71bcf9d34d1912c640"
+    },
+    "p2": {
+      "donor": "AdvPatch",
+      "variant": "Bc2",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advpad-20260908/runs/official_pad3_20260908/patches/ap_s000_p2/best.pt",
+      "sha256": "1b6e3286cadfdea53a373b04560a031b2bde162119912a4276db984cf0f971f8"
+    },
+    "tsea": {
+      "donor": "T-SEA",
+      "variant": "Original",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov5s/patches/tsea/best.pt",
+      "sha256": "2a484388bbf78b1ce020dc0514902a104547c335902dec5e0529cc91f930cf66"
+    },
+    "tsea_bc1": {
+      "donor": "T-SEA",
+      "variant": "Bc1",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov5s/patches/best_bc1.pt",
+      "sha256": "5a010bc37e01b44d3765850850c9ca6908930b62b7fdf79bfbeb66ae97d30eeb"
+    },
+    "tsea_bc2": {
+      "donor": "T-SEA",
+      "variant": "Bc2",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/tsea/yolov5s/patches/best_bc2.pt",
+      "sha256": "25f520e5a2d77dbe9e5c48a88afa2690a95d7b28690c1f79a918317591875a39"
+    },
+    "advreal": {
+      "donor": "AdvReal-2D",
+      "variant": "Original",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/yolov5-advreal2d-20260908/runs/advreal2d_authorbudget_seed0_20260908/patches/advreal2d_yolov5s/best.pt",
+      "sha256": "2022397a27a1c02f58f5370b16c190386e5fe92bd8fa15d67560762b4c04f480"
+    },
+    "advreal_bc1": {
+      "donor": "AdvReal-2D",
+      "variant": "Bc1",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/patches/yolov5s/advreal_r1.pt",
+      "sha256": "6e355b3e8981420ddd443937ddae8f2b99b3d9f2b5058490409533767b4f51f9"
+    },
+    "advreal_bc2": {
+      "donor": "AdvReal-2D",
+      "variant": "Bc2",
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advreal-recolor-20260910/runs/advreal_recolor_20260910/patches/yolov5s/advreal_r2.pt",
+      "sha256": "ae5de2fea291b9c00b0c51b4324a8bb9c46d7241d29ea40156e9cde9f8cb864c"
+    }
+  },
+  "samples": [
+    {
+      "id": "s01",
+      "audit_index": 249,
+      "image": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-master/datasets/inria/images/val/person_and_bike_095.png",
+      "image_sha256": "5037d25236c143193394d4a82d34545f1af7bf4723e1f63d16aa5bcd2cb384ee",
+      "label": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-master/datasets/inria/labels/val/person_and_bike_095.txt",
+      "label_sha256": "f9e2ac65df20f6973102768e04169eb715cc3b6ae3db7148e9bba57a7a523fa8",
+      "targets": 1,
+      "dataset_index": 249,
+      "person_rois": [
+        [
+          178,
+          131,
+          315,
+          480
+        ]
+      ],
+      "valid_roi_ids": [
+        0
+      ],
+      "content_xyxy": [
+        0,
+        80,
+        640,
+        560
+      ],
+      "patch_pixels": 11881,
+      "coverage_fraction": 0.02900634765625,
+      "padding_excluded_fraction": 0.25
+    },
+    {
+      "id": "s02",
+      "audit_index": 167,
+      "image": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-master/datasets/inria/images/val/person_250.png",
+      "image_sha256": "3223309ae05fa92eb425f4d6027a85a70a851a12acd45fccad85baf0a26103ee",
+      "label": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-master/datasets/inria/labels/val/person_250.txt",
+      "label_sha256": "e8b72febad1a8763e1b1628b2bb1411c69a409b8d02b565e722a37892e839bfc",
+      "targets": 3,
+      "dataset_index": 167,
+      "person_rois": [
+        [
+          220,
+          182,
+          345,
+          541
+        ],
+        [
+          369,
+          180,
+          466,
+          489
+        ],
+        [
+          124,
+          177,
+          209,
+          487
+        ]
+      ],
+      "valid_roi_ids": [
+        0,
+        1,
+        2
+      ],
+      "content_xyxy": [
+        0,
+        80,
+        640,
+        560
+      ],
+      "patch_pixels": 24821,
+      "coverage_fraction": 0.06059814453125,
+      "padding_excluded_fraction": 0.25
+    },
+    {
+      "id": "s03",
+      "audit_index": 110,
+      "image": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-master/datasets/inria/images/val/person_073.png",
+      "image_sha256": "3a663deef5bceb3997c1b52438669df44867672766bb4d4da340ccac8aa09a14",
+      "label": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-master/datasets/inria/labels/val/person_073.txt",
+      "label_sha256": "86df9ea7fdd6049e8cdcca8acfab0e806b4496f68e14c75c199a14776881446b",
+      "targets": 1,
+      "dataset_index": 110,
+      "person_rois": [
+        [
+          286,
+          281,
+          410,
+          503
+        ]
+      ],
+      "valid_roi_ids": [
+        0
+      ],
+      "content_xyxy": [
+        0,
+        80,
+        640,
+        560
+      ],
+      "patch_pixels": 6889,
+      "coverage_fraction": 0.01681884765625,
+      "padding_excluded_fraction": 0.25
+    },
+    {
+      "id": "s04",
+      "audit_index": 240,
+      "image": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-master/datasets/inria/images/val/person_and_bike_086.png",
+      "image_sha256": "be41ce5aae74d20da3202ac64d81fcfea59ff6ec079e4696a874e7d77a3939ce",
+      "label": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-master/datasets/inria/labels/val/person_and_bike_086.txt",
+      "label_sha256": "0a34d0fe8b5e8c92e9f1dc237f827390b4194e6b532ee1a29afa4d8ff98f6390",
+      "targets": 1,
+      "dataset_index": 240,
+      "person_rois": [
+        [
+          278,
+          135,
+          433,
+          521
+        ]
+      ],
+      "valid_roi_ids": [
+        0
+      ],
+      "content_xyxy": [
+        0,
+        80,
+        640,
+        560
+      ],
+      "patch_pixels": 14884,
+      "coverage_fraction": 0.036337890625,
+      "padding_excluded_fraction": 0.25
+    },
+    {
+      "id": "s05",
+      "audit_index": 197,
+      "image": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-master/datasets/inria/images/val/person_and_bike_029.png",
+      "image_sha256": "3bb32a9346d81ae66542aa018618eca76981dcafa3822c65d6fb44269a2f6841",
+      "label": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-master/datasets/inria/labels/val/person_and_bike_029.txt",
+      "label_sha256": "46fbf6a3b51c4590bbd35ccb59aba55a9cd37f0b20e94c6a1bb8914463aab07d",
+      "targets": 2,
+      "dataset_index": 197,
+      "person_rois": [
+        [
+          571,
+          200,
+          610,
+          346
+        ],
+        [
+          204,
+          233,
+          304,
+          548
+        ]
+      ],
+      "valid_roi_ids": [
+        0,
+        1
+      ],
+      "content_xyxy": [
+        0,
+        80,
+        640,
+        560
+      ],
+      "patch_pixels": 9365,
+      "coverage_fraction": 0.02286376953125,
+      "padding_excluded_fraction": 0.25
+    }
+  ],
+  "ssim_parameters": {
+    "data_range": 1.0,
+    "channel_axis": -1,
+    "win_size": 11,
+    "gaussian_weights": true,
+    "sigma": 1.5,
+    "use_sample_covariance": false,
+    "K1": 0.01,
+    "K2": 0.03
+  },
+  "data_range": 1.0,
+  "color_space": "RGB, no gamma linearization",
+  "pixel_pipeline": "PIL RGB -> center pad original size to square with RGB 127 -> PIL bilinear 640x640",
+  "patch_area_fraction": 0.25,
+  "test_eot": false,
+  "metric_input": "exact float32 rendered tensors promoted to float64; PNGs are quantized previews only",
+  "aggregation": "arithmetic mean of 5 per-image scores; person ROIs averaged within each image first",
+  "full_canvas": "640x640 including gray padding",
+  "content_rect": "integer crop excluding artificial padding, with possible resize-filter mixing at border",
+  "identical_control": {
+    "psnr_db": "inf",
+    "ssim": 1.0,
+    "included_in_mean": false
+  },
+  "validations": {
+    "patch_hashes": true,
+    "selected_image_label_hashes": true,
+    "renderer_dataloader_hashes": true,
+    "outside_support_unchanged": true,
+    "mse_support_identity": true,
+    "metric_identity_and_psnr_scale": true,
+    "recolor_max_abs_error": {
+      "p1": 0.0,
+      "p2": 0.0,
+      "tsea_bc1": 0.0,
+      "tsea_bc2": 0.0,
+      "advreal_bc1": 0.0,
+      "advreal_bc2": 0.0
+    }
+  },
+  "versions": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "skimage": "0.24.0",
+    "pillow": "12.2.0",
+    "torch": "2.5.1+cu124"
+  },
+  "code_sha256": "465be933e460e0b752e32257cbcc590f1a815dab94b261b72e7ed5a6c609c305",
+  "lpips_computed": true,
+  "attack_evaluation_performed": false,
+  "lpips_results": {
+    "protocol": "official LPIPS AlexNet v0.1; full canvas direct; person ROI bicubic-resized to 224x224",
+    "summary": "lpips_summary.csv",
+    "manifest": "lpips_manifest.json"
+  }
+}

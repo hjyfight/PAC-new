@@ -1,0 +1,232 @@
+{
+  "passed": true,
+  "formula_checks": {
+    "nps": {
+      "current": 0.08341357111930847,
+      "official": 0.08341357111930847,
+      "max_gradient_error": 0.0
+    },
+    "tv": {
+      "current": 0.6385855078697205,
+      "official": 0.6385855674743652,
+      "max_gradient_error": 0.0
+    },
+    "obj_cls": {
+      "current": 0.05123738944530487,
+      "official": 0.051237381994724274,
+      "outputs_and_gradients_match": true
+    }
+  },
+  "old_s000_and_new_advpatch_placement_output_and_gradient_match": true,
+  "gray_initialization_and_patch_gradient_checked": true,
+  "rotation_difference": {
+    "angle_degrees": 20,
+    "current_retained_area_fraction": 0.8765340447425842,
+    "padded_canvas_retained_area_fraction": 1.0000003576278687,
+    "scope": "Isolated geometric coverage check; not an AP comparison or a re-run of author training."
+  },
+  "training": [
+    {
+      "source": "yolov2",
+      "epochs": 200,
+      "best_epoch": 162,
+      "first": {
+        "epoch": "1",
+        "loss": "1.1391739767615103",
+        "det": "0.7961750195546725",
+        "nps": "0.0004348575412667378",
+        "tv": "0.34256410404602944",
+        "lr": "0.03"
+      },
+      "best": {
+        "epoch": "162",
+        "loss": "1.0333891404179874",
+        "det": "0.6634201432672308",
+        "nps": "0.0006967036911295515",
+        "tv": "0.36927228729189027",
+        "lr": "0.03"
+      },
+      "last": {
+        "epoch": "200",
+        "loss": "1.0442656585370291",
+        "det": "0.659994277193026",
+        "nps": "0.0006973002436237124",
+        "tv": "0.3835740836901463",
+        "lr": "0.03"
+      },
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/yolov2/patches/advpatch/best.pt",
+      "checkpoint_sha256": "28216de97ba9c5c37aa6e624b8cd34fbbe74afa55d34759bdfe4a7740c10f57c",
+      "all_losses_finite": true,
+      "checkpoint_matches_current_evaluation": true
+    },
+    {
+      "source": "yolov3",
+      "epochs": 200,
+      "best_epoch": 183,
+      "first": {
+        "epoch": "1",
+        "loss": "1.2247268811887562",
+        "det": "0.9806020673400805",
+        "nps": "0.00043135089221477195",
+        "tv": "0.24369345843209506",
+        "lr": "0.03"
+      },
+      "best": {
+        "epoch": "183",
+        "loss": "0.9404898878029193",
+        "det": "0.8327317061175741",
+        "nps": "0.00046058191295185333",
+        "tv": "0.10729760072324486",
+        "lr": "0.003"
+      },
+      "last": {
+        "epoch": "200",
+        "loss": "0.9527691711431994",
+        "det": "0.8336231019287234",
+        "nps": "0.0004607701010688084",
+        "tv": "0.11868529677002748",
+        "lr": "0.003"
+      },
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/yolov3/patches/advpatch/best.pt",
+      "checkpoint_sha256": "f6d8a98dbf53c0ad6814a0d56c05eebeb51d8a030675e35f326d52a981308af1",
+      "all_losses_finite": true,
+      "checkpoint_matches_current_evaluation": true
+    },
+    {
+      "source": "yolov4",
+      "epochs": 200,
+      "best_epoch": 200,
+      "first": {
+        "epoch": "1",
+        "loss": "1.3821236776606656",
+        "det": "0.9372997703303731",
+        "nps": "0.00044315106368924005",
+        "tv": "0.4443807570864401",
+        "lr": "0.03"
+      },
+      "best": {
+        "epoch": "200",
+        "loss": "0.9570036505254939",
+        "det": "0.8314192858115081",
+        "nps": "0.0004969290245312239",
+        "tv": "0.1250874362764607",
+        "lr": "0.003"
+      },
+      "last": {
+        "epoch": "200",
+        "loss": "0.9570036505254939",
+        "det": "0.8314192858115081",
+        "nps": "0.0004969290245312239",
+        "tv": "0.1250874362764607",
+        "lr": "0.003"
+      },
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/yolov4/patches/advpatch/best.pt",
+      "checkpoint_sha256": "4bb446769e8c82b585672a011497d40a3c9a4c8c4cfcae16eb95de331b7c8335",
+      "all_losses_finite": true,
+      "checkpoint_matches_current_evaluation": true
+    },
+    {
+      "source": "yolov5s",
+      "epochs": 200,
+      "best_epoch": 199,
+      "first": {
+        "epoch": "1",
+        "loss": "1.1429096790400701",
+        "det": "0.7805650911812674",
+        "nps": "0.000439939707504731",
+        "tv": "0.36190463811256207",
+        "lr": "0.03"
+      },
+      "best": {
+        "epoch": "199",
+        "loss": "0.7870259368458478",
+        "det": "0.6864420903622134",
+        "nps": "0.00047755528621357357",
+        "tv": "0.1001062822992328",
+        "lr": "0.003"
+      },
+      "last": {
+        "epoch": "200",
+        "loss": "0.787873597991583",
+        "det": "0.6872394562544186",
+        "nps": "0.00047667910383198206",
+        "tv": "0.10015745337215232",
+        "lr": "0.003"
+      },
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/ours/yolov5-advpad-20260908/runs/official_pad3_20260908/patches/ap_s000_advpatch/best.pt",
+      "checkpoint_sha256": "bb27f8379b9b31f5bf7e02de674bdb0cf9a71b28deb795870ff73f42bcf385c3",
+      "all_losses_finite": true,
+      "checkpoint_matches_current_evaluation": true
+    },
+    {
+      "source": "yolov5m",
+      "epochs": 200,
+      "best_epoch": 200,
+      "first": {
+        "epoch": "1",
+        "loss": "1.0802649566327323",
+        "det": "0.8069319431867196",
+        "nps": "0.00043911105158347453",
+        "tv": "0.27289390059169805",
+        "lr": "0.03"
+      },
+      "best": {
+        "epoch": "200",
+        "loss": "0.9063549863010743",
+        "det": "0.7065907536189797",
+        "nps": "0.00047529583820748577",
+        "tv": "0.1992889342265331",
+        "lr": "0.003"
+      },
+      "last": {
+        "epoch": "200",
+        "loss": "0.9063549863010743",
+        "det": "0.7065907536189797",
+        "nps": "0.00047529583820748577",
+        "tv": "0.1992889342265331",
+        "lr": "0.003"
+      },
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/yolov5m/patches/advpatch/best.pt",
+      "checkpoint_sha256": "5356549f42f9d0ffd924db3a56b854f7ca6dd2b74d69bffa396962b06a41676c",
+      "all_losses_finite": true,
+      "checkpoint_matches_current_evaluation": true
+    },
+    {
+      "source": "fasterrcnn",
+      "epochs": 200,
+      "best_epoch": 200,
+      "first": {
+        "epoch": "1",
+        "loss": "1.1017834254895438",
+        "det": "0.9963977523269405",
+        "nps": "0.00038575080114550256",
+        "tv": "0.10499992830745561",
+        "lr": "0.03"
+      },
+      "best": {
+        "epoch": "200",
+        "loss": "1.0502583899016489",
+        "det": "0.9496611131518982",
+        "nps": "0.000470057437583161",
+        "tv": "0.10012722343012254",
+        "lr": "0.003"
+      },
+      "last": {
+        "epoch": "200",
+        "loss": "1.0502583899016489",
+        "det": "0.9496611131518982",
+        "nps": "0.000470057437583161",
+        "tv": "0.10012722343012254",
+        "lr": "0.003"
+      },
+      "checkpoint": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_cap_completion_20260911/advpatch/fasterrcnn/patches/advpatch/best.pt",
+      "checkpoint_sha256": "26b7f1956f869e7f945c1d5ae4d82f052676e6164478cbcd2081ff7234ec6872",
+      "all_losses_finite": true,
+      "checkpoint_matches_current_evaluation": true
+    }
+  ],
+  "limitations": [
+    "CPU formula and synthetic input checks; no new detector training or evaluation.",
+    "Finite losses and completed epochs do not establish convergence or optimality."
+  ]
+}

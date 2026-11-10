@@ -9,22 +9,24 @@ manuscript are intentionally **not** included.
 
 | Path | Contents |
 |---|---|
-| `yolov5-master/` | Early YOLOv5 working tree used for the first PAC runs (large run outputs not archived) |
-| `yolov5-fixed-20260907/` | EOT, rotation-mask and linear recolor fixes; squash vs. letterbox comparison |
-| `yolov5-advpad-20260908/` | Official AdvPatch padding-then-resize protocol |
-| `yolov5-advreal2d-20260908/` | AdvReal 2D adaptation, 800-epoch runs, white/black-box evaluation on six detectors |
-| `yolov5-cap-rfatex-20260909/` | CAP source-specific 1000-epoch runs; RFA-Tex baseline |
-| `yolov5-advreal-recolor-20260910/` | AdvReal recolor variant and the complete evaluation matrix |
-| `yolov5-advpatch-cap-20260911/` | AdvPatch + CAP completion experiments |
-| `yolov5-tsea-nap-20260912/` | T-SEA / NAP baseline comparison |
-| `experiments/` | Standalone experiment drivers, protocols, audits and result tables (T-SEA/NAP, AdvPatch-CAP, PSNR/SSIM, appearance protocol) |
-| `pac_patch_visualizations_20260910/` | Patch PNGs, comparison figures and a static HTML gallery |
-| `adversarial-yolo-master/` | Reference snapshot of the official AdvPatch / YOLOv2 code (third-party) |
-| `literature_baselines_20260911/` | Survey notes and baseline metadata collected for the paper |
+| `experiments/ours/yolov5-master/` | Early YOLOv5 working tree used for the first PAC runs (large run outputs not archived) |
+| `experiments/ours/yolov5-fixed-20260907/` | EOT, rotation-mask and linear recolor fixes; squash vs. letterbox comparison |
+| `experiments/ours/yolov5-advpad-20260908/` | YOLOv5s AdvPatch (30.40% mAP50) and PAC-P/R/T code, patches and evaluations |
+| `experiments/baselines/yolov5-advreal2d-20260908/` | AdvReal 2D adaptation, 800-epoch runs, white/black-box evaluation on six detectors |
+| `experiments/baselines/yolov5-cap-rfatex-20260909/` | CAP source-specific 1000-epoch runs; RFA-Tex baseline |
+| `experiments/ours/yolov5-advreal-recolor-20260910/` | AdvReal recolor variant and the complete evaluation matrix |
+| `experiments/baselines/yolov5-advpatch-cap-20260911/` | AdvPatch + CAP completion experiments |
+| `experiments/baselines/yolov5-tsea-nap-20260912/` | T-SEA / NAP baseline comparison |
+| `experiments/` | [Experiment index](experiments/README.md): baselines, ours, NCQ and analysis; code, results and figures organized into real directories |
+| `experiments/baselines/pnap_yolo_20261102/` | PNAP-YOLO (2025) author source, PAC protocol adapter, training/evaluation entry points, and audit of NCQ / pattern-color experiments |
+| `experiments/analysis/pac_patch_visualizations_20260910/` | Patch PNGs, comparison figures and a static HTML gallery |
+| `experiments/baselines/adversarial-yolo-master/` | Reference snapshot of the official AdvPatch / YOLOv2 code (third-party) |
+| `experiments/baselines/literature_baselines_20260911/` | Survey notes and baseline metadata collected for the paper |
 
-Every `yolov5-*` directory is a self-contained source snapshot: the original
-experiment worktrees were exported as plain files, so the repository does not
-depend on any local Git worktree or `$HOME` checkout.
+The local experiment code and outputs live under `experiments/`. Git worktree
+metadata is kept inside this project; `.git-worktrees/` stores the imported
+source repository metadata. Dataset/weight dependencies and Python environments
+still need to be prepared when moving to another machine.
 
 ## Not included
 
@@ -44,7 +46,7 @@ reference those paths are kept in-tree.
 
 Each experiment directory contains its own driver scripts and protocol notes
 (`PROTOCOL.md`, `report.md`, `manifest.json`). Typical entry points are
-`train_patch.py`, `detect.py` and `val.py` inside a `yolov5-*` snapshot, and
+`train_patch.py`, `detect.py` and `val.py` inside an `experiments/ours/yolov5-*` or `experiments/baselines/yolov5-*` tree, and
 `run_*.py` / `run_*.sh` under `experiments/`. Check the protocol file for the
 exact seed, preprocessing and evaluation settings of each run.
 

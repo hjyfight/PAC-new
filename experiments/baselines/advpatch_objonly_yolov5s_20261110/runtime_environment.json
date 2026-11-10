@@ -1,0 +1,19 @@
+{
+  "XDG_CACHE_HOME": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_objonly_yolov5s_20261110/cache",
+  "XDG_CONFIG_HOME": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_objonly_yolov5s_20261110/config",
+  "MPLCONFIGDIR": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_objonly_yolov5s_20261110/mplconfig",
+  "TORCH_HOME": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_objonly_yolov5s_20261110/torch",
+  "TMPDIR": "/datacc05/huotianlin/code-hu/PAC-yolo/.tmp_obj11",
+  "YOLOV5_CONFIG_DIR": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_objonly_yolov5s_20261110/yolo_config",
+  "YOLO_CONFIG_DIR": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_objonly_yolov5s_20261110/yolo_config",
+  "NUMBA_CACHE_DIR": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_objonly_yolov5s_20261110/cache/numba",
+  "YOLOv5_DATASETS_DIR": "/datacc05/huotianlin/code-hu/PAC-yolo/datasets",
+  "PYTHONDONTWRITEBYTECODE": "1",
+  "PYTHONUNBUFFERED": "1",
+  "OMP_NUM_THREADS": "2",
+  "MKL_NUM_THREADS": "2",
+  "OPENBLAS_NUM_THREADS": "1",
+  "MPLBACKEND": "Agg",
+  "YOLOv5_AUTOINSTALL": "false",
+  "GIT_OPTIONAL_LOCKS": "0"
+}

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "epochs": 500,
+  "steps": 38500,
+  "smoke": false,
+  "latent_grad_norm": 0.014730464667081833,
+  "seconds": 92028.0347003981,
+  "detection_latent_grad_norm": 0.00015849059855099767,
+  "peak_memory_bytes": 10596978176,
+  "formal_results": false
+}

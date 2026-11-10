@@ -1,0 +1,7 @@
+{
+  "controller_pid": 431433,
+  "physical_gpu": 7,
+  "run": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_objonly_yolov5s_20261110",
+  "worktree": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/yolov5-advpatch-objonly-20261110",
+  "revision": "60900daec813e1d95c72b0e5633b2b31fea84acd"
+}

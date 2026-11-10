@@ -1,0 +1,27 @@
+{
+  "pid": 720921,
+  "command": [
+    "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/.venv/bin/python",
+    "-B",
+    "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/pnap_yolo_20261102/controller.py",
+    "--sources",
+    "fasterrcnn",
+    "--gpus",
+    "6",
+    "--run-id",
+    "fasterrcnn_gpu6",
+    "--smoke-steps",
+    "2",
+    "--record-launch"
+  ],
+  "sources": [
+    "fasterrcnn"
+  ],
+  "gpus": [
+    "6"
+  ],
+  "smoke_steps": 2,
+  "tmux_pane": "%4",
+  "cuda_allocator": "expandable_segments:True",
+  "started_utc": "2026-11-02T12:30:36.180935+00:00"
+}

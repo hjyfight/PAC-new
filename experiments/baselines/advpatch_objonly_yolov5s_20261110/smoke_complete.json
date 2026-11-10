@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "summary": {
+    "requested_epochs": 1,
+    "completed_epochs": 1,
+    "optimizer_steps": 77,
+    "stop_reason": "epoch_limit",
+    "checkpoint_selection": "minimum epoch-mean training total loss",
+    "best_training_loss_epoch": 1,
+    "best_training_loss": 1.133886416494264,
+    "early_stopping": false,
+    "detector": "yolov5",
+    "peak_cuda_reserved_mib": 3182.0,
+    "test_used_during_training": false,
+    "method": "AdvPatch (shared PAC protocol)",
+    "advpatch_objective": "obj",
+    "detector_confidence": "mean per-image peak objectness",
+    "tv_weight": 2.5,
+    "tv_floor": 0.1,
+    "nps_weight": 0.01,
+    "optimizer": "Adam AMSGrad",
+    "lr_schedule": "ReduceLROnPlateau(mode=min, patience=50)"
+  },
+  "checkpoints": {
+    "best": {
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_objonly_yolov5s_20261110/smoke/obj/best.pt",
+      "sha256": "bb8767de13b126da740d905b780d18052dcfd62b0ae070909dd53cfd17dab0ef"
+    },
+    "last": {
+      "path": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/advpatch_objonly_yolov5s_20261110/smoke/obj/last.pt",
+      "sha256": "0043151ae7b4aab9cbd4056ee4760c08a6b35387fb7c7870bd23e740fc792c6d"
+    }
+  }
+}

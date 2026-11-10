@@ -1,0 +1,414 @@
+{
+  "metadata/10.1007_s10489-025-06246-2.json": {
+    "bytes": 21386,
+    "sha256": "8270776ef18d4b3d6f776fa9df6c216e3cfbec7e2c646465ccaabdaad124a23d"
+  },
+  "metadata/10.1016_j.asoc.2025.112818.json": {
+    "bytes": 24645,
+    "sha256": "ca188db70a613ee0188b7512984b2192c57c58e76dd5b0bb7dee5c10abef7e43"
+  },
+  "metadata/10.1109_jiot.2025.3531852.json": {
+    "bytes": 14924,
+    "sha256": "3ac1d697a3739c1a5a1be21336518461d41b4c6ed475b2caf3f21570653218f8"
+  },
+  "metadata/10.1109_jiot.2025.3581207.json": {
+    "bytes": 14694,
+    "sha256": "dda83ee908aa4b14c633e34370cd84b258693d34c88304c5796878a64ce7f222"
+  },
+  "metadata/10.1109_tcsvt.2026.3727098.json": {
+    "bytes": 9697,
+    "sha256": "9c27eaeedf26cec9ee4845de9e16ae8b357f43a6a3682de31a9a70585478690f"
+  },
+  "metadata/10.1109_tdsc.2026.3681111.json": {
+    "bytes": 14761,
+    "sha256": "18f9ef9c1cc3d254d616a9eee97fbc690c79528935dc6490eee2437916c3b7b3"
+  },
+  "metadata/10.1109_tgrs.2025.3579916.json": {
+    "bytes": 16022,
+    "sha256": "44cf27ed5baf91c37fdd225b0c74cb45b0e9401f5f31f214cbb479f4ce7d9259"
+  },
+  "metadata/Arknightpzb__Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images_meta.json": {
+    "bytes": 8913,
+    "sha256": "41ab853b7dcb3e496ccef8d4dc7a01d182f168b6b3f6fdafca865052e8e823ea"
+  },
+  "metadata/Arknightpzb__Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images_tree.json": {
+    "bytes": 98764,
+    "sha256": "6d10083a5ce5a2d01443c27d53261909113d0ae38db268ad258a9359e39ec702"
+  },
+  "metadata/Carson1391__yodo_meta.json": {
+    "bytes": 5648,
+    "sha256": "8681263892bc91422283a44dbf88706cfa784d2eccf455234afc9d9bb7652f6b"
+  },
+  "metadata/Carson1391__yodo_tree.json": {
+    "bytes": 12395,
+    "sha256": "87de0ea1fcc269432ece7334fd5f79ebfb20d848e3707a0e996f32716e383b5f"
+  },
+  "metadata/GZHU-DVL__CSPA_meta.json": {
+    "bytes": 5370,
+    "sha256": "63bd2ef7c5ba5721a696d926f1917c73291f2636105006a6e70e92da5eff3f83"
+  },
+  "metadata/GZHU-DVL__CSPA_tree.json": {
+    "bytes": 20374,
+    "sha256": "a6ea2aa8a21a3b3cadc7cc01e2f59178f492e2a91cc3c8b8fb794d168da034c7"
+  },
+  "metadata/HerTenSu__TIFS26_SRAP_meta.json": {
+    "bytes": 6001,
+    "sha256": "8034ede206fcd212b68e333fec306a7dfb3efa60257cba4d5f859dd3691709cc"
+  },
+  "metadata/HerTenSu__TIFS26_SRAP_tree.json": {
+    "bytes": 1331,
+    "sha256": "f25f11b2cd81fe548b9c8a7d28240dd57ad2cf6036fa35d24fcef90c82ed6fea"
+  },
+  "metadata/JensBayer__HigherOrder_commit.json": {
+    "bytes": 6157,
+    "sha256": "7563e6215283b411cfa51c8ab5c6da1f8822e2af67def558917f8fe7034ce30d"
+  },
+  "metadata/JensBayer__HigherOrder_meta.json": {
+    "bytes": 5973,
+    "sha256": "fa457d3b294973dcd1b08c43662f1ad00b0160e0fc9c293306d0a240ede46057"
+  },
+  "metadata/JensBayer__HigherOrder_tree.json": {
+    "bytes": 3024,
+    "sha256": "9b84085f2da09a6e533bbb7205402dd8be5bd1acc84b27d0aaa2b4f4edfa1033"
+  },
+  "metadata/Yongyx99__Fourier-shape-attack_meta.json": {
+    "bytes": 6196,
+    "sha256": "e44718b896b23678d08ad2856c69a39e349eb11c5bc8711fec7ccc9be7a360d9"
+  },
+  "metadata/Yongyx99__Fourier-shape-attack_tree.json": {
+    "bytes": 46569,
+    "sha256": "d59f7f990f93b28835614a995e04f0e6310d50295ce01d32ce6ddcd64ca8cb42"
+  },
+  "metadata/addiajsjjs__Human-imperceptible-adversarial-patch_meta.json": {
+    "bytes": 6926,
+    "sha256": "c722d55ad5df755a0cf60bc441a8d4bf39b48af60de4c8c5b3f65eab888aab57"
+  },
+  "metadata/addiajsjjs__Human-imperceptible-adversarial-patch_tree.json": {
+    "bytes": 19510,
+    "sha256": "bca7445da039d18ba0d9c246355ddf382a7cf90ebd053331466329a32de8b943"
+  },
+  "metadata/crossref_0.json": {
+    "bytes": 143748,
+    "sha256": "8b0e5a0606aa426b6191d54585c5ce550f13c242f3947ee022b5a91108070bcb"
+  },
+  "metadata/crossref_1.json": {
+    "bytes": 139797,
+    "sha256": "5619151180a2d2ae43cebeb390ff203e74fa6687013e47009b65aba6281b8c86"
+  },
+  "metadata/crossref_2.json": {
+    "bytes": 157204,
+    "sha256": "43f5f0b617c7bdaa440dbb792c8a897059f2343b44161fb03e087b66fbf5b5e4"
+  },
+  "metadata/crossref_3.json": {
+    "bytes": 147357,
+    "sha256": "f66703ec3ae19af3b96da91043f36c31ce37729d910531aee7ca2891497a063a"
+  },
+  "metadata/crossref_all_patches.json": {
+    "bytes": 483730,
+    "sha256": "7bd1d0b4d2906c4e926ad4f366d9ec7ec65872ce77f9ee8ce1c96fee21caf021"
+  },
+  "metadata/crossref_tang_retry.json": {
+    "bytes": 102101,
+    "sha256": "1152bd98a43db47681682c3a1e4744f10a4cc726b6f2061bf8f83811a9b13804"
+  },
+  "metadata/crossref_titlecheck_1.json": {
+    "bytes": 53339,
+    "sha256": "ac183b4fb3deb00ef212e0a778195b7877f220eb624206dc23f028fab9b07fce"
+  },
+  "metadata/crossref_titlecheck_2.json": {
+    "bytes": 44453,
+    "sha256": "9978ff3e22b4cf9360d651fba0626c9fdbb7fee3567060db7a19832d65bceebf"
+  },
+  "metadata/crossref_titlecheck_3.json": {
+    "bytes": 58013,
+    "sha256": "7f71f4ea83c939e7a4b92f8c038e0fab8fdcdf885d825089bcab4d2b95685646"
+  },
+  "metadata/cvsp-lab__FocusMatters_tree.json": {
+    "bytes": 984928,
+    "sha256": "fa755ce3ce7e0b5a80556b8bd1d5ee48520b85a1ff7a119669da7efa2f3d3eec"
+  },
+  "metadata/dynamic_jiot_code.json": {
+    "bytes": 112955,
+    "sha256": "dee71aa9109a31841913e1d3f9b09552bf881438a1498dd20f729e4edede2b62"
+  },
+  "metadata/github_journal_0.json": {
+    "bytes": 156412,
+    "sha256": "ddf534f3e5b56e259d7da40dc2ef233ee534cd2322be9dfa11b0e5d51e5a35c9"
+  },
+  "metadata/github_journal_1.json": {
+    "bytes": 210778,
+    "sha256": "36b09659ba347f063a4b1b64a2d18880aab84a49d68b72d9dd648873b88e3e63"
+  },
+  "metadata/github_journal_2.json": {
+    "bytes": 163523,
+    "sha256": "13b124a9e5253f4b3d1f6132c0a4d0ad9528858604c5c41d9153174d1eac1c41"
+  },
+  "metadata/github_journal_3.json": {
+    "bytes": 511467,
+    "sha256": "eaddc8fd37583508db843f218b5051e36974059b4db35db9d5409b92b3cedd22"
+  },
+  "metadata/github_journal_4.json": {
+    "bytes": 57335,
+    "sha256": "bc1c887d6246ad51a5a01ccbfb762558bc9a6697b9af19ed28f4f5e5e65bc35b"
+  },
+  "metadata/github_journal_5.json": {
+    "bytes": 14877,
+    "sha256": "5868ace8a702a7add19066e4d5e6861c3339250f29886510f17e3952daa7c459"
+  },
+  "metadata/github_journal_6.json": {
+    "bytes": 685571,
+    "sha256": "cce9aa6e116df89f06c55051b353803c602a7d3991502da16183e016ee41bca1"
+  },
+  "metadata/github_recent_0.json": {
+    "bytes": 685104,
+    "sha256": "76fc53c55ac18332b371bf508679fc66e084b85551117a9c33e450197caeb162"
+  },
+  "metadata/github_recent_1.json": {
+    "bytes": 111016,
+    "sha256": "b64412df3a6525b8f15c0c94f4ea687b3fd584fa2cd343af7f0db4125819742a"
+  },
+  "metadata/github_recent_2.json": {
+    "bytes": 66244,
+    "sha256": "fcf30afb3ccb580c038f2296d0c98f0e01494ec99d664187e14b09bbb6ab41e7"
+  },
+  "metadata/github_recent_3.json": {
+    "bytes": 55116,
+    "sha256": "b8831421ec4b698eab10c7557a9d5714000ff03a0e24d8fcdc59b70a6d03bc21"
+  },
+  "metadata/github_recent_4.json": {
+    "bytes": 68,
+    "sha256": "684fb2f266eadb94a7db3f795e2e3558b9c1a1eeceb29abe6e0dfbb9c5fe7941"
+  },
+  "metadata/github_search_0.json": {
+    "bytes": 41729,
+    "sha256": "45cd49a4dfa0dd842aacb609e257f236ad3075dc63a6d141a635ba8464a4dc0e"
+  },
+  "metadata/github_search_1.json": {
+    "bytes": 203410,
+    "sha256": "8d39d6bc2435772c92e15d357fb2107c5acfa6202cdf19c62df1b36c59f83f41"
+  },
+  "metadata/github_search_2.json": {
+    "bytes": 208402,
+    "sha256": "7c67a3922de1f30950bf32d80d6961602cf8e661246346ce4696a88f5ac8e2fb"
+  },
+  "metadata/github_search_3.json": {
+    "bytes": 201415,
+    "sha256": "f92d93c1b1467decda6213f13479cba3e34c064e3f854eebbe816de86b9e8186"
+  },
+  "metadata/github_search_4.json": {
+    "bytes": 6101,
+    "sha256": "d212607bb16387112f4b9ea6d773cc7950ed4a4cb802f1d82cb745cc5c22a2c9"
+  },
+  "metadata/github_search_5.json": {
+    "bytes": 189924,
+    "sha256": "c0be7810654506eaf2260c54780078ce754cd031dd81f4c1fd18f6c3e71345f5"
+  },
+  "metadata/github_search_6.json": {
+    "bytes": 50688,
+    "sha256": "f743d3aae3fe4941ebaf93f202691fedb47c1a48e277f7b2fe19e90900538683"
+  },
+  "metadata/github_targeted_0.json": {
+    "bytes": 68,
+    "sha256": "684fb2f266eadb94a7db3f795e2e3558b9c1a1eeceb29abe6e0dfbb9c5fe7941"
+  },
+  "metadata/github_targeted_1.json": {
+    "bytes": 686645,
+    "sha256": "4d6cf912697420fa59c780b296906907de052eba02d6bee9ac79a91ebfc5927e"
+  },
+  "metadata/github_targeted_2.json": {
+    "bytes": 68,
+    "sha256": "684fb2f266eadb94a7db3f795e2e3558b9c1a1eeceb29abe6e0dfbb9c5fe7941"
+  },
+  "metadata/github_targeted_3.json": {
+    "bytes": 384189,
+    "sha256": "a3bcb7321e6683b7b9717034e88e3777fd53a7981dd9560a5047fed97a03bf81"
+  },
+  "metadata/github_targeted_4.json": {
+    "bytes": 603295,
+    "sha256": "6e5c7571013049a0623d9af5f7482fd423d2b4636dee3ccdc72cb886e90960bd"
+  },
+  "metadata/github_targeted_5.json": {
+    "bytes": 670615,
+    "sha256": "f2cc7d455366abd495728f15bf7e0c42b169997d519f81f3e9e9b58a950a7fa7"
+  },
+  "metadata/gq-max__physpatch_meta.json": {
+    "bytes": 5743,
+    "sha256": "7a857df0124609fd31d152c732d8d6919aa0f7aff47eb561bb1fff8e2a2bc3f5"
+  },
+  "metadata/gq-max__physpatch_tree.json": {
+    "bytes": 56582,
+    "sha256": "400381502d6be0e5d9d428807ea4a0d740834ca9c5b22db1d5bcfb5ed4c0203f"
+  },
+  "metadata/higherorder_book.json": {
+    "bytes": 6870,
+    "sha256": "4167b6f1992cbf52a2ae9bcb9e3cd95a83e95e5230de2217d3d63c8abc511bbc"
+  },
+  "metadata/higherorder_chapter.json": {
+    "bytes": 16921,
+    "sha256": "0ea3302c732e472acaab18638f8536aaed11c6ffccf909fed60a6d7ccd4af21f"
+  },
+  "metadata/human_detectors_code.json": {
+    "bytes": 13310,
+    "sha256": "f7e2f63352b9b31b29c35d304cb50e7a3de8a4f7eb33eff281ffde2e7433490c"
+  },
+  "metadata/linToTao__Out-of-bbox-attack_meta.json": {
+    "bytes": 5989,
+    "sha256": "b1e27af05ae0b0753323874a9dc1738e5cc930017e440784862182b1e94c1bb4"
+  },
+  "metadata/linToTao__Out-of-bbox-attack_tree.json": {
+    "bytes": 312549,
+    "sha256": "6ce9ba7e4e94dca2f0b82f8b555be654291276db16959c0f3cf223751f88e592"
+  },
+  "metadata/lizhen-j__SOD-Attacks_meta.json": {
+    "bytes": 5669,
+    "sha256": "f86760a2d43f40895da659a331929ecbcd84f6844f380d6191d8c2c943ab5c08"
+  },
+  "metadata/lizhen-j__SOD-Attacks_tree.json": {
+    "bytes": 485,
+    "sha256": "9fb7f2054c26d63b5ea32fc0254358cbc9f6182f3797ddbdc45a70ccc7548b34"
+  },
+  "metadata/multiscale_tdsc_code.json": {
+    "bytes": 122491,
+    "sha256": "5f35cd56588e2e3442035c579dd61b28a920a771d9c01218db8712768da55816"
+  },
+  "metadata/openalex_10.1109_JIOT.2025.3531852.json": {
+    "bytes": 30369,
+    "sha256": "1e6cd5b8ed9911ea524f165c7d5163242b2aca238c2c891947d56f743c6ae389"
+  },
+  "metadata/openalex_10.1109_TCSVT.2026.3727098.json": {
+    "bytes": 19288,
+    "sha256": "770cbf21d57d71a5b9282d8a16c39aa111dda35b72d668324d4d5b5508225cdc"
+  },
+  "metadata/openalex_10.1109_TDSC.2026.3681111.json": {
+    "bytes": 20890,
+    "sha256": "b366088bd2e5ee40650a9338b8317d4bbf149fd63dc7151e44e7186e80900bfb"
+  },
+  "metadata/openalex_10.1109_TII.2025.3646216.json": {
+    "bytes": 27526,
+    "sha256": "65a42c8b1c6688d1c759e98e456b612f1f3efbda463da13436da41a742586825"
+  },
+  "metadata/tang-agui__adversarial_patch_attacks_against_optical_object_detectors_meta.json": {
+    "bytes": 8041,
+    "sha256": "a7fc792b44cb4c30d64dfa230ba65c51cc599fac3a0c821d87d200c5e06b8515"
+  },
+  "metadata/tang-agui__adversarial_patch_attacks_against_optical_object_detectors_tree.json": {
+    "bytes": 47664,
+    "sha256": "d282bdc9a9cc1f58969bec2f36fcd81032aad04c6af7b382bed782274c2894ae"
+  },
+  "metadata/visheshrajput2408__SmuDPatch_meta.json": {
+    "bytes": 6352,
+    "sha256": "5ecadfbcf43f6db21f6f217ce2981905ac969be8699d5fbad67fe312bbf05218"
+  },
+  "metadata/visheshrajput2408__SmuDPatch_tree.json": {
+    "bytes": 79851,
+    "sha256": "c034b8e45bd23ef148fc9cd6528ca781b6c88c8ed5b2b42b7f99bbae755a58d3"
+  },
+  "metadata/yuyi-sd__UPA-RFAS_meta.json": {
+    "bytes": 5498,
+    "sha256": "63e99ca653dfcf67509e54fc949e1c7b31f80c50258dbe367831e5496e35571a"
+  },
+  "metadata/yuyi-sd__UPA-RFAS_tree.json": {
+    "bytes": 17250,
+    "sha256": "e67f2d02cfe4fea152ff87607848e90c04c0ee0eca1317b8c897b699883af840"
+  },
+  "sources/Arknightpzb__Physical-Adversarial-Camouflage-Generation-in-Optical-Remote-Sensing-Images_README.md": {
+    "bytes": 3671,
+    "sha256": "881e4846c39aa9a2e1bd34252ccd463d8b03ba4fcca96e7856767bde3ea4e13e"
+  },
+  "sources/Carson1391__yodo_README.md": {
+    "bytes": 12134,
+    "sha256": "cc861ed610a77e68ad2371665dc411e71dac52cdf3799fd42e78bcdaddd85d87"
+  },
+  "sources/GZHU-DVL__CSPA_README.md": {
+    "bytes": 2767,
+    "sha256": "370861f9c272b017e547d59f610b3fecb9ace16aab1eb16b80e9ff2fc9f61d87"
+  },
+  "sources/HerTenSu__TIFS26_SRAP_README.md": {
+    "bytes": 2947,
+    "sha256": "98fd972bc8f0f7390be65fd41121341b0bac6fb80a523ad3f80b7b80dd0b0d9c"
+  },
+  "sources/JensBayer__HigherOrder_README.md": {
+    "bytes": 1055,
+    "sha256": "7cf6653ad1ed4c24ce8428ad4eedb28ee292b7615d36fb45416d0896dfed54a2"
+  },
+  "sources/JensBayer__HigherOrder_trainYolov10Patch.py": {
+    "bytes": 7153,
+    "sha256": "f51b0844803a858486f2b2376cd10a7f51d3adacac1c5a54921d98107a73d836"
+  },
+  "sources/Yongyx99__Fourier-shape-attack_README.md": {
+    "bytes": 7283,
+    "sha256": "d15b40242e2677b4d900987aed177d517840971969385d5cf43eb527f13d0334"
+  },
+  "sources/addiajsjjs__Human-imperceptible-adversarial-patch_README.md": {
+    "bytes": 2111,
+    "sha256": "bb0c08f18a37660fff604613f8251cfce7f68c5706af82a4f03b3b9bdc392cad"
+  },
+  "sources/cvsp-lab__FocusMatters_README.md": {
+    "bytes": 3916,
+    "sha256": "61407f607186fd3cbdb22eaf6dbdd9213b94e0b7439ac9d5841f64ae75be9a79"
+  },
+  "sources/gq-max__physpatch_README.md": {
+    "bytes": 923,
+    "sha256": "65065613769589f0515042e759b2ab74bbeae8dc194d0e74c670aa59b42af992"
+  },
+  "sources/higherorder_arxiv.html": {
+    "bytes": 125244,
+    "sha256": "99c40f91d15e3f95cf4fabf6ec81f936cce84fe828c67ca299c93bbd8b1d4959"
+  },
+  "sources/higherorder_arxiv.txt": {
+    "bytes": 34255,
+    "sha256": "cfbc16834275f21ea1525a001fdb159a4c5c0fb9903950eb2fb165ce7ca5ac8e"
+  },
+  "sources/higherorder_springer_book.html": {
+    "bytes": 322634,
+    "sha256": "f12da7565465898a4ef755d624c97dab5c342939de26099f2c395e3a5d2c616e"
+  },
+  "sources/higherorder_springer_book.txt": {
+    "bytes": 11895,
+    "sha256": "671836ca5fb9dfd2a9a92210247d75ca2e6fb31023cabfa9e6fa7a59ceb1842d"
+  },
+  "sources/linToTao__Out-of-bbox-attack_README.md": {
+    "bytes": 3611,
+    "sha256": "5d3e11a7986bbe02974620461a72f40cdb3ea00975e076ecacc628dd5ef53d5a"
+  },
+  "sources/lizhen-j__SOD-Attacks_README.md": {
+    "bytes": 3126,
+    "sha256": "6984c330ba818631da4b4924ed254dff7a654a13a91e99a6343d80179a2a56af"
+  },
+  "sources/tang-agui__adversarial_patch_attacks_against_optical_object_detectors_README.md": {
+    "bytes": 2679,
+    "sha256": "3bb5cdaf5e257909dbfebb777c1b4c3face526db50c5857ed48a460ae049a13a"
+  },
+  "sources/visheshrajput2408__SmuDPatch_README.md": {
+    "bytes": 14958,
+    "sha256": "803f453b42c1de1fda37f45083d935dd46a50598f51e6cd8231db56be7970a22"
+  },
+  "sources/yuyi-sd__UPA-RFAS_README.md": {
+    "bytes": 6105,
+    "sha256": "46928cc7674b23ed0854126746e634171e28c96c762eedef52d5850660f10cf6"
+  },
+  "journals/lookup_0.html": {
+    "bytes": 261472,
+    "sha256": "ec4863259eaff9b26d075ef368ff925f69d5552f93807f71d19613d0d06ea52d"
+  },
+  "journals/lookup_0.txt": {
+    "bytes": 10044,
+    "sha256": "b706fe9e1fa1547f7ec37c568a9b1caa007e095484f63d21afdea42bcf58919c"
+  },
+  "journals/lookup_1.html": {
+    "bytes": 261283,
+    "sha256": "e53a75785d8271fabe57339a7047185ac3532cb63ed154514396ce772a2bd982"
+  },
+  "journals/lookup_1.txt": {
+    "bytes": 10024,
+    "sha256": "14cdd962c92b09a9f791b218891f617c10cf5ce4fc6772b7505bf66ef0392c63"
+  },
+  "journals/lookup_2.html": {
+    "bytes": 260768,
+    "sha256": "4cfbd5aeac4eafda2735567321d045b06ac1a5d81b175f155ebb327b41046373"
+  },
+  "journals/lookup_2.txt": {
+    "bytes": 10018,
+    "sha256": "c3bbdb97223af0e234c1abfccd81b086bf5149b85022ca858ec0eefdbd873562"
+  }
+}

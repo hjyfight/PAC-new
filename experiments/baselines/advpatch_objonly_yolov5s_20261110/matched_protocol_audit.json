@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "matched_fields": {
+    "method": "advpatch",
+    "patch_size": 300,
+    "imgsz": 640,
+    "frac": 0.25,
+    "epochs": 200,
+    "batch_size": 8,
+    "lr": 0.03,
+    "tv_weight": 2.5,
+    "nps_weight": 0.01,
+    "no_eot": false,
+    "preprocess": "advpatch",
+    "workers": 4,
+    "seed": 1788272031
+  },
+  "data_yaml_parsed_values_match": true,
+  "detector_weights_sha256": "8b3b748c1e592ddd8868022e8732fde20025197328490623cc16c6f24d0782ee",
+  "intended_algorithm_change": "OBJ-CLS -> OBJ-only in detection term",
+  "source": null,
+  "physical_gpu": 7,
+  "unchanged_shared_code": [
+    "utils/patch.py",
+    "utils/dataloaders.py",
+    "utils/metrics.py",
+    "eval_transfer.py",
+    "detector_backends.py"
+  ]
+}

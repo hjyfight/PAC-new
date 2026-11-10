@@ -1,0 +1,383 @@
+{
+  "state": "complete",
+  "jobs": {
+    "tsea_yolov4": {
+      "state": "complete",
+      "method": "tsea",
+      "source": "yolov4",
+      "physical_gpu": 1,
+      "pipeline_pid": 3336993,
+      "log": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/logs/tsea_yolov4.log",
+      "command": [
+        "/datacc05/huotianlin/miniconda3/envs/pac/bin/python",
+        "-B",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/controller.py",
+        "--method",
+        "tsea",
+        "--source",
+        "yolov4",
+        "--gpu",
+        "1"
+      ],
+      "free_mib_at_launch": 24066,
+      "started_utc": "2026-09-12T08:20:11.579270+00:00",
+      "exit_code": 0,
+      "completed_utc": "2026-09-12T12:25:51.321162+00:00"
+    },
+    "nap_yolov4": {
+      "state": "complete",
+      "method": "nap",
+      "source": "yolov4",
+      "physical_gpu": 2,
+      "pipeline_pid": 3336994,
+      "log": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/logs/nap_yolov4.log",
+      "command": [
+        "/datacc05/huotianlin/miniconda3/envs/pac/bin/python",
+        "-B",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/controller.py",
+        "--method",
+        "nap",
+        "--source",
+        "yolov4",
+        "--gpu",
+        "2"
+      ],
+      "free_mib_at_launch": 24066,
+      "started_utc": "2026-09-12T08:20:11.581627+00:00",
+      "exit_code": 0,
+      "completed_utc": "2026-09-12T12:15:17.733341+00:00"
+    },
+    "tsea_yolov3": {
+      "state": "complete",
+      "method": "tsea",
+      "source": "yolov3",
+      "physical_gpu": 3,
+      "pipeline_pid": 3336995,
+      "log": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/logs/tsea_yolov3.log",
+      "command": [
+        "/datacc05/huotianlin/miniconda3/envs/pac/bin/python",
+        "-B",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/controller.py",
+        "--method",
+        "tsea",
+        "--source",
+        "yolov3",
+        "--gpu",
+        "3"
+      ],
+      "free_mib_at_launch": 24066,
+      "started_utc": "2026-09-12T08:20:11.583756+00:00",
+      "exit_code": 0,
+      "completed_utc": "2026-09-12T10:53:40.708784+00:00"
+    },
+    "nap_yolov3": {
+      "state": "complete",
+      "method": "nap",
+      "source": "yolov3",
+      "physical_gpu": 4,
+      "pipeline_pid": 3336996,
+      "log": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/logs/nap_yolov3.log",
+      "command": [
+        "/datacc05/huotianlin/miniconda3/envs/pac/bin/python",
+        "-B",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/controller.py",
+        "--method",
+        "nap",
+        "--source",
+        "yolov3",
+        "--gpu",
+        "4"
+      ],
+      "free_mib_at_launch": 24066,
+      "started_utc": "2026-09-12T08:20:11.586149+00:00",
+      "exit_code": 0,
+      "completed_utc": "2026-09-12T10:42:43.487447+00:00"
+    },
+    "tsea_fasterrcnn": {
+      "state": "complete",
+      "method": "tsea",
+      "source": "fasterrcnn",
+      "physical_gpu": 5,
+      "pipeline_pid": 3336997,
+      "log": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/logs/tsea_fasterrcnn.log",
+      "command": [
+        "/datacc05/huotianlin/miniconda3/envs/pac/bin/python",
+        "-B",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/controller.py",
+        "--method",
+        "tsea",
+        "--source",
+        "fasterrcnn",
+        "--gpu",
+        "5"
+      ],
+      "free_mib_at_launch": 24066,
+      "started_utc": "2026-09-12T08:20:11.588355+00:00",
+      "exit_code": 0,
+      "completed_utc": "2026-09-12T12:03:27.477722+00:00"
+    },
+    "nap_fasterrcnn": {
+      "state": "complete",
+      "method": "nap",
+      "source": "fasterrcnn",
+      "physical_gpu": 6,
+      "pipeline_pid": 3336998,
+      "log": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/logs/nap_fasterrcnn.log",
+      "command": [
+        "/datacc05/huotianlin/miniconda3/envs/pac/bin/python",
+        "-B",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/controller.py",
+        "--method",
+        "nap",
+        "--source",
+        "fasterrcnn",
+        "--gpu",
+        "6"
+      ],
+      "free_mib_at_launch": 24066,
+      "started_utc": "2026-09-12T08:20:11.590275+00:00",
+      "exit_code": 0,
+      "completed_utc": "2026-09-12T11:55:02.769594+00:00"
+    },
+    "tsea_yolov5m": {
+      "state": "complete",
+      "method": "tsea",
+      "source": "yolov5m",
+      "physical_gpu": 7,
+      "pipeline_pid": 3336999,
+      "log": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/logs/tsea_yolov5m.log",
+      "command": [
+        "/datacc05/huotianlin/miniconda3/envs/pac/bin/python",
+        "-B",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/controller.py",
+        "--method",
+        "tsea",
+        "--source",
+        "yolov5m",
+        "--gpu",
+        "7"
+      ],
+      "free_mib_at_launch": 24066,
+      "started_utc": "2026-09-12T08:20:11.592169+00:00",
+      "exit_code": 0,
+      "completed_utc": "2026-09-12T10:02:15.492795+00:00"
+    },
+    "nap_yolov5m": {
+      "state": "complete",
+      "method": "nap",
+      "source": "yolov5m",
+      "physical_gpu": 7,
+      "pipeline_pid": 3393730,
+      "log": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/logs/nap_yolov5m.log",
+      "command": [
+        "/datacc05/huotianlin/miniconda3/envs/pac/bin/python",
+        "-B",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/controller.py",
+        "--method",
+        "nap",
+        "--source",
+        "yolov5m",
+        "--gpu",
+        "7"
+      ],
+      "free_mib_at_launch": 24066,
+      "started_utc": "2026-09-12T10:02:15.665630+00:00",
+      "exit_code": 0,
+      "completed_utc": "2026-09-12T11:24:16.804598+00:00"
+    },
+    "tsea_yolov2": {
+      "state": "complete",
+      "method": "tsea",
+      "source": "yolov2",
+      "physical_gpu": 4,
+      "pipeline_pid": 3415465,
+      "log": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/logs/tsea_yolov2.log",
+      "command": [
+        "/datacc05/huotianlin/miniconda3/envs/pac/bin/python",
+        "-B",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/controller.py",
+        "--method",
+        "tsea",
+        "--source",
+        "yolov2",
+        "--gpu",
+        "4"
+      ],
+      "free_mib_at_launch": 24066,
+      "started_utc": "2026-09-12T10:42:43.666838+00:00",
+      "exit_code": 0,
+      "completed_utc": "2026-09-12T12:24:07.565814+00:00"
+    },
+    "nap_yolov2": {
+      "state": "complete",
+      "method": "nap",
+      "source": "yolov2",
+      "physical_gpu": 3,
+      "pipeline_pid": 3422176,
+      "log": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/logs/nap_yolov2.log",
+      "command": [
+        "/datacc05/huotianlin/miniconda3/envs/pac/bin/python",
+        "-B",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/controller.py",
+        "--method",
+        "nap",
+        "--source",
+        "yolov2",
+        "--gpu",
+        "3"
+      ],
+      "free_mib_at_launch": 24066,
+      "started_utc": "2026-09-12T10:53:40.886289+00:00",
+      "exit_code": 0,
+      "completed_utc": "2026-09-12T12:16:37.656328+00:00"
+    },
+    "tsea_yolov5s": {
+      "state": "complete",
+      "method": "tsea",
+      "source": "yolov5s",
+      "physical_gpu": 7,
+      "pipeline_pid": 3439233,
+      "log": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/logs/tsea_yolov5s.log",
+      "command": [
+        "/datacc05/huotianlin/miniconda3/envs/pac/bin/python",
+        "-B",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/controller.py",
+        "--method",
+        "tsea",
+        "--source",
+        "yolov5s",
+        "--gpu",
+        "7"
+      ],
+      "free_mib_at_launch": 24066,
+      "started_utc": "2026-09-12T11:24:16.981642+00:00",
+      "exit_code": 0,
+      "completed_utc": "2026-09-12T13:04:55.841180+00:00"
+    },
+    "nap_yolov5s": {
+      "state": "complete",
+      "method": "nap",
+      "source": "yolov5s",
+      "physical_gpu": 6,
+      "pipeline_pid": 3458019,
+      "log": "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/logs/nap_yolov5s.log",
+      "command": [
+        "/datacc05/huotianlin/miniconda3/envs/pac/bin/python",
+        "-B",
+        "/datacc05/huotianlin/code-hu/PAC-yolo/experiments/baselines/tsea_nap_20260912/controller.py",
+        "--method",
+        "nap",
+        "--source",
+        "yolov5s",
+        "--gpu",
+        "6"
+      ],
+      "free_mib_at_launch": 24066,
+      "started_utc": "2026-09-12T11:55:02.943025+00:00",
+      "exit_code": 0,
+      "completed_utc": "2026-09-12T13:12:23.017295+00:00"
+    }
+  },
+  "queued": [],
+  "sources": {
+    "tsea_yolov2": {
+      "state": "complete",
+      "epochs": 1000,
+      "physical_gpu": 4,
+      "elapsed_seconds": 5929.379878178006,
+      "updated_utc": "2026-09-12T12:21:36.366531+00:00",
+      "completed_eval_targets": 6
+    },
+    "tsea_yolov3": {
+      "state": "complete",
+      "epochs": 1000,
+      "physical_gpu": 3,
+      "elapsed_seconds": 9024.091838894994,
+      "updated_utc": "2026-09-12T10:50:38.623821+00:00",
+      "completed_eval_targets": 6
+    },
+    "tsea_yolov4": {
+      "state": "complete",
+      "epochs": 1000,
+      "physical_gpu": 1,
+      "elapsed_seconds": 14593.372584219032,
+      "updated_utc": "2026-09-12T12:23:27.616318+00:00",
+      "completed_eval_targets": 6
+    },
+    "tsea_yolov5s": {
+      "state": "complete",
+      "epochs": 1000,
+      "physical_gpu": 7,
+      "elapsed_seconds": 5889.559830305981,
+      "updated_utc": "2026-09-12T13:02:29.723789+00:00",
+      "completed_eval_targets": 6
+    },
+    "tsea_yolov5m": {
+      "state": "complete",
+      "epochs": 1000,
+      "physical_gpu": 7,
+      "elapsed_seconds": 5979.505574813986,
+      "updated_utc": "2026-09-12T09:59:53.843302+00:00",
+      "completed_eval_targets": 6
+    },
+    "tsea_fasterrcnn": {
+      "state": "complete",
+      "epochs": 1000,
+      "physical_gpu": 5,
+      "elapsed_seconds": 13240.693022939959,
+      "updated_utc": "2026-09-12T12:00:55.380306+00:00",
+      "completed_eval_targets": 6
+    },
+    "nap_yolov2": {
+      "state": "complete",
+      "epochs": 1000,
+      "physical_gpu": 3,
+      "elapsed_seconds": 4888.208940904005,
+      "updated_utc": "2026-09-12T12:15:12.062636+00:00",
+      "completed_eval_targets": 6
+    },
+    "nap_yolov3": {
+      "state": "complete",
+      "epochs": 1000,
+      "physical_gpu": 4,
+      "elapsed_seconds": 8463.490562131978,
+      "updated_utc": "2026-09-12T10:41:17.768808+00:00",
+      "completed_eval_targets": 6
+    },
+    "nap_yolov4": {
+      "state": "complete",
+      "epochs": 1000,
+      "physical_gpu": 2,
+      "elapsed_seconds": 14012.513067081978,
+      "updated_utc": "2026-09-12T12:13:46.786714+00:00",
+      "completed_eval_targets": 6
+    },
+    "nap_yolov5s": {
+      "state": "complete",
+      "epochs": 1000,
+      "physical_gpu": 6,
+      "elapsed_seconds": 4557.580873625993,
+      "updated_utc": "2026-09-12T13:11:03.601744+00:00",
+      "completed_eval_targets": 6
+    },
+    "nap_yolov5m": {
+      "state": "complete",
+      "epochs": 1000,
+      "physical_gpu": 7,
+      "elapsed_seconds": 4827.885894663981,
+      "updated_utc": "2026-09-12T11:22:46.281270+00:00",
+      "completed_eval_targets": 6
+    },
+    "nap_fasterrcnn": {
+      "state": "complete",
+      "epochs": 1000,
+      "physical_gpu": 6,
+      "elapsed_seconds": 12800.304272596026,
+      "updated_utc": "2026-09-12T11:53:34.653508+00:00",
+      "completed_eval_targets": 6
+    }
+  },
+  "controller_pid": 3336913,
+  "elapsed_seconds": 17531.78715120902,
+  "updated_utc": "2026-09-12T13:12:55.075624+00:00"
+}
